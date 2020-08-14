@@ -1,0 +1,3 @@
+C_MediaUSBAudioDevice = "C-Media USB Audio";
+C_MediaUSBAudioOutputInterface = "Panasonic RX-DT680 Stereo";
+C_MediaUSBAudioInputInterface = "Zalman ZM-Mic1 Microphone";
