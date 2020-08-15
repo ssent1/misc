@@ -1,0 +1,3 @@
+C-MediaUSBAudioDevice = "C-Media USB Audio";
+C-MediaUSBAudioOutputInterface = "RX-DT680";
+C-MediaUSBAudioInputInterface = "ZM-Mic1";
