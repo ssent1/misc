@@ -7,23 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1DF4346E24E75070002FA46B /* ReadMe.md in Resources */ = {isa = PBXBuildFile; fileRef = 8B26BD730E0C374D0035F44E /* ReadMe.md */; };
 		1DF4346F24E75076002FA46B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D7EA0F724E73E8D00C072B2 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1D7EA0F524E73C6600C072B2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1D7EA0F724E73E8D00C072B2 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; lineEnding = 0; name = Localizable.strings; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		8B26BD730E0C374D0035F44E /* ReadMe.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; lineEnding = 0; path = ReadMe.md; sourceTree = "<group>"; };
-		EE19EF4107B2D66E0083E1AA /* C_MediaUSBAudio.kext */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.kernel-extension"; name = C_MediaUSBAudio.kext; path = ../../../../../../../../Code/misc/C_Media/C_MediaUSBAudio.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D7EA0F724E73E8D00C072B2 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; lineEnding = 0; name = Localizable.strings; path = C_MediaUSBAudio.kext/Contents/Resources/en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1DBE2C8524E771460079A512 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = C_MediaUSBAudio.kext/Contents/Info.plist; sourceTree = "<group>"; };
+		EE19EF4107B2D66E0083E1AA /* C_MediaUSBAudio.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = C_MediaUSBAudio.kext; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		089C166AFE841209C02AAC07 /* NanosMouse */ = {
 			isa = PBXGroup;
 			children = (
-				1D7EA0F524E73C6600C072B2 /* Info.plist */,
-				8B26BD730E0C374D0035F44E /* ReadMe.md */,
+				1DBE2C8524E771460079A512 /* Info.plist */,
 				089C167CFE841241C02AAC07 /* Resources */,
 				19C28FB6FE9D52B211CA2CBB /* Products */,
 			);
@@ -110,7 +107,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DF4346E24E75070002FA46B /* ReadMe.md in Resources */,
 				1DF4346F24E75076002FA46B /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -125,7 +121,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "script=\"${SYSTEM_DEVELOPER_DIR}/ProjectBuilder Extras/Kernel Extension Support/KEXTPreprocess\";\nif [ -x \"$script\" ]; then\n    . \"$script\"\nfi";
+			shellScript = "script=\"${SYSTEM_DEVELOPER_DIR}/ProjectBuilder Extras/Kernel Extension Support/KEXTPreprocess\";\nif [ -x \"$script\" ]; then\n    . \"$script\"\nfi\n";
 		};
 		EE19EF3F07B2D66E0083E1AA /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -134,7 +130,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "script=\"${SYSTEM_DEVELOPER_DIR}/ProjectBuilder Extras/Kernel Extension Support/KEXTPostprocess\";\nif [ -x \"$script\" ]; then\n    . \"$script\"\nfi";
+			shellScript = "script=\"${SYSTEM_DEVELOPER_DIR}/ProjectBuilder Extras/Kernel Extension Support/KEXTPostprocess\";\nif [ -x \"$script\" ]; then\n    . \"$script\"\nfi\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -160,14 +156,14 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/C_MediaUSBAudio.kext/Contents/Info.plist";
 				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-traditional-cpp -I.";
 				INFOPLIST_PREPROCESS = YES;
 				KERNEL_MODULE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MARKETING_VERSION = 1.0;
 				MODULE_IOKIT = YES;
-				MODULE_NAME = com.MySoftwareCompany.driver.SampleUSBAudioPlugin;
+				MODULE_NAME = tw.com.cmedia.driver.C_MediaUSBAudio.USBAudioPlugin;
 				MODULE_VERSION = 1.0.0a1;
 				PRODUCT_BUNDLE_IDENTIFIER = "tw.com.cmedia.driver.C-MediaUSBAudio";
 				PRODUCT_NAME = C_MediaUSBAudio;
@@ -188,14 +184,14 @@
 				CURRENT_PROJECT_VERSION = 1.3;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_MODEL_TUNING = G5;
-				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/C_MediaUSBAudio.kext/Contents/Info.plist";
 				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-traditional-cpp -I.";
 				INFOPLIST_PREPROCESS = YES;
 				KERNEL_MODULE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MARKETING_VERSION = 1.0;
 				MODULE_IOKIT = YES;
-				MODULE_NAME = com.MySoftwareCompany.driver.SampleUSBAudioPlugin;
+				MODULE_NAME = tw.com.cmedia.driver.C_MediaUSBAudio.USBAudioPlugin;
 				MODULE_VERSION = 1.0.0a1;
 				PRODUCT_BUNDLE_IDENTIFIER = "tw.com.cmedia.driver.C-MediaUSBAudio";
 				PRODUCT_NAME = C_MediaUSBAudio;

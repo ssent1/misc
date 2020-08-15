@@ -1,13 +1,13 @@
 ## Get USB Vendor & Product ID (hex & decimal) Values
 
 - [] Get Vendor &/or Product ID, see table below
-	- [] If not listed, 
-		- [] Run [`System Information`][12]
-		- [] `Hardware » USB`
-	- [] Alternatively, go to <file:///Library/Extensions/> or <file:///System/Library/Extensions/>
-		- [] , Right click to `Show Package Contents`
-		- [] Open `Info.plist`
-		- [] Get value from key `idVendor` & `idProduct`
+    - [] If not listed, 
+        - [] Run [`System Information`][12]
+        - [] `Hardware » USB`
+    - [] Alternatively, go to <file:///Library/Extensions/> or <file:///System/Library/Extensions/>
+        - [] , Right click to `Show Package Contents`
+        - [] Open `Info.plist`
+        - [] Get value from key `idVendor` & `idProduct`
 
 | Vendor ID        | Product ID       | Name                                                      |
 |:-----------------|:-----------------|:----------------------------------------------------------|
@@ -58,27 +58,30 @@ where path:
 `⌥⌘F` | `Find and Replace…`
 `BehringerUSBAudio` >> `C_MediaUSBAudio`
 
-	*Device
-	*.kext
-	*InputInterface
-	*OutputInterface
+    *Device
+    *.kext
+    *InputInterface
+    *OutputInterface
 
  ### Find and Replace… Product & Vendor ID numbers
-	
-	idVendor:  `2235`  >> `3468`
-	idProduct: `10498` >> `20`
+    
+    idVendor:  `2235`  >> `3468`
+    idProduct: `10498` >> `20`
 
 as at 14-Aug-20 12:42:50 EDT
 
 ## Install USB Audio Override Driver (.kext)
 - [x] Get path to .kext 
-	- [x] `/Users/syd/Code/misc/C_MediaUSBAudio.kext`
+    - [x] `/Users/syd/Code/misc/C_Media/C_MediaUSBAudio.kext`
 - [x] Copy .kext to `/System/Library/Extensions`
-	- [x] `sudo cp -rf /Users/syd/Code/misc/C_MediaUSBAudio.kext /System/Library/Extensions`
+    - [x] `sudo cp -Rf /Users/syd/Code/misc/C_Media/C_MediaUSBAudio.kext /System/Library/Extensions`
+    - where: `-R` ≡ recursive; `-f` ≡ overwrite, no prompt
+- [x] Go to `/System/Library/Extensions`
+    - [x] `cd /System/Library/Extensions`
 - [x] Set .kext ownership (root, wheel) and permissions to:
-	- [x] `sudo chown -R root:wheel /Users/syd/Code/misc/C_MediaUSBAudio.kext && sudo chmod -R 755 /Users/syd/Code/misc/C_MediaUSBAudio.kext`
+    - [x] `sudo chown -R root:wheel /System/Library/Extensions/C_MediaUSBAudio.kext/ && sudo chmod -R 755 /System/Library/Extensions/C_MediaUSBAudio.kext`
 - [x] Update macOS regarding change to `/System/Library/Extensions` by:
-	- [x] `sudo touch /System/Library/Extensions`
+    - [x] `sudo touch /System/Library/Extensions`
 - [x] Restart Mac
 - [] Verify updates
 
@@ -107,10 +110,10 @@ Here are list of properties that you might want to change/add:
 - [] `IOAudioDeviceLocalizedBundle`
 - [] `IOAudioEngineCoreAudioPlugIn`
 - [] Sample Offset &/or Latency
-	- [] `IOAudioEngineSampleOffset`
-	- [] `IOAudioEngineInputSampleOffset`
-	- [] `IOAudioEngineInputSampleLatency`
-	- [] `IOAudioEngineOutputSampleLatency`
+    - [] `IOAudioEngineSampleOffset`
+    - [] `IOAudioEngineInputSampleOffset`
+    - [] `IOAudioEngineInputSampleLatency`
+    - [] `IOAudioEngineOutputSampleLatency`
 - [] `idProduct and idVendor`
 - [] `bInterfaceNumber and bConfigurationValue`
 - [] `IOAudioDeviceConfigurationApplication`

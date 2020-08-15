@@ -5,15 +5,15 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleIdentifier</key>
-	<string>tw.com.cmedia.driver.C_MediaUSBAudio</string>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleSignature</key>
-	<string>????</string>
+	<string>cmed</string>
 	<key>CFBundleVersion</key>
-	<string>1.2</string>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>C_MediaUSBAudioDevice</key>
@@ -29,7 +29,7 @@
 				<key>IOAudioDeviceLocalizedBundle</key>
 				<string>C_MediaUSBAudio.kext</string>
 				<key>USB Product Name</key>
-				<string>C-Media USB Audio Adapter</string>
+				<string>C-Media USB Audio</string>
 			</dict>
 			<key>idProduct</key>
 			<integer>20</integer>
