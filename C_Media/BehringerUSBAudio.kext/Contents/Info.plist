@@ -5,18 +5,18 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleIdentifier</key>
-	<string>tw.com.cmedia.driver.C_MediaUSBAudio</string>
+	<string>com.behringer.driver.BehringerUSBAudio</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleSignature</key>
-	<string>cmed</string>
+	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>1.2</string>
 	<key>IOKitPersonalities</key>
 	<dict>
-		<key>C_MediaUSBAudioDevice</key>
+		<key>BehringerUSBAudioDevice</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBMergeNub</string>
@@ -27,16 +27,16 @@
 			<key>IOProviderMergeProperties</key>
 			<dict>
 				<key>IOAudioDeviceLocalizedBundle</key>
-				<string>C_MediaUSBAudio.kext</string>
+				<string>BehringerUSBAudio.kext</string>
 				<key>USB Product Name</key>
-				<string>C-Media USB Audio</string>
+				<string>Behringer Xenyx Control1USB</string>
 			</dict>
 			<key>idProduct</key>
-			<integer>20</integer>
+			<integer>10498</integer>
 			<key>idVendor</key>
-			<integer>3468</integer>
+			<integer>2235</integer>
 		</dict>
-		<key>C_MediaUSBAudioInputInterface</key>
+		<key>BehringerUSBAudioInputInterface</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBMergeNub</string>
@@ -54,18 +54,18 @@
 					<integer>96</integer>
 				</dict>
 				<key>USB Interface Name</key>
-				<string>Zalman ZM-Mic1 Microphone</string>
+				<string>Behringer Xenyx Control1USB In</string>
 			</dict>
 			<key>bConfigurationValue</key>
 			<integer>1</integer>
 			<key>bInterfaceNumber</key>
 			<integer>2</integer>
 			<key>idProduct</key>
-			<integer>20</integer>
+			<integer>10498</integer>
 			<key>idVendor</key>
-			<integer>3468</integer>
+			<integer>2235</integer>
 		</dict>
-		<key>C_MediaUSBAudioOutputInterface</key>
+		<key>BehringerUSBAudioOutputInterface</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBMergeNub</string>
@@ -83,16 +83,16 @@
 					<integer>96</integer>
 				</dict>
 				<key>USB Interface Name</key>
-				<string>Panasonic RX-DT680 Stereo</string>
+				<string>Behringer Xenyx Control1USB</string>
 			</dict>
 			<key>bConfigurationValue</key>
 			<integer>1</integer>
 			<key>bInterfaceNumber</key>
 			<integer>1</integer>
 			<key>idProduct</key>
-			<integer>20</integer>
+			<integer>10498</integer>
 			<key>idVendor</key>
-			<integer>3468</integer>
+			<integer>2235</integer>
 		</dict>
 	</dict>
 	<key>OSBundleLibraries</key>
