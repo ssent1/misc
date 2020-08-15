@@ -1,17 +1,12 @@
 ## Localizable.strings
-
-{_updated: 20200815-153537_}
-
 | [] | new                                          | original                                       |
 |:---|:---------------------------------------------|:-----------------------------------------------|
 | [] | C-MediaUSBAudioDevice = "C-Media USB Audio"; | SampleUSBAudioCodecName = "USB-Audio Codec";   |
 | [] | C-MediaUSBAudioOutputInterface = "RX-DT680"; | SampleUSBAudioOutputName = "USB-Audio Output"; |
 | [] | C-MediaUSBAudioInputInterface = "ZM-Mic1";   | SampleUSBAudioInputName = "USB-Audio Input";   |
 
--------------------------------------------------
-
+---
 ## Info.plist
-
 | [] | key {XML line №}                   | type      | new value                      | original value                         |
 |:---|:-----------------------------------|:----------|:-------------------------------|:---------------------------------------|
 | [] | CFBundleIdentifier {L8}            | <string>  | tw.com.cmedia.C-MediaUSBAudio  | com.behringer.driver.BehringerUSBAudio |
@@ -27,12 +22,10 @@
 | [] | USB Interface Name [→:{L85}        | <string>  | RX-DT680                       | Behringer Xenyx Control1USB            |
 | [] | <dict> {L68}                       | <key>     | C-MediaUSBAudioOutputInterface | BehringerUSBAudioOutputInterface       |
 
--------------------------------------------------
-
+---
 ## USB Hardware
-
 | [] | vendor id      | product id     | name                                                      |
-|:---|:---------------|:---------------|:----------------------------------------------------------|
+|:---|:---------------|:---------------|:------------|
 | [] | 0x05AC (1452)  | 0x0220 (544)   | Apple Inc. » Apple Keyboard                               |
 | [] | 0x0D8C (3468)  | 0x0014 (20)    | C-Media Electronics, Inc. » Audio Adapter (Unitek Y-247A) |
 | [] | 0x8086 (32902) |                | Intel Corp.                                               |
@@ -41,7 +34,6 @@
 
 ## Workflow / Checklist
 ### Find and Replace… strings
-
 BehringerUSBAudio >> C-MediaUSBAudio
 
  []	*Device
@@ -50,14 +42,11 @@ BehringerUSBAudio >> C-MediaUSBAudio
  []	*OutputInterface
 
 ### Find and Replace… Product & Vendor ID numbers
-	
  [] idVendor:  2235  >> 3468
  [] idProduct: 10498 >> 20
 
--------------------------------------------------
-
+---
 ## Audio MIDI (Musical Instrument Digital Interface) Setup
-
 | device     | [MIDI_name][1]      | [sound » →\]][2]    | [sound » [→][2]  | nickname | type           |
 |:-----------|:--------------------|:--------------------|:-----------------|:---------|:---------------|
 | mic        | Built-in Microphone | Internal Microphone | -                |          | Built-in       |
@@ -69,8 +58,12 @@ BehringerUSBAudio >> C-MediaUSBAudio
 
 
 
+<!-- RESOURCES & SOURCES -->
+---
+Tags: kernel extension, .kext, rename audio device
 
-<!--- RESOURCES & SOURCES -->
+<small>updated: 20200815_164649</small>
+
 [1]: file:///Applications/Utilities/Audio%20MIDI%20Setup.app
 [2]: file:///System/Library/PreferencePanes/Sound.prefPane
 [3]: file:///Applications/Utilities/System%20Information.app

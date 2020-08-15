@@ -22,9 +22,9 @@
 ## Create or Update USB Audio Override Kernel Extension (.kext) Driver
 Create or update .kext via
 
-- [] [⤓ USB Audio Override Driver Sample Code][1]
-- [] [local copy][9]
-- [] [★ production version][10]
+[] [⤓ USB Audio Override Driver Sample Code][1]
+[] [local copy][9]
+[] [★ production version][10]
 
 ### Property List
 Modify [`Info.plist`][10] property values.
@@ -89,20 +89,30 @@ where path:
     [] idVendor:  2235  >> 3468
     [] idProduct: 10498 >> 20
 
-## Install USB Audio Override Driver (.kext)
-- [] Get path to .kext 
-    - [] `/Users/syd/Code/misc/C-Media/C-MediaUSBAudio.kext`
-- [] Copy .kext to `/System/Library/Extensions`
-    - [] `sudo cp -Rf /Users/syd/Code/misc/C-Media/C-MediaUSBAudio.kext /System/Library/Extensions`
-    - where: `-R` ≡ recursive; `-f` ≡ overwrite, no prompt
-- [] Go to `/System/Library/Extensions`
-    - [] `cd /System/Library/Extensions`
-- [] Set .kext ownership (root, wheel) and permissions to:
-    - [] `sudo chown -R root:wheel /System/Library/Extensions/C-MediaUSBAudio.kext/ && sudo chmod -R 755 /System/Library/Extensions/C-MediaUSBAudio.kext`
-- [] Update macOS regarding change to `/System/Library/Extensions` by:
-    - [] `sudo touch /System/Library/Extensions`
-- [] Restart Mac
-- [] Verify updates
+## Install USB Audio Override Driver (.kext) Workflow
+[] Remove old version, if necessary
+
+    sudo rm -rf /System/Library/Extensions/C_MediaUSBAudio.kext &>/dev/null && sudo touch /System/Library/Extensions
+
+[] Get path to .kext 
+
+    /Users/syd/Code/misc/C-Media/C-MediaUSBAudio.kext
+
+[] Copy .kext to `/System/Library/Extensions`
+    
+    sudo cp -Rf /Users/syd/Code/misc/C-Media/C-MediaUSBAudio.kext /System/Library/Extensions
+
+[] Reset & refresh .kext ownership (root, wheel) and permissions
+    
+    sudo chown -R root:wheel /System/Library/Extensions/C-MediaUSBAudio.kext/ && sudo chmod -R 755 /System/Library/Extensions/C-MediaUSBAudio.kext && sudo touch /System/Library/Extensions
+
+[] Restart Mac
+[] Verify updates
+
+---
+where:  
+-R ≡ recursive  
+-f ≡ overwrite, no prompt  
 
 -------------------------------------------------
 ## DOCUMENTATION
@@ -154,14 +164,14 @@ Restart the system.
 After restarting the system, the override kext should automatically load when the device specified in the Info.plist (accessible from the `Targets » SampleUSBAudioOverrideDriver » Get Info » Properties`) is attached. The specified properties will be merged into the USB device & interfaces.
 
 ##### Property Descriptions 
-- [] **USB Product Name**: Specified `IOUSBDevice`. This name is used as the device name (IOAudioDevice::setDeviceName) when the control interface doesn't have a name (USB Interface Name).
-- [] **USB Interface Name**: Specified `IOUSBInterface`. This control interface name is used as the device name if present, and take precedence over USB Product Name. The stream interface name is used as the engine description (IOAudioEngine::setDescription) when present.
-- [] **IOAudioDeviceLocalizedBundle**: Can be specified at the control interface or USB device. The localized bundle specified at the control interface take precedence over the one at USB device level. The localization bundle has the localized string for the USB Product Name/USB Interface Names.
-- [] **IOAudioEngineCoreAudioPlugIn**: Specified at the stream interface level. This is a string specifying the path to the CoreAudio plugin. 
-- [] **IOAudioEngineSampleOffset, IOAudioEngineInputSampleOffset, IOAudioEngineInputSampleLatency, IOAudioEngineOutputSampleLatency.**: Specified at the stream interface level. These values will override the ones that the AppleUSBAudio calculate based on the sample rate.
-- [] **idProduct and idVendor**: Change this to match your USB audio device.
-- [] **bInterfaceNumber and bConfigurationValue**: Change this to match the your USB  audio streaming/control interfaces.
-- [] **IOAudioDeviceConfigurationApplication**:  Used to specify a custom control panel application that users can launch from AMS. Replace `com.MySoftwareCompany.ControlPanelApp` with your app's bundle identifier.
+[] **USB Product Name**: Specified `IOUSBDevice`. This name is used as the device name (IOAudioDevice::setDeviceName) when the control interface doesn't have a name (USB Interface Name).
+[] **USB Interface Name**: Specified `IOUSBInterface`. This control interface name is used as the device name if present, and take precedence over USB Product Name. The stream interface name is used as the engine description (IOAudioEngine::setDescription) when present.
+[] **IOAudioDeviceLocalizedBundle**: Can be specified at the control interface or USB device. The localized bundle specified at the control interface take precedence over the one at USB device level. The localization bundle has the localized string for the USB Product Name/USB Interface Names.
+[] **IOAudioEngineCoreAudioPlugIn**: Specified at the stream interface level. This is a string specifying the path to the CoreAudio plugin. 
+[] **IOAudioEngineSampleOffset, IOAudioEngineInputSampleOffset, IOAudioEngineInputSampleLatency, IOAudioEngineOutputSampleLatency.**: Specified at the stream interface level. These values will override the ones that the AppleUSBAudio calculate based on the sample rate.
+[] **idProduct and idVendor**: Change this to match your USB audio device.
+[] **bInterfaceNumber and bConfigurationValue**: Change this to match the your USB  audio streaming/control interfaces.
+[] **IOAudioDeviceConfigurationApplication**:  Used to specify a custom control panel application that users can launch from AMS. Replace `com.MySoftwareCompany.ControlPanelApp` with your app's bundle identifier.
 
 
 
@@ -169,9 +179,9 @@ After restarting the system, the override kext should automatically load when th
 
 <!-- RESOURCES & SOURCES -->
 ---
-{updated: _20200815-153927_}
-
 Tags: kernel extension, .kext, rename audio device
+
+<small>updated: 20200815_164649</small>
 
 [1]: https://developer.apple.com/library/archive/samplecode/SampleUSBAudioOverrideDriver/SampleUSBAudioOverrideDriver.zip "Download Sample Code - Developer"
 [2]: https://www.tonymacx86.com/threads/rename-usb-audio-devices-custom-osx-usb-audio-class-driver.166398/ "Rename USB Audio devices, USB driver"
