@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>local.silenzio_0</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/bin/zsh</string>
+		<string>/Users/syd/Code/misc/Silenzio/silenzio.zsh</string>
+	</array>
+	<key>ServiceDescription</key>
+	<string>Toggle Do Not Disturb</string>
+	<key>StartCalendarInterval</key>
+	<array>
+		<dict>
+			<key>Hour</key>
+			<integer>8</integer>
+		</dict>
+		<dict>
+			<key>Hour</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>Hour</key>
+			<integer>14</integer>
+		</dict>
+		<dict>
+			<key>Hour</key>
+			<integer>17</integer>
+		</dict>
+		<dict>
+			<key>Hour</key>
+			<integer>20</integer>
+		</dict>
+	</array>
+	<key>StartInterval</key>
+	<integer>10800</integer>
+</dict>
+</plist>
+
