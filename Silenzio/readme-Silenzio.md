@@ -2,6 +2,24 @@
 
 > Silenzio enables/disables macOS "Do Not Disturb" from the Zsh shell
 
+## TO DO
+
+[] 28-Sep-20: Set mode/status before running script so that it doesn't toggle states backward to desired/behaviour
+
+
+```s
+$  ✔  15:55:44
+$ today=$(date +"%M")
+$ if (( ${today}<50 ));
+$    then echo "Go "${today}
+$    else echo "Not today. "${today}" >= 50"
+$ fi
+Not today. 55 >= 50
+
+[Date & time formats cheatsheet](https://devhints.io/datetime)
+```
+
+    
 ## ★==> Toggle Notifications <==★
 
 ```shell
@@ -82,7 +100,7 @@ A hard link is essentially a synced carbon copy of a file that refers directly t
 * * *
 Tags: do not disturb, automation, productivity, bash, zsh, shell script
 
-updated: *20200925_164426*
+updated: *20200928_161422*
 
 [1]: https://support.apple.com/lt-lt/guide/terminal/apdc6c1077b-5d5d-4d35-9c19-60f2397b2369/mac "launchd - script management"
 [2]: https://www.pantz.org/software/cron/croninfo.html "Cron and Crontab"
@@ -101,3 +119,4 @@ updated: *20200925_164426*
 [15]: https://codebeautify.org/xmlvalidator/ "XML Validator"
 [16]: https://macadmins.psu.edu/files/2012/11/psumacconf2012-launchd.pdf "Getting Started with launchd"
 [17]: https://medium.com/swlh/how-to-use-launchd-to-run-services-in-macos-b972ed1e352 "How to Use launchd to Run Services in macOS"
+
