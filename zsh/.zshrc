@@ -1,5 +1,6 @@
 export PATH="/usr/local/sbin:$PATH"
-export CLICOLOR="Yes"
+export CLICOLOR=1
+export LSCOLORS=ExGxBxDxCxEgEdxbxgxcxd
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
@@ -95,7 +96,7 @@ alias gits='git status'
 alias grep='grep --color=auto'
 alias h='history'
 alias j='jobs -l'
-alias ls='ls --color=auto'
+alias ls='ls -alG'
 alias lsd='ls -aFGhort'
 alias lsn='ls -aFGhor'
 alias meteo='bash /Users/syd/Code/meteo/meteo.sh'
@@ -120,3 +121,4 @@ if [[ $UID -ne 0 ]]; then
 fi
 # End privileged access
 #
+function https-server() { http-server --ssl --cert ~/.localhost-ssl/localhost.crt --key ~/.localhost-ssl/localhost.key }
