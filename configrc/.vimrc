@@ -13,7 +13,7 @@ set incsearch                            " ...dynamically as they are typed.
 set smartcase                            " Enable smart-case search
 set ignorecase                           " Always case-insensitive
 set gdefault                             " Always substitute all matches in a line
-
+set rtp+=/usr/local/opt/fzf              " interactive command-line fuzzy finder/filter
 set autoindent                           " Auto-indent new lines
 set expandtab                            " Use spaces instead of tabs
 set shiftwidth=4                         " Number of auto-indent spaces
@@ -45,7 +45,7 @@ set backspace=indent,eol,start           " Backspace behaviour
 
 set hidden                               " allows Vim to manage multiple buffers
 
-runtime macros/matchit.vim               " Enable extended % matching
+runtime macros/matchit.vim               " Enable extended % matchinggg
 
 " Keybindings & Keymaps
 " map ; :
@@ -68,7 +68,6 @@ set directory=~/.vim_tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 " set noswapfile
 " set nobackup
 " set nowb
-
 
 " Completion
 set wildmode=list:longest

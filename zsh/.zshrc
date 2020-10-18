@@ -9,6 +9,21 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+source /Users/syd/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+man() {
+    LESS_TERMCAP_mb=$'\e[01;31m' \
+    LESS_TERMCAP_md=$'\e[01;31m' \
+    LESS_TERMCAP_me=$'\e[0m' \
+    LESS_TERMCAP_se=$'\e[0m' \
+    LESS_TERMCAP_so=$'\e[01;44;37m' \
+    LESS_TERMCAP_ue=$'\e[0m' \
+    LESS_TERMCAP_us=$'\e[01;32m' \
+    command man "$@"
+}
+
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
 HISTSIZE=10000
@@ -21,6 +36,7 @@ bindkey "[D" backward-word
 bindkey "[C" forward-word
 bindkey "^[a" beginning-of-line
 bindkey "^[e" end-of-line
+bindkey -v # use vi-style key bindings
 # End of lines configured by zsh-newuser-install
 
 # The following lines were added by compinstall
@@ -57,21 +73,6 @@ zinit light-mode for \
 zinit ice depth=1; zinit light romkatv/powerlevel10k
 source ~/powerlevel10k/powerlevel10k.zsh-theme
 
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-source /Users/syd/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
-man() {
-    LESS_TERMCAP_mb=$'\e[01;31m' \
-    LESS_TERMCAP_md=$'\e[01;31m' \
-    LESS_TERMCAP_me=$'\e[0m' \
-    LESS_TERMCAP_se=$'\e[0m' \
-    LESS_TERMCAP_so=$'\e[01;44;37m' \
-    LESS_TERMCAP_ue=$'\e[0m' \
-    LESS_TERMCAP_us=$'\e[01;32m' \
-    command man "$@"
-}
-
 autoload zmv
 # ZSH_THEME="agnoster"
 ZSH_THEME="spaceship"
@@ -85,6 +86,7 @@ alias ..='cd ..'
 alias ...='cd ../../../'
 alias bc='bc -l'
 alias bi='brew install'
+alias brewster='zsh /Users/syd/Code/misc/Brewster/brewster.zsh'
 alias cd..='cd ..'
 alias cdl='cd l'
 alias cls='clear'
