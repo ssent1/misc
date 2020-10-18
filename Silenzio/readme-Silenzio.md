@@ -94,13 +94,14 @@ Hard linked via `ln local.silenzio_№.plist /Users/syd/Library/LaunchAgents/loc
 A hard link is essentially a synced carbon copy of a file that refers directly to the inode of a file.
 
 > 25-Sep-20: It appears to be working!! Let's see!
+> It's alive!!!
 
 <!--- RESOURCES & SOURCES -->
 
 * * *
 Tags: do not disturb, automation, productivity, bash, zsh, shell script
 
-updated: *20200928_161422*
+updated: *20201003_181124*
 
 [1]: https://support.apple.com/lt-lt/guide/terminal/apdc6c1077b-5d5d-4d35-9c19-60f2397b2369/mac "launchd - script management"
 [2]: https://www.pantz.org/software/cron/croninfo.html "Cron and Crontab"

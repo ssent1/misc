@@ -12,7 +12,7 @@
 * sort preferences
 * background images
 * etc.
-  
+
 Finder's view preferences are either set indirectly or explicitly. When a `.DS_Store` file is removed, its folder reverts to the default view settings. Finder creates a new `.DS_Store` each time it's used.
 
 ## [dot underscore `._`][3]
@@ -31,7 +31,7 @@ These file are used when it is necessary to emulate these attributes on foreign 
 
 ## [PURGING RESOURCE DATA &/or METADATA][2]
 
-1. _Can data loss occur?_  
+1. _Can data loss occur?_
 **Yes**. Some applications rely on data stored in `._` files (e.g. legacy MacOS fonts or _EPS files_) or other metadata files.
 
 ## [SEEK &/or DESTROY RESOURCE DATA/METADATA][5]
@@ -78,7 +78,7 @@ EOF
 
 ### RESULTS ==> SEEK &/or DESTROY
 
-* DS_Store       = 990 ==> `Purgify!` 
+* DS_Store       = 990 ==> `Purgify!`
     `sudo find / -name ".DS_Store" -exec rm -Rf {} \; 2> /dev/null`
                  = 0
 * apdisk         = 0
