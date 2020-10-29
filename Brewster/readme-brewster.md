@@ -121,6 +121,7 @@ updated: *20201003_190407*
 [1]: https://www.freeformatter.com/cron-expression-generator-quartz.html "Cron Expression Generator & Explainer"
 [2]: https://codebeautify.org/xmlvalidator "XML Validator"
 [3]: file:///Applications/Lingon%20X.app "Lingon"
+
 [4]: https://medium.com/swlh/how-to-use-launchd-to-run-services-in-macos-b972ed1e352 "Use launchd to Run Services in macOS"
 [5]: https://stackoverflow.com/questions/28063598/error-while-executing-plist-file-path-had-bad-ownership-permissions "Error while executing .plist file Path had bad ownership/permissions"
 [6]: https://crontab.guru "cron schedule expression editor"

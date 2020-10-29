@@ -6,7 +6,6 @@
 
 [] 28-Sep-20: Set mode/status before running script so that it doesn't toggle states backward to desired/behaviour
 
-
 ```s
 $  ✔  15:55:44
 $ today=$(date +"%M")
@@ -19,7 +18,6 @@ Not today. 55 >= 50
 [Date & time formats cheatsheet](https://devhints.io/datetime)
 ```
 
-    
 ## ★==> Toggle Notifications <==★
 
 ```shell
@@ -50,7 +48,7 @@ chmod +x filename.zsh # make script executable
 # To create an alias, go to
 $ vi ~/.zshrc
 alias alias='/<full/path/to/script/filename.zsh'
-$ source ~/.bashrc    # apply updates
+$ source ~/.zshrc    # apply updates
 ```
 
 ## Implement Silenzio via `launchd` or `crontab`
@@ -89,8 +87,8 @@ Start_Interval: 10800
 Calendar_Interval: 0 8 0 0 0
 ```
 
-Source files are in `/Users/syd/Code/misc/Silenzio`  
-Hard linked via `ln local.silenzio_№.plist /Users/syd/Library/LaunchAgents/local.silenzio_№.plist`  
+Source files are in `/Users/syd/Code/misc/Silenzio`
+Hard linked via `ln local.silenzio_№.plist /Users/syd/Library/LaunchAgents/local.silenzio_№.plist`
 A hard link is essentially a synced carbon copy of a file that refers directly to the inode of a file.
 
 > 25-Sep-20: It appears to be working!! Let's see!
@@ -101,7 +99,7 @@ A hard link is essentially a synced carbon copy of a file that refers directly t
 * * *
 Tags: do not disturb, automation, productivity, bash, zsh, shell script
 
-updated: *20201003_181124*
+updated: *20201021_172007*
 
 [1]: https://support.apple.com/lt-lt/guide/terminal/apdc6c1077b-5d5d-4d35-9c19-60f2397b2369/mac "launchd - script management"
 [2]: https://www.pantz.org/software/cron/croninfo.html "Cron and Crontab"
@@ -120,4 +118,3 @@ updated: *20201003_181124*
 [15]: https://codebeautify.org/xmlvalidator/ "XML Validator"
 [16]: https://macadmins.psu.edu/files/2012/11/psumacconf2012-launchd.pdf "Getting Started with launchd"
 [17]: https://medium.com/swlh/how-to-use-launchd-to-run-services-in-macos-b972ed1e352 "How to Use launchd to Run Services in macOS"
-

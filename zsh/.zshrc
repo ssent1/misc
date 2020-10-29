@@ -36,12 +36,12 @@ bindkey "[D" backward-word
 bindkey "[C" forward-word
 bindkey "^[a" beginning-of-line
 bindkey "^[e" end-of-line
-bindkey -v # use vi-style key bindings
+# bindkey -v # use vi-style key bindings
 # End of lines configured by zsh-newuser-install
 
 # The following lines were added by compinstall
 zstyle :compinstall filename '/Users/syd/.zshrc'
-zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
+zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}' 'r:|[._-]=* r:|=*' 'l:|=* r:|=*'
 
 autoload -Uz compinit
 compinit
@@ -110,6 +110,7 @@ alias rm='rm -Rfd'
 alias wttr='curl https://wttr.in/YKF\?F --silent --max-time 3'
 alias zcp='zmv -C'
 alias zln='zmv -L'
+alias zs='vim /Users/syd/.zshrc'
 #
 # Start privileged access
 if [[ $UID -ne 0 ]]; then
