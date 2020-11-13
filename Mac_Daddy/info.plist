@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.proganica.macdaddy</string>
+	<key>category</key>
+	<string>Productivity</string>
+	<key>connections</key>
+	<dict>
+		<key>06C9C4A9-38CE-441A-8D06-E2F2D8B39B60</key>
+		<array/>
+		<key>7DD3BDE5-A157-42E5-9376-F681FB50A4EE</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>06C9C4A9-38CE-441A-8D06-E2F2D8B39B60</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Syd Salmon</string>
+	<key>description</key>
+	<string>Find device by MAC or IP address</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Mac Daddy</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>keyword</key>
+				<string>macd</string>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Looking up device...</string>
+				<key>script</key>
+				<string>(
+    IFS=$'\n'
+    match=("$(grep -i {query} mac_daddy)")
+    echo '&lt;?xml version="1.0"?&gt;'
+    echo '&lt;items&gt;'
+    echo ''
+
+    for i in "${match[@]}"; do
+        macaddr=("$(echo "$i" | cut -d\, -f1)")
+        device=("$(echo "$i" | cut -d\, -f4)")
+        ipaddr=("$(echo "$i" | cut -d\, -f3)")
+
+        echo "&lt;item arg=\"$macaddr\" valid=\"yes\"&gt;"
+        echo "&lt;title&gt;$device ↔︎ $ipaddr ↔︎ $macaddr&lt;/title&gt;"
+        echo "&lt;subtitle&gt;☛ Run "sudo nmap -sP 192.168.1.0/24" if IP is outdated.&lt;/subtitle&gt;"
+        echo "&lt;icon&gt;mac_daddy.png&lt;/icon&gt;&lt;/item&gt;"
+        echo ""
+    done
+
+    echo "&lt;/items&gt;"
+)</string>
+				<key>title</key>
+				<string>Enter MAC or IP address</string>
+				<key>type</key>
+				<integer>5</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>7DD3BDE5-A157-42E5-9376-F681FB50A4EE</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>script</key>
+				<string>sudo nmap -sP 192.168.1.0/24</string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>06C9C4A9-38CE-441A-8D06-E2F2D8B39B60</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>06C9C4A9-38CE-441A-8D06-E2F2D8B39B60</key>
+		<dict>
+			<key>ypos</key>
+			<real>60</real>
+		</dict>
+		<key>7DD3BDE5-A157-42E5-9376-F681FB50A4EE</key>
+		<dict>
+			<key>ypos</key>
+			<real>60</real>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string>https://github.com/ssent1</string>
+</dict>
+</plist>
