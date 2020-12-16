@@ -1,6 +1,7 @@
 export PATH="/usr/local/sbin:$PATH"
 export CLICOLOR=1
 export LSCOLORS=ExGxBxDxCxEgEdxbxgxcxd
+export ITERM2_SQUELCH_MARK=1
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
@@ -8,10 +9,11 @@ export LSCOLORS=ExGxBxDxCxEgEdxbxgxcxd
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
+# "${XDG_CACHE_HOME:…" == /Users/syd/.cache
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-source /Users/syd/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# source /Users/syd/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 man() {
     LESS_TERMCAP_mb=$'\e[01;31m' \
@@ -63,10 +65,13 @@ autoload -Uz _zinit
 # Load a few important annexes, without Turbo
 # (this is currently required for annexes)
 zinit light-mode for \
-    zinit-zsh/z-a-patch-dl \
+    zdharma/history-search-multi-word \
+    agkozak/zsh-z \
+    zdharma/fast-syntax-highlighting \
     zinit-zsh/z-a-as-monitor \
     zinit-zsh/z-a-bin-gem-node \
-    agkozak/zsh-z
+    zinit-zsh/z-a-patch-dl \
+    zsh-users/zsh-autosuggestions
 
 ### End of Zinit's installer chunk
 
@@ -74,8 +79,10 @@ zinit ice depth=1; zinit light romkatv/powerlevel10k
 source ~/powerlevel10k/powerlevel10k.zsh-theme
 
 autoload zmv
-# ZSH_THEME="agnoster"
-ZSH_THEME="spaceship"
+
+# ZSH_THEME="agnoster", ZSH_THEME="spaceship"
+# ZSH_THEME="spaceship"
+ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Aliases
 # https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html
@@ -92,10 +99,12 @@ alias cdl='cd l'
 alias cls='clear'
 alias diff='colordiff'
 alias egrep='egrep --color=auto'
+alias exip='i=$(curl -s -w "\n" ifconfig.me/ip) ; printf "$i" | pbcopy && printf "$i" && unset i'
 alias fgrep='fgrep --color=auto'
 alias gitp='git push && git status'
 alias gits='git status'
 alias grep='grep --color=auto'
+alias greadlink='greadlink -f'
 alias h='history'
 alias j='jobs -l'
 alias ls='ls -alh'
@@ -107,7 +116,9 @@ alias mic='micro'
 alias mkdir='mkdir -pv'
 alias path='echo -e ${PATH//:/\\n}'
 alias ping='ping -c10 1.1.1.1'
+alias readlink='greadlink -f'
 alias rm='rm -Rfd'
+alias teux='vim "/Users/syd/Creative Cloud Files/nvalt_repo/teuxdeux-- task list- working.md"'
 alias tma='tmux -CC attach'
 alias tmx='tmux -CC new -s 🤓'
 alias wttr='curl https://wttr.in/YKF\?F --silent --max-time 3'
@@ -116,7 +127,7 @@ alias zln='zmv -L'
 alias zs='vim /Users/syd/.zshrc'
 #
 # Start privileged access
-if [[ $UID -ne 0 ]]; then
+if [[ "$UID" -ne 0 ]]; then
   alias dgk='sudo spctl --master-disable # disable Gatekeeper'
   alias egk='sudo spctl --master-enable # enable Gatekeeper'
   alias rms='sudo rm -Rfd'
@@ -128,3 +139,4 @@ fi
 # End privileged access
 #
 function https-server() { http-server --ssl --cert ~/.localhost-ssl/localhost.crt --key ~/.localhost-ssl/localhost.key }
+source ~/.iterm2_shell_integration.zsh
