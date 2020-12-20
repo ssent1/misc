@@ -30,39 +30,39 @@
     "commands": [
       {
         "command": "codealignment.alignbycolon",
-        "title": "Align by colon (Code Alignment)"
+        "title": "Align by colon  :"
       },
       {
         "command": "codealignment.alignbypound",
-        "title": "Align by pound (Code Alignment)"
+        "title": "Align by pound  #"
       },
       {
         "command": "codealignment.alignbyarrow",
-        "title": "Align by arrow (Code Alignment)"
+        "title": "Align by arrow  →"
       },
       {
         "command": "codealignment.alignbystring",
-        "title": "Align by string (Code Alignment)"
+        "title": "Align by string…"
       },
       {
         "command": "codealignment.alignbyequals",
-        "title": "Align by equals (Code Alignment)"
+        "title": "Align by equals ="
       },
       {
         "command": "codealignment.alignbyperiod",
-        "title": "Align by period (Code Alignment)"
+        "title": "Align by period ."
       },
       {
         "command": "codealignment.alignbyquote",
-        "title": "Align by quote (Code Alignment)"
+        "title": "Align by quote  \""
       },
       {
         "command": "codealignment.alignbyregex",
-        "title": "Align by regex (Code Alignment)"
+        "title": "Align by regex…"
       },
       {
         "command": "codealignment.alignbyspace",
-        "title": "Align by space (Code Alignment)"
+        "title": "Align by space"
       }
     ],
     "keybindings": [
@@ -147,4 +147,3 @@
     "publisherDisplayName": "Chris McGrath"
   }
 }
-

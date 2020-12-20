@@ -86,18 +86,20 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Aliases
 # https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html
-alias -g l='&& ls -aFGhort'
-alias -s md='subl'
-alias .='echo $PWD'
-alias ..='cd ..'
-alias ...='cd ../../../'
+alias -g l='&& ls -aFGhort' # global: e.g. add `l` after `cd` to `ls` after `cd` runs
+alias -s md='code' # suffix alias: launch Markdown files (.md) in Visual Studio Code 
+alias .='print $PWD' # print working directory
+alias ..='cd ..' # cd up one level
+alias ...='cd ../../../' # cd up three levels
 alias bc='bc -l'
 alias bi='brew install'
 alias brewster='zsh /Users/syd/Code/misc/Brewster/brewster.zsh'
 alias cd..='cd ..'
 alias cdl='cd l'
+alias cnt='find . -maxdepth 1 | wc -l' # count items in directory
+alias cntf='find . -type f -maxdepth 1 | wc -l' # count [f]iles in directory
 alias cls='clear'
-alias diff='colordiff'
+alias diff='colordiff -u'
 alias egrep='egrep --color=auto'
 alias exip='i=$(curl -s -w "\n" ifconfig.me/ip) ; printf "$i" | pbcopy && printf "$i" && unset i'
 alias fgrep='fgrep --color=auto'

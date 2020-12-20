@@ -4,7 +4,7 @@ set showbreak=+++                        " Wrap-broken line prefix
 set textwidth=120                        " Line wrap (number of cols)
 set wrap                                 " Wrap lines
 set showmatch                            " Highlight matching brace
-set spell                                " Enable spell-checking
+" set spell                              " Enable spell-checking
 set visualbell                           " Use visual bell (no beeping)
 set gcr=a:blinkon0                       " Disable cursor blink
 
