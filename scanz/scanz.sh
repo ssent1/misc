@@ -39,4 +39,6 @@ raw=$(find . -type f -maxdepth 1 | wc -l)
         mv -i "$HOME"/Downloads/0_rawScan/*.pdf "$HOME"/Downloads/0_rawScan/99_trash/
     fi
 print 'Done!'
-cd "$HOME" || exit
+cd "$HOME"/Code/misc/linkz/
+./linkz.sh
+
