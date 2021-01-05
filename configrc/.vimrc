@@ -8,7 +8,8 @@ set showmatch                            " Highlight matching brace
 set visualbell                           " Use visual bell (no beeping)
 set gcr=a:blinkon0                       " Disable cursor blink
 
-set hlsearch                             " Highlight search results...
+set hlsearch!                            " Toggle highlight search results...
+nnoremap <F3> :set hlsearch!<CR>         " Set F3 to toggle search highlighting
 set incsearch                            " ...dynamically as they are typed.
 set smartcase                            " Enable smart-case search
 set ignorecase                           " Always case-insensitive

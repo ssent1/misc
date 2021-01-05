@@ -133,8 +133,8 @@ if [[ "$UID" -ne 0 ]]; then
   alias dgk='sudo spctl --master-disable # disable Gatekeeper'
   alias egk='sudo spctl --master-enable # enable Gatekeeper'
   alias rms='sudo rm -Rfd'
-  alias sd='sudo shutdown -h +1 - "The system is ★==> shutting down <==★ in one (1) minute."'
-  alias sr='sudo shutdown -r now - "The system is ★==> rebooting <==★ now!"'
+  alias sd='sudo shutdown -h +1 - "The system is ==> shutting down <== in one (1) minute."'
+  alias sr='sudo shutdown -r now - "The system is ==> rebooting <== now!"'
   alias top='sudo htop -s PERCENT_MEM'
   alias vis='sudo vi'
 fi
