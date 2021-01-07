@@ -6,10 +6,10 @@ min=$(find . -type f -maxdepth 1 | wc -l)
 if [ "$min" -eq 0 ]; then
     print "There is nothing in $PWD."
 else
-    for i in *.pdf; do
-        base=$(basename "$i" .pdf)
-        tar -czf "$HOME/Downloads/0_rawScan/77_archivze/$base-$(date +%Y%m%d_%H%M%S)".pdf.tar.gz "$i" &&
-            mv -n "$i" "$HOME/Downloads/0_rawScan/Ω-archive/$base"
+    for h in *.pdf; do
+        base=$(basename "$h" .pdf)
+        tar -czf "$HOME/Downloads/0_rawScan/77_archivze/$base-$(date +%Y%m%d_%H%M%S)".pdf.tar.gz "$h"
+        mv -n "$h" "$HOME/Downloads/0_rawScan/Ω-archive/$base-$(date +%Y%m%d_%H%M%S)".pdf
     done
 fi
 # Creates Gzip archive with ISO date from minified PDFs.
