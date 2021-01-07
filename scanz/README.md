@@ -141,11 +141,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 <!--- GitHub Status Links -->
 
----
-
-tags: \
-updated: _20210106_200153_
-
 [contributors-shield]: https://img.shields.io/github/contributors/ssent1/misc.svg?style=for-the-badge
 [contributors-url]: https://github.com/ssent1/misc/repo/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/ssent1/misc.svg?style=for-the-badge
@@ -158,3 +153,8 @@ updated: _20210106_200153_
 [license-url]: https://github.com/ssent1/misc/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=2867B2
 [linkedin-url]: https://www.linkedin.com/in/SydSalmon/
+
+---
+
+tags: \
+updated: _20210106_231323_
