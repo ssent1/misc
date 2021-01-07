@@ -2,7 +2,8 @@
 
 [![scanz icon](images/scanz-icon.svg)](https://github.com/ssent1/misc)
 
-[scanz](https://github.com/ssent1/misc/tree/master/scanz) is a script that makes it easier and faster to bulk scan, **optimize**, and archive documents. [scanz](https://github.com/ssent1/misc/tree/master/scanz) deletes temporary scan files and moves minimized versions to archive folder.
+[scanz](https://github.com/ssent1/misc/tree/master/scanz) is a script that makes it easier and faster to bulk scan, **optimize**, and archive documents.\
+[scanz](https://github.com/ssent1/misc/tree/master/scanz) deletes temporary scan files and moves minimized versions to archive folder.
 
 [Submit Bug](https://github.com/ssent1/misc/issues) • [Feature Request](https://github.com/ssent1/misc/issues)
 
@@ -145,15 +146,15 @@ Distributed under the MIT License. See `LICENSE` for more information.
 tags: \
 updated: _20210106_200153_
 
-[contributors-shield]: https://img.shields.io/github/contributors/ssent1/misc/repo.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/ssent1/misc.svg?style=for-the-badge
 [contributors-url]: https://github.com/ssent1/misc/repo/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/ssent1/repo.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/ssent1/misc.svg?style=for-the-badge
 [forks-url]: https://github.com/ssent1/misc/repo/network/members
-[stars-shield]: https://img.shields.io/github/stars/ssent1/repo.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/ssent1/misc.svg?style=for-the-badge
 [stars-url]: https://github.com/ssent1/misc/repo/stargazers
-[issues-shield]: https://img.shields.io/github/issues/ssent1/repo.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/ssent1/misc.svg?style=for-the-badge
 [issues-url]: https://github.com/ssent1/misc/repo/issues
-[license-shield]: https://img.shields.io/github/license/ssent1/repo.svg?style=for-the-badge
-[license-url]: https://github.com/ssent1/misc/repo/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[license-shield]: https://img.shields.io/github/license/ssent1/misc.svg?style=for-the-badge
+[license-url]: https://github.com/ssent1/misc/blob/master/LICENSE
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=2867B2
 [linkedin-url]: https://www.linkedin.com/in/SydSalmon/
