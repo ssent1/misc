@@ -16,7 +16,7 @@ opt=$(find . -type f -maxdepth 1 | wc -l)
     if [ "$opt" -eq 0 ]; then
     exit
     else
-        mv -i "$HOME"/Downloads/0_rawScan/2_optimize/*.pdf "$HOME"/Downloads/0_rawScan/99_trash/
+        zmv '/Users/syd/Downloads/0_rawScan/2_optimize/(*)(.pdf)' '/Users/syd/Downloads/0_rawScan/99_trash/$1_$(date +%Y%m%d_%H%M%S)$2'
     fi
 
 cd "$HOME"/Downloads/0_rawScan/1_binderize || {
@@ -26,8 +26,8 @@ bnd=$(find . -type f -maxdepth 1 | wc -l)
     if [ "$bnd" -eq 0 ]; then
     exit
     else
-        mv -i "$HOME"/Downloads/0_rawScan/1_binderize/*.pdf "$HOME"/Downloads/0_rawScan/99_trash/
     fi
+        zmv '/Users/syd/Downloads/0_rawScan/1_binderize/(*)(.pdf)' '/Users/syd/Downloads/0_rawScan/99_trash/$1_$(date +%Y%m%d_%H%M%S)$2'
 
 cd "$HOME"/Downloads/0_rawScan/ || {
     print "There is nothing in $PWD."
@@ -36,7 +36,7 @@ raw=$(find . -type f -maxdepth 1 | wc -l)
     if [ "$raw" -eq 0 ]; then
     exit
     else
-        mv -i "$HOME"/Downloads/0_rawScan/*.pdf "$HOME"/Downloads/0_rawScan/99_trash/
+        zmv '/Users/syd/Downloads/0_rawScan/(*)(.pdf)' '/Users/syd/Downloads/0_rawScan/99_trash/$1_$(date +%Y%m%d_%H%M%S)$2'
     fi
 print 'Done!'
 cd "$HOME"/Code/misc/linkz/
