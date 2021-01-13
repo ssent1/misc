@@ -6,7 +6,7 @@ for i in $(seq 1 5); do
     touch "$HOME/Downloads/0_rawScan/_rawScan_test-0$i".pdf
 done
 
-cd "$HOME"/Downloads/0_rawScan/1_binderize || {
+cd "$HOME"/Downloads/0_rawScan/1_binderize/ || {
     print "There is nothing in $PWD."
 }
 for i in $(seq 1 5); do
@@ -25,5 +25,9 @@ cd "$HOME"/Downloads/0_rawScan/3_minimize/ || {
 }
 for i in $(seq 1 5); do
     touch "$HOME/Downloads/0_rawScan/3_minimize/_minimize_test-0$i".pdf
+    mkdir "$HOME/Downloads/0_rawScan/3_minimize/test_$i"
+    for j in $(seq 1 5); do
+        touch "$HOME/Downloads/0_rawScan/3_minimize/test_$i/_minimize_test-0$j".pdf
+    done
 done
 # if dates needed, add `-$(date +%Y%m%d_%H%M%S)` after `"` and before `.pdf`.
