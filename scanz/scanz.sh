@@ -4,19 +4,31 @@ cd "$HOME"/Downloads/0_rawScan/3_minimize/ || {
     print "The directory\n$HOME/Downloads/0_rawScan/3_minimize/\ndoes not exist."
 }
 min=$(find . -type f -maxdepth 1 | wc -l)
-if [ "$min" -eq 0 ]; then
-    print "There is nothing in $PWD."
+if [ "$min" -le 1 ]; then
+    print "There is nothing in \'$(basename $PWD)\'."
+    return
 else
-    for h in *test*.pdf; do
-        base=$(basename "$h" .pdf)
-        tar -czf "$HOME/Downloads/0_rawScan/77_archivze/$base-$(date +%Y%m%d_%H%M%S)".pdf.tar.gz "$h"
-        mv -n "$h" "$HOME/Downloads/0_rawScan/Ω-archive/$base-$(date +%Y%m%d_%H%M%S)".pdf
-    done
-    for m in *test*/; do
-        base_m=$(basename "$m")
-        tar -czf "$HOME/Downloads/0_rawScan/77_archivze/$base_m-$(date +%Y%m%d_%H%M%S)".tar.gz --directory="$m" .
-        mv -n "$m/" "$HOME/Downloads/0_rawScan/Ω-archive/$base_m/"
-    done
+    pdf=$(find . -type f -maxdepth 1 -iname "*.pdf" | wc -l)
+    if [ "$pdf" -eq 0 ]; then
+        print "There are no PDFs in \'$(basename $PWD)\'."
+    else
+        for h in *.pdf; do
+            base=$(basename "$h" .pdf)
+            tar -czf "$HOME/Downloads/0_rawScan/77_archivze/$base-$(date +%Y%m%d_%H%M%S)".pdf.tar.gz "$h"
+            mv -n "$h" "$HOME/Downloads/0_rawScan/Ω-archive/$base-$(date +%Y%m%d_%H%M%S)".pdf
+        done
+    fi
+    dir=$(find ./* -type d -maxdepth 1 -iname "*" | wc -l)
+    if [ "$dir" -eq 0 ]; then
+        print "There are no directories in \'$(basename $PWD)\'."
+        return
+    else
+        for m in */; do
+            base_m=$(basename "$m")
+            tar -czf "$HOME/Downloads/0_rawScan/77_archivze/$base_m-$(date +%Y%m%d_%H%M%S)".tar.gz --directory="$m" .
+            mv -n "$m/" "$HOME/Downloads/0_rawScan/Ω-archive/$base_m/"
+        done
+    fi
 fi
 # Creates Gzip archive with ISO date from minified PDFs and directories.
 # Moves compressed archives to `77-archivze` and moves PDFs to `Ω-archive`.
