@@ -42,13 +42,13 @@ function onOpen() {
     );
     var rangeList = sheet.getRangeList([
       "B4:C9",
-      "C12:C17",
-      "C20:C25",
-      "C28:C33",
       "G4:G9",
-      "G12:G17",
-      "G20:G25",
-      "G28:G33",
+      "C13:C18",
+      "G13:G18",
+      "C21:C26",
+      "G21:G26",
+      "C30:C35",
+      "G30:G35",
     ]);
     rangeList.activate(); //https://developers.google.com/apps-script/reference/spreadsheet/range-list
     rangeList.clearContent(); //https://developers.google.com/apps-script/reference/spreadsheet/range-list#clearContent()
@@ -58,6 +58,6 @@ function onOpen() {
     var sheet = SpreadsheetApp.getActive().getSheetByName(
       "Weekly Top 3 Checklist"
     );
-    sheet.getRange("A35:G40").clearContent();
+    sheet.getRange("A37:G46").clearContent();
   }
-   SpreadsheetApp.getActive().getSheetByName( SpreadsheetApp.getActive().getSheetByName( SpreadsheetApp.getActive().getSheetByName(
+  
