@@ -18,4 +18,3 @@ else
 fi
 printf "%s\n \n###########################################################\n$min hard links have been created in 1_binderize.\n###########################################################\n"
 cd "$HOME" || return
-

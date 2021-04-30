@@ -116,13 +116,13 @@ alias lss='ls -aFGhorS'
 alias meteo='bash /Users/syd/Code/meteo/meteo.sh'
 alias mic='micro'
 alias mkdir='mkdir -pv'
-alias nv='cd /Users/syd/Desktop/nvALT_repo'
+alias nv='cd /Users/syd/Dropbox/nvalt_repo'
 alias path='echo -e ${PATH//:/\\n}'
 alias ping='ping -c10 1.1.1.1'
 alias readlink='greadlink -f'
 alias rm='rm -Rfd'
 alias scanz='zsh /Users/syd/Code/misc/scanz/scanz.sh'
-alias teux='vim "/Users/syd/Creative Cloud Files/nvalt_repo/teuxdeux-- task list- working.md"'
+alias teux='vim /Users/syd/Dropbox/nvalt_repo/teuxdeux--\ task-list-\ working.md'
 alias tma='tmux -CC attach'
 alias tmx='tmux -CC new -s 🤓'
 alias wttr='curl https://wttr.in/YKF\?F --silent --max-time 3'
@@ -144,3 +144,5 @@ fi
 #
 function https-server() { http-server --ssl --cert ~/.localhost-ssl/localhost.crt --key ~/.localhost-ssl/localhost.key }
 source ~/.iterm2_shell_integration.zsh
+source /usr/local/opt/zsh-vi-mode/share/zsh-vi-mode/zsh-vi-mode.plugin.zsh
+meteo
