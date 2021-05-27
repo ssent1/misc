@@ -2,6 +2,7 @@ export PATH="/usr/local/sbin:$PATH"
 export CLICOLOR=1
 export LSCOLORS=ExGxBxDxCxEgEdxbxgxcxd
 export ITERM2_SQUELCH_MARK=1
+let base16colorspace=256 # Access colours present in 256 colorspace
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
@@ -38,7 +39,7 @@ bindkey "[D" backward-word
 bindkey "[C" forward-word
 bindkey "^[a" beginning-of-line
 bindkey "^[e" end-of-line
-# bindkey -v # use vi-style key bindings
+bindkey -v # use vi-style key bindings
 # End of lines configured by zsh-newuser-install
 
 # The following lines were added by compinstall
@@ -145,4 +146,3 @@ fi
 function https-server() { http-server --ssl --cert ~/.localhost-ssl/localhost.crt --key ~/.localhost-ssl/localhost.key }
 source ~/.iterm2_shell_integration.zsh
 source /usr/local/opt/zsh-vi-mode/share/zsh-vi-mode/zsh-vi-mode.plugin.zsh
-meteo
