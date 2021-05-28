@@ -115,8 +115,8 @@ Plug 'chriskempson/base16-vim'
 call plug#end()
 
 let g:airline_powerline_fonts = 1             " populate g:airline_symbols with powerline symbols
-let g:airline_theme='dark'                    " dracula: base16_dracula'
-# let g:airline_theme_base16='base16_dracula' " dracula: base16 theme for vim-airline; too light
+let g:airline_theme='dark'                    " dracula: base16_dracula
+" let g:airline_theme_base16='base16_dracula' " dracula: base16 theme for vim-airline; too light
 
 " References
 " https://gist.github.com/joegoggins/8482408
