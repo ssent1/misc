@@ -52,14 +52,15 @@ set undolevels=1000                      " Number of undo levels
 " Keybindings & Keymaps
 " Painfully slow. Is there a better way?
 " map ; :
-" noremap ;; ;                              Hit ;; to restore original behaviour
-nnoremap ' `                              Remap ` to '
-nnoremap ` '
-nnoremap <C-e> 3<C-e>                    " Scroll the viewport faster
+" noremap ;; ;                           " Hit ;; to restore original behaviour
+" nnoremap ' `                           " Remap ` to '
+" nnoremap ` '                           " Remap ' to `
+" Scroll the viewport faster
+nnoremap <C-e> 3<C-e>                    
 nnoremap <C-y> 3<C-y>
 let mapleader=","                        " Change leader to , e.g. \x ≡ ,x
-set listchars=tab:>-,trail:·,eol:$       " toggle show whitespace ,s
-nmap <silent> <leader>s :set nolist!<CR> " toggle show whitespace ,s
+set listchars=tab:>-,trail:·,eol:$       " configure whitespace characters
+nmap <silent> <leader>s :set nolist!<CR> " toggle 'show whitespace' ,s
 
 " Swap and Backup Files
 set backupdir=~/.vim_tmp,~/.tmp,~/tmp,/var/tmp,/tmp
@@ -113,12 +114,12 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'chriskempson/base16-vim'
 call plug#end()
 
-let g:airline_powerline_fonts = 1        "populate g:airline_symbols with powerline symbols
-let g:airline_theme='base16_dracula'     "dracula theme for vim-airline 'base16_dracula'?
+let g:airline_powerline_fonts = 1             " populate g:airline_symbols with powerline symbols
+let g:airline_theme='base16_dracula'          " dracula theme for vim-airline 'base16_dracula'
 
 " References
 " https://gist.github.com/joegoggins/8482408
 " https://items.sjbach.com/319/configuring-vim-right.html
 " https://nvie.com/posts/how-i-boosted-my-vim/
 " https://vimconfig.com
-" https://www.shortcutfoo.com/blog/top-50-vim-configuration-options
+" https://www.shortcutfoo.com/blog/top-50-vim-configuration-options "
