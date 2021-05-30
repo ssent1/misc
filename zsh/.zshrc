@@ -79,7 +79,7 @@ zinit light-mode for \
 zinit ice depth=1; zinit light romkatv/powerlevel10k
 source ~/powerlevel10k/powerlevel10k.zsh-theme
 
-autoload zmv
+autoload -Uz zmv
 
 # ZSH_THEME="agnoster", ZSH_THEME="spaceship"
 # ZSH_THEME="spaceship"
@@ -111,13 +111,14 @@ alias greadlink='greadlink -f'
 alias h='history'
 alias j='jobs -l'
 alias ls='ls -alh'
-alias lsn='ls -aFGhor'
-alias lsd='ls -aFGhort'
-alias lss='ls -aFGhorS'
+alias lsn='ls -aFGhor'  # sort by [n]ame, descending
+alias lsd='ls -aFGhort' # sort by [d]ate, descending
+alias lss='ls -aFGhorS' # sort by [s]ize, descending
 alias meteo='bash /Users/syd/Code/meteo/meteo.sh'
 alias mic='micro'
 alias mkdir='mkdir -pv'
 alias nv='cd /Users/syd/Dropbox/nvalt_repo'
+alias nm='cd /Users/syd/Dropbox/nvalt_repo && lsd | tail -12 | grep --invert-match "dr.*"' # shows 10 most recent files in nvalt_repo
 alias path='echo -e ${PATH//:/\\n}'
 alias png='ping -c10 1.1.1.1'
 alias readlink='greadlink -f'
@@ -127,8 +128,9 @@ alias teux='vim /Users/syd/Dropbox/nvalt_repo/teuxdeux--\ task-list-\ working.md
 alias tma='tmux -CC attach'
 alias tmx='tmux -CC new -s 🤓'
 alias wttr='curl https://wttr.in/YKF\?F --silent --max-time 3'
-alias zcp='zmv -C'
-alias zln='zmv -L'
+alias zcp='zmv -C'  # force cp    - copy
+alias zln='zmv -L'  # force ln    - hard link
+alias zsl='zmv -Ls' # force ln -s - symbolic link
 alias zs='vim /Users/syd/.zshrc'
 #
 # Start privileged access
