@@ -5,15 +5,15 @@
 filetype on                              " Filetype syntax highlighting and configuration
 filetype indent on
 filetype plugin on
-nnoremap <F3> :set hlsearch!<CR>         " Set F3 to toggle search highlighting
+nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR> " Press Space to turn search highlighting off, clear messages
+" nnoremap <F3> :set hlsearch!<CR>       " Set F3 to toggle search highlighting
 set gcr=a:blinkon0                       " Disable cursor blink
 set gdefault                             " Always substitute all matches in a line
 set hlsearch!                            " Toggle highlight search results...
 set ignorecase                           " Always case-insensitive
 set incsearch                            " ...dynamically as they are typed.
 set linebreak                            " Break lines at word (requires Wrap lines)
-set number                               " Show line numbers
-set rtp+=/usr/local/opt/fzf              " interactive command-line fuzzy finder/filter
+set rtp+=/usr/local/opt/fzf              " Interactive command-line fuzzy finder/filter
 set showbreak=+++                        " Wrap-broken line prefix
 set showmatch                            " Highlight matching brace
 set smartcase                            " Enable smart-case search
@@ -23,6 +23,11 @@ set title                                " Set the terminal title
 set visualbell                           " Use visual bell (no beeping)
 set wrap                                 " Wrap lines
 syntax on                                " Turn on syntax highlighting
+
+" Hybrid line numbers
+set relativenumber                       " Show relative line numbers
+set number                               " Show line numbers
+set number relativenumber                " Show hybrid line numbers
 
 " Tabs
 set autoindent                           " Auto-indent new lines
@@ -34,13 +39,13 @@ set softtabstop=2                        " Number of spaces per tab
 set tabstop=2                            " Number of spaces per tab
 
 " Copy & Paste
-set clipboard=unnamed                    " enable copy to clipboard
+set clipboard=unnamed                    " Enable copy to clipboard
 
 " Advanced
 runtime macros/matchit.vim               " Enable extended % matchinggg
 set autoread                             " Reload files changed outside vim
 set backspace=indent,eol,start           " Backspace behaviour
-set hidden                               " hide buffers instead of closing them
+set hidden                               " Hide buffers instead of closing them
 set history=1000                         " Store lots of :cmdline history
 set mouse=a                              " Activate mouse
 set ruler                                " Show row and column ruler information
@@ -55,12 +60,13 @@ set undolevels=1000                      " Number of undo levels
 " noremap ;; ;                           " Hit ;; to restore original behaviour
 " nnoremap ' `                           " Remap ` to '
 " nnoremap ` '                           " Remap ' to `
+
 " Scroll the viewport faster
 nnoremap <C-e> 3<C-e>                    
 nnoremap <C-y> 3<C-y>
 let mapleader=","                        " Change leader to , e.g. \x ≡ ,x
-set listchars=tab:>-,trail:·,eol:$       " configure whitespace characters
-nmap <silent> <leader>s :set nolist!<CR> " toggle 'show whitespace' ,s
+set listchars=tab:>-,trail:·,eol:$       " Configure whitespace characters
+nmap <silent> <leader>s :set nolist!<CR> " Toggle 'show whitespace' ,s
 
 " Swap and Backup Files
 set backupdir=~/.vim_tmp,~/.tmp,~/tmp,/var/tmp,/tmp
@@ -114,13 +120,13 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'chriskempson/base16-vim'
 call plug#end()
 
-let g:airline_powerline_fonts = 1             " populate g:airline_symbols with powerline symbols
-let g:airline_theme='dark'                    " dracula: base16_dracula
-" let g:airline_theme_base16='base16_dracula' " dracula: base16 theme for vim-airline; too light
+let g:airline_powerline_fonts = 1             " Populate g:airline_symbols with powerline symbols
+let g:airline_theme='dark'                    " Dracula: base16_dracula
+" let g:airline_theme_base16='base16_dracula' " Dracula: base16 theme for vim-airline; too light
 
 " References
 " https://gist.github.com/joegoggins/8482408
 " https://items.sjbach.com/319/configuring-vim-right.html
 " https://nvie.com/posts/how-i-boosted-my-vim/
 " https://vimconfig.com
-" https://www.shortcutfoo.com/blog/top-50-vim-configuration-options "
+" https://www.shortcutfoo.com/blog/top-49-vim-configuration-options "
