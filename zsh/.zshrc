@@ -87,7 +87,8 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Aliases
 # https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html
-alias -g l='&& ls -aFGhort' # global: e.g. add `l` after `cd` to `ls` after `cd` runs
+alias -g l='; ls -aFGhort' # global: e.g. add `l` after `cd` to `ls` after `cd` runs
+alias -g t='; printf "\033c\n" ; lsd | grep --invert-match "dr.*" | tail -10' # cls, show top 10
 alias -s md='code' # suffix alias: launch Markdown files (.md) in Visual Studio Code 
 alias .='print $PWD' # print working directory
 alias ..='cd ..' # cd up one level
@@ -101,9 +102,9 @@ alias cnt='find . -maxdepth 1 | wc -l' # count items in directory
 alias cntf='find . -type f -maxdepth 1 | wc -l' # count [f]iles in directory
 alias cls='clear'
 alias diff='colordiff -u'
-alias egrep='egrep --color=auto'
+alias egrep='grep -E --color=auto' # direct invocation as either "egrep|fgrep" is deprecated
 alias ip='curl -sw "\n" https://ifconfig.me/ip | tee >(tr -d "\n" | pbcopy)'
-alias fgrep='fgrep --color=auto'
+alias fgrep='grep -F --color=auto' # direct invocation as either "egrep|fgrep" is deprecated
 alias gitp='git push && git status'
 alias gits='git status'
 alias grep='grep --color=auto'
@@ -117,8 +118,8 @@ alias lss='ls -aFGhorS' # sort by [s]ize, descending
 alias meteo='bash /Users/syd/Code/meteo/meteo.sh'
 alias mic='micro'
 alias mkdir='mkdir -pv'
-alias nv='cd /Users/syd/Dropbox/nvalt_repo'
-alias nm='cd /Users/syd/Dropbox/nvalt_repo && lsd | tail -12 | grep --invert-match "dr.*"' # shows 10 most recent files in nvalt_repo
+alias nm='cd /Users/syd/Dropbox/nvalt_repo ; printf "\033c\n" ; lsd | grep --invert-match "dr.*" | tail -10' # shows 10 most recent files in nvalt_repo
+alias -g nv='/Users/syd/Dropbox/nvalt_repo'
 alias path='echo -e ${PATH//:/\\n}'
 alias png='ping -c10 1.1.1.1'
 alias readlink='greadlink -f'
