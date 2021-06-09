@@ -2,11 +2,9 @@
 " Syd Salmon's Vim Configuration
 "
 " Global
-filetype on                              " Filetype syntax highlighting and configuration
 filetype indent on
+filetype on                              " Enable syntax highlighting and configuration
 filetype plugin on
-nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR> " Press Space to turn search highlighting off, clear messages
-" nnoremap <F3> :set hlsearch!<CR>       " Set F3 to toggle search highlighting
 set gcr=a:blinkon0                       " Disable cursor blink
 set gdefault                             " Always substitute all matches in a line
 set hlsearch!                            " Toggle highlight search results...
@@ -14,15 +12,60 @@ set ignorecase                           " Always case-insensitive
 set incsearch                            " ...dynamically as they are typed.
 set linebreak                            " Break lines at word (requires Wrap lines)
 set rtp+=/usr/local/opt/fzf              " Interactive command-line fuzzy finder/filter
-set showbreak=+++                        " Wrap-broken line prefix
+set showbreak=--><Space>                 " Wrap-broken line prefix
 set showmatch                            " Highlight matching brace
 set smartcase                            " Enable smart-case search
-" set spell                              " Enable spell-checking
 set textwidth=120                        " Line wrap (number of cols)
 set title                                " Set the terminal title
 set visualbell                           " Use visual bell (no beeping)
 set wrap                                 " Wrap lines
+set wrapscan                             " Wrap when search reaches beginning/end of file
 syntax on                                " Turn on syntax highlighting
+nnoremap <silent><Space> :nohlsearch<Bar>:echo<CR>
+" Press <Space> to clear search highlighting 
+
+" Spellcheck
+set spell! spelllang=en_ca,en_us         " Toggle spell-checking
+set spell!                               " :set nospell as the default                              
+set complete+=kspell                     " Word completion; in insert mode, `^n` & ^p` trigger word completion
+nmap <silent> <leader>s :set spell!<CR>  " Toggle spellcheck `,;`
+
+" Underline spellcheck results
+augroup SpellUnderline
+  autocmd!
+  autocmd ColorScheme *
+    \ highlight SpellBad
+    \   cterm=Underline
+    \   ctermfg=NONE
+    \   ctermbg=NONE
+    \   term=Reverse
+    \   gui=Undercurl
+    \   guisp=Red
+  autocmd ColorScheme *
+    \ highlight SpellCap
+    \   cterm=Underline
+    \   ctermfg=NONE
+    \   ctermbg=NONE
+    \   term=Reverse
+    \   gui=Undercurl
+    \   guisp=Red
+  autocmd ColorScheme *
+    \ highlight SpellLocal
+    \   cterm=Underline
+    \   ctermfg=NONE
+    \   ctermbg=NONE
+    \   term=Reverse
+    \   gui=Undercurl
+    \   guisp=Red
+  autocmd ColorScheme *
+    \ highlight SpellRare
+    \   cterm=Underline
+    \   ctermfg=NONE
+    \   ctermbg=NONE
+    \   term=Reverse
+    \   gui=Undercurl
+    \   guisp=Red
+  augroup END
 
 " Hybrid line numbers
 set relativenumber                       " Show relative line numbers
@@ -54,29 +97,19 @@ set showmode                             " Show current mode down the bottom
 set statusline+=%F                       " Show filename
 set undolevels=1000                      " Number of undo levels
 
-" Keybindings & Keymaps
-" Painfully slow. Is there a better way?
-" map ; :
-" noremap ;; ;                           " Hit ;; to restore original behaviour
-" nnoremap ' `                           " Remap ` to '
-" nnoremap ` '                           " Remap ' to `
-
 " Scroll the viewport faster
 nnoremap <C-e> 3<C-e>                    
 nnoremap <C-y> 3<C-y>
-let mapleader=","                        " Change leader to , e.g. \x ≡ ,x
-set listchars=tab:>-,trail:·,eol:$       " Configure whitespace characters
-nmap <silent> <leader>s :set nolist!<CR> " Toggle 'show whitespace' ,s
+let mapleader=","                        " Change leader to `,`
+set listchars=tab:>-,trail:·,eol:$       " Set whitespace characters
+nmap <silent> <leader>s :set nolist!<CR> " Toggle 'show whitespace' `,s`
 
 " Swap and Backup Files
 set backupdir=~/.vim_tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set directory=~/.vim_tmp,~/.tmp,~/tmp,/var/tmp,/tmp
-" set nobackup
-" set noswapfile
-" set nowb
 
 " Completion
-set wildignore+=*.gem                    " Ignore the following when tab completing
+set wildignore+=*.gem                    " Ignore the following items when tab completion
 set wildignore+=*.png,*.jpg,*.gif
 set wildignore+=*DS_Store*
 set wildignore+=*sass-cache*
@@ -86,7 +119,7 @@ set wildignore+=tmp/**
 set wildignore+=vendor/cache/**
 set wildignore+=vendor/rails/**
 set wildignore=*.o,*.obj,*~              
-set wildmenu                             " Enable ctrl-n and ctrl-p to scroll thru matches
+set wildmenu                             " Enable `^n` and `^p` to scroll thru matches
 set wildmode=list:longest
 
 " Scrolling
@@ -122,7 +155,7 @@ call plug#end()
 
 let g:airline_powerline_fonts = 1             " Populate g:airline_symbols with powerline symbols
 let g:airline_theme='dark'                    " Dracula: base16_dracula
-" let g:airline_theme_base16='base16_dracula' " Dracula: base16 theme for vim-airline; too light
+let g:airline#extensions#tabline#enabled = 1  " if [[ buffers > 1 && tabs = 1 ]) ; show all buffers ; fi
 
 " References
 " https://gist.github.com/joegoggins/8482408
