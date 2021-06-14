@@ -157,9 +157,10 @@ autoload -Uz zmv
 # </autoload>
 
 # <executables>
+printf "\033c\n" ; meteo
+cd /Users/syd/Dropbox/nvalt_repo ; printf "\n" ; lsd | grep --invert-match "dr.*" | tail -10
 function https-server() { http-server --ssl --cert ~/.localhost-ssl/localhost.crt --key ~/.localhost-ssl/localhost.key }
-source /usr/local/opt/zsh-vi-mode/share/zsh-vi-mode/zsh-vi-mode.plugin.zsh
 source ~/.iterm2_shell_integration.zsh
 source ~/powerlevel10k/powerlevel10k.zsh-theme
-meteo
+source /usr/local/opt/zsh-vi-mode/share/zsh-vi-mode/zsh-vi-mode.plugin.zsh
 # </executables>
