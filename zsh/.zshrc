@@ -3,7 +3,7 @@
 #
 export PATH="/usr/local/sbin:$PATH"     # enable current zsh (not pre-installed)
 export CLICOLOR=1                       # enable colourized output
-export ITERM2_SQUELCH_MARK=1            # enable iTerm2 to add marks at prompt
+export ITERM2_SQUELCH_MARK=1            # enable iTerm to add marks at prompt
 export LSCOLORS=ExGxBxDxCxEgEdxbxgxcxd  # enable Linux colurs for `ls` commands
 let base16colorspace=256                # enable 256 (24-bit RGB) colour space
 
@@ -152,15 +152,15 @@ alias -s md='code' # launch Markdown files (.md) in Visual Studio Code
 # <autoload>
 # autoload -Uz compinit && compinit  # without Turbo
 zinit wait lucid atload"zicompinit; zicdreplay" blockf for \
-  zsh-users/zsh-completions
+  zsh-users/zsh-completions \
+  jeffreytse/zsh-vi-mode
 autoload -Uz zmv
 # </autoload>
 
 # <executables>
 printf "\033c\n" ; meteo
-cd /Users/syd/Dropbox/nvalt_repo ; printf "\n" ; lsd | grep --invert-match "dr.*" | tail -10
+cd /Users/syd/Dropbox/nvalt_repo ; lsd | grep --invert-match "dr.*" | tail -10
 function https-server() { http-server --ssl --cert ~/.localhost-ssl/localhost.crt --key ~/.localhost-ssl/localhost.key }
 source ~/.iterm2_shell_integration.zsh
 source ~/powerlevel10k/powerlevel10k.zsh-theme
-source /usr/local/opt/zsh-vi-mode/share/zsh-vi-mode/zsh-vi-mode.plugin.zsh
 # </executables>
