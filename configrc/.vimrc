@@ -1,36 +1,32 @@
 "
 " Syd Salmon's Vim Configuration
 "
-" Global
-filetype indent on
-filetype on                              " Enable syntax highlighting and configuration
-filetype plugin on
-set gcr=a:blinkon0                       " Disable cursor blink
-set gdefault                             " Always substitute all matches in a line
-set hlsearch!                            " Toggle highlight search results...
-set ignorecase                           " Always case-insensitive
-set incsearch                            " ...dynamically as they are typed.
-set linebreak                            " Break lines at word (requires Wrap lines)
-set rtp+=/usr/local/opt/fzf              " Interactive command-line fuzzy finder/filter
-set showbreak=-->                        " Wrap-broken line prefix
-set showmatch                            " Highlight matching brace
-set smartcase                            " Enable smart-case search
-set textwidth=120                        " Line wrap (number of cols)
-set title                                " Set the terminal title
-set visualbell                           " Use visual bell (no beeping)
-set wrap                                 " Wrap lines
-set wrapscan                             " Wrap when search reaches beginning/end of file
-syntax on                                " Turn on syntax highlighting
-nnoremap <silent><Space> :nohlsearch<Bar>:echo<CR>
-" Press <Space> to clear search highlighting 
+" GLOBAL
+filetype plugin indent on   " enable plugin detection,indent, syntax highlights
+set confirm                 " confirm changes [Yes, No, Cancel] instead of error
+set gcr=a:blinkon0          " disable cursor blink
+set gdefault                " substitute all matches in a line
+set hlsearch!               " toggle highlight search results
+set ignorecase              " enable case-insensitive search
+set incsearch               " show search results while typing
+set linebreak               " enable line break at words; requires: wrap
+set rtp+=/usr/local/opt/fzf " enable interactive command-line fuzzy finder/filter
+set showbreak=-->           " enable line break prefix
+set showmatch               " highlight matching braces
+set smartcase               " enable smart-case search
+set textwidth=120           " enable line wrap, columns
+set title                   " enable title in terminal
+set visualbell              " enable visual bell, no beep
+set wrap                    " wrap lines
+set wrapscan                " wrap when search reaches start/end of file
+syntax on                   " enable syntax highlighting
 
-" Spellcheck
-set spell! spelllang=en_ca,en_us         " Toggle spell-checking
-set spell!                               " :set nospell as the default                              
-set complete+=kspell                     " Word completion; in insert mode, `^n` & ^p` trigger word completion
-nmap <silent> <leader>s :set spell!<CR>  " Toggle spellcheck `';`
+                                 " SPELLCHECK
+set complete+=kspell             " enable word completion; triggers: ^n/^p
+set spell! spelllang=en_ca,en_us " enable spellcheck; Canadian, American
+set spell!                       " toggle spellcheck, off
 
-" Underline spellcheck results
+" UNDERLINE SPELLCHECK RESULTS
 augroup SpellUnderline
   autocmd!
   autocmd ColorScheme *
@@ -67,49 +63,53 @@ augroup SpellUnderline
     \   guisp=Red
   augroup END
 
-" Hybrid line numbers
-set relativenumber                       " Show relative line numbers
-set number                               " Show line numbers
-set number relativenumber                " Show hybrid line numbers
+" HYBRID LINE NUMBERS
+set number relativenumber " enable hybrid line numbers
 
-" Tabs
-set autoindent                           " Auto-indent new lines
-set expandtab                            " Use spaces instead of tabs
-set smartindent                          " Enable smart-indent
-set smarttab                             " Enable smart-tabs
-set shiftwidth=2                         " Number of auto-indent spaces
-set softtabstop=2                        " Number of spaces per tab
-set tabstop=2                            " Number of spaces per tab
+" TABS
+set autoindent    " auto-indent new lines
+set expandtab     " use spaces instead of tabs
+set smartindent   " enable smart-indent
+set smarttab      " enable smart-tabs
+set shiftwidth=2  " set auto-indent spaces
+set softtabstop=2 " set cursor movement for <Tab> keystroke
+set tabstop=2     " set spaces per tab
 
-" Copy & Paste
-set clipboard=unnamed                    " Enable copy to clipboard
+" COPY & PASTE
+set clipboard=unnamed " enable copy to clipboard
 
-" Advanced
-runtime macros/matchit.vim               " Enable extended % matchinggg
-set autoread                             " Reload files changed outside vim
-set backspace=indent,eol,start           " Backspace behaviour
-set hidden                               " Hide buffers instead of closing them
-set history=1000                         " Store lots of :cmdline history
-set mouse=a                              " Activate mouse
-set ruler                                " Show row and column ruler information
-set showcmd                              " Show incomplete cmds down the bottom
-set showmode                             " Show current mode down the bottom
-set statusline+=%F                       " Show filename
-set undolevels=1000                      " Number of undo levels
+" ADVANCED
+runtime macros/matchit.vim         " enable extended % matching
+set autoread                       " reload files, if changed outside vim
+set backspace=indent,eol,start     " set backspace behaviour
+set hidden                         " hide buffers instead of closing them
+set history=1000                   " set maximum items in command history
+set listchars=tab:>-,trail:·,eol:$ " define white space characters
+set mouse=a                        " enable mouse
+set ruler                          " show row and column ruler information
+set showcmd                        " show incomplete commands in status line
+set showmode                       " show current mode in status line
+set statusline+=%f                 " show file in status line
+set undolevels=1000                " set maximum undo level 
 
-" Scroll the viewport faster
-nnoremap <C-e> 3<C-e>                    
-nnoremap <C-y> 3<C-y>
-let mapleader="'"                        " Change leader to `'`
-set listchars=tab:>-,trail:·,eol:$       " Set whitespace characters
-nmap <silent> <leader>s :set nolist!<CR> " Toggle 'show whitespace' `'s`
+" KEY MAPS
+noremap <C-e> 3<C-e>
+noremap <C-y> 3<C-y>
+nmap <silent> <leader>; :set spell!<CR>
+nmap <silent> <leader>s :set nolist!<CR>
+nnoremap <silent><Space> :nohlsearch<Bar>:echo<CR>
+let mapleader="'"
+" move screen down/up three lines:     ^e/^y
+" toggle spellcheck/show white space:  '; / 's
+" clear search highlighting:           <Space>
+" set leader to apostrophe (')
 
-" Swap and Backup Files
+" SWAP AND BACKUP FILES
 set backupdir=~/.vim_tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set directory=~/.vim_tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 
-" Completion
-set wildignore+=*.gem                    " Ignore the following items when tab completion
+" COMPLETION
+set wildignore+=*.gem " ignore the following tab completion items:
 set wildignore+=*.png,*.jpg,*.gif
 set wildignore+=*DS_Store*
 set wildignore+=*sass-cache*
@@ -118,35 +118,35 @@ set wildignore+=log/**
 set wildignore+=tmp/**
 set wildignore+=vendor/cache/**
 set wildignore+=vendor/rails/**
-set wildignore=*.o,*.obj,*~              
-set wildmenu                             " Enable `^n` and `^p` to scroll thru matches
+set wildignore=*.o,*.obj,*~
+set wildmenu " enable ^n and ^p to scroll thru matches
 set wildmode=list:longest
 
-" Scrolling
-set scrolloff=8                          " Start scrolling 8 lines away from margins
+" SCROLLING
+set scrolloff=8 " start scrolling 8 lines away from margins
 set sidescroll=1
 set sidescrolloff=15
 
-" Plugins
-" Automatic installation
+" PLUGINS
+"" Automatic Installation
 let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/.vim'
 if empty(glob(data_dir . '/autoload/plug.vim'))
   silent execute '!curl -fLo '.data_dir.'/autoload/plug.vim --create-dirs  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
-" Install vim-plug if not found
+"" Install vim-plug if not found
 if empty(glob('~/.vim/autoload/plug.vim'))
   silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
     \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 endif
 
-" Run PlugInstall if there are missing plugins
+"" Run PlugInstall if there are missing plugins
 autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
   \| PlugInstall --sync | source $MYVIMRC
 \| endif
 
-" Run vim-plug
+"" Load plugins
 call plug#begin('~/.vim/plugged')
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
@@ -155,13 +155,18 @@ Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
 call plug#end()
 
-let g:airline_powerline_fonts = 1             " Populate g:airline_symbols with powerline symbols
-let g:airline_theme='dark'                    " Dracula: base16_dracula
-let g:airline#extensions#tabline#enabled = 1  " if [[ buffers > 1 && tabs = 1 ]) ; show all buffers ; fi
+""  Set plugin options
+""" Airline
+let g:airline#extensions#tabline#enabled = 1 " show active buffers in top status bar
+let g:airline_powerline_fonts = 1            " load powerline symbols
+let g:airline_theme='dark'                   " enable dark-mode theme
 
-" References
-" https://gist.github.com/joegoggins/8482408
-" https://items.sjbach.com/319/configuring-vim-right.html
-" https://nvie.com/posts/how-i-boosted-my-vim/
-" https://vimconfig.com
-" https://www.shortcutfoo.com/blog/top-49-vim-configuration-options "
+""" Markdown
+set foldenable! " toggle folding, vim-markdown
+
+" REFERENCES
+"" https://gist.github.com/joegoggins/8482408
+"" https://items.sjbach.com/319/configuring-vim-right.html
+"" https://nvie.com/posts/how-i-boosted-my-vim/
+"" https://vimconfig.com
+"" https://www.shortcutfoo.com/blog/top-49-vim-configuration-options"
