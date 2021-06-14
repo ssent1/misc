@@ -1,23 +1,23 @@
 #
-# Syd Salmon's Zsh Configuration
+# Syd Salmon's zsh configuration
 #
-export PATH="/usr/local/sbin:$PATH"
-export CLICOLOR=1
-export ITERM2_SQUELCH_MARK=1
-export LSCOLORS=ExGxBxDxCxEgEdxbxgxcxd
-let base16colorspace=256 # use 256 colorspace
+export PATH="/usr/local/sbin:$PATH"     # enable current zsh (not pre-installed)
+export CLICOLOR=1                       # enable colourized output
+export ITERM2_SQUELCH_MARK=1            # enable iTerm2 to add marks at prompt
+export LSCOLORS=ExGxBxDxCxEgEdxbxgxcxd  # enable Linux colurs for `ls` commands
+let base16colorspace=256                # enable 256 (24-bit RGB) colour space
 
-# <Powerlevel10k>
+# <powerlevel10k>
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
-# </Powerlevel10k>
+# </powerlevel10k>
 
-# <Instant Prompt Customization>
+# <instant_prompt>
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 man() {
-    LESS_TERMCAP_mb=$'\e[01;31m' \
+  LESS_TERMCAP_mb=$'\e[01;31m' \
     LESS_TERMCAP_md=$'\e[01;31m' \
     LESS_TERMCAP_me=$'\e[0m' \
     LESS_TERMCAP_se=$'\e[0m' \
@@ -27,89 +27,75 @@ man() {
     command man "$@"
 }
 ## `p10k configure` or edit `~/.p10k.zsh`
-# </Instant Prompt Customization>
+# </instant_prompt>
 
-# <Zsh installer>
+# <zsh_installer>
 HISTFILE=~/.histfile
 HISTSIZE=10000
 SAVEHIST=10000
 ZSH_THEME="powerlevel10k/powerlevel10k"
-bindkey "[C" forward-word
-bindkey "[D" backward-word
-bindkey "^[a" beginning-of-line
-bindkey "^[e" end-of-line
-bindkey -v # Vi mode for Zsh line editing (zle); `-e` = Emacs mode  
 setopt autocd extendedglob nomatch notify
 setopt no_list_ambiguous
 unsetopt beep
-# </Zsh installer>
+# </zsh_installer>
 
-# <Zsh completions>
+# <zsh_completions>
 zstyle :compinstall filename '/Users/syd/.zshrc'
 zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}' 'r:|[._-]=* r:|=*' 'l:|=* r:|=*'
-# </Zsh completions>
+# </zsh_completions>
 
-# <Zinit>
+# <zinit>
 if [[ ! -f $HOME/.zinit/bin/zinit.zsh ]]; then
-    print -P "%F{33}▓▒░ %F{220}Installing %F{33}DHARMA%F{220} Initiative Plugin Manager (%F{33}zdharma/zinit%F{220})…%f"
-    command mkdir -p "$HOME/.zinit" && command chmod g-rwX "$HOME/.zinit"
-    command git clone https://github.com/zdharma/zinit "$HOME/.zinit/bin" && \
-        print -P "%F{33}▓▒░ %F{34}Installation successful.%f%b" || \
-        print -P "%F{160}▓▒░ The clone has failed.%f%b"
+  print -P "%F{33}▓▒░ %F{220}Installing %F{33}DHARMA%F{220} Initiative Plugin Manager (%F{33}zdharma/zinit%F{220})…%f"
+  command mkdir -p "$HOME/.zinit" && command chmod g-rwX "$HOME/.zinit"
+  command git clone https://github.com/zdharma/zinit "$HOME/.zinit/bin" &&
+    print -P "%F{33}▓▒░ %F{34}Installation successful.%f%b" ||
+    print -P "%F{160}▓▒░ The clone has failed.%f%b"
 fi
 
 source "$HOME/.zinit/bin/zinit.zsh"
 autoload -Uz _zinit
 (( ${+_comps} )) && _comps[zinit]=_zinit
 
-## <Zinit annexes, without Turbo>
-zinit light-mode for \
-    agkozak/zsh-z \
-    zdharma/fast-syntax-highlighting \
-    zdharma/history-search-multi-word \
-    jeffreytse/zsh-vi-mode \
-    romkatv/powerlevel10k \
-    zinit-zsh/z-a-as-monitor \
-    zinit-zsh/z-a-bin-gem-node \
-    zinit-zsh/z-a-patch-dl \
-    zsh-users/zsh-autosuggestions \
-    zsh-users/zsh-completions
-## </Zinit annexes>
-# </Zinit>
+## <zinit_annexes>
+# zinit light-mode for \ # without Turbo
+# enable Turbo Mode
+zinit wait lucid atload light-mode for \
+  agkozak/zsh-z \
+  zdharma/fast-syntax-highlighting \
+  zdharma/history-search-multi-word \
+  jeffreytse/zsh-vi-mode \
+  romkatv/powerlevel10k \
+  zinit-zsh/z-a-as-monitor \
+  zinit-zsh/z-a-bin-gem-node \
+  zinit-zsh/z-a-patch-dl \
+  zsh-users/zsh-autosuggestions \
+  zsh-users/zsh-completions
+## </zinit_annexes>
+# </zinit>
 
-# <Autoload>
-autoload -Uz compinit && compinit
-autoload -Uz zmv
-# </Autoload>
+# <key_bindings>
+# enable explicitly Emacs mode
+bindkey -e
+# </key_bindings>
 
-# <Executables>
-function https-server() { http-server --ssl --cert ~/.localhost-ssl/localhost.crt --key ~/.localhost-ssl/localhost.key }
-meteo
-source /usr/local/opt/zsh-vi-mode/share/zsh-vi-mode/zsh-vi-mode.plugin.zsh
-source ~/.iterm2_shell_integration.zsh
-source ~/powerlevel10k/powerlevel10k.zsh-theme
-# </Executables>
-
-# <Aliases>
-alias -g l='&& ls -aFGhort' # global: e.g. `cd l` after `cd` to `ls` after `cd` runs
-alias -g nv='/Users/syd/Dropbox/nvalt_repo'
-alias -g t='; printf "\033c\n" ; lsd | grep --invert-match "dr.*" | tail -10' # cls, show top 10
-alias -s md='code' # suffix alias: launch Markdown files (.md) in Visual Studio Code 
-alias ...='cd ../../../' # cd up three levels
-alias ..='cd ..' # cd up one level
-alias .='print $PWD' # print working directory
-alias bc='bc -l' # run calculator with standard math library
+# <aliases>
+## <simple>
+alias ...='cd ../../../' # go up three levels
+alias ..='cd ..'    # cd up one level
+alias .='print PWD' # print working directory
+alias bc='bc -l'    # run calculator with standard math library
 alias bi='brew install'
 alias brewster='zsh /Users/syd/Code/misc/Brewster/brewster.zsh'
 alias cd..='cd ..'
 alias cdl='cd l'
 alias cls='clear'
-alias cnt='find . -maxdepth 1 | wc -l' # count items in directory
-alias cntf='find . -type f -maxdepth 1 | wc -l' # count [f]iles in directory
+alias cnt='find . -maxdepth 1 | wc -l'           # count items in directory
+alias cntf='find . -type f -maxdepth 1 | wc -l'  # count [f]iles in directory
 alias diff='colordiff -u'
-alias egrep='grep -E --color=auto' # direct invocation as either "egrep|fgrep" is deprecated
-alias fgrep='grep -F --color=auto' # direct invocation as either "egrep|fgrep" is deprecated
-alias fp='realpath -m' # canonicalized absolute pathname
+alias egrep='grep -E --color=auto'  # direct call as "egrep|fgrep" is deprecated
+alias fgrep='grep -F --color=auto'  # direct call as "egrep|fgrep" is deprecated
+alias fp='realpath -m'              # canonicalized absolute pathname
 alias gitp='git push && git status'
 alias gits='git status'
 alias grep='grep --color=auto'
@@ -117,12 +103,13 @@ alias h='history'
 alias ip='curl -sw "\n" https://ifconfig.me/ip | tee >(tr -d "\n" | pbcopy)'
 alias j='jobs -l'
 alias ls='ls -alh'
-alias lsd='ls -aFGhort' # sort by [d]ate, descending
-alias lsn='ls -aFGhor'  # sort by [n]ame, descending
-alias lss='ls -aFGhorS' # sort by [s]ize, descending
+alias lsd='ls -aFGhort'  # sort by [d]ate, descending
+alias lsn='ls -aFGhor'   # sort by [n]ame, descending
+alias lss='ls -aFGhorS'  # sort by [s]ize, descending
 alias meteo='bash /Users/syd/Code/meteo/meteo.sh'
 alias mkdir='mkdir -pv'
-alias nm='cd /Users/syd/Dropbox/nvalt_repo ; printf "\033c\n" ; lsd | grep --invert-match "dr.*" | tail -10' # shows 10 most recent files in nvalt_repo
+alias nm='cd /Users/syd/Dropbox/nvalt_repo ; printf "\033c\n" ; lsd | grep --invert-match "dr.*" | tail -10'
+##### show 10 most recent items
 alias path='echo -e ${PATH//:/\\n}'
 alias png='ping -c10 1.1.1.1'
 alias rm='rm -Rfdi'
@@ -131,22 +118,48 @@ alias teux='vim /Users/syd/Dropbox/nvalt_repo/teuxdeux--\ task-list-\ working.md
 alias tma='tmux -CC attach'
 alias tmx='tmux -CC new -s 🤓'
 alias wttr='curl https://wttr.in/YKF\?F --silent --max-time 3'
-alias zcp='zmv -C'  # force cp    - copy
-alias zln='zmv -L'  # force ln    - hard link
+alias zcp='zmv -C'  # force cp - copy
+alias zln='zmv -L'  # force ln - hard link
 alias zs='vim /Users/syd/.zshrc'
-alias zsl='zmv -Ls' # force ln -s - symbolic link
-alias {g,r}eadlink='realpath -m' # canonicalized absolute pathname; does not require directory &/or path components
+alias zsl='zmv -Ls'           # force ln -s - symbolic link
+alias readlink='realpath -m'  # canonical absolute pathname
 
-## <Privileged Access>
+## <privileged access>
 if [[ "$UID" -ne 0 ]]; then
   alias dgk='sudo spctl --master-disable # disable Gatekeeper'
   alias egk='sudo spctl --master-enable # enable Gatekeeper'
   alias rms='sudo rm -Rfd'
-  alias sd='sudo shutdown -h +1 - "==> SHUTTING DOWN <== in one (1) minute. To abort, type ^C."'
-  alias sr='sudo shutdown -r now - "==> REBOOTING <== now!" To abort, type ^C."'
+  alias sd='sudo shutdown -h +1 - "==> SHUTTING DOWN <== in one (1) minute. to abort, type ^c."'
+  alias sr='sudo shutdown -r now - "==> REBOOTING <== now!" to abort, type ^c."'
   alias svi='sudo vi'
   alias top='sudo htop -s PERCENT_MEM'
 fi
 ### https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html
-## </Privileged Access>
-# </Aliases>
+## </privileged access>
+
+## <global>
+alias -g l='&& ls -aFGhort'
+alias -g nv='/Users/syd/Dropbox/nvalt_repo'
+alias -g t='; printf "\033c\n" ; lsd | grep --invert-match "dr.*" | tail -10'
+### Send `^L` command, add new line, show 10 most recent files
+## </global>
+
+## <suffix>
+alias -s md='code' # launch Markdown files (.md) in Visual Studio Code 
+## </suffix>
+# </aliases>
+
+# <autoload>
+# autoload -Uz compinit && compinit  # without Turbo
+zinit wait lucid atload"zicompinit; zicdreplay" blockf for \
+  zsh-users/zsh-completions
+autoload -Uz zmv
+# </autoload>
+
+# <executables>
+function https-server() { http-server --ssl --cert ~/.localhost-ssl/localhost.crt --key ~/.localhost-ssl/localhost.key }
+source /usr/local/opt/zsh-vi-mode/share/zsh-vi-mode/zsh-vi-mode.plugin.zsh
+source ~/.iterm2_shell_integration.zsh
+source ~/powerlevel10k/powerlevel10k.zsh-theme
+meteo
+# </executables>

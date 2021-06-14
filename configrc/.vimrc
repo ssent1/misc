@@ -12,7 +12,7 @@ set ignorecase                           " Always case-insensitive
 set incsearch                            " ...dynamically as they are typed.
 set linebreak                            " Break lines at word (requires Wrap lines)
 set rtp+=/usr/local/opt/fzf              " Interactive command-line fuzzy finder/filter
-set showbreak=--><Space>                 " Wrap-broken line prefix
+set showbreak=-->                        " Wrap-broken line prefix
 set showmatch                            " Highlight matching brace
 set smartcase                            " Enable smart-case search
 set textwidth=120                        " Line wrap (number of cols)
@@ -28,7 +28,7 @@ nnoremap <silent><Space> :nohlsearch<Bar>:echo<CR>
 set spell! spelllang=en_ca,en_us         " Toggle spell-checking
 set spell!                               " :set nospell as the default                              
 set complete+=kspell                     " Word completion; in insert mode, `^n` & ^p` trigger word completion
-nmap <silent> <leader>s :set spell!<CR>  " Toggle spellcheck `,;`
+nmap <silent> <leader>s :set spell!<CR>  " Toggle spellcheck `';`
 
 " Underline spellcheck results
 augroup SpellUnderline
@@ -100,9 +100,9 @@ set undolevels=1000                      " Number of undo levels
 " Scroll the viewport faster
 nnoremap <C-e> 3<C-e>                    
 nnoremap <C-y> 3<C-y>
-let mapleader=","                        " Change leader to `,`
+let mapleader="'"                        " Change leader to `'`
 set listchars=tab:>-,trail:·,eol:$       " Set whitespace characters
-nmap <silent> <leader>s :set nolist!<CR> " Toggle 'show whitespace' `,s`
+nmap <silent> <leader>s :set nolist!<CR> " Toggle 'show whitespace' `'s`
 
 " Swap and Backup Files
 set backupdir=~/.vim_tmp,~/.tmp,~/tmp,/var/tmp,/tmp
@@ -151,6 +151,8 @@ call plug#begin('~/.vim/plugged')
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'chriskempson/base16-vim'
+Plug 'godlygeek/tabular'
+Plug 'plasticboy/vim-markdown'
 call plug#end()
 
 let g:airline_powerline_fonts = 1             " Populate g:airline_symbols with powerline symbols
