@@ -21,7 +21,7 @@ set wrap                    " wrap lines
 set wrapscan                " wrap when search reaches start/end of file
 syntax on                   " enable syntax highlighting
 
-                                 " SPELLCHECK
+" SPELLCHECK
 set complete+=kspell             " enable word completion; triggers: ^n/^p
 set spell! spelllang=en_ca,en_us " enable spellcheck; Canadian, American
 set spell!                       " toggle spellcheck, off
