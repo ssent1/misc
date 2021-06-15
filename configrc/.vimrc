@@ -12,7 +12,7 @@ set incsearch               " show search results while typing
 set linebreak               " enable line break at words; requires: wrap
 set rtp+=/usr/local/opt/fzf " enable interactive command-line fuzzy finder/filter
 set showbreak=-->           " enable line break prefix
-set showmatch               " highlight matching braces
+set noshowmatch!            " toggle highlight matching braces, off
 set smartcase               " enable smart-case search
 set textwidth=120           " enable line wrap, columns
 set title                   " enable title in terminal
@@ -126,6 +126,16 @@ set wildmode=list:longest
 set scrolloff=8 " start scrolling 8 lines away from margins
 set sidescroll=1
 set sidescrolloff=15
+
+" CURSOR APPEARANCE
+autocmd InsertEnter,InsertLeave * set cul! culopt=screenline
+let &t_SI = "\e[1 q"  " [s]tart [i]nsert  mode; cursor: blinking block
+let &t_SR = "\e[0 q"  " [s]tart [r]eplace mode; cursor: blinking bar
+let &t_EI = "\e[4 q"  " [e]nd   [ir]nsert mode; cursor: steady underline
+set ttimeout
+set ttimeoutlen=1
+set listchars=tab:>-,trail:~,extends:>,precedes:<,space:.
+set ttyfast
 
 " PLUGINS
 "" Automatic Installation
