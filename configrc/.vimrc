@@ -174,6 +174,12 @@ let g:airline_theme='dark'                   " enable dark-mode theme
 """ Markdown
 set foldenable! " toggle folding, vim-markdown
 
+" Custom Syntax Highlighting
+hi  DiffDelete  ctermfg=17   ctermbg=45   guifg=#00005f  guibg=#00dfff
+hi  MatchParen  ctermfg=17   ctermbg=45   guifg=#00005f  guibg=#00dfff
+hi  SpellLocal  ctermfg=17   ctermbg=45   guifg=#00005f  guibg=#00dfff
+hi  SpellBad    ctermfg=232  ctermbg=160  guifg=#000000  guibg=#990000
+
 " REFERENCES
 "" https://gist.github.com/joegoggins/8482408
 "" https://items.sjbach.com/319/configuring-vim-right.html
