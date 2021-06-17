@@ -29,39 +29,11 @@ set spell!                       " toggle spellcheck, off
 " UNDERLINE SPELLCHECK RESULTS
 augroup SpellUnderline
   autocmd!
-  autocmd ColorScheme *
-    \ highlight SpellBad
-    \   cterm=Underline
-    \   ctermfg=NONE
-    \   ctermbg=NONE
-    \   term=Reverse
-    \   gui=Undercurl
-    \   guisp=Red
-  autocmd ColorScheme *
-    \ highlight SpellCap
-    \   cterm=Underline
-    \   ctermfg=NONE
-    \   ctermbg=NONE
-    \   term=Reverse
-    \   gui=Undercurl
-    \   guisp=Red
-  autocmd ColorScheme *
-    \ highlight SpellLocal
-    \   cterm=Underline
-    \   ctermfg=NONE
-    \   ctermbg=NONE
-    \   term=Reverse
-    \   gui=Undercurl
-    \   guisp=Red
-  autocmd ColorScheme *
-    \ highlight SpellRare
-    \   cterm=Underline
-    \   ctermfg=NONE
-    \   ctermbg=NONE
-    \   term=Reverse
-    \   gui=Undercurl
-    \   guisp=Red
-  augroup END
+  autocmd ColorScheme * highlight SpellBad   cterm=Underline ctermfg=NONE ctermbg=NONE term=Reverse gui=Undercurl guisp=Red
+  autocmd ColorScheme * highlight SpellCap   cterm=Underline ctermfg=NONE ctermbg=NONE term=Reverse gui=Undercurl guisp=Red
+  autocmd ColorScheme * highlight SpellLocal cterm=Underline ctermfg=NONE ctermbg=NONE term=Reverse gui=Undercurl guisp=Red
+  autocmd ColorScheme * highlight SpellRare  cterm=Underline ctermfg=NONE ctermbg=NONE term=Reverse gui=Undercurl guisp=Red
+augroup END
 
 " HYBRID LINE NUMBERS
 set number relativenumber " enable hybrid line numbers
@@ -147,8 +119,8 @@ endif
 
 "" Install vim-plug if not found
 if empty(glob('~/.vim/autoload/plug.vim'))
-  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
-    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 endif
 
 "" Run PlugInstall if there are missing plugins
@@ -158,11 +130,15 @@ autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
 
 "" Load plugins
 call plug#begin('~/.vim/plugged')
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
 Plug 'chriskempson/base16-vim'
 Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
+Plug 'tpope/vim-repeat'
+Plug 'tpope/vim-speeddating'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-unimpaired'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 call plug#end()
 
 ""  Set plugin options
@@ -175,10 +151,10 @@ let g:airline_theme='dark'                   " enable dark-mode theme
 set foldenable! " toggle folding, vim-markdown
 
 " Custom Syntax Highlighting
-hi  DiffDelete  ctermfg=17   ctermbg=45   guifg=#00005f  guibg=#00dfff
-hi  MatchParen  ctermfg=17   ctermbg=45   guifg=#00005f  guibg=#00dfff
-hi  SpellLocal  ctermfg=17   ctermbg=45   guifg=#00005f  guibg=#00dfff
-hi  SpellBad    ctermfg=232  ctermbg=160  guifg=#000000  guibg=#990000
+hi DiffDelete ctermfg=17  ctermbg=45  guifg=#00005f guibg=#00dfff
+hi MatchParen ctermfg=17  ctermbg=45  guifg=#00005f guibg=#00dfff
+hi SpellLocal ctermfg=17  ctermbg=45  guifg=#00005f guibg=#00dfff
+hi SpellBad   ctermfg=232 ctermbg=160 guifg=#000000 guibg=#990000
 
 " REFERENCES
 "" https://gist.github.com/joegoggins/8482408
