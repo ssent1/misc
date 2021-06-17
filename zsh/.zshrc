@@ -81,10 +81,11 @@ bindkey -e
 
 # <aliases>
 ## <simple>
-alias ...='cd ../../../' # go up three levels
-alias ..='cd ..'    # cd up one level
-alias .='print PWD' # print working directory
-alias bc='bc -l'    # run calculator with standard math library
+alias ,='print "$PWD"'    # print working directory
+alias ...='cd ../../../'  # go up three levels
+alias ..='cd ../../'      # go up two levels
+alias .='cd ../'i         # go up one level
+alias bc='bc -l'          # run calculator with standard math library
 alias bi='brew install'
 alias brewster='zsh /Users/syd/Code/misc/Brewster/brewster.zsh'
 alias cd..='cd ..'
@@ -95,7 +96,6 @@ alias cntf='find . -type f -maxdepth 1 | wc -l'  # count [f]iles in directory
 alias diff='colordiff -u'
 alias egrep='grep -E --color=auto'  # direct call as "egrep|fgrep" is deprecated
 alias fgrep='grep -F --color=auto'  # direct call as "egrep|fgrep" is deprecated
-alias fp='realpath -m'              # canonicalized absolute pathname
 alias gitp='git push && git status'
 alias gits='git status'
 alias grep='grep --color=auto'
@@ -112,17 +112,19 @@ alias nm='cd /Users/syd/Dropbox/nvalt_repo ; printf "\033c\n" ; lsd | grep --inv
 ##### show 10 most recent items
 alias path='echo -e ${PATH//:/\\n}'
 alias png='ping -c10 1.1.1.1'
+alias readlink='realpath -m'  # canonical absolute pathname
+alias rp='realpath -m'        # canonicalized absolute pathname
 alias rm='rm -Rfdi'
 alias scanz='zsh /Users/syd/Code/misc/scanz/scanz.sh'
 alias teux='vim /Users/syd/Dropbox/nvalt_repo/teuxdeux--\ task-list-\ working.md'
 alias tma='tmux -CC attach'
 alias tmx='tmux -CC new -s 🤓'
+alias vr="vim /Users/syd/.vimrc"
 alias wttr='curl https://wttr.in/YKF\?F --silent --max-time 3'
 alias zcp='zmv -C'  # force cp - copy
 alias zln='zmv -L'  # force ln - hard link
-alias zs='vim /Users/syd/.zshrc'
-alias zsl='zmv -Ls'           # force ln -s - symbolic link
-alias readlink='realpath -m'  # canonical absolute pathname
+alias zr='vim /Users/syd/.zshrc'
+alias zsl='zmv -Ls' # force ln -s - symbolic link
 
 ## <privileged access>
 if [[ "$UID" -ne 0 ]]; then
