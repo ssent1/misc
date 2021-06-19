@@ -56,7 +56,7 @@ set autoread                       " reload files, if changed outside vim
 set backspace=indent,eol,start     " set backspace behaviour
 set hidden                         " hide buffers instead of closing them
 set history=1000                   " set maximum items in command history
-set listchars=tab:>-,trail:·,eol:$ " define white space characters
+set listchars=tab:>-,trail:·,eol:$ " define whitespace characters
 set mouse=a                        " enable mouse
 set ruler                          " show row and column ruler information
 set showcmd                        " show incomplete commands in status line
@@ -65,14 +65,14 @@ set statusline+=%f                 " show file in status line
 set undolevels=1000                " set maximum undo level 
 
 " KEY MAPS
+let mapleader="'"
 noremap <C-e> 3<C-e>
 noremap <C-y> 3<C-y>
 nmap <silent> <leader>; :set spell!<CR>
 nmap <silent> <leader>s :set nolist!<CR>
 nnoremap <silent><Space> :nohlsearch<Bar>:echo<CR>
-let mapleader="'"
 " move screen down/up three lines:     ^e/^y
-" toggle spellcheck/show white space:  '; / 's
+" toggle spellcheck/show whitespace:  ';/'s
 " clear search highlighting:           <Space>
 " set leader to apostrophe (')
 
