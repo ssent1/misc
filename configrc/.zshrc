@@ -1,10 +1,10 @@
 #
 # Syd Salmon's zsh configuration
 #
-export PATH="/usr/local/sbin:$PATH"     # enable current zsh (not pre-installed)
+export PATH="/usr/local/sbin:$PATH"     # enable current zsh; not pre-installed
 export CLICOLOR=1                       # enable colourized output
 export ITERM2_SQUELCH_MARK=1            # enable iTerm to add marks at prompt
-export LSCOLORS=ExGxBxDxCxEgEdxbxgxcxd  # enable Linux colurs for `ls` commands
+export LSCOLORS=ExGxBxDxCxEgEdxbxgxcxd  # enable coloured Linux `ls` commands
 let base16colorspace=256                # enable 256 (24-bit RGB) colour space
 
 # <powerlevel10k>
@@ -92,10 +92,11 @@ alias cd..='cd ..'
 alias cdl='cd l'
 alias cls='clear'
 alias cnt='find . -maxdepth 1 | wc -l'           # count items in directory
-alias cntf='find . -type f -maxdepth 1 | wc -l'  # count [f]iles in directory
+alias cntf='find . -type f -maxdepth 1 | wc -l'  # count files in directory
+alias cpv='rsync -ah --info=progress2' # archive, human-readable xfer stats
 alias diff='colordiff -u'
-alias egrep='grep -E --color=auto'  # direct call as "egrep|fgrep" is deprecated
-alias fgrep='grep -F --color=auto'  # direct call as "egrep|fgrep" is deprecated
+alias egrep='grep -E --color=auto'  # direct egrep|fgrep calls deprecated
+alias fgrep='grep -F --color=auto'  # direct egrep|fgrep calls deprecated
 alias gitp='git push && git status'
 alias gits='git status'
 alias grep='grep --color=auto'
@@ -108,7 +109,8 @@ alias lsn='ls -aFGhor'   # sort by [n]ame, descending
 alias lss='ls -aFGhorS'  # sort by [s]ize, descending
 alias meteo='bash /Users/syd/Code/meteo/meteo.sh'
 alias mkdir='mkdir -pv'
-alias nm='cd /Users/syd/Dropbox/nvalt_repo ; printf "\033c\n" ; lsd | grep --invert-match "dr.*" | tail -10'
+alias nm='cd /Users/syd/Dropbox/nvalt_repo ; printf "\033c\n" ;
+  lsd | grep --invert-match "dr.*" | tail -10'
 ##### show 10 most recent items
 alias path='printf ${PATH//:/\\n}"\n"'
 alias png='ping -c10 1.1.1.1'
@@ -119,7 +121,8 @@ alias scanz='zsh /Users/syd/Code/misc/scanz/scanz.sh'
 alias teux='vim /Users/syd/Dropbox/nvalt_repo/teuxdeux--\ task-list-\ working.md'
 alias tma='tmux -CC attach'
 alias tmx='tmux -CC new -s 🤓'
-alias v="vim /Users/syd/.vimrc"
+alias {v,vi}="vim"
+alias vr="vim /Users/syd/.vimrc"
 alias wttr='curl https://wttr.in/YKF\?F --silent --max-time 3'
 alias zcp='zmv -C'  # force cp - copy
 alias zln='zmv -L'  # force ln - hard link
@@ -131,8 +134,8 @@ if [[ "$UID" -ne 0 ]]; then
   alias dgk='sudo spctl --master-disable # disable Gatekeeper'
   alias egk='sudo spctl --master-enable # enable Gatekeeper'
   alias rms='sudo rm -Rfd'
-  alias sd='sudo shutdown -h +1 - "==> SHUTTING DOWN <== in one (1) minute. to abort, type ^c."'
-  alias sr='sudo shutdown -r now - "==> REBOOTING <== now!" to abort, type ^c."'
+  alias sd='sudo shutdown -h +1 - "==> SHUTTING DOWN <==  To abort, type ^c."'
+  alias sr='sudo shutdown -r now - "==> REBOOTING <== To abort, type ^c."'
   alias svi='sudo vi'
   alias top='sudo htop -s PERCENT_MEM'
 fi
@@ -147,7 +150,7 @@ alias -g t='; printf "\033c\n" ; lsd | grep --invert-match "dr.*" | tail -10'
 ## </global>
 
 ## <suffix>
-alias -s md='code' # launch Markdown files (.md) in Visual Studio Code 
+alias -s {css,html,js,md,sh,zsh,,}='code' # open file w/ {ext} in VSCode
 ## </suffix>
 # </aliases>
 
