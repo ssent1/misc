@@ -12,7 +12,7 @@ set incsearch               " show search results while typing
 set linebreak               " enable line break at words; requires: wrap
 set rtp+=/usr/local/opt/fzf " enable interactive command-line fuzzy finder/filter
 set showbreak=-->           " enable line break prefix
-set noshowmatch!            " toggle highlight matching braces, off
+set showmatch!              " toggle highlight matching braces
 set smartcase               " enable smart-case search
 set textwidth=120           " enable line wrap, columns
 set title                   " enable title in terminal
@@ -24,16 +24,6 @@ syntax on                   " enable syntax highlighting
 " SPELLCHECK
 set complete+=kspell             " enable word completion; triggers: ^n/^p
 set spell! spelllang=en_ca,en_us " enable spellcheck; Canadian, American
-set spell!                       " toggle spellcheck, off
-
-" UNDERLINE SPELLCHECK RESULTS
-augroup SpellUnderline
-  autocmd!
-  autocmd ColorScheme * highlight SpellBad   cterm=Underline ctermfg=NONE ctermbg=NONE term=Reverse gui=Undercurl guisp=Red
-  autocmd ColorScheme * highlight SpellCap   cterm=Underline ctermfg=NONE ctermbg=NONE term=Reverse gui=Undercurl guisp=Red
-  autocmd ColorScheme * highlight SpellLocal cterm=Underline ctermfg=NONE ctermbg=NONE term=Reverse gui=Undercurl guisp=Red
-  autocmd ColorScheme * highlight SpellRare  cterm=Underline ctermfg=NONE ctermbg=NONE term=Reverse gui=Undercurl guisp=Red
-augroup END
 
 " HYBRID LINE NUMBERS
 set number relativenumber " enable hybrid line numbers
@@ -71,10 +61,10 @@ noremap <C-y> 3<C-y>
 nmap <silent> <leader>; :set spell!<CR>
 nmap <silent> <leader>s :set nolist!<CR>
 nnoremap <silent><Space> :nohlsearch<Bar>:echo<CR>
-" move screen down/up three lines:     ^e/^y
-" toggle spellcheck/show whitespace:  ';/'s
-" clear search highlighting:           <Space>
-" set leader to apostrophe (')
+" move screen down/up three lines:   ^e/^y
+" toggle spellcheck/show whitespace: ';/'s
+" clear search highlighting:         <Space>
+" set leader to apostrophe:          '
 
 " SWAP AND BACKUP FILES
 set backupdir=~/.vim_tmp,~/.tmp,~/tmp,/var/tmp,/tmp
@@ -113,7 +103,8 @@ set ttyfast
 "" Automatic Installation
 let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/.vim'
 if empty(glob(data_dir . '/autoload/plug.vim'))
-  silent execute '!curl -fLo '.data_dir.'/autoload/plug.vim --create-dirs  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+  silent execute '!curl -fLo '.data_dir.'/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
@@ -143,14 +134,12 @@ call plug#end()
 
 ""  Set plugin options
 """ Airline
-let g:airline#extensions#tabline#enabled = 1 " show active buffers in top status bar
+let g:airline#extensions#tabline#enabled = 1 " show buffers in top status bar
 let g:airline_powerline_fonts = 1            " load powerline symbols
 let g:airline_theme='dark'                   " enable dark-mode theme
 
 """ Markdown
 set foldenable! " toggle folding, vim-markdown
-
-" Custom Syntax Highlighting
 hi DiffDelete ctermfg=17  ctermbg=45  guifg=#00005f guibg=#00dfff
 hi MatchParen ctermfg=17  ctermbg=45  guifg=#00005f guibg=#00dfff
 hi SpellLocal ctermfg=17  ctermbg=45  guifg=#00005f guibg=#00dfff
