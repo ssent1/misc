@@ -1,0 +1,16 @@
+#
+# Syd Salmon's zsh configuration: functions 
+#
+# <cd++>
+## cd++ changes to new directory then prints 10 most recent files
+function cl() {
+  DIR="$*"
+  if [ $# -lt 1 ]; then
+    DIR=$HOME # if no DIR given, go $HOME
+  fi
+  builtin cd "${DIR}" &&
+    ls -aFGhort                               # sort by date, descending
+  printf "\033c\n"                            # clear screen, insert newline
+  lsd | grep --invert-match "dr.*" | tail -10 # print 10 most recent files
+}
+# </cd++>
