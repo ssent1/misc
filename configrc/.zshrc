@@ -57,110 +57,28 @@ source "$HOME/.zinit/bin/zinit.zsh"
 autoload -Uz _zinit
 (( ${+_comps} )) && _comps[zinit]=_zinit
 
-## <zinit_annexes>
-# zinit light-mode for \ # without Turbo
-# enable Turbo Mode
-zinit wait lucid atload light-mode for \
-  agkozak/zsh-z \
-  zdharma/fast-syntax-highlighting \
-  zdharma/history-search-multi-word \
-  jeffreytse/zsh-vi-mode \
-  romkatv/powerlevel10k \
-  zinit-zsh/z-a-as-monitor \
-  zinit-zsh/z-a-bin-gem-node \
-  zinit-zsh/z-a-patch-dl \
-  zsh-users/zsh-autosuggestions \
-  zsh-users/zsh-completions
-## </zinit_annexes>
+## <plugins>
+if [ -e $HOME/.zsh_plugins ]; then
+  source $HOME/.zsh_plugins
+fi
+## </plugins>
 # </zinit>
 
 # <key_bindings>
-# enable explicitly Emacs mode
-bindkey -e
+bindkey -e  # enable Emacs mode
 # </key_bindings>
 
 # <aliases>
-## <simple>
-alias ,='printf "$PWD\n"'  # print working directory
-alias ....='cd ../../../'  # go up three levels
-alias ...='cd ../../'      # go up two levels
-alias ..='cd ../'          # go up one level
-alias bc='bc -lq'          # run calculator with standard math library
-alias bi='brew install'
-alias brewster='zsh /Users/syd/Code/misc/Brewster/brewster.zsh'
-alias cd..='cd ..'
-alias cdl='cd l'
-alias cls='clear'
-alias cnt='find . -maxdepth 1 | wc -l'           # count items in directory
-alias cntf='find . -type f -maxdepth 1 | wc -l'  # count files in directory
-alias cpv='rsync -ah --info=progress2' # archive, human-readable xfer stats
-alias diff='colordiff -u'
-alias egrep='grep -E --color=auto'  # direct egrep|fgrep calls deprecated
-alias fgrep='grep -F --color=auto'  # direct egrep|fgrep calls deprecated
-alias gitp='git push && git status'
-alias gits='git status'
-alias grep='grep --color=auto'
-alias h='history'
-alias ip='curl -sw "\n" https://ifconfig.me/ip | tee >(tr -d "\n" | pbcopy)'
-alias j='jobs -l'
-alias ls='ls -alh'
-alias lsd='ls -aFGhort'  # sort by [d]ate, descending
-alias lsn='ls -aFGhor'   # sort by [n]ame, descending
-alias lss='ls -aFGhorS'  # sort by [s]ize, descending
-alias meteo='bash /Users/syd/Code/meteo/meteo.sh'
-alias mkdir='mkdir -pv'
-alias nm='cd /Users/syd/Dropbox/nvalt_repo ; printf "\033c\n" ;
-  lsd | grep --invert-match "dr.*" | tail -10'
-##### show 10 most recent items
-alias path='printf ${PATH//:/\\n}"\n"'
-alias png='ping -c10 1.1.1.1'
-alias readlink='realpath -m'  # canonical absolute pathname
-alias rp='realpath -m'        # canonicalized absolute pathname
-alias rm='rm -Rfdi'
-alias scanz='zsh /Users/syd/Code/misc/scanz/scanz.sh'
-alias teux='vim /Users/syd/Dropbox/nvalt_repo/teuxdeux--\ task-list-\ working.md'
-alias tma='tmux -CC attach'
-alias tmx='tmux -CC new -s 🤓'
-alias {v,vi}="vim"
-alias vr="vim /Users/syd/.vimrc"
-alias wttr='curl https://wttr.in/YKF\?F --silent --max-time 3'
-alias zcp='zmv -C'  # force cp - copy
-alias zln='zmv -L'  # force ln - hard link
-alias zr='vim /Users/syd/.zshrc'
-alias zsl='zmv -Ls' # force ln -s - symbolic link
-
-## <privileged access>
-if [[ "$UID" -ne 0 ]]; then
-  alias dgk='sudo spctl --master-disable # disable Gatekeeper'
-  alias egk='sudo spctl --master-enable # enable Gatekeeper'
-  alias rms='sudo rm -Rfd'
-  alias sd='sudo shutdown -h +1 - "==> SHUTTING DOWN <==  To abort, type ^c."'
-  alias sr='sudo shutdown -r now - "==> REBOOTING <== To abort, type ^c."'
-  alias svi='sudo vi'
-  alias top='sudo htop -s PERCENT_MEM'
+if [ -e $HOME/.zsh_aliases ]; then
+  source $HOME/.zsh_aliases
 fi
-### https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html
-## </privileged access>
-
-## <global>
-alias -g l='&& ls -aFGhort'
-alias -g nv='/Users/syd/Dropbox/nvalt_repo'
-alias -g t='; printf "\033c\n" ; lsd | grep --invert-match "dr.*" | tail -10'
-### Send `^L` command, add new line, show 10 most recent files
-## </global>
-
-## <suffix>
-alias -s {css,html,js,md,sh,zsh,,}='code' # open file w/ {ext} in VSCode
-## </suffix>
 # </aliases>
 
-# <autoload>
-# autoload -Uz compinit && compinit  # without Turbo
-zinit wait lucid atload"zicompinit; zicdreplay" blockf for \
-  zsh-users/zsh-completions \
-  jeffreytse/zsh-vi-mode
-autoload -Uz zmv
-# </autoload>
+# <cd++>
+if [ -e $HOME/.zsh_functions ]; then
+    source $HOME/.zsh_functions
+fi
+# </cd++>
 
 # <executables>
 printf "\033c\n" ; meteo
