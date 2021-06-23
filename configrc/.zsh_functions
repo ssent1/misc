@@ -6,7 +6,7 @@
 function cl() {
   DIR="$*"
   if [ $# -lt 1 ]; then
-    DIR=$HOME # if no DIR given, go $HOME
+    DIR=$PWD # if no DIR given, assume $PWD (current working directory)
   fi
   builtin cd "${DIR}" &&
     ls -aFGhort                               # sort by date, descending
