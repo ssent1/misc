@@ -15,6 +15,7 @@ zinit wait lucid atload light-mode for \
   zsh-users/zsh-autosuggestions \
   zsh-users/zsh-completions
 ## </zinit Turbo Mode>
+
 ## <autoload>
 zinit wait lucid atload"zicompinit; zicdreplay" blockf for \
   zsh-users/zsh-completions \
