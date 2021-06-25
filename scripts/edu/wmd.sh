@@ -1,4 +1,23 @@
 #! /bin/bash
+# @@@--> NOT WORKING PROPERLY IN BASH <--@@@
+# get the following
+#   wmd:h -> /root/user/parent/dir/subdir/basename.ext:h
+#   wmd:t -> /root/user/parent/dir/subdir/basename.ext:t
+#   wmd:r -> /root/user/parent/dir/subdir/basename.ext:r
+#   wmd:e -> /root/user/parent/dir/subdir/basename.ext:e
+#   wmd:p -> /root/user/parent/dir/subdir/basename.ext:p
+#   wmd:q -> /root/user/parent/dir/subdir/basename.ext:q
+#   wmd:x -> /root/user/parent/dir/subdir/basename.ext:x
+
+# should get
+#   wmd:h -> /root/user/parent/dir/subdir
+#   wmd:t -> basename.ext
+#   wmd:r -> /root/user/parent/dir/subdir/basename
+#   wmd:e -> ext
+#   wmd:p -> /root/user/parent/dir/subdir/basename.ext:p
+#   wmd:q -> /root/user/parent/dir/subdir/basename.ext
+#   wmd:x -> /root/user/parent/dir/subdir/basename.ext:x
+
 # test Bash "Word Modifiers and Designators"
 unset wmd
 printf "\033c\n"
