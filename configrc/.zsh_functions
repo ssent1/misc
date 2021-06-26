@@ -14,3 +14,15 @@ function cl() {
   lsd | grep --invert-match "dr.*" | tail -10 # print 10 most recent files
 }
 # </cd++>
+
+# <RB>
+## run brewster @ startup?
+function RB() {
+  if read -qr "CHOICE?Press \[Yy\] to run brewster: "; then
+    brewster
+    return 0
+  else
+    return 1
+  fi
+}
+# </RB>

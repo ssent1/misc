@@ -66,8 +66,8 @@ if [[ "$UID" -ne 0 ]]; then
   alias dgk='sudo spctl --master-disable # disable Gatekeeper'
   alias egk='sudo spctl --master-enable # enable Gatekeeper'
   alias rms='printf "%s\n" "-> WARNING <- use \"trash\" or \"sudo rm -Rfd\""'
-  alias sd='sudo shutdown -h +1 - "-> SHUTTING DOWN <-  To abort, type ^c."'
-  alias sr='sudo shutdown -r now - "-> REBOOTING <-  To abort, type ^c."'
+  alias sd='sudo shutdown -h +1 "-> SHUTTING DOWN <-\n->  To abort, type ^c."'
+  alias sr='sudo shutdown -r now "-> REBOOTING <-\n->  To abort, type ^c."'
   alias svi='sudo vi'
   alias topc='sudo htop -s PERCENT_CPU' # sort by CPU%
   alias topm='sudo htop -s PERCENT_MEM' # sort by MEM%
