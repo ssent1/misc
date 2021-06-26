@@ -34,7 +34,6 @@ HISTFILE=~/.histfile
 HISTSIZE=10000
 SAVEHIST=10000
 # ZSH_THEME="powerlevel10k/powerlevel10k"
-ZSH_THEME="dracula"
 setopt autocd extendedglob nomatch notify
 setopt no_list_ambiguous
 unsetopt beep
