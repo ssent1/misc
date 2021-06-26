@@ -82,10 +82,10 @@ fi
 # </cd++>
 
 # <executables>
+RB # promt to run "brewster"
 printf "\033c\n" ; meteo
 cd /Users/syd/Dropbox/nvalt_repo ; lsd | grep --invert-match "dr.*" | tail -10
 function https-server() { http-server --ssl --cert ~/.localhost-ssl/localhost.crt --key ~/.localhost-ssl/localhost.key }
 source ~/.iterm2_shell_integration.zsh
 source ~/powerlevel10k/powerlevel10k.zsh-theme
-RB # promt to run "brewster"
 # </executables>
