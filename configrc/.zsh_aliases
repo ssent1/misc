@@ -15,7 +15,6 @@ alias -g iz='; printf "\033c\n" ; lsd | grep --invert-match "\..*" | tail -10'
 ## </global>
 
 ## <simple>
-alias ,='printf "$PWD\n" | pbcopy' # print working directory
 alias ....='cd ../../../' # go up three levels
 alias ...='cd ../../'     # go up two levels
 alias ..='cd ../'         # go up one level
@@ -43,6 +42,7 @@ alias misc='cd /Users/syd/Code/misc ; iz'         # show 10 most recent items
 alias mkdir='mkdir -pv'                           # create, list dirs, if required
 alias nm='cd /Users/syd/Dropbox/nvalt_repo ; fz'  # show 10 most recent files
 alias path='printf ${PATH//:/\\n}"\n"'            # show binary directories
+alias pcd='printf "$PWD\n" | pbcopy' # [p]rint [c]urrent working [d]irectory
 alias ping='ping -c10 1.1.1.1'
 alias rca='vim /Users/syd/.zsh_aliases' # edit vim aliases
 alias rcv="vim /Users/syd/.vimrc"       # edit vim config

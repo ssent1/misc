@@ -33,7 +33,8 @@ man() {
 HISTFILE=~/.histfile
 HISTSIZE=10000
 SAVEHIST=10000
-ZSH_THEME="powerlevel10k/powerlevel10k"
+# ZSH_THEME="powerlevel10k/powerlevel10k"
+ZSH_THEME="dracula"
 setopt autocd extendedglob nomatch notify
 setopt no_list_ambiguous
 unsetopt beep
@@ -86,4 +87,5 @@ cd /Users/syd/Dropbox/nvalt_repo ; lsd | grep --invert-match "dr.*" | tail -10
 function https-server() { http-server --ssl --cert ~/.localhost-ssl/localhost.crt --key ~/.localhost-ssl/localhost.key }
 source ~/.iterm2_shell_integration.zsh
 source ~/powerlevel10k/powerlevel10k.zsh-theme
+RB # promt to run "brewster"
 # </executables>
