@@ -5,7 +5,7 @@
 ## cd++ changes to new directory then prints 10 most recent files
 function cl() {
   DIR="$*"
-  if [ $# -lt 1 ]; then
+  if [[ $# -lt 1 ]]; then
     DIR=$PWD # if no DIR given, assume $PWD (current working directory)
   fi
   builtin cd "${DIR}" &&
@@ -16,10 +16,10 @@ function cl() {
 # </cd++>
 
 # <RB>
-## run brewster @ startup?
-function RB() {
-  if read -qr "CHOICE?Press \[Yy\] to run brewster:  " ; then
-    printf "\033c\n-->running brewster..."
+## run brewster function at startup?
+function brewsterf() {
+  if read -qr "CHOICE?Press \[Yy\] to run Brewster:  " ; then
+    printf "\033c\n==> running Brewster...\n\n"
     brewster
     return 0
   else
