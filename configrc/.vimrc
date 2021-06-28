@@ -22,8 +22,13 @@ set wrapscan                " wrap when search reaches start/end of file
 syntax on                   " enable syntax highlighting
 
 " SPELLCHECK
-set complete+=kspell             " enable word completion; triggers: ^n/^p
-set spell! spelllang=en_ca,en_us " enable spellcheck; Canadian, American
+set complete+=kspell      " enable word completion; triggers: ^n/^p
+set spelllang=en_ca,en_us " enable spellcheck; Canadian, American
+augroup markdownSpell
+    autocmd!
+    autocmd FileType markdown setlocal spell
+    autocmd BufRead,BufNewFile *.md setlocal spell
+augroup END
 
 " HYBRID LINE NUMBERS
 set number relativenumber " enable hybrid line numbers
