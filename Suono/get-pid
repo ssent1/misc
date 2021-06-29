@@ -1,0 +1,31 @@
+tell application "System Events"
+	set SUONO to (unix id of process "System Preferences")
+	display dialog SUONO
+	# do shell script "kill -3 " & SUONO
+end tell
+
+# open dialog box with System Preference's processor ID (pid)
+# live version uses "kill -3; kill (see: man kill)"
+
+3	QUIT (quit)
+9	KILL (non-catchable, non-ignorable kill)
+
+## show all description of all UI varaibles
+
+```osascript
+tell application "System Events"
+	tell process "System Preferences"
+		set visible to true
+		return every UI element of front window
+		return name of every UI element of front window
+	end tell
+end tell
+get list of process descriptions
+```
+
+```txt
+{tab group 1 of window "Sound" of application process "System Preferences" of application "System Events", static text "Output volume:" of window "Sound" of application process "System Preferences" of application "System Events", image 1 of window "Sound" of application process "System Preferences" of application "System Events", slider "Output volume:" of window "Sound" of application process "System Preferences" of application "System Events", checkbox "Mute" of window "Sound" of application process "System Preferences" of application "System Events", checkbox "Show volume in menu bar" of window "Sound" of application process "System Preferences" of application "System Events", image 2 of window "Sound" of application process "System Preferences" of application "System Events", toolbar 1 of window "Sound" of application process "System Preferences" of application "System Events", button 1 of window "Sound" of application process "System Preferences" of application "System Events", button 2 of window "Sound" of application process "System Preferences" of application "System Events", button 3 of window "Sound" of application process "System Preferences" of application "System Events", static text "Sound" of window "Sound" of application process "System Preferences" of application "System Events"}
+```
+
+# https://stackoverflow.com/questions/11708459/applescript-getting-elements/16711663 "Applescript getting elements"
+# https://developer.apple.com/library/archive/technotes/tn2065/_index.html "Technical Note TN2065: do shell script in AppleScript"
