@@ -14,10 +14,10 @@ set rtp+=/usr/local/opt/fzf " enable interactive command-line fuzzy finder/filte
 set showbreak=-->           " enable line break prefix
 set showmatch!              " toggle highlight matching braces
 set smartcase               " enable smart-case search
-set textwidth=120           " enable line wrap, columns
+set textwidth=120           " set column width for line wrap
 set title                   " enable title in terminal
 set visualbell              " enable visual bell, no beep
-set wrap                    " wrap lines
+set wrap!                   " toggle line wrap
 set wrapscan                " wrap when search reaches start/end of file
 syntax on                   " enable syntax highlighting
 
@@ -65,11 +65,12 @@ noremap <C-e> 3<C-e>
 noremap <C-y> 3<C-y>
 nmap <silent> <leader>; :set spell!<CR>
 nmap <silent> <leader>s :set nolist!<CR>
+nmap <silent> <leader>w :call ToggleWrap()<CR>
 nnoremap <silent><Space> :nohlsearch<Bar>:echo<CR>
+" set leader to apostrophe:          '
 " move screen down/up three lines:   ^e/^y
 " toggle spellcheck/show whitespace: ';/'s
 " clear search highlighting:         <Space>
-" set leader to apostrophe:          '
 
 " SWAP AND BACKUP FILES
 set backupdir=~/.vim_tmp,~/.tmp,~/tmp,/var/tmp,/tmp
@@ -103,6 +104,20 @@ set ttimeout
 set ttimeoutlen=1
 set listchars=tab:>-,trail:~,extends:>,precedes:<,space:.
 set ttyfast
+
+" TOGGLE WRAPPING MODES
+function ToggleWrap()
+ if (&wrap == 1)
+   if (&linebreak == 0)
+     set linebreak
+   else
+     set nowrap
+   endif
+ else
+   set wrap
+   set nolinebreak
+ endif
+endfunction
 
 " PLUGINS
 "" Automatic Installation
