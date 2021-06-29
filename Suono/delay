@@ -1,0 +1,40 @@
+# Delay
+
+## Basic
+
+```bash
+delay 7
+display alert "Let them eat cake!"
+
+
+## More Complex
+
+```bash
+use framework "Foundation"
+use scripting additions
+current application's NSThread's sleepForTimeInterval:1
+
+tell (delay 2)
+	tell application "System Events"
+		set SUONO to (unix id of process "System Preferences")
+		display dialog SUONO
+		do shell script "kill -1 " & SUONO
+	end tell
+end tell
+```
+
+(*
+Table 12-2. Common kill signals
+
+SIGHUP. | 01  | Hangup      
+SIGINT. | 02  | Interrupt   
+SIGKILL | 09  | Kill        
+SIGTERM | 15  | Terminate   
+SIGSTOP | 17  | Stop process
+SIGSTOP | 19  | Stop process
+SIGSTOP | 23  | Stop process
+
+https://apple.stackexchange.com/questions/161749/applescript-delay-command-not-working-since-switch-to-yosemite "delay: AppleScript"
+https://linux.die.net/Bash-Beginners-Guide/sect_12_01.html "Signals"
+*)
+
