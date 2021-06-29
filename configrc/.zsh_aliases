@@ -27,11 +27,11 @@ alias cntf='find . -type f -maxdepth 1 | wc -l' # [f]iles: count files in dir
 alias cnti='find . -maxdepth 1 | wc -l'         # [i]tems: count items in dir
 alias cpv='rsync -ah --info=progress2'          # copy, readable xfer stats
 alias diff='colordiff -u'                       # compare lines, unify context
-alias egrep='grep -E --color=auto'              # egrep/fgrep calls deprecated
-alias fgrep='grep -F --color=auto'              # egrep/fgrep calls deprecated
+alias egrep='grep -Ei --color=auto'             # egrep/fgrep calls deprecated
+alias fgrep='grep -Fi --color=auto'             # egrep/fgrep calls deprecated
+alias grep='grep -i --color=auto'               # set case -[i]nsensitive
 alias gitp='git push ; git status'
 alias gits='git status'
-alias grep='grep --color=auto'
 alias h='history'
 alias ip='curl -sw "\n" https://ifconfig.me/ip | tee >(tr -d "\n" | pbcopy)'
 alias j='jobs -l'
