@@ -65,7 +65,7 @@ noremap <C-e> 3<C-e>
 noremap <C-y> 3<C-y>
 nmap <silent> <leader>; :set spell!<CR>
 nmap <silent> <leader>s :set nolist!<CR>
-nmap <silent> <leader>w :call ToggleWrap()<CR>
+nmap <silent> <leader>1 :call ToggleWrap()<CR>
 nnoremap <silent><Space> :nohlsearch<Bar>:echo<CR>
 " set leader to apostrophe:          '
 " move screen down/up three lines:   ^e/^y
