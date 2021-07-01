@@ -16,7 +16,7 @@ function cl() {
 # </cd++>
 
 # <RB>
-## run brewster function at startup?
+## run Brewster function at startup?
 function brewsterf() {
   if read -qr "CHOICE?Press [y]es to run Brewster:  " ; then
     printf "\033c\n==> running Brewster...\n\n"

@@ -62,7 +62,7 @@ alias zcp='zmv -C'  # force cp - copy
 alias zln='zmv -L'  # force ln - hard link
 alias zsl='zmv -Ls' # force ln -s - symbolic link
 alias {bc,calc}='bc --mathlib --quiet' # calculator
-alias {rp,readlink}='realpath -m | tee pbcopy' # absolute canonical pathname
+alias {rp,readlink}='realpath -m | pbcopy' # absolute canonical pathname
 alias {v,vi}="vim"
 ## </simple>
 
