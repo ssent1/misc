@@ -59,28 +59,33 @@
 				<string>Looking up device...</string>
 				<key>script</key>
 				<string>(
-  IFS=$'\n'
-  array=("$(grep -i {query} mac_daddy)")
+    IFS=$'\n'
+    array=("$(grep -i {query} DBmacDaddy)")
 
-  echo '&lt;?xml version="1.0"?&gt;'
-  echo '&lt;items&gt;'
-  echo ''
+    printf "%s\n" '&lt;?xml version="1.0"?&gt;'
+    printf "%s\n" '&lt;items&gt;'
+    printf "%s\n" ''
 
-  for i in "${array[@]}"; do
-    macaddr=("$(echo "$i" | cut -d\, -f1)")
-    device=("$(echo "$i" | cut -d\, -f4)")
-    ipaddr=("$(echo "$i" | cut -d\, -f3)")
-    output="$macaddr --&gt; ($device)"
+    for i in "${array[@]}"; do
+        macaddr=("$(printf "%s\n" "$i" | cut -d\, -f1)")
+        device=("$(printf "%s\n" "$i" | cut -d\, -f4)")
+        ipaddr=("$(printf "%s\n" "$i" | cut -d\, -f3)")
 
-    echo "&lt;item arg=\"$output\" valid=\"yes\"&gt;"
-    echo "&lt;title&gt;$device ↔︎ $ipaddr ↔︎ $macaddr&lt;/title&gt;"
-    echo "&lt;subtitle&gt;☛ Run 'sudo nmap -sP 192.168.1.0/24' if IP is outdated.&lt;/subtitle&gt;"
-    echo "&lt;icon&gt;mac_daddy.png&lt;/icon&gt;&lt;/item&gt;"
-    echo ""
+        # concatenate variables
+        output="$macaddr --&gt; ($device)"
 
-  done
+        # return value(s) to {query} in Alfred
+        printf "%s\n" "&lt;item arg=\"$output\" valid=\"yes\"&gt;"
 
-  echo "&lt;/items&gt;"
+        # display output in Alfred's GUI
+        printf "%s\n" "&lt;title&gt;$device ↔︎ $ipaddr ↔︎ $macaddr&lt;/title&gt;"
+        printf "%s\n" "&lt;subtitle&gt;|-&gt; Run 'sudo nmap -sP 192.168.1.0/24' if IP is outdated.&lt;/subtitle&gt;"
+        printf "%s\n" "&lt;icon&gt;mac_daddy.png&lt;/icon&gt;&lt;/item&gt;"
+        printf "%s\n" ""
+
+    done
+
+    printf "%s\n" "&lt;/items&gt;"
 )
 </string>
 				<key>title</key>
