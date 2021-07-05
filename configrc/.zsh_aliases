@@ -27,6 +27,7 @@ alias cntf='find . -type f -maxdepth 1 | wc -l' # [f]iles: count files in dir
 alias cnti='find . -maxdepth 1 | wc -l'         # [i]tems: count items in dir
 alias cpv='rsync -ah --info=progress2'          # copy, readable xfer stats
 alias diff='colordiff -u'                       # compare lines, unify context
+alias dirs='dirs -v' # list remembered directories, prefix with stack index
 alias egrep='grep -Ei --color=auto'             # egrep/fgrep calls deprecated
 alias fgrep='grep -Fi --color=auto'             # egrep/fgrep calls deprecated
 alias grep='grep -i --color=auto'               # set case -[i]nsensitive
