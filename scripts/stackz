@@ -1,0 +1,54 @@
+#!/usr/bin/env bash
+
+# get asbsolute path from the "root" directory of your folder stack
+# e.g. /Users/syd/desktop/root/user/parent/dir/subdir/subsubdir
+fn() {
+  local IFS=/
+  vared -ca -p "Please enter the absolute path to your starting directory?" PATHvar
+  len=${#PATHvar[@]}
+  print "$PATHvar"
+  for ((i = 1; i <= len; ++i)); do
+    print "$i --> " "${PATHvar[$i]}"
+  done
+  unset PATHvar
+}
+
+# % fn
+# Please enter the absolute path to your starting directory?/Users/syd/desktop/root/user/parent/dir/subdir/subsubdir
+# 
+# /Users/syd/desktop/root/user/parent/dir/subdir/subsubdir
+# 
+# 1 -->
+# 2 -->  Users
+# 3 -->  syd
+# 4 -->  desktop
+# 5 -->  root
+# 6 -->  user
+# 7 -->  parent
+# 8 -->  dir
+# 9 -->  subdir
+# 10 -->  subsubdir
+
+
+# ///\\\///\\\///\\\///\\\///\\\///\\\///\\\///\\\///\\\///\\\///\\\///\\\///\\\///\\\///\\\///\\\///\\\///\\\///\\\///
+# app     : stackz
+# ver     : 0.001
+# ---
+# file    : stackz
+# title   : build directory stack
+# subject : test pushd, popd, etc.
+# author  : Syd Salmon
+# company : Proganica Brand Development
+# comments:
+# keywords: zsh, bash, testing
+# ---
+# GNU General Public License
+# Copyright (C) 2021 Syd Salmon
+# This program comes with ABSOLUTELY NO WARRANTY.
+# This is free software. You are welcome to redistribute it.
+# Attract more good karma! Credit the author.
+# ---
+# > 2021-07-04T12:05:05-0400
+# + 2021-07-04T12:05:05-0400
+#
+# https://www.cyberciti.biz/faq/finding-bash-shell-array-length-elements/
