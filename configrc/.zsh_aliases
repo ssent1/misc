@@ -56,14 +56,15 @@ alias songd='/Users/syd/Dropbox/nvalt_repo/music/songs' # mnemonic: song directo
 alias sz='source /Users/syd/.zshrc'
 alias teux='vim /Users/syd/Dropbox/nvalt_repo/teuxdeux--\ task-list-\ working.md'
 alias tma='tmux -CC attach'
-alias tmx='tmux -CC new -As0' # -A =IF(new-session=FALSE, -d (attach-session), new-session); 0 = default session name
-alias trh='trash' # send item(s) to "trash"
-alias wttr='curl https://wttr.in/YKF\?F --silent --max-time 3' # weatherForecast
-alias zcp='zmv -C'  # force cp - copy
-alias zln='zmv -L'  # force ln - hard link
-alias zsl='zmv -Ls' # force ln -s - symbolic link
-alias {bc,calc}='bc --mathlib --quiet' # calculator
-alias {rp,readlink}='realpath -m | pbcopy' # absolute canonical pathname
+alias tmx='tmux -CC new -As0'  # -A =IF(new-session=FALSE, -d (attach-session), new-session); 0 = default session name
+alias trh='trash'              # send item(s) to "trash"
+alias wttr='curl https://wttr.in/YKF\?F --silent --max-time 3'  # weatherForecast
+alias zcalc='zcalc -f -r4'                  # floating point, four stack elements
+alias zcp='zmv -C'                          # force cp - copy
+alias zln='zmv -L'                          # force ln - hard link
+alias zsl='zmv -Ls'                         # force ln -s - symbolic link
+alias {bc,calc}='bc --mathlib --quiet'      # calculator
+alias {rp,readlink}='realpath -m | pbcopy'  # absolute canonical pathname
 alias {v,vi}="vim"
 ## </simple>
 

@@ -64,6 +64,10 @@ fi
 ## </plugins>
 # </zinit>
 
+# <zsh_utilities>
+autoload -Uz zcalc
+# </zsh_utilities>
+
 # <key_bindings>
 bindkey -e  # enable Emacs mode
 # </key_bindings>
