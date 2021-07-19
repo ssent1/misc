@@ -97,9 +97,10 @@ set sidescrolloff=15
 
 " CURSOR APPEARANCE
 autocmd InsertEnter,InsertLeave * set cul! culopt=screenline
-let &t_SI = "\e[1 q"  " [s]tart [i]nsert  mode; cursor: blinking block
-let &t_SR = "\e[0 q"  " [s]tart [r]eplace mode; cursor: blinking bar
-let &t_EI = "\e[4 q"  " [e]nd   [ir]nsert mode; cursor: steady underline
+let &t_SI = "\e[5 q"  " [s]tart [i]nsert  mode; cursor: blinking bar
+let &t_SR = "\e[3 q"  " [s]tart [r]eplace mode; cursor: steady underline
+let &t_EI = "\e[1 q"  " [e]nd   [ir]nsert mode; cursor: blinking block
+set guicursor+=i:blinkwait300-blinkon100-blinkoff200
 set ttimeout
 set ttimeoutlen=1
 set listchars=tab:>-,trail:~,extends:>,precedes:<,space:.
