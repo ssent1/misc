@@ -15,10 +15,12 @@ alias -g iz='; printf "\033c\n" ; lsd | grep --invert-match "\..*" | tail -10'
 ## </global>
 
 ## <simple>
-alias ....='cd ../../../' # go up three levels
-alias ...='cd ../../'     # go up two levels
-alias ..='cd ../'         # go up one level
-alias bi='brew install'
+alias ....='cd ../../../'       # go up three levels
+alias ...='cd ../../'           # go up two levels
+alias ..='cd ../'               # go up one level
+alias bif='brew install'        # install Homebrew formulae (CL app)
+alias bic='brew install --cask' # install Homebrew cask (GUI app)
+alias bs='brew search'          # search Homebrew formulae names & cask tokens
 alias brewster='zsh /Users/syd/Code/misc/Brewster/brewster.zsh'
 alias cd..='cd ..'
 alias cdl='cl'                                  # cd, sort by [d]ate
@@ -41,19 +43,23 @@ alias meteo='bash /Users/syd/Code/meteo/meteo.sh'  # show weather
 alias misd='cd /Users/syd/Code/misc ; iz'          # mnemonic: misc. directory
 alias mkdir='mkdir -pv'                            # create, list dirs, if req'd
 alias nvad='cd /Users/syd/Dropbox/nvalt_repo ; iz' # mnemonic: nvALT repo dir
+alias osa='open /Applications/Signal.app'
+alias osk='open /Applications/Sidekick.app'
+alias owa='open /Applications/WhatsApp.app'
 alias path='printf ${PATH//:/\\n}"\n"'             # show binary directories
 alias pcd='printf "$PWD\n" | pbcopy'               # [p]rint [c]urrent [d]ir
-alias ping='ping -c10 1.1.1.1'                     # send 10 packets
+alias png='ping -c10 1.1.1.1'                      # send 10 packets
 alias pwd='printf "%s\n" "|> INFO <|  Did you mean \"pcd\"?"'
-alias rca='vim /Users/syd/.zsh_aliases'   # edit vim aliases
-alias rcf='vim /Users/syd/.zsh_functions' # edit vim aliases
-alias rcp='vim /Users/syd/.zsh_plugins'   # edit vim aliases
+alias rca='vim /Users/syd/.zsh_aliases'   # edit zsh aliases
+alias rcf='vim /Users/syd/.zsh_functions' # edit zsh functions
+alias rcp='vim /Users/syd/.zsh_plugins'   # edit zsh plugins
 alias rcv="vim /Users/syd/.vimrc"         # edit vim config
 alias rcz='vim /Users/syd/.zshrc'         # edit zsh config
 alias rm='printf "%s\n" "" "@@@--> WARNING <--@@@" "Do no use \"rm\". Opt for one of:" "" "|> trh" "|> sudo rm -Rfd"'
 alias scanz='zsh /Users/syd/Code/misc/scanz/scanz.sh'
+alias smartrg='ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 admin@192.168.1.1'
 alias songd='/Users/syd/Dropbox/nvalt_repo/music/songs' # mnemonic: song directory
-alias sz='source /Users/syd/.zshrc'
+alias sz='source /Users/syd/.zshrc'                     # run zsh run commands (rc)
 alias teux='vim /Users/syd/Dropbox/nvalt_repo/teuxdeux--\ task-list-\ working.md'
 alias tma='tmux -CC attach'
 alias tmx='tmux -CC new -As0'  # -A =IF(new-session=FALSE, -d (attach-session), new-session); 0 = default session name

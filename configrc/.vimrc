@@ -142,13 +142,16 @@ autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
 
 "" Load plugins
 call plug#begin('~/.vim/plugged')
+Plug 'bradford-smith94/vim-autolist'
 Plug 'chriskempson/base16-vim'
+Plug 'christoomey/vim-titlecase'
 Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-speeddating'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-unimpaired'
+Plug 'triglav/vim-visual-increment'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 call plug#end()
