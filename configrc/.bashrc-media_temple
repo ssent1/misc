@@ -1,0 +1,107 @@
+# MediaTemple (mt)
+
+## bashrc file for MediaTemple (mt)
+
+```r
+cat <<EOF> ~/.bashrc
+export PS1="\[\e[32m\][\[\e[m\]\[\e[31m\]\u\[\e[m\]\[\e[33m\]@\[\e[m\]\[\e[32m\]\h\[\e[m\]:\[\e[36m\]\w\[\e[m\]\[\e[32m\]]\[\e[m\]\[\e[32;47m\]\\$\[\e[m\] "
+export CLICOLOR=1
+export LSCOLORS=ExGxBxDxCxEgEdxbxgxcxd
+# <alias>
+alias ...='cd ../../../'
+alias ..='cd ..'
+alias .='echo $PWD'
+alias bc='bc -l'
+alias cd..='cd ..'
+alias cdl='cd l'
+alias cls='clear'
+alias diff='colordiff'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias grep='grep --color=auto'
+alias h='history'
+alias j='jobs -l'
+alias ls='ls -alh'
+alias lsd='ls -aFhort --colors'
+alias lsn='ls -aFhor --colors'
+alias lss='ls -aFhorS --colors'
+alias mkdir='mkdir -pv'
+alias path='echo -e ${PATH//:/\\n}'
+alias rm='rm -Rfd'
+# </alias>
+EOF
+
+source ~/.bashrc
+```
+
+## ANSI Terminal Colors
+
+light_green="\[\e[1;32m\]"
+light_red="\[\e[1;31m\]"
+yellow="\[\e[0;33m\]"
+gray="\[\e[0;37m\]"
+reset="\[\e[m\]"
+
+## Custom Prompt
+
+The default macOS prompt is: `\h:\W \u\$`
+
+Bash/Zsh prompt with the last exit code.
+
+```sh -
+prompt_command() {
+ local status="$?"
+ local status_color=""
+ if [ $status != 0 ]; then
+   status_color=$light_red
+ else
+   status_color=$light_green
+ fi
+ export PS1="[${yellow}\w${reset}]${gray}$(__git_ps1)${reset} ${status_color}λ${reset} "
+}
+export GIT_PS1_SHOWDIRTYSTATE=1
+export PROMPT_COMMAND=prompt_commandsh
+```
+
+## Alt. Custom Prompt
+
+```sh -
+function __build_prompt {
+ local EXIT="$?" # store current exit code
+ # define colours
+ local RESET='\[\e[0m\]'
+ local RED='\[\e[0;31m\]'
+ local GREEN='\[\e[0;32m\]'
+ local BOLD_GRAY='\[\e[1;30m\]'
+ # colour codes here: https://unix.stackexchange.com/a/124408
+ # start with an empty PS1
+ PS1=""
+ if [[ $EXIT -eq 0 ]]; then
+   PS1+="${GREEN}√${RESET} " # Add green for success
+ else
+   PS1+="${RED}?️️️${EXIT}${RESET} " # Add red if exit code non 0
+ fi
+ # this is the default prompt for
+ PS1+="${BOLD_GRAY}\W ${RESET}\$ "
+
+# set the prompt command
+# include previous values to maintain Apple Terminal support (window title path and sessions)
+# this is explained in /etc/bashrc_Apple_Terminal
+PROMPT_COMMAND="__build_prompt${PROMPT_COMMAND:+; $PROMPT_COMMAND}"
+
+olieau.com@n10:~_0λ
+}
+```
+
+## Notes & References
+
+Tags: bash, bashrc, config file, cli, command line, linux,  programming, shellscript, terminals, unix, zsh
+
+^ _2020-12-03T19:28:12-0500_\
+% _2022-01-12T21:34:59-0500_
+
+<!-- SOURCES & RESOURCES -->
+
+[1]: https://www.cyberciti.biz/faq/bash-shell-change-the-color-of-my-shell-prompt-under-linux-or-unix/ "BASH Shell Change The Color of Shell Prompt on Linux or UNIX - nixCraft"
+[2]: https://stackoverflow.com/questions/16715103/bash-prompt-with-the-last-exit-code/16715681#16715681 "Bash prompt"
+[3]: https://www.howtogeek.com/307899/how-to-change-the-colors-of-directories-and-files-in-the-ls-command/ "How to Change the Colors of Directories and Files in the ls Command"
