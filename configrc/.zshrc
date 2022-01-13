@@ -4,7 +4,7 @@
 export PATH="/usr/local/sbin:$PATH"     # enable current zsh; not pre-installed
 export CLICOLOR=1                       # enable colourized output
 export ITERM2_SQUELCH_MARK=1            # enable iTerm to add marks at prompt
-export LSCOLORS=ExGxBxDxCxEgEdxbxgxcxd  # enable coloured Linux `ls` commands
+export LSCOLORS=ExGxBxDxCxEgEdxbxgxcxd  # enable coloured `ls` commands
 let base16colorspace=256                # enable 256 (24-bit RGB) colour space
 
 # <powerlevel10k>
