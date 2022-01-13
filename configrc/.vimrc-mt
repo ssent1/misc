@@ -1,0 +1,41 @@
+# vimrc — MediaTemple (mt)
+
+`~/.vimrc`
+
+```sh - vimrc
+set autoindent        " Auto-indent new lines"
+set autoread          " Reload files .. outside vim"
+set clipboard=unnamed " Enable copy to clipboard"
+set expandtab         " Use spaces instead of tabs"
+set gcr=a:blinkon0    " Disable cursor blink"
+set gdefault          " Substitute all matches"
+set hlsearch          " Highlight search results_"
+set ignorecase        " Make case-insensitive"
+set incsearch         " _dynamically as typed"
+set linebreak         " Break lines at word"
+set mouse=a           " Activate mouse"
+set nospell           " Disable spell-checking"
+set number            " Show line numbers"
+set ruler             " Show ruler information"
+set shiftwidth=4      " Set auto-indent space qty"
+set showbreak=+++     " Wrap-broken line prefix"
+set showmatch         " Highlight matching brace"
+set smartcase         " Use smart-case search"
+set smartindent       " Enable smart-indent"
+set smarttab          " Enable smart-tabs"
+set softtabstop=4     " Set spaces per tab"
+set textwidth=120     " Line wrap"
+set title             " Set terminal title"
+set visualbell        " Use visual bell"
+set wrap              " Wrap lines"
+```
+
+<!-- SOURCES & RESOURCES -->
+
+[1]: http://www.catb.org/~esr/writings/taoup/html/ch10s03.html "Run-Control Files"
+
+---
+
+tags: vimrc, vim, run-control, runtime, resource configuration, command line, cli, linux
+
+updated: _20210513_135934_
