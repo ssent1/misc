@@ -1,41 +1,30 @@
-# vimrc — MediaTemple (mt)
-
-`~/.vimrc`
-
-```sh - vimrc
-set autoindent        " Auto-indent new lines"
-set autoread          " Reload files .. outside vim"
-set clipboard=unnamed " Enable copy to clipboard"
-set expandtab         " Use spaces instead of tabs"
-set gcr=a:blinkon0    " Disable cursor blink"
-set gdefault          " Substitute all matches"
-set hlsearch          " Highlight search results_"
-set ignorecase        " Make case-insensitive"
-set incsearch         " _dynamically as typed"
-set linebreak         " Break lines at word"
-set mouse=a           " Activate mouse"
-set nospell           " Disable spell-checking"
 set number            " Show line numbers"
-set ruler             " Show ruler information"
-set shiftwidth=4      " Set auto-indent space qty"
+set linebreak         " Break lines at word"
 set showbreak=+++     " Wrap-broken line prefix"
+set textwidth=120     " Line wrap"
+set wrap              " Wrap lines"
 set showmatch         " Highlight matching brace"
+set nospell           " Disable spell-checking"
+set visualbell        " Use visual bell"
+set gcr=a:blinkon0    " Disable cursor blink"
+
+set hlsearch          " Highlight search results_"
+set incsearch         " _dynamically as typed"
 set smartcase         " Use smart-case search"
+set ignorecase        " Make case-insensitive"
+set gdefault          " Substitute all matches"
+set autoindent        " Auto-indent new lines"
+set expandtab         " Use spaces instead of tabs"
+set shiftwidth=4      " Set auto-indent space qty"
 set smartindent       " Enable smart-indent"
 set smarttab          " Enable smart-tabs"
 set softtabstop=4     " Set spaces per tab"
-set textwidth=120     " Line wrap"
+
 set title             " Set terminal title"
-set visualbell        " Use visual bell"
-set wrap              " Wrap lines"
-```
 
-<!-- SOURCES & RESOURCES -->
+set clipboard=unnamed " Enable copy to clipboard"
 
-[1]: http://www.catb.org/~esr/writings/taoup/html/ch10s03.html "Run-Control Files"
-
----
-
-tags: vimrc, vim, run-control, runtime, resource configuration, command line, cli, linux
-
-updated: _20210513_135934_
+set mouse=a           " Activate mouse"
+set autoread          " Reload files .. outside vim"
+set ruler             " Show ruler information"
+syntax on
