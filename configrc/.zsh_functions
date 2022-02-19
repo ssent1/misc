@@ -1,7 +1,6 @@
 #
 # Syd Salmon's zsh configuration: functions 
 #
-# <cd++>
 ## cd++ changes to new directory then prints 10 most recent files
 function cl() {
   DIR="$*"
@@ -13,9 +12,7 @@ function cl() {
   printf "\033c\n"                            # clear screen, insert newline
   lsd | grep --invert-match "dr.*" | tail -10 # print 10 most recent files
 }
-# </cd++>
 
-# <RB>
 ## run Brewster function at startup?
 function brewsterf() {
   if read -qr "CHOICE?Press [y]es to run Brewster:  " ; then
@@ -26,4 +23,12 @@ function brewsterf() {
     return 1
   fi
 }
-# </RB>
+
+## global alias expansion
+function globalias() {
+   if [[ $LBUFFER =~ ' [A-Z0-9]+$' ]]; then
+     zle _expand_alias
+     zle expand-word
+   fi
+   zle self-insert
+}
