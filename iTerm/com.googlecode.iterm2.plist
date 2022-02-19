@@ -2009,6 +2009,8 @@ Maximize Active Pane</string>
 					<string>(^\/.*)( )</string>
 				</dict>
 			</array>
+			<key>Unicode Version</key>
+			<integer>8</integer>
 			<key>Unlimited Scrollback</key>
 			<true/>
 			<key>Use Bold Font</key>
@@ -3348,7 +3350,7 @@ Maximize Active Pane</string>
 	<key>SeparateWindowTitlePerTab</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>
-	<true/>
+	<false/>
 	<key>ShowNewOutputIndicator</key>
 	<true/>
 	<key>ShowPaneTitles</key>
