@@ -70,6 +70,9 @@ autoload -Uz zcalc
 
 # <key_bindings>
 bindkey -e  # enable Emacs mode
+bindkey " " globalias
+bindkey "^ " magic-space            # control-space to bypass completion
+bindkey -M isearch " " magic-space  # normal space during searches
 # </key_bindings>
 
 # <aliases>
@@ -86,9 +89,10 @@ fi
 
 # <executables>
 source ~/powerlevel10k/powerlevel10k.zsh-theme
-brewsterf # show prompt to run "brewsterf"
+brewsterf # show prompt to run Brewster
 printf "\033c\n" ; meteo
 builtin cd /Users/syd/Dropbox/nvalt_repo ; lsd | grep --invert-match "dr.*" | tail -10 ; printf "\n"
 function https-server() { http-server --ssl --cert ~/.localhost-ssl/localhost.crt --key ~/.localhost-ssl/localhost.key }
 source ~/.iterm2_shell_integration.zsh
+zle -N globalias  # enable automatic global alias expansion
 # </executables>
