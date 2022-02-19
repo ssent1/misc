@@ -38,7 +38,7 @@ alias gits='git status'
 alias h='history'
 alias ip='curl -sw "\n" https://ifconfig.me/ip | tee >(tr -d "\n" | pbcopy)'
 alias j='jobs -l'
-alias ls='ls -alh'                                 # N.B. remaps default ls
+alias ls='ls -alh'                                 # NB: remaps default ls
 alias meteo='bash /Users/syd/Code/meteo/meteo.sh'  # show weather
 alias misd='cd /Users/syd/Code/misc ; iz'          # mnemonic: misc. directory
 alias mkdir='mkdir -pv'                            # create, list dirs, if req'd
@@ -58,8 +58,9 @@ alias rcz='vim /Users/syd/.zshrc'         # edit zsh config
 alias rm='printf "%s\n" "" "@@@--> WARNING <--@@@" "Do no use \"rm\". Opt for one of:" "" "|> trh" "|> sudo rm -Rfd"'
 alias scanz='zsh /Users/syd/Code/misc/scanz/scanz.sh'
 alias smartrg='ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 admin@192.168.1.1'
-alias songd='/Users/syd/Dropbox/nvalt_repo/music/songs' # mnemonic: song directory
-alias sz='source /Users/syd/.zshrc'                     # run zsh run commands (rc)
+alias songd='/Users/syd/Dropbox/nvalt_repo/music/songs'           # mnemonic: song directory
+alias songo='/Users/syd/Dropbox/nvalt_repo/music/songs/original'  # mnemonic: song directory > original
+alias src='source /Users/syd/.zshrc'                              # source zsh run commands (rc)
 alias teux='vim /Users/syd/Dropbox/nvalt_repo/teuxdeux--\ task-list-\ working.md'
 alias tma='tmux -CC attach'
 alias tmx='tmux -CC new -As0'  # -A =IF(new-session=FALSE, -d (attach-session), new-session); 0 = default session name
