@@ -21,7 +21,7 @@ set wrapscan                 " wrap when search reaches start/end of file
 syntax on                    " enable syntax highlighting
 
 " SPELLCHECK
-set complete+=kspell       " enable word completion; triggers: ^n/^p
+set complete+=kspell       " enable word completion; triggers: <C-n>/<C-p>
 set spelllang=en_ca,en_us  " enable spellcheck; Canadian, American
 augroup markdownSpell
     autocmd!
@@ -37,9 +37,9 @@ set autoindent     " auto-indent new lines
 set expandtab      " use spaces instead of tabs
 set smartindent    " enable smart-indent
 set smarttab       " enable smart-tabs
-set shiftwidth=4   " set auto-indent spaces
-set softtabstop=4  " set cursor movement for <Tab> keystroke
-set tabstop=4      " set spaces per tab
+set shiftwidth=4   " >>:    set # of whitespace columns made by >> (shift)
+set softtabstop=4  " <Tab>: set # of whitespace columns for <Tab> keystroke
+set tabstop=4      " \t:    set # of columns produced by \t <Tab> character
 
 " COPY & PASTE
 set clipboard=unnamed  " enable copy to clipboard
@@ -66,12 +66,12 @@ nmap O <Plug>AutolistNewLineAbove
 let mapleader="'"
 noremap <C-e> 3<C-e>
 noremap <C-y> 3<C-y>
-nmap <silent> <leader>; :set spell!<CR>
-nmap <silent> <leader>s :set nolist!<CR>
-nmap <silent> <leader>1 :call ToggleWrap()<CR>
+nmap <silent> <leader>;  :set spell!<CR>
+nmap <silent> <leader>s  :set nolist!<CR>
+nmap <silent> <leader>1  :call ToggleWrap()<CR>
 nnoremap <silent><Space> :nohlsearch<Bar>:echo<CR>
 " set leader to apostrophe:          '
-" move screen down/up three lines:   ^e/^y
+" move screen down/up three lines:   <C-e>/<C-y>
 " toggle spellcheck/show whitespace: ';/'s
 " clear search highlighting:         <Space>
 
@@ -80,7 +80,7 @@ set backupdir=~/.vim_tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set directory=~/.vim_tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 
 " COMPLETION
-set wildignore+=*.gem " ignore the following tab completion items:
+set wildignore+=*.gem  " ignore the following tab completion items:
 set wildignore+=*.png,*.jpg,*.gif
 set wildignore+=*DS_Store*
 set wildignore+=*sass-cache*
@@ -90,7 +90,7 @@ set wildignore+=tmp/**
 set wildignore+=vendor/cache/**
 set wildignore+=vendor/rails/**
 set wildignore=*.o,*.obj,*~
-set wildmenu " enable ^n and ^p to scroll thru matches
+set wildmenu  " enable <C-n> and <C-p> to scroll thru matches
 set wildmode=list:longest
 
 " SCROLLING
@@ -162,22 +162,19 @@ call plug#end()
 
 ""  Set plugin options
 """ airline
-let g:airline#extensions#tabline#enabled = 1 " show buffers in top status bar
-let g:airline_powerline_fonts = 1            " load powerline symbols
-let g:airline_theme='dark'                   " enable dark-mode theme
+let g:airline#extensions#tabline#enabled = 1  " show buffers in top status bar
+let g:airline_powerline_fonts = 1             " load powerline symbols
+let g:airline_theme='dark'                    " enable dark-mode theme
 
 """ autolist
 let g:autolist_unordered_markers = ['-', '*', '+', '- [ ]', '- [x]']
 
 """ markdown
-set foldenable " enable folding, vim-markdown
+set nofoldenable  " disable folding, vim-markdown
 hi DiffDelete ctermfg=17  ctermbg=45  guifg=#00005f guibg=#00dfff
 hi MatchParen ctermfg=17  ctermbg=45  guifg=#00005f guibg=#00dfff
 hi SpellLocal ctermfg=17  ctermbg=45  guifg=#00005f guibg=#00dfff
 hi SpellBad   ctermfg=232 ctermbg=160 guifg=#000000 guibg=#990000
-
-""" repeat.vim
-silent! call repeat#set("\<Plug>MyWonderfulMap", v:count)
 
 " REFERENCES
 "" https://gist.github.com/joegoggins/8482408
