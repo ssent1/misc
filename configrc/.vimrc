@@ -54,10 +54,13 @@ set listchars=tab:>-,trail:·,eol:$  " define whitespace characters
 set mouse=a                         " enable mouse
 set ruler                           " show row and column ruler information
 set showcmd                         " show incomplete commands in status line
-set showmode                        " show current mode in status line′
+set showmode                        " show current mode in status line
 set statusline+=%f                  " show file in status line
 set undolevels=1000                 " set maximum undo level
-autocmd BufNewFile * :write         " create file on initial edit
+augroup initSave
+    autocmd!
+    autocmd BufNewFile * :write  " create file on initial edit
+augroup END
 
 " KEY MAPS
 imap <CR> <Esc><Plug>AutolistReturn
@@ -99,7 +102,10 @@ set sidescroll=1
 set sidescrolloff=15
 
 " CURSOR APPEARANCE
-autocmd InsertEnter,InsertLeave * set cul! culopt=screenline
+augroup dynamicCursor
+    autocmd!
+    autocmd InsertEnter,InsertLeave * set cul! culopt=screenline
+augroup END
 let &t_SI = '\e[5 q'  " [s]tart [i]nsert  mode; cursor: blinking bar
 let &t_SR = '\e[3 q'  " [s]tart [r]eplace mode; cursor: steady underline
 let &t_EI = '\e[1 q'  " [e]nd   [ir]nsert mode; cursor: blinking block
@@ -167,7 +173,7 @@ let g:airline_powerline_fonts = 1             " load powerline symbols
 let g:airline_theme='dark'                    " enable dark-mode theme
 
 """ autolist
-let g:autolist_unordered_markers = ['-', '*', '+', '- [ ]', '- [x]']
+" let g:autolist_unordered_markers = ['-', '*', '+', '- [ ]', '- [x]']
 
 """ markdown
 set nofoldenable  " disable folding, vim-markdown
