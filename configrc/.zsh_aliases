@@ -15,14 +15,13 @@ alias -g iz='; printf "\033c\n" ; lsd | grep --invert-match "\..*" | tail -10'
 ## </global>
 
 ## <simple>
-alias ....='cd ../../../'       # go up three levels
-alias ...='cd ../../'           # go up two levels
-alias ..='cd ../'               # go up one level
-alias bif='brew install'        # install Homebrew formulae (CL app)
-alias bic='brew install --cask' # install Homebrew cask (GUI app)
-alias bs='brew search'          # search Homebrew formulae names & cask tokens
+alias ....='cd ../../../'         # go up three levels
+alias ...='cd ../../'             # go up two levels
+alias ..='cd ../'                 # go up one level
+alias brif='brew install'         # install Homebrew formulae (CL app)
+alias bric='brew install --cask'  # install Homebrew cask (GUI app)
+alias brs='brew search'           # search Homebrew formulae names & cask tokens
 alias brewster='zsh /Users/syd/Code/misc/Brewster/brewster.zsh'
-alias cd..='cd ..'
 alias cdl='cl'                                  # cd, sort by [d]ate
 alias cls='printf "\033c\n"'                    # clear screen via ^L
 alias cntf='find . -type f -maxdepth 1 | wc -l' # [f]iles: count files in dir
