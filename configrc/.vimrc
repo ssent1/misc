@@ -106,9 +106,9 @@ augroup dynamicCursor
     autocmd!
     autocmd InsertEnter,InsertLeave * set cul! culopt=screenline
 augroup END
-let &t_SI = '\e[5 q'  " [s]tart [i]nsert  mode; cursor: blinking bar
-let &t_SR = '\e[3 q'  " [s]tart [r]eplace mode; cursor: steady underline
-let &t_EI = '\e[1 q'  " [e]nd   [ir]nsert mode; cursor: blinking block
+let &t_SI = "\e[5 q"  " start insert  mode, cursor = blinking bar
+let &t_SR = "\e[3 q"  " start replace mode, cursor = steady underline
+let &t_EI = "\e[1 q"  " end   irnsert mode, cursor = blinking block
 set guicursor+=i:blinkwait300-blinkon100-blinkoff200
 set ttimeout
 set ttimeoutlen=1
@@ -179,8 +179,9 @@ let g:airline_theme='dark'                    " enable dark-mode theme
 set nofoldenable  " disable folding, vim-markdown
 hi DiffDelete ctermfg=17  ctermbg=45  guifg=#00005f guibg=#00dfff
 hi MatchParen ctermfg=17  ctermbg=45  guifg=#00005f guibg=#00dfff
-hi SpellLocal ctermfg=17  ctermbg=45  guifg=#00005f guibg=#00dfff
-hi SpellBad   ctermfg=232 ctermbg=160 guifg=#000000 guibg=#990000
+hi SpellBad   ctermfg=233 ctermbg=141 guifg=#000000 guibg=#BD93F9
+hi SpellCap   ctermfg=232 ctermbg=212 guifg=#000000 guibg=#FF79C6
+hi SpellLocal ctermfg=232 ctermbg=117 guifg=#000000 guibg=#8BE9FD
 
 " REFERENCES
 "" https://gist.github.com/joegoggins/8482408
