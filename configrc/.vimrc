@@ -155,6 +155,7 @@ Plug 'bradford-smith94/vim-autolist'
 Plug 'chriskempson/base16-vim'
 Plug 'christoomey/vim-titlecase'
 Plug 'dhruvasagar/vim-table-mode'
+Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'godlygeek/tabular'
 Plug 'preservim/vim-markdown'
 Plug 'tpope/vim-repeat'
@@ -173,7 +174,7 @@ let g:airline_powerline_fonts = 1             " load powerline symbols
 let g:airline_theme='dark'                    " enable dark-mode theme
 
 """ autolist
-" let g:autolist_unordered_markers = ['-', '*', '+', '- [ ]', '- [x]']
+let g:autolist_unordered_markers = ['-', '*', '+', '- [ ]', '- [x]']
 
 """ markdown
 set nofoldenable  " disable folding, vim-markdown
@@ -182,6 +183,11 @@ hi MatchParen ctermfg=17  ctermbg=45  guifg=#00005f guibg=#00dfff
 hi SpellBad   ctermfg=233 ctermbg=141 guifg=#000000 guibg=#BD93F9
 hi SpellCap   ctermfg=232 ctermbg=212 guifg=#000000 guibg=#FF79C6
 hi SpellLocal ctermfg=232 ctermbg=117 guifg=#000000 guibg=#8BE9FD
+
+" colorscheme dracula
+" set termguicolors
+" set background=dark
+" autocmd ColorScheme dracula highlight Normal ctermbg=234
 
 " REFERENCES
 "" https://gist.github.com/joegoggins/8482408
