@@ -1,3 +1,3 @@
-#!/bin/sh
+#!/bin/bash
 i=$(curl -s -w "\n" ifconfig.me/ip)
-printf "$i" | pbcopy && printf "$i" && unset i
+print "$i" | pbcopy && print "$i" && unset i
