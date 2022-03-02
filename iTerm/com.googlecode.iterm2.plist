@@ -927,12 +927,16 @@ Maximize Active Pane</string>
 			</dict>
 			<key>Ansi 7 Color</key>
 			<dict>
+				<key>Alpha Component</key>
+				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.73333334922790527</real>
+				<real>0.78104829788208008</real>
+				<key>Color Space</key>
+				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.73333334922790527</real>
+				<real>0.78105825185775757</real>
 				<key>Red Component</key>
-				<real>0.73333334922790527</real>
+				<real>0.7810397744178772</real>
 			</dict>
 			<key>Ansi 8 Color</key>
 			<dict>
@@ -1058,13 +1062,13 @@ Maximize Active Pane</string>
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.12941176470588234</real>
+				<real>0.12941177189350128</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.10196078431372549</real>
+				<real>0.10196078568696976</real>
 				<key>Red Component</key>
-				<real>0.098039215686274508</real>
+				<real>0.098039217293262482</real>
 			</dict>
 			<key>Cursor Type</key>
 			<integer>1</integer>
@@ -1087,13 +1091,13 @@ Maximize Active Pane</string>
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.92011111974716187</real>
+				<real>0.92156862745098034</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.92012274265289307</real>
+				<real>0.92156862745098034</real>
 				<key>Red Component</key>
-				<real>0.92010122537612915</real>
+				<real>0.92156862745098034</real>
 			</dict>
 			<key>Guid</key>
 			<string>BD671687-5079-4DBD-A181-A6BB8E8ECEDE</string>
@@ -2013,7 +2017,7 @@ Maximize Active Pane</string>
 			<key>Terminal Type</key>
 			<string>xterm-256color</string>
 			<key>Thin Strokes</key>
-			<integer>1</integer>
+			<integer>3</integer>
 			<key>Title Components</key>
 			<integer>2</integer>
 			<key>Transparency</key>
