@@ -63,13 +63,28 @@ if [ -e "$HOME/.zsh_functions" ]; then
     source "$HOME/.zsh_functions"
 fi
 
+## colourize manpages
+colour-manpages() {
+  LESS_TERMCAP_mb=$'\e[01;31m' \
+    LESS_TERMCAP_md=$'\e[01;31m' \
+    LESS_TERMCAP_me=$'\e[0m' \
+    LESS_TERMCAP_se=$'\e[0m' \
+    LESS_TERMCAP_so=$'\e[01;44;37m' \
+    LESS_TERMCAP_ue=$'\e[0m' \
+    LESS_TERMCAP_us=$'\e[01;32m' \
+    command man "$@"
+}
+
+## https-server
+https-server() {
+  http-server --ssl --cert ~/.localhost-ssl/localhost.crt --key ~/.localhost-ssl/localhost.key
+}
+
 # run executables
 source "$HOME/.iterm2_shell_integration.zsh"
-source "$HOME/powerlevel10k/powerlevel10k.zsh-theme"
-source colour-manpages
-source https-server
 zle -N globalias  # enable automatic global alias expansion
 brewsterf
 printf "\033c\n" ; meteo  # show weather report
 builtin cd "$HOME/Dropbox/nvalt-repo" ; lsd | grep --invert-match "dr.*" | tail -10 ; printf "\n"
 # show 10 most recently modified files
+source "$HOME/powerlevel10k/powerlevel10k.zsh-theme"
