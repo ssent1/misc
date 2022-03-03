@@ -2,7 +2,7 @@
 # Syd Salmon's zsh configuration: functions
 #
 ## run Brewster function at startup?
-function brewsterf() {
+brewsterf() {
   if read -qr "CHOICE?Press [y]es to run Brewster:  "; then
     printf "\033c\n==> running Brewster...\n\n"
     brewster
@@ -13,7 +13,7 @@ function brewsterf() {
 }
 
 ## cd++ changes to new directory then prints 10 most recent files
-function cl() {
+cl() {
   DIR="$*"
   if [[ $# -lt 1 ]]; then
     DIR=$PWD # if no DIR given, assume $PWD (current working directory)
@@ -25,7 +25,7 @@ function cl() {
 }
 
 ## colourize manpages
-function colour-manpages() {
+colour-manpages() {
   LESS_TERMCAP_mb=$'\e[01;31m' \
     LESS_TERMCAP_md=$'\e[01;31m' \
     LESS_TERMCAP_me=$'\e[0m' \
@@ -37,7 +37,7 @@ function colour-manpages() {
 }
 
 ## global alias expansion
-function globalias() {
+globalias() {
   if [[ $LBUFFER =~ ' [A-Z0-9]+$' ]]; then
     zle _expand_alias
     zle expand-word
@@ -46,6 +46,6 @@ function globalias() {
 }
 
 ## start https-server
-function https-server() {
+https-server() {
   http-server --ssl --cert ~/.localhost-ssl/localhost.crt --key ~/.localhost-ssl/localhost.key
 }
