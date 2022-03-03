@@ -24,18 +24,6 @@ cl() {
   lsd | grep --invert-match "dr.*" | tail -10 # print 10 most recent files
 }
 
-## colourize manpages
-colour-manpages() {
-  LESS_TERMCAP_mb=$'\e[01;31m' \
-    LESS_TERMCAP_md=$'\e[01;31m' \
-    LESS_TERMCAP_me=$'\e[0m' \
-    LESS_TERMCAP_se=$'\e[0m' \
-    LESS_TERMCAP_so=$'\e[01;44;37m' \
-    LESS_TERMCAP_ue=$'\e[0m' \
-    LESS_TERMCAP_us=$'\e[01;32m' \
-    command man "$@"
-}
-
 ## global alias expansion
 globalias() {
   if [[ $LBUFFER =~ ' [A-Z0-9]+$' ]]; then
@@ -43,9 +31,4 @@ globalias() {
     zle expand-word
   fi
   zle self-insert
-}
-
-## start https-server
-https-server() {
-  http-server --ssl --cert ~/.localhost-ssl/localhost.crt --key ~/.localhost-ssl/localhost.key
 }
