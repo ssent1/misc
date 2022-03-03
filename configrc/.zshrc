@@ -64,11 +64,11 @@ if [ -e "$HOME/.zsh_functions" ]; then
 fi
 
 # run executables
-source "$HOME/powerlevel10k/powerlevel10k.zsh-theme"
 source "$HOME/.iterm2_shell_integration.zsh"
+source "$HOME/powerlevel10k/powerlevel10k.zsh-theme"
+source colour-manpages
+source https-server
 zle -N globalias  # enable automatic global alias expansion
-colour-manpages
-https-server
 brewsterf
 printf "\033c\n" ; meteo  # show weather report
 builtin cd "$HOME/Dropbox/nvalt-repo" ; lsd | grep --invert-match "dr.*" | tail -10 ; printf "\n"
