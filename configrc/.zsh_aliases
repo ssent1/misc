@@ -7,7 +7,7 @@
 alias -g lsd='ls -aFGhort' # sort by [d]ate, descending
 alias -g lsn='ls -aFGhor'  # sort by [n]ame, descending
 alias -g lss='ls -aFGhorS' # sort by [s]ize, descending
-alias -g nv='/Users/syd/Dropbox/nvalt_repo'
+alias -g nv='/Users/syd/Dropbox/nvalt-repo'
 alias -g fz='; printf "\033c\n" ; lsd | grep --invert-match "dr.*" | tail -10'
 alias -g iz='; printf "\033c\n" ; lsd | grep --invert-match "\..*" | tail -10'
        # fz = [f]iles: show 10 most recent; clear screen, insert newline
@@ -41,7 +41,7 @@ alias ls='ls -alh'                                 # NB: remaps default ls
 alias meteo='bash /Users/syd/Code/meteo/meteo.sh'  # show weather
 alias misd='cd /Users/syd/Code/misc ; iz'          # mnemonic: misc. directory
 alias mkdir='mkdir -pv'                            # create, list dirs, if req'd
-alias nvad='cd /Users/syd/Dropbox/nvalt_repo ; iz' # mnemonic: nvALT repo dir
+alias nvad='cd /Users/syd/Dropbox/nvalt-repo ; iz' # mnemonic: nvALT repo dir
 alias osa='open /Applications/Signal.app'
 alias osk='open /Applications/Sidekick.app'
 alias owa='open /Applications/WhatsApp.app'
@@ -57,10 +57,10 @@ alias rcz='vim /Users/syd/.zshrc'         # edit zsh config
 alias rm='printf "%s\n" "" "@@@--> WARNING <--@@@" "Do no use \"rm\". Opt for one of:" "" "|> trh" "|> sudo rm -Rfd"'
 alias scanz='zsh /Users/syd/Code/misc/scanz/scanz.sh'
 alias smartrg='ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 admin@192.168.1.1'
-alias songd='/Users/syd/Dropbox/nvalt_repo/music/songs'           # mnemonic: song directory
-alias songo='/Users/syd/Dropbox/nvalt_repo/music/songs/original'  # mnemonic: song directory > original
+alias songd='/Users/syd/Dropbox/nvalt-repo/music/songs'           # mnemonic: song directory
+alias songo='/Users/syd/Dropbox/nvalt-repo/music/songs/original'  # mnemonic: song directory > original
 alias src='source /Users/syd/.zshrc'                              # source zsh run commands (rc)
-alias teux='vim /Users/syd/Dropbox/nvalt_repo/teuxdeux--\ task-list-\ working.md'
+alias teux='vim /Users/syd/Dropbox/nvalt-repo/teuxdeux--\ task-list-\ working.md'
 alias tma='tmux -CC attach'
 alias tmx='tmux -CC new -As0'  # -A =IF(new-session=FALSE, -d (attach-session), new-session); 0 = default session name
 alias trh='trash'              # send item(s) to "trash"
