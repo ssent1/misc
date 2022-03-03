@@ -1,11 +1,11 @@
 #
 # Syd Salmon's zsh configuration
 #
-export CLICOLOR=1                       # enable colourized output
-export ITERM2_SQUELCH_MARK=1            # enable iTerm to add marks at prompt
-export LSCOLORS=ExGxBxDxCxEgEdxbxgxcxd  # enable coloured `ls` commands
 export PATH="/usr/local/sbin:$PATH"     # enable current zsh; not pre-installed
+export CLICOLOR=1                       # enable colourized output
+export LSCOLORS=ExGxBxDxCxEgEdxbxgxcxd  # enable coloured `ls` commands
 let base16colorspace=256                # enable 256 (24-bit RGB) colour space
+export ITERM2_SQUELCH_MARK=1            # enable iTerm to add marks at prompt
 
 # run powerlevel10k
 ## conifg: run `p10k configure` or edit `"$HOME/.p10k.zsh"`
@@ -15,10 +15,10 @@ fi
 [[ ! -f "$HOME/.p10k.zsh" ]] || source "$HOME/.p10k.zsh"
 
 # basic zsh settings
+ZSH_THEME="powerlevel10k/powerlevel10k"
 HISTFILE="$HOME/.histfile"
 HISTSIZE=10000
 SAVEHIST=10000
-ZSH_THEME="powerlevel10k/powerlevel10k"
 setopt autocd extendedglob nomatch notify
 setopt no_list_ambiguous
 unsetopt beep
@@ -48,10 +48,10 @@ fi
 autoload -Uz zcalc
 
 # config: key bindings
+bindkey -e                          # enable Emacs mode
 bindkey " " globalias
 bindkey "^ " magic-space            # control-space to bypass completion
 bindkey -M isearch " " magic-space  # normal space during searches
-bindkey -e                          # enable Emacs mode
 
 # source alias list
 if [ -e "$HOME/.zsh_aliases" ]; then
@@ -81,10 +81,10 @@ https-server() {
 }
 
 # run executables
+source "$HOME/powerlevel10k/powerlevel10k.zsh-theme"
 source "$HOME/.iterm2_shell_integration.zsh"
 zle -N globalias  # enable automatic global alias expansion
 brewsterf
 printf "\033c\n" ; meteo  # show weather report
 builtin cd "$HOME/Dropbox/nvalt-repo" ; lsd | grep --invert-match "dr.*" | tail -10 ; printf "\n"
 # show 10 most recently modified files
-source "$HOME/powerlevel10k/powerlevel10k.zsh-theme"
