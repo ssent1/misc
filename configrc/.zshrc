@@ -66,10 +66,10 @@ fi
 # run executables
 source "$HOME/powerlevel10k/powerlevel10k.zsh-theme"
 source "$HOME/.iterm2_shell_integration.zsh"
-brewsterf                 # show Brewster prompt
+zle -N globalias  # enable automatic global alias expansion
+colour-manpages
+https-server
+brewsterf
 printf "\033c\n" ; meteo  # show weather report
 builtin cd "$HOME/Dropbox/nvalt-repo" ; lsd | grep --invert-match "dr.*" | tail -10 ; printf "\n"
 # show 10 most recently modified files
-zle -N globalias  # enable automatic global alias expansion
-colour-manpages   # colourize manpages
-https-server      # start https server
