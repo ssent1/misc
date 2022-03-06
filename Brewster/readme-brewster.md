@@ -1,6 +1,6 @@
 # Brewster
 
-> Homebrew's estate manager
+> Homebrew's update manager
 > Brewster ensures that Homebrew is up-to-date
 
 ## Script
@@ -111,17 +111,19 @@ sudo vi /etc/crontab
 0 30 18 ? * * * root $HOME/Code/misc/Brewster/brewster.zsh
 ```
 
-<!--- RESOURCES & SOURCES -->
+## Notes & References
 
-* * *
-Tags: system maintenance, homebrew, brew, crontab, cron
+Tags: system maintenance, homebrew, brew, crontab, cron, bash, linux, shell script programming
 
-updated: *20201003_190407*
+^ 2020-10-03T15:42:40-0500
+% 2022-03-06T10:37:39-0500
+
+<!-- SOURCES & RESOURCES -->
 
 [1]: https://www.freeformatter.com/cron-expression-generator-quartz.html "Cron Expression Generator & Explainer"
 [2]: https://codebeautify.org/xmlvalidator "XML Validator"
 [3]: file:///Applications/Lingon%20X.app "Lingon"
-
-[4]: https://medium.com/swlh/how-to-use-launchd-to-run-services-in-macos-b972ed1e352 "Use launchd to Run Services in macOS"
+4]: https://medium.com/swlh/how-to-use-launchd-to-run-services-in-macos-b972ed1e352 "Use launchd to Run Services in macOS"
 [5]: https://stackoverflow.com/questions/28063598/error-while-executing-plist-file-path-had-bad-ownership-permissions "Error while executing .plist file Path had bad ownership/permissions"
 [6]: https://crontab.guru "cron schedule expression editor"
+
