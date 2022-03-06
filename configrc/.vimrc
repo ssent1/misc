@@ -177,6 +177,7 @@ let g:airline_theme='dark'                    " enable dark-mode theme
 let g:autolist_unordered_markers = ['-', '*', '+', '- [ ]', '- [x]']
 
 """ markdown
+let g:vim_markdown_toc_autofit = 1
 set nofoldenable  " disable folding, vim-markdown
 hi DiffDelete ctermfg=17  ctermbg=45  guifg=#00005f guibg=#00dfff
 hi MatchParen ctermfg=17  ctermbg=45  guifg=#00005f guibg=#00dfff
