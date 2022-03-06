@@ -4,9 +4,25 @@
 ## run Brewster function at startup?
 brewsterf() {
   if read -qr "CHOICE?Press [y]es to run Brewster:  "; then
-    printf "\033c\n==> running Brewster...\n\n"
-    brewster
-    return 0
+    sleep 1
+    animate() {
+      printf "\033c\r==< running Brewster..."
+      sleep 0.333333333
+      printf "\033c\r==> running Brewster.  "
+      sleep 0.333333333
+      printf "\033c\r==\ running Brewster.. "
+      sleep 0.333333333
+    }
+    animate
+    brewster &
+    ret=$?
+    if [ $ret -ne 0 ]; then
+      animate
+      proc_id=$!
+      wait $proc_id
+      return 0
+      printf "\033c\r"
+    fi
   else
     return 1
   fi
@@ -14,21 +30,21 @@ brewsterf() {
 
 ## cd++ changes to new directory then prints 10 most recent files
 cl() {
-  DIR="$*"
-  if [[ $# -lt 1 ]]; then
-    DIR=$PWD # if no DIR given, assume $PWD (current working directory)
-  fi
-  builtin cd "${DIR}" &&
-    ls -aFGhort                               # sort by date, descending
-  printf "\033c\n"                            # clear screen, insert newline
-  lsd | grep --invert-match "dr.*" | tail -10 # print 10 most recent files
-}
+    DIR="$*"
+    if [[ $# -lt 1 ]]; then
+        DIR=$PWD # if no DIR given, assume $PWD (current working directory)
+    fi
+    builtin cd "${DIR}" &&
+        ls -aFGhort                                      # sort by date, descending
+            printf "\033c\n"                             # clear screen, insert newline
+            lsd | grep --invert-match "dr.*" | tail -10  # print 10 most recent files
+        }
 
 ## global alias expansion
 globalias() {
-  if [[ $LBUFFER =~ ' [A-Z0-9]+$' ]]; then
-    zle _expand_alias
-    zle expand-word
-  fi
-  zle self-insert
+    if [[ $LBUFFER =~ ' [A-Z0-9]+$' ]]; then
+        zle _expand_alias
+        zle expand-word
+    fi
+    zle self-insert
 }
