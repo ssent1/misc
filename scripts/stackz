@@ -2,7 +2,7 @@
 
 # get asbsolute path from the "root" directory of your folder stack
 # e.g. /Users/syd/desktop/root/user/parent/dir/subdir/subsubdir
-fn() {
+stackz() {
   local IFS=/
   vared -ca -p "Please enter the absolute path to your starting directory?" PATHvar
   len=${#PATHvar[@]}
