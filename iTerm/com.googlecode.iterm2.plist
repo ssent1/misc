@@ -828,12 +828,16 @@ Maximize Active Pane</string>
 			</dict>
 			<key>Ansi 10 Color</key>
 			<dict>
+				<key>Alpha Component</key>
+				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.4823529411764706</real>
+				<real>0.40392156862745099</real>
+				<key>Color Space</key>
+				<string>sRGB</string>
 				<key>Green Component</key>
 				<real>0.98039215686274506</real>
 				<key>Red Component</key>
-				<real>0.31372549019607843</real>
+				<real>0.37254901960784315</real>
 			</dict>
 			<key>Ansi 11 Color</key>
 			<dict>
@@ -882,8 +886,12 @@ Maximize Active Pane</string>
 			</dict>
 			<key>Ansi 2 Color</key>
 			<dict>
+				<key>Alpha Component</key>
+				<real>1</real>
 				<key>Blue Component</key>
 				<real>0.4823529411764706</real>
+				<key>Color Space</key>
+				<string>sRGB</string>
 				<key>Green Component</key>
 				<real>0.98039215686274506</real>
 				<key>Red Component</key>
@@ -965,13 +973,13 @@ Maximize Active Pane</string>
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.12941177189350128</real>
+				<real>0.078431372549019607</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.10196078568696976</real>
+				<real>0.062745098039215685</real>
 				<key>Red Component</key>
-				<real>0.098039217293262482</real>
+				<real>0.058823529411764705</real>
 			</dict>
 			<key>Background Image Location</key>
 			<string></string>
@@ -1062,13 +1070,13 @@ Maximize Active Pane</string>
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.12941176470588234</real>
+				<real>0.078431372549019607</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.10196078431372549</real>
+				<real>0.062745098039215685</real>
 				<key>Red Component</key>
-				<real>0.098039215686274508</real>
+				<real>0.058823529411764705</real>
 			</dict>
 			<key>Cursor Type</key>
 			<integer>1</integer>
@@ -2010,6 +2018,19 @@ Maximize Active Pane</string>
 			</dict>
 			<key>Sync Title</key>
 			<false/>
+			<key>Tab Color</key>
+			<dict>
+				<key>Alpha Component</key>
+				<real>1</real>
+				<key>Blue Component</key>
+				<real>0.12941176470588237</real>
+				<key>Color Space</key>
+				<string>sRGB</string>
+				<key>Green Component</key>
+				<real>0.10196078431372549</real>
+				<key>Red Component</key>
+				<real>0.098039215686274508</real>
+			</dict>
 			<key>Tags</key>
 			<array>
 				<string>dark mode</string>
@@ -3386,7 +3407,7 @@ Maximize Active Pane</string>
 	<key>SoundForEsc</key>
 	<false/>
 	<key>SplitPaneDimmingAmount</key>
-	<real>0.40000000000000002</real>
+	<real>0.25</real>
 	<key>StatusBarPosition</key>
 	<integer>1</integer>
 	<key>StretchTabsToFillBar</key>
@@ -5743,6 +5764,6 @@ Maximize Active Pane</string>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
 	<true/>
 	<key>kCPKUseSystemColorPicker</key>
-	<true/>
+	<false/>
 </dict>
 </plist>
