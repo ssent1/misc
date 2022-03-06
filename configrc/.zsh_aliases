@@ -45,9 +45,10 @@ alias nvad='cd /Users/syd/Dropbox/nvalt-repo ; iz' # mnemonic: nvALT repo dir
 alias osa='open /Applications/Signal.app'
 alias osk='open /Applications/Sidekick.app'
 alias owa='open /Applications/WhatsApp.app'
-alias path='printf ${PATH//:/\\n}"\n"'             # show binary directories
-alias pcd='printf "$PWD\n" | pbcopy'               # [p]rint [c]urrent [d]ir
-alias png='ping -c10 1.1.1.1'                      # send 10 packets
+alias path='printf ${PATH//:/\\n}"\n"'  # show binary directories
+alias pcd='printf "$PWD\n" | pbcopy'    # [p]rint [c]urrent [d]ir
+alias pd='pushd'                        # pushd {dir}, toggle dirs, == `cd -`
+alias png='ping -c10 1.1.1.1'           # send 10 packets
 alias pwd='printf "%s\n" "|> INFO <|  Did you mean \"pcd\"?"'
 alias rca='vim /Users/syd/.zsh_aliases'   # edit zsh aliases
 alias rcf='vim /Users/syd/.zsh_functions' # edit zsh functions
