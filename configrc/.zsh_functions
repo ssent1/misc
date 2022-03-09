@@ -1,31 +1,32 @@
-#
+#!/bin/zsh
+
 # Syd Salmon's zsh configuration: functions
 #
 ## run Brewster function at startup?
-brewsterf() {
-  if read -qr "CHOICE?Press [y]es to run Brewster:  "; then
-    sleep 1
-    animate() {
-      printf "\033c\r==< running Brewster..."
-      sleep 0.333333333
-      printf "\033c\r==> running Brewster.  "
-      sleep 0.333333333
-      printf "\033c\r==\ running Brewster.. "
-      sleep 0.333333333
-    }
-    animate
-    brewster &
-    ret=$?
-    if [ $ret -ne 0 ]; then
-      animate
-      proc_id=$!
-      wait $proc_id
-      return 0
-      printf "\033c\r"
+brewsterf() 
+{
+    if read -qr "CHOICE?Press [y]es to run Brewster:  "; then
+        sleep 1
+        slt=0.75
+        spinner() {
+
+            printf "\033c\r${(%):-%F{green}==<${(%):-%f} running Brewster${(%):-%F{green}.  ${(%):-%f}\n"
+            sleep $slt
+            printf "\033c\r${(%):-%F{green}==/${(%):-%f} running Brewster${(%):-%F{green}.. ${(%):-%f}\n"
+            sleep $slt
+            printf "\033c\r${(%):-%F{green}==>${(%):-%f} running Brewster${(%):-%F{green}...${(%):-%f}\n"
+            sleep $slt
+        }
+        i=0
+        while [ $i -le 3 ]; do
+            spinner
+            i=$(( $i+1 ))
+        done
+        brewster
+        return 0
+    else
+        return 1
     fi
-  else
-    return 1
-  fi
 }
 
 ## cd++ changes to new directory then prints 10 most recent files
@@ -33,12 +34,12 @@ cl() {
     DIR="$*"
     if [[ $# -lt 1 ]]; then
         DIR=$PWD # if no DIR given, assume $PWD (current working directory)
-    fi
-    builtin cd "${DIR}" &&
-        ls -aFGhort                                      # sort by date, descending
-            printf "\033c\n"                             # clear screen, insert newline
-            lsd | grep --invert-match "dr.*" | tail -10  # print 10 most recent files
-        }
+        fi
+        builtin cd "${DIR}" &&
+            ls -aFGhort                                      # sort by date, descending
+                    printf "\033c\n"                             # clear screen, insert newline
+                    lsd | grep --invert-match "dr.*" | tail -10  # print 10 most recent files
+                }
 
 ## global alias expansion
 globalias() {
