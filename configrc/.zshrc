@@ -15,10 +15,12 @@ fi
 [[ ! -f "$HOME/.p10k.zsh" ]] || source "$HOME/.p10k.zsh"
 
 # basic zsh settings
-ZSH_THEME="powerlevel10k/powerlevel10k"
 HISTFILE="$HOME/.histfile"
 HISTSIZE=10000
 SAVEHIST=10000
+ZSH_THEME="powerlevel10k/powerlevel10k"
+typeset -A ZSH_HIGHLIGHT_STYLES
+ZSH_HIGHLIGHT_STYLES[alias]='bg=004,fg=232,bold'
 setopt autocd extendedglob nomatch notify
 setopt no_list_ambiguous
 unsetopt beep
@@ -48,10 +50,12 @@ fi
 autoload -Uz zcalc
 
 # config: key bindings
+bindkey ' ' globalias
+bindkey '^ ' magic-space            # control-space to bypass completion
+bindkey '^X^H' run-help             # override <Esc-h> for zsh help
+bindkey '^q' push-line-or-edit      # like ^q, but makes all lines editable
+bindkey -M isearch ' ' magic-space  # normal space during searches
 bindkey -e                          # enable Emacs mode
-bindkey " " globalias
-bindkey "^ " magic-space            # control-space to bypass completion
-bindkey -M isearch " " magic-space  # normal space during searches
 
 # source alias list
 if [ -e "$HOME/.zsh_aliases" ]; then
