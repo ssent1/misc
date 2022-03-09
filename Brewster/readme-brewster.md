@@ -116,14 +116,14 @@ sudo vi /etc/crontab
 Tags: system maintenance, homebrew, brew, crontab, cron, bash, linux, shell script programming
 
 ^ 2020-10-03T15:42:40-0500
-% 2022-03-06T10:37:39-0500
+% 2022-03-09T15:38:42-0500
 
 <!-- SOURCES & RESOURCES -->
 
-[1]: https://www.freeformatter.com/cron-expression-generator-quartz.html "Cron Expression Generator & Explainer"
+[1]: https://www.freeformatter.com/cron-expression-generator-quartz.html "Cron Expression Generator"
 [2]: https://codebeautify.org/xmlvalidator "XML Validator"
-[3]: file:///Applications/Lingon%20X.app "Lingon"
-4]: https://medium.com/swlh/how-to-use-launchd-to-run-services-in-macos-b972ed1e352 "Use launchd to Run Services in macOS"
-[5]: https://stackoverflow.com/questions/28063598/error-while-executing-plist-file-path-had-bad-ownership-permissions "Error while executing .plist file Path had bad ownership/permissions"
-[6]: https://crontab.guru "cron schedule expression editor"
+[3]: https://medium.com/swlh/how-to-use-launchd-to-run-services-in-macos-b972ed1e352 "launchd macOS"
+[4]: https://stackoverflow.com/a/28157098/13815009 "bad ownership/permissions"
+[5]: https://crontab.guru "cron schedule expression editor"
+[6]: file:///Applications/Lingon%20X.app "Lingon"
 
