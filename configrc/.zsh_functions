@@ -17,7 +17,7 @@ brewsterf() {
     i=0
     while [ $i -le 3 ]; do
       spinner
-      i=(( $i+1 ))
+      i=$(( $i+1 ))
     done
     brewster
     return 0
@@ -25,6 +25,7 @@ brewsterf() {
     return 1
   fi
 }
+# bash hates i=$(( $i+1 )), but this works in zsh
 
 ## cd++ changes to new directory then prints 10 most recent files
 cl() {
