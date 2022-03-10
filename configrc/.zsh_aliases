@@ -52,7 +52,7 @@ alias rcp='vim /Users/syd/.zsh_plugins'         # edit zsh plugins
 alias rcv='vim /Users/syd/.vimrc'               # edit vim config
 alias rcz='vim /Users/syd/.zshrc'               # edit zsh config
 alias rm='printf "%s\n" "" "@@@--> WARNING <--@@@" "Do no use ${(%):-%F{red}rm${(%):-%f{red}. Use one of:" "" "${(%):-%F{green}|> trh${(%):-%f{green}" "|> sudo rm -Rfd"'
-alias {rp,readlink}='realpath -m pbpaste|tee /dev/tty|pbcopy' # canonical absolute path
+alias {rp,readlink}='realpath -m' # canonical absolute path
 alias scanz='zsh /Users/syd/Code/misc/scanz/scanz.sh'
 alias smartrg='ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 admin@192.168.1.1'
 alias songd='/Users/syd/Dropbox/nvalt-repo/music/songs'          # song dir
