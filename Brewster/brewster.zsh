@@ -1,5 +1,5 @@
 #d/bin/zsh
-{ 
+{
     # update Homebrew
     brew upgrade
     brew update
@@ -14,7 +14,9 @@
     # python3 -m pip
     # pip 22.0.4 from /usr/local/lib/python3.9/site-packages/pip (python 3.9)
     # build update list
-    python3 -m pip list | awk '(NR <=2) {next} /^([a-zA-Z0-9]+).*/ {print "python -m pip install -U " $1}' >pip-squeak
+    src="$HOME/Code/misc/Brewster/pip-squeak"
+    python3 -m pip list | awk '(NR <=2) {next} /^([a-zA-Z0-9]+).*/ {print "python3 -m pip install -U " $1}' >"$src"
     sleep 2
-    . /Users/syd/Code/misc/Brewster/pip-squeak
-} 2> /dev/null
+    while IFS= read -r line; do printf '%s\n' "$line"; done <"$src"
+
+} 2>/dev/null
