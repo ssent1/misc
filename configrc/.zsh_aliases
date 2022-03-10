@@ -2,9 +2,12 @@
 
 # aliases
 ## global
+alias -g lsD='ls -afghot'  # sort, ascescending, date
+alias -g lsN='ls -afgho'   # sort, ascescending, name
+alias -g lsS='ls -afghos'  # sort, ascescending, size
+alias -g lsd='ls -aFGhor'  # sort, descending, NAME
+alias -g lsd='ls -aFGhors' # sort, descending, SIZE
 alias -g lsd='ls -aFGhort' # sort, descending, DATE
-alias -g lsn='ls -aFGhor'  # sort, descending, NAME
-alias -g lss='ls -aFGhorS' # sort, descending, SIZE
 alias -g nv='/Users/syd/Dropbox/nvalt-repo'
 alias -g fz='; printf "\033c\n" ; lsd | grep --invert-match "dr.*" | tail -10'
 alias -g iz='; printf "\033c\n" ; lsd | grep --invert-match "\..*" | tail -10'
@@ -18,16 +21,16 @@ alias ...='cd ../../'                  # go up two levels
 alias ..='cd ../'                      # go up one level
 alias {bc,calc}='bc --mathlib --quiet' # calculator
 alias brewster='zsh /Users/syd/Code/misc/Brewster/brewster.zsh'
-alias bric='brew install --cask'                 # install Homebrew cask (GUI app)
-alias brif='brew install'                        # install Homebrew formulae (CL app)
-alias brs='brew search'                          # search Homebrew
-alias cdl='cl'                                   # clear screen, cd, sort by date
-alias cls='printf "\033c\n"'                     # clear screen via ^L
-alias cntf='find . -type f -maxdepth 1 | wc -l'  # files: count FILES in dir
-alias cnti='find . -maxdepth 1 | wc -l'          # items: count ITEMS in dir
-alias cpv='rsync -ah --info=progress2'           # copy, readable xfer stats
-alias diff='colordiff -u'                        # compare lines, unify context
-alias dirs='dirs -v'                             # list dir stack w/ index number
+alias bric='brew install --cask'                # install Homebrew cask (GUI app)
+alias brif='brew install'                       # install Homebrew formulae (CL app)
+alias brs='brew search'                         # search Homebrew
+alias cdl='cl'                                  # clear screen, cd, sort by date
+alias cls='printf "\033c\n"'                    # clear screen via ^L
+alias cntf='find . -type f -maxdepth 1 | wc -l' # files: count FILES in dir
+alias cnti='find . -maxdepth 1 | wc -l'         # items: count ITEMS in dir
+alias cpv='rsync -ah --info=progress2'          # copy, readable xfer stats
+alias diff='colordiff -u'                       # compare lines, unify context
+alias dirs='dirs -v'                            # list dir stack w/ index number
 alias gitp='git push ; git status'
 alias gits='git status'
 alias grep='grep -i --color=auto'               # set case -[i]nsensitive
