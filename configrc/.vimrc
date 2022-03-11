@@ -73,6 +73,7 @@ nmap <silent> <leader>;  :set spell!<CR>
 nmap <silent> <leader>s  :set nolist!<CR>
 nmap <silent> <leader>1  :call ToggleWrap()<CR>
 nnoremap <silent><Space> :nohlsearch<Bar>:echo<CR>
+nnoremap <silent> >
 " set leader to apostrophe:          '
 " move screen down/up three lines:   <C-e>/<C-y>
 " toggle spellcheck/show whitespace: ';/'s
