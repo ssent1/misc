@@ -73,7 +73,6 @@ nmap <silent> <leader>;  :set spell!<CR>
 nmap <silent> <leader>s  :set nolist!<CR>
 nmap <silent> <leader>1  :call ToggleWrap()<CR>
 nnoremap <silent><Space> :nohlsearch<Bar>:echo<CR>
-nnoremap <silent> >
 " set leader to apostrophe:          '
 " move screen down/up three lines:   <C-e>/<C-y>
 " toggle spellcheck/show whitespace: ';/'s
@@ -118,40 +117,41 @@ set ttyfast
 
 " TOGGLE WRAPPING MODES
 function ToggleWrap()
- if (&wrap == 1)
-   if (&linebreak == 0)
-     set linebreak
-   else
-     set nowrap
-   endif
- else
-   set wrap
-   set nolinebreak
- endif
+    if (&wrap == 1)
+        if (&linebreak == 0)
+            set linebreak
+        else
+            set nowrap
+        endif
+    else
+        set wrap
+        set nolinebreak
+    endif
 endfunction
 
 " PLUGINS
 "" Automatic Installation
 let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/.vim'
 if empty(glob(data_dir . '/autoload/plug.vim'))
-  silent execute '!curl -fLo '.data_dir.'/autoload/plug.vim --create-dirs \
+    silent execute '!curl -fLo '.data_dir.'/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
-  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+    autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
 "" Install vim-plug if not found
 if empty(glob('~/.vim/autoload/plug.vim'))
-  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 endif
 
 "" Run PlugInstall if there are missing plugins
 autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
-  \| PlugInstall --sync | source $MYVIMRC
-\| endif
+    \| PlugInstall --sync | source $MYVIMRC
+    \| endif
 
 "" Load plugins
 call plug#begin('~/.vim/plugged')
+Plug 'ap/vim-css-color'
 Plug 'bradford-smith94/vim-autolist'
 Plug 'chriskempson/base16-vim'
 Plug 'christoomey/vim-titlecase'
@@ -177,6 +177,21 @@ let g:airline_theme='dark'                    " enable dark-mode theme
 """ autolist
 let g:autolist_unordered_markers = ['-', '*', '+', '- [ ]', '- [x]']
 
+""" css-color
+function s:CssColorInit(typ, keywords, groups)
+  try
+    call css_color#init(a:typ, a:keywords, a:groups)
+  catch /^Vim\%((\a\+)\)\=:E117/
+    " echom 'ap/vim-css-color is not installed.'"
+  endtry 
+endfunction
+
+augroup CssColorCustomFiletypes
+  autocmd!
+  autocmd Filetype md call s:CssColorInit('css','extended','hex')
+  command! ColorToggle call css_color#toggle()
+augroup END
+
 """ markdown
 let g:vim_markdown_toc_autofit = 1
 set nofoldenable  " disable folding, vim-markdown
@@ -185,11 +200,6 @@ hi MatchParen ctermfg=17  ctermbg=45  guifg=#00005f guibg=#00dfff
 hi SpellBad   ctermfg=233 ctermbg=141 guifg=#000000 guibg=#BD93F9
 hi SpellCap   ctermfg=232 ctermbg=212 guifg=#000000 guibg=#FF79C6
 hi SpellLocal ctermfg=232 ctermbg=117 guifg=#000000 guibg=#8BE9FD
-
-" colorscheme dracula
-" set termguicolors
-" set background=dark
-" autocmd ColorScheme dracula highlight Normal ctermbg=234
 
 " REFERENCES
 "" https://gist.github.com/joegoggins/8482408
