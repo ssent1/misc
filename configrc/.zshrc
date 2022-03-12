@@ -1,11 +1,11 @@
 #
 # Syd Salmon's zsh configuration
 #
-export PATH="/usr/local/sbin:$PATH"     # enable current zsh; not pre-installed
-export CLICOLOR=1                       # enable colourized output
-export LSCOLORS=ExGxBxDxCxEgEdxbxgxcxd  # enable coloured `ls` commands
-let base16colorspace=256                # enable 256 (8-bit RGB) colour space
-export ITERM2_SQUELCH_MARK=1            # enable iTerm to add marks at prompt
+export PATH="/usr/local/sbin:$PATH"    # enable current zsh; not pre-installed
+export CLICOLOR=1                      # enable colourized output
+export LSCOLORS=ExGxBxDxCxEgEdxbxgxcxd # enable coloured `ls` commands
+let base16colorspace=256               # enable 256 (8-bit RGB) colour space
+export ITERM2_SQUELCH_MARK=1           # enable iTerm to add marks at prompt
 
 # run powerlevel10k
 ## conifg: run `p10k configure` or edit `"$HOME/.p10k.zsh"`
@@ -50,12 +50,10 @@ fi
 autoload -Uz zcalc
 
 # config: key bindings
-bindkey ' ' globalias
-bindkey '^ ' magic-space            # control-space to bypass completion
-bindkey '^X^H' run-help             # override <Esc-h> for zsh help
-bindkey '^q' push-line-or-edit      # like ^q, but makes all lines editable
-bindkey -M isearch ' ' magic-space  # normal space during searches
-bindkey -e                          # enable Emacs mode
+bindkey -v # enable vi mode
+bindkey " " globalias
+bindkey "^ " magic-space           # control-space to bypass completion
+bindkey -M isearch " " magic-space # normal space during searches
 
 # source alias list
 if [ -e "$HOME/.zsh_aliases" ]; then
@@ -67,15 +65,15 @@ if [ -e "$HOME/.zsh_functions" ]; then
     source "$HOME/.zsh_functions"
 fi
 
-# colourize manpages
+# colourize manpages (ANSI 8-bit, 256)
 man() {
-    LESS_TERMCAP_mb=$'\e[38;5;183m' \           # bg=black,  fg=purple
-    LESS_TERMCAP_md=$'\e[38;5;183m' \           # bg=black,  fg=purple
-    LESS_TERMCAP_me=$'\e[0m' \                  # reset
-    LESS_TERMCAP_se=$'\e[0m' \                  # reset
-    LESS_TERMCAP_so=$'\e[37;1;231;48;5;060m' \  # bg=grey,   fg=white
-    LESS_TERMCAP_ue=$'\e[0m' \                  # reset
-    LESS_TERMCAP_mb=$'\e[38;5;120' \            # bg=black,  fg=green
+    LESS_TERMCAP_mb=$'\e[39;5;183m' \
+    LESS_TERMCAP_md=$'\e[38;5;183m' \
+    LESS_TERMCAP_me=$'\e[0m' \
+    LESS_TERMCAP_se=$'\e[0m' \
+    LESS_TERMCAP_so=$'\e[37;1;231;48;5;060m' \
+    LESS_TERMCAP_ue=$'\e[0m' \
+    LESS_TERMCAP_mb=$'\e[38;5;120' \
 command man "$@"
 }
 
@@ -87,8 +85,7 @@ http-server --ssl --cert ~/.localhost-ssl/localhost.crt --key ~/.localhost-ssl/l
 # run executables
 source "$HOME/powerlevel10k/powerlevel10k.zsh-theme"
 source "$HOME/.iterm2_shell_integration.zsh"
-zle -N globalias  # enable automatic global alias expansion
 brewsterf
-printf "\033c\n" ; meteo  # show weather report
-builtin cd "$HOME/Dropbox/nvalt-repo" ; lsd | grep --invert-match "dr.*" | tail -10 ; printf "\n"
+printf "\033c\n";meteo # show weather report
+builtin cd "$HOME/Dropbox/nvalt-repo";lsd|grep --color=never --invert-match "dr.*"|tail -10 ; printf "\n"
 # show 10 most recently modified files
