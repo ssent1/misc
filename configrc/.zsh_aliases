@@ -5,9 +5,9 @@
 alias -g lsD='ls -afghot'  # sort, ascescending, date
 alias -g lsN='ls -afgho'   # sort, ascescending, name
 alias -g lsS='ls -afghos'  # sort, ascescending, size
-alias -g lsd='ls -aFGhor'  # sort, descending, NAME
-alias -g lsd='ls -aFGhors' # sort, descending, SIZE
 alias -g lsd='ls -aFGhort' # sort, descending, DATE
+alias -g lsn='ls -aFGhor'  # sort, descending, NAME
+alias -g lss='ls -aFGhors' # sort, descending, SIZE
 alias -g nv='/Users/syd/Dropbox/nvalt-repo'
 alias -g fz='; printf "\033c\n" ; lsd | grep --invert-match "dr.*" | tail -10'
 alias -g iz='; printf "\033c\n" ; lsd | grep --invert-match "\..*" | tail -10'
@@ -89,4 +89,4 @@ alias -s {css,html,js,md,sh,zsh,,}='code' # open file.{ext} in VSCode
 ## https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html
 
 ## ^ 2022-01-12T21:16:44-0500
-## % 2022-03-10T00:25:57-0500
+## % 2022-03-10T21:34:12-0500
