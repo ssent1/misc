@@ -189,7 +189,7 @@ endfunction
 augroup CssColorCustomFiletypes
   autocmd!
   autocmd Filetype md call s:CssColorInit('css','extended','hex')
-  command! ColorToggle call css_color#toggle()
+  command ColorToggle call css_color#toggle()
 augroup END
 
 """ markdown
