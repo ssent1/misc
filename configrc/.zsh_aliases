@@ -1,24 +1,23 @@
 # Syd Salmon's zsh configuration: alias list
 
 # aliases
-## global
-alias -g lsD='ls -afghot'  # sort, ascescending, date
-alias -g lsN='ls -afgho'   # sort, ascescending, name
-alias -g lsS='ls -afghos'  # sort, ascescending, size
+## global aliases
+alias -g lsD='ls -aFGhot'  # sort, ascescending, date
+alias -g lsN='ls -aFGho'   # sort, ascescending, name
+alias -g lsS='ls -aFGhos'  # sort, ascescending, size
 alias -g lsd='ls -aFGhort' # sort, descending, DATE
 alias -g lsn='ls -aFGhor'  # sort, descending, NAME
 alias -g lss='ls -aFGhors' # sort, descending, SIZE
 alias -g nv='/Users/syd/Dropbox/nvalt-repo'
-alias -g fz='; printf "\033c\n" ; lsd | grep --invert-match "dr.*" | tail -10'
-alias -g iz='; printf "\033c\n" ; lsd | grep --invert-match "\..*" | tail -10'
+alias -g fz=';printf "\033c\n";lsd|grep --color=never --invert-match "dr.*"|tail -10'
+alias -g iz=';printf "\033c\n";lsd|grep --color=never --invert-match "\..*"|tail -10'
 # fz = [f]iles: show 10 most recent; clear screen, insert newline
 # iz = [i]tems: show 10 most recent; clear screen, insert newline
 
-## simple
-
-alias ....='cd ../../../'              # go up three levels
-alias ...='cd ../../'                  # go up two levels
-alias ..='cd ../'                      # go up one level
+## simple aliases
+alias ....='cd ../../../' # go up three levels
+alias ...='cd ../../'     # go up two levels
+alias ..='cd ../'         # go up one level
 alias {bc,calc}='bc --mathlib --quiet' # calculator
 alias brewster='zsh /Users/syd/Code/misc/Brewster/brewster.zsh'
 alias bric='brew install --cask'                # install Homebrew cask (GUI app)
@@ -33,7 +32,7 @@ alias diff='colordiff -u'                       # compare lines, unify context
 alias dirs='dirs -v'                            # list dir stack w/ index number
 alias gitp='git push ; git status'
 alias gits='git status'
-alias grep='grep -i --color=auto'               # set case -[i]nsensitive
+alias grep='grep -i --color=never'               # set case -[i]nsensitive
 alias h='history'
 alias ip='curl -sw "\n" https://ifconfig.me/ip|tee >(tr -d "\n"|pbcopy)'
 alias j='jobs -l'
@@ -55,7 +54,6 @@ alias rcp='vim /Users/syd/.zsh_plugins'         # edit zsh plugins
 alias rcv='vim /Users/syd/.vimrc'               # edit vim config
 alias rcz='vim /Users/syd/.zshrc'               # edit zsh config
 alias rm='printf "%s\n" "" "@@@--> WARNING <--@@@" "Do no use ${(%):-%F{red}rm${(%):-%f{red}. Use one of:" "" "${(%):-%F{green}|> trh${(%):-%f{green}" "|> sudo rm -Rfd"'
-alias {rp,readlink}='realpath -m' # canonical absolute path
 alias scanz='zsh /Users/syd/Code/misc/scanz/scanz.sh'
 alias smartrg='ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 admin@192.168.1.1'
 alias songd='/Users/syd/Dropbox/nvalt-repo/music/songs'          # song dir
@@ -66,11 +64,11 @@ alias trh='trash'                                                # trash item(s)
 alias {v,vi}='vim'
 alias wttr='curl https://wttr.in/YKF\?F --silent --max-time 3'   # weatherForecast
 alias zcalc='zcalc -f -r4' # floating point, four stack elements
-alias zcp='zmv -C'   # ~ cp -f (copy, force)
-alias zln='zmv -L'   # ~ ln -f (hard link, force)
-alias zls='zmv -Ls'  # ~ ln -sf (symbolic link, force)
+alias zcp='zmv -C'  # ~ cp -f (copy, force)
+alias zln='zmv -L'  # ~ ln -f (hard link, force)
+alias zls='zmv -Ls' # ~ ln -sf (symbolic link, force)
 
-## privileged access
+### privileged access
 if [[ "$UID" -ne 0 ]]; then
     alias dgk='sudo spctl --master-disable # disable Gatekeeper'
     alias egk='sudo spctl --master-enable # enable Gatekeeper'
@@ -82,11 +80,15 @@ if [[ "$UID" -ne 0 ]]; then
     alias topm='sudo htop -s PERCENT_MEM' # sort running processes by MEM%
 fi
 
-## suffix
+## parametrized aliases
+rp() { realpath -m $1|tee /dev/tty|pbcopy }
+# print resolved canonical path; ~ readlink, stat -- display file status
+
+## suffix aliases
 alias -s {css,html,js,md,sh,zsh,,}='code' # open file.{ext} in VSCode
 
 # notes & references
 ## https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html
 
 ## ^ 2022-01-12T21:16:44-0500
-## % 2022-03-10T21:34:12-0500
+## % 2022-03-12T15:39:02-0500
