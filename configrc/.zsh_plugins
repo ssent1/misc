@@ -1,27 +1,24 @@
-#
 # Syd Salmon's zsh configuration: plugins
-#
-# <plugins>
-## <zinit Turbo Mode>
-zinit wait lucid atload light-mode for \
-  agkozak/zsh-z \
-  dracula/vim \
-  dracula/zsh \
-  jeffreytse/zsh-vi-mode \
-  romkatv/powerlevel10k \
-  zdharma/fast-syntax-highlighting \
-  zdharma/history-search-multi-word \
-  zinit-zsh/z-a-as-monitor \
-  zinit-zsh/z-a-bin-gem-node \
-  zinit-zsh/z-a-patch-dl \
-  zsh-users/zsh-autosuggestions \
-  zsh-users/zsh-completions
-## </zinit Turbo Mode>
 
-## <autoload>
+# plugins
+## zinit Turbo Mode
+zinit wait lucid atload light-mode for \
+    agkozak/zsh-z \
+    dracula/vim \
+    jeffreytse/zsh-vi-mode \
+    romkatv/powerlevel10k \
+    zdharma/fast-syntax-highlighting \
+    zdharma/history-search-multi-word \
+    zinit-zsh/z-a-as-monitor \
+    zinit-zsh/z-a-bin-gem-node \
+    zinit-zsh/z-a-patch-dl \
+    zsh-users/zsh-autosuggestions \
+    zsh-users/zsh-completions
+
+## autoload
 zinit wait lucid atload"zicompinit; zicdreplay" blockf for \
-  zsh-users/zsh-completions \
-  jeffreytse/zsh-vi-mode
-autoload -Uz zmv
-## </autoload>
-# </plugins>
+    zsh-users/zsh-completions \
+    jeffreytse/zsh-vi-mode \
+    atload"!_zsh_autosuggest_start" \
+    zsh-users/zsh-autosuggestions
+    autoload -Uz zmv
