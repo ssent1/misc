@@ -30,12 +30,12 @@ brewsterf() {
 cl() {
   DIR="$*"
   if [ $# -lt 1 ]; then
-    DIR=$PWD # if no DIR given, assume $PWD (current working directory)
-  fi
+        DIR=$PWD # if no DIR given, assume $PWD (current working directory)
+      fi
   builtin cd "${DIR}" &&
-    ls -aFGhort                               # sort by date, descending
-  printf "\033c\n"                            # clear screen, insert newline
-  lsd | grep --invert-match "dr.*" | tail -10 # print 10 most recent files
+    ls -aFGhort    # sort by date, descending
+  printf "\033c\n" # clear screen, insert newline
+  lsd|grep  --color=never --invert-match "dr.*" | tail -10
 }
 
 ## global alias expansion
@@ -47,3 +47,10 @@ globalias() {
    zle self-insert
 }
 zle -N globalias
+
+## yank to system clipboard
+vi-yank-xclip() {
+    zle vi-yank
+   echo "$CUTBUFFER"|pbcopy -i
+}
+zle -N vi-yank-xclip
