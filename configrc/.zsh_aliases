@@ -73,7 +73,7 @@ if [[ "$UID" -ne 0 ]]; then
     alias dgk='sudo spctl --master-disable # disable Gatekeeper'
     alias egk='sudo spctl --master-enable # enable Gatekeeper'
     alias rms='printf "%s\n" "@@@--> WARNING <--@@@" "Do not use $(tput bold)${(%):-%F{red}rm${(%):-%f}$(tput sgr0)." "Use $(tput bold)${(%):-%F{green}|> trh <|${(%):-%f}$(tput sgr0) or sudo rm -Rfd"'
-    alias sd='sudo shutdown -h +1 "-> SHUTTING DOWN <-\n->  To abort, type ^c."'
+    alias sd='sudo -b shutdown -h +1 "-> SHUTTING DOWN <-\n->  To abort, type ^c." ; wait 0.5 ; exit'
     alias sr='sudo shutdown -r now "-> REBOOTING <-\n->  To abort, type ^c."'
     alias svi='sudo vi'
     alias topc='sudo htop -s PERCENT_CPU' # sort running processes by CPU%
