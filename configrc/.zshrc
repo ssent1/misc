@@ -54,6 +54,7 @@ bindkey -v # enable vi mode
 bindkey " " globalias
 bindkey "^ " magic-space           # control-space to bypass completion
 bindkey -M isearch " " magic-space # normal space during searches
+bindkey -M vicmd 'y' vi-yank-xclip # yank to the system clipboard
 
 # source alias list
 if [ -e "$HOME/.zsh_aliases" ]; then
