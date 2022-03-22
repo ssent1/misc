@@ -25,7 +25,7 @@ set complete+=kspell       " enable word completion; triggers: <C-n>/<C-p>
 set spelllang=en_ca,en_us  " enable spellcheck; Canadian, American
 augroup markdownSpell
     autocmd!
-    autocmd FileType markdown setlocal spell
+    autocmd FileType markdown setlocal spell!
     autocmd BufRead,BufNewFile *.md setlocal spell
 augroup END
 
@@ -57,6 +57,7 @@ set showcmd                         " show incomplete commands in status line
 set showmode                        " show current mode in status line
 set statusline+=%f                  " show file in status line
 set undolevels=1000                 " set maximum undo level
+set viminfo='1000,f1                " save bookmarks
 augroup initSave
     autocmd!
     autocmd BufNewFile * :write  " create file on initial edit
@@ -64,19 +65,27 @@ augroup END
 
 " KEY MAPS
 imap <CR> <Esc><Plug>AutolistReturn
-nmap o <Plug>AutolistNewLineBelow
-nmap O <Plug>AutolistNewLineAbove
 let mapleader="'"
-noremap <C-e> 3<C-e>
-noremap <C-y> 3<C-y>
+nmap <silent> <leader>1  :call ToggleWrap()<CR>
 nmap <silent> <leader>;  :set spell!<CR>
 nmap <silent> <leader>s  :set nolist!<CR>
-nmap <silent> <leader>1  :call ToggleWrap()<CR>
+nmap O <Plug>AutolistNewLineAbove
+nmap o <Plug>AutolistNewLineBelow
+nnoremap ' `
+nnoremap ` '
 nnoremap <silent><Space> :nohlsearch<Bar>:echo<CR>
-" set leader to apostrophe:          '
-" move screen down/up three lines:   <C-e>/<C-y>
-" toggle spellcheck/show whitespace: ';/'s
-" clear search highlighting:         <Space>
+noremap <C-e> 3<C-e>
+noremap <C-y> 3<C-y>
+" leader: '
+" toggles
+  " wrap lines:  '1
+  " spellcheck:  ';
+  " whitespace:  's
+" swap mark leaders
+" clear search highlighting: <Space>
+" move screen three lines
+  " <Down>:  <C-e>
+  " <Up>:    <C-y>
 
 " SWAP AND BACKUP FILES
 set backupdir=~/.vim_tmp,~/.tmp,~/tmp,/var/tmp,/tmp
@@ -207,3 +216,10 @@ hi SpellLocal ctermfg=232 ctermbg=117 guifg=#000000 guibg=#8BE9FD
 "" https://nvie.com/posts/how-i-boosted-my-vim/
 "" https://vimconfig.com
 "" https://www.shortcutfoo.com/blog/top-49-vim-configuration-options"
+
+
+
+
+
+
+
