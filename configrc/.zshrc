@@ -88,3 +88,12 @@ brewsterf
 printf "\033c\n";meteo # show weather report
 builtin cd "$HOME/Dropbox/nvalt-repo";lsd|grep --color=never --invert-match "dr.*"|tail -10 ; printf "\n"
 # show 10 most recently modified files
+
+# source 'Spectacula' zsh-syntax-highlighting
+ZSH_HIGHLIGHT_HIGHLIGHTERS=(brackets cursor line main pattern regexp root)
+typeset -gA ZSH_HIGHLIGHT_STYLES
+
+if [ -e "$HOME/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" ]; then
+    source "$HOME/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
+fi
+
