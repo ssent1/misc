@@ -166,7 +166,9 @@ Plug 'chriskempson/base16-vim'
 Plug 'christoomey/vim-titlecase'
 Plug 'dhruvasagar/vim-table-mode'
 Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'scrooloose/nerdtree'
 Plug 'godlygeek/tabular'
+Plug 'mechatroner/rainbow_csv', {'as': 'rainbow-csv' }
 Plug 'preservim/vim-markdown'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-speeddating'
@@ -216,10 +218,3 @@ hi SpellLocal ctermfg=232 ctermbg=117 guifg=#000000 guibg=#8BE9FD
 "" https://nvie.com/posts/how-i-boosted-my-vim/
 "" https://vimconfig.com
 "" https://www.shortcutfoo.com/blog/top-49-vim-configuration-options"
-
-
-
-
-
-
-
