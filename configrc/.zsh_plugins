@@ -19,8 +19,8 @@ zinit wait lucid atload light-mode for \
 ## autoload
 zinit wait lucid atload"zicompinit; zicdreplay" blockf for \
     zsh-users/zsh-completions \
-    jeffreytse/zsh-vi-mode \
+#    jeffreytse/zsh-vi-mode \
     atload"!_zsh_autosuggest_start" \
     zsh-users/zsh-autosuggestions \
-    zsh-users/zsh-syntax-highlighting
+ #   zsh-users/zsh-syntax-highlighting
     autoload -Uz zmv
