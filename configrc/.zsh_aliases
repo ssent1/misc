@@ -19,7 +19,7 @@ alias ....='cd ../../../' # go up three levels
 alias ...='cd ../../'     # go up two levels
 alias ..='cd ../'         # go up one level
 alias {bc,calc}='bc --mathlib --quiet' # calculator
-alias brewster='zsh /Users/syd/Code/misc/Brewster/brewster.zsh'
+alias brewster='./Users/syd/Code/misc/Brewster/brewster'
 alias bric='brew install --cask'                # install Homebrew cask (GUI app)
 alias brif='brew install'                       # install Homebrew formulae (CL app)
 alias brs='brew search'                         # search Homebrew
@@ -36,7 +36,7 @@ alias grep='grep -i --color=never'               # set case -[i]nsensitive
 alias h='history'
 alias ip='curl -sw "\n" https://ifconfig.me/ip|tee >(tr -d "\n"|pbcopy)'
 alias j='jobs -l'
-alias ls='ls -alh'                                # NB: remaps default ls
+alias ls='ls -alh'                                # remap default ls
 alias meteo='bash /Users/syd/Code/meteo/meteo.sh' # show weather
 alias misd='/Users/syd/Code/misc ; iz'            # mnemonic: misc. directory
 alias mkdir='mkdir -pv'                           # create, list dirs, if req'd
@@ -54,15 +54,16 @@ alias rcp='vim /Users/syd/.zsh_plugins'         # edit zsh plugins
 alias rcv='vim /Users/syd/.vimrc'               # edit vim config
 alias rcz='vim /Users/syd/.zshrc'               # edit zsh config
 alias rm='printf "%s\n" "" "@@@--> WARNING <--@@@" "Do no use ${(%):-%F{red}rm${(%):-%f{red}. Use one of:" "" "${(%):-%F{green}|> trh${(%):-%f{green}" "|> sudo rm -Rfd"'
-alias scanz='zsh /Users/syd/Code/misc/scanz/scanz.sh'
+alias scanz='./Users/syd/Code/misc/scanz/scanz'
 alias smartrg='ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 admin@192.168.1.1'
 alias songd='/Users/syd/Dropbox/nvalt-repo/music/songs'          # song dir
 alias songo='/Users/syd/Dropbox/nvalt-repo/music/songs/original' # originals
-alias src='. /Users/syd/.zshrc'                                  # source zsh
+alias songr='/Users/syd/Dropbox/nvalt-repo/music/songs/rock'     # rock
+alias src='./Users/syd/.zshrc'                                   # source zsh
 alias teux='vim /Users/syd/Dropbox/nvalt-repo/teuxdeux.md'       # open To Do list
 alias trh='trash'                                                # trash item(s)
 alias {v,vi}='vim'
-alias wttr='curl https://wttr.in/YKF\?F --silent --max-time 3'   # weatherForecast
+alias wttr='curl https://wttr.in/YKF\?F --silent --max-time 3'   # get weatherForecast
 alias zcalc='zcalc -f -r4' # floating point, four stack elements
 alias zcp='zmv -C'  # ~ cp -f (copy, force)
 alias zln='zmv -L'  # ~ ln -f (hard link, force)
@@ -90,5 +91,5 @@ alias -s {css,html,js,md,sh,zsh,,}='code' # open file.{ext} in VSCode
 # notes & references
 ## https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html
 
-## ^ 2022-01-12T21:16:44-0500
-## % 2022-03-12T15:39:02-0500
+##^ 2022-01-12T21:16:44-0500
+##% 2022-04-13T16:24:53-0500
