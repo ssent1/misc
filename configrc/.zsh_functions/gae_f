@@ -1,0 +1,11 @@
+#!/usr/local/bin/zsh
+# [g]lobal [a]lias [e]xpansion expands words after <SP> is typed
+{
+    if [[ $LBUFFER =~ ' [A-Zaz0-9_]+$' ]]; then
+        zle _expand_alias
+        zle expand-word
+    fi
+    zle self-insert
+}
+2>/dev/null
+zle -N gae_f
