@@ -7,7 +7,6 @@ zinit wait lucid atload light-mode for \
     dracula/vim \
     jeffreytse/zsh-vi-mode \
     romkatv/powerlevel10k \
-#   zdharma/fast-syntax-highlighting \
     zdharma/history-search-multi-word \
     zinit-zsh/z-a-as-monitor \
     zinit-zsh/z-a-bin-gem-node \
@@ -19,8 +18,7 @@ zinit wait lucid atload light-mode for \
 ## autoload
 zinit wait lucid atload"zicompinit; zicdreplay" blockf for \
     zsh-users/zsh-completions \
-#    jeffreytse/zsh-vi-mode \
+    jeffreytse/zsh-vi-mode \
     atload"!_zsh_autosuggest_start" \
     zsh-users/zsh-autosuggestions \
- #   zsh-users/zsh-syntax-highlighting
     autoload -Uz zmv
