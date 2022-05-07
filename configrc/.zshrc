@@ -1,10 +1,10 @@
 # Syd Salmon's zsh configuration
-#
-export PATH="/usr/local/bin:$PATH"     # enable current zsh; not pre-installed
+
 export CLICOLOR=1                      # enable colourized output
-export LSCOLORS=ExGxBxDxCxEgEdxbxgxcxd # enable coloured `ls` commands
-let base16colorspace=256               # enable 256 (8-bit RGB) colour space
 export ITERM2_SQUELCH_MARK=1           # enable iTerm to add marks at prompt
+export LSCOLORS=ExGxBxDxCxEgEdxbxgxcxd # enable coloured `ls` commands
+export PATH="/usr/local/sbin:$PATH"    # enable current zsh; not pre-installed
+let base16colorspace=256               # enable 256 (8-bit RGB) colour space
 
 # BASIC ZSH SETTINGS
 HISTFILE="$HOME/.histfile"
@@ -14,22 +14,6 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 setopt autocd extendedglob nomatch notify
 setopt no_list_ambiguous
 unsetopt beep
-
-# GET EXTERNAL RESOURCES
-## source alias list
-if [ -e "$HOME/.zsh_aliases" ]; then
-    . "$HOME/.zsh_aliases"
-fi
-
-## run functions
-if [ -e "$HOME/.zsh_functions" ]; then
-    . "$HOME/.zsh_functions"
-fi
-
-## load plugins
-if [ -e "$HOME/.zsh_plugins" ]; then
-    . "$HOME/.zsh_plugins"
-fi
 
 # LOAD POWERLEVEL10K
 ## conifg: run `p10k configure` or edit `"$HOME/.p10k.zsh"`
@@ -50,41 +34,41 @@ fi
 autoload -Uz _zinit
 (( ${+_comps} )) && _comps[zinit]=_zinit
 
+# GET EXTERNAL RESOURCES
+## source alias list
+if [ -e "$HOME/.zsh_aliases" ]; then
+    . "$HOME/.zsh_aliases"
+fi
+
+## run functions
+if [ -e "$HOME/.zsh_functions" ]; then
+    for file in "$HOME/.zsh_functions"; do
+        . "$file"
+    done
+fi
+
+## load plugins
+if [ -e "$HOME/.zsh_plugins" ]; then
+    . "$HOME/.zsh_plugins"
+fi
+
 # RUN ZSH COMPLETIONS
 zstyle :compinstall filename "$HOME/.zshrc"
 zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}' 'r:|[._-]=* r:|=*' 'l:|=* r:|=*'
 
 # LOAD ZSH UTILITIES
 autoload -Uz zcalc
+autoload -Uz zmv
 
 # ENABLE CUSTOM KEY BINDINGS
-bindkey -v                         # vi mode
-bindkey " " gae_f                  # global alias expansion
-bindkey "^ " magic-space           # control-space to bypass completion
-bindkey -M isearch " " magic-space # normal space during searches
-bindkey -M vicmd 'y' y2c_f         # yank to system clipboard
-
-# COLOURIZE MANPAGES (ANSI 8-BIT, 256)
-man() {
-    LESS_TERMCAP_mb=$'\e[39;5;183m' \
-    LESS_TERMCAP_md=$'\e[38;5;183m' \
-    LESS_TERMCAP_me=$'\e[0m' \
-    LESS_TERMCAP_se=$'\e[0m' \
-    LESS_TERMCAP_so=$'\e[37;1;231;48;5;060m' \
-    LESS_TERMCAP_ue=$'\e[0m' \
-    LESS_TERMCAP_mb=$'\e[38;5;120' \
-command man "$@"
-}
-
-# LOAD LOCAL HTTPS-SERVER
-https-server() {
-http-server --ssl --cert ~/.localhost-ssl/localhost.crt --key ~/.localhost-ssl/localhost.key
-}
+bindkey -v                             # vi mode
+bindkey -M isearch " " magic-space     # normal space during searches
+bindkey -M vicmd "y" yank-to-clipboard # yank to system clipboard
 
 # RUN EXECUTABLES
 . "$HOME/powerlevel10k/powerlevel10k.zsh-theme"
 . "$HOME/.iterm2_shell_integration.zsh"
-. "$HOME/.zsh_functions/brewster_f"
+. "$HOME/.zsh_functions/brewster.zsh"
 printf "\033c\n";meteo # show weather report
 # show 10 most recently modified files
 builtin cd "$HOME/Dropbox/nvalt-repo";lsd|grep --color=never --invert-match "dr.*"|tail -10 ; printf "\n"
@@ -93,6 +77,6 @@ builtin cd "$HOME/Dropbox/nvalt-repo";lsd|grep --color=never --invert-match "dr.
 ZSH_HIGHLIGHT_HIGHLIGHTERS=(brackets cursor line main pattern regexp root)
 typeset -gA ZSH_HIGHLIGHT_STYLES
 
-if [ -e "$HOME/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" ]; then
-    . "$HOME/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
-fi
+# if [ -e "$HOME/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" ]; then
+#     . "$HOME/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
+# fi
