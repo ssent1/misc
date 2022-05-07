@@ -1,8 +1,7 @@
-#!/usr/local/bin/zsh
 # yank to system clipboard in Zsh vi-mode
-{ 
+
+yank-to-clipboard() { 
     zle vi-yank
     echo "$CUTBUFFER"|pbcopy -i
 } 
-2>/dev/null
-zle -N y2c_f
+zle -N yank-to-clipboard
