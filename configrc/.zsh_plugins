@@ -17,7 +17,7 @@ zinit wait lucid atload light-mode for \
     zinit-zsh/z-a-bin-gem-node \
     zinit-zsh/z-a-patch-dl \
     zsh-users/zsh-completions \
-    zsh-users/zsh-syntax-highlighting
+ #   zsh-users/zsh-syntax-highlighting
 
 ## autoload
 zinit wait lucid atload"zicompinit; zicdreplay" blockf for \
@@ -25,4 +25,4 @@ zinit wait lucid atload"zicompinit; zicdreplay" blockf for \
     jeffreytse/zsh-vi-mode \
     atload"!_zsh_autosuggest_start" \
     zsh-users/zsh-autosuggestions \
-    zsh-users/zsh-syntax-highlighting
+#    zsh-users/zsh-syntax-highlighting
