@@ -50,7 +50,7 @@ alias pcd='printf "$PWD\n"|tee /dev/tty|pbcopy' # print current dir
 alias pd='pushd'                                # stack dirs, toggle dirs
 alias png='ping -c10 1.1.1.1'                   # send 10 packets
 alias rca='vim /Users/syd/.zsh_aliases'         # edit zsh aliases
-alias rcf='vim /Users/syd/.zsh_functions/*'     # edit zsh functions
+alias rcf='vim /Users/syd/.zsh_functions'       # edit zsh functions
 alias rcp='vim /Users/syd/.zsh_plugins'         # edit zsh plugins
 alias rcv='vim /Users/syd/.vimrc'               # edit vim config
 alias rcz='vim /Users/syd/.zshrc'               # edit zsh config
@@ -92,5 +92,5 @@ alias -s {css,html,js,md,sh,zsh,,}='code' # open file.{ext} in VSCode
 # notes & references
 ## https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html
 
-##^ 2022-01-12T21:16:44-0500
-##% 2022-04-14T19:04:09-0500
+## ^ 2022-01-12T21:16:44-0500
+## % 2022-05-19T15:13:59-0500

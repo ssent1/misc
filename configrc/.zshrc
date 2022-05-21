@@ -42,9 +42,7 @@ fi
 
 ## run functions
 if [ -e "$HOME/.zsh_functions" ]; then
-    for file in "$HOME/.zsh_functions"; do
-        . "$file"
-    done
+    . "$HOME/.zsh_functions"
 fi
 
 ## load plugins
@@ -61,22 +59,25 @@ autoload -Uz zcalc
 autoload -Uz zmv
 
 # ENABLE CUSTOM KEY BINDINGS
-bindkey -v                             # vi mode
+bindkey -M emacs " " globalias         # <Space> expands all aliases
+bindkey -M viins " " globalias         # <Space> expands all aliases
+bindkey -M emacs "^ " magic-space      # <C-Space> => normal space
+bindkey -M viins "^ " magic-space      # <C-Space> => normal space
 bindkey -M isearch " " magic-space     # normal space during searches
 bindkey -M vicmd "y" yank-to-clipboard # yank to system clipboard
+bindkey -v                             # vi mode
 
 # RUN EXECUTABLES
 . "$HOME/powerlevel10k/powerlevel10k.zsh-theme"
 . "$HOME/.iterm2_shell_integration.zsh"
-. "$HOME/.zsh_functions/brewster.zsh"
+brewsterf
 printf "\033c\n";meteo # show weather report
 # show 10 most recently modified files
 builtin cd "$HOME/Dropbox/nvalt-repo";lsd|grep --color=never --invert-match "dr.*"|tail -10 ; printf "\n"
 
 # SOURCE 'SPECTACULA' ZSH-SYNTAX-HIGHLIGHTING
-ZSH_HIGHLIGHT_HIGHLIGHTERS=(brackets cursor line main pattern regexp root)
+ZSH_HIGHLIGHT_HIGHLIGHTERS+=(brackets cursor line main pattern regexp root)
 typeset -gA ZSH_HIGHLIGHT_STYLES
-
-# if [ -e "$HOME/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" ]; then
-#     . "$HOME/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
-# fi
+if [ -e "$HOME/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" ]; then
+    . "$HOME/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
+fi

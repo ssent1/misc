@@ -15,7 +15,6 @@ globalias() {
    fi
    zle self-insert
 }
-2>/dev/null
 zle -N globalias
 
 # space expands all aliases, including global
