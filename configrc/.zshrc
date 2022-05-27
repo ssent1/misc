@@ -76,8 +76,8 @@ printf "\033c\n";meteo # show weather report
 builtin cd "$HOME/Dropbox/nvalt-repo";lsd|grep --color=never --invert-match "dr.*"|tail -10 ; printf "\n"
 
 # SOURCE 'SPECTACULA' ZSH-SYNTAX-HIGHLIGHTING
-ZSH_HIGHLIGHT_HIGHLIGHTERS+=(brackets cursor line main pattern regexp root)
-typeset -gA ZSH_HIGHLIGHT_STYLES
+# ZSH_HIGHLIGHT_HIGHLIGHTERS+=(brackets cursor line main pattern regexp root)
+# typeset -gA ZSH_HIGHLIGHT_STYLES
 if [ -e "$HOME/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" ]; then
     . "$HOME/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
 fi

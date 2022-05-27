@@ -1,10 +1,9 @@
 # Syd Salmon's Zsh Plugin Configuration
 
-## load syntax-highlighting and suggestions plugins early for a better UX
+## for a better UX, load syntax-highlighting and suggestions early 
 zinit wait lucid light-mode for \
   atinit"zicompinit; zicdreplay" \
-    zsh-users/zsh-autosuggestions \
-    zsh-users/zsh-syntax-highlighting
+    zsh-users/zsh-autosuggestions
 
 ## zinit Turbo Mode
 zinit wait lucid atload light-mode for \
@@ -16,13 +15,11 @@ zinit wait lucid atload light-mode for \
     zinit-zsh/z-a-as-monitor \
     zinit-zsh/z-a-bin-gem-node \
     zinit-zsh/z-a-patch-dl \
-    zsh-users/zsh-completions \
- #   zsh-users/zsh-syntax-highlighting
+    zsh-users/zsh-completions
 
 ## autoload
 zinit wait lucid atload"zicompinit; zicdreplay" blockf for \
     zsh-users/zsh-completions \
     jeffreytse/zsh-vi-mode \
     atload"!_zsh_autosuggest_start" \
-    zsh-users/zsh-autosuggestions \
-#    zsh-users/zsh-syntax-highlighting
+    zsh-users/zsh-autosuggestions
