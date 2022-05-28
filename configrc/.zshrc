@@ -12,6 +12,7 @@ HISTSIZE=10000
 SAVEHIST=10000
 ZSH_THEME="powerlevel10k/powerlevel10k"
 setopt autocd extendedglob nomatch notify
+# NB: for ad hoc case-insensitive globbing (#i): ls (#i)*abc* OR ls|grep -i abc
 setopt no_list_ambiguous
 unsetopt beep
 
