@@ -64,13 +64,13 @@ augroup initSave
 augroup END
 
 " KEY MAPS
-imap <CR> <Esc><Plug>AutolistReturn
+inoremap <CR> <Esc><Plug>AutolistReturn
 let mapleader="'"
-nmap <silent> <leader>1  :call ToggleWrap()<CR>
-nmap <silent> <leader>;  :set spell!<CR>
-nmap <silent> <leader>s  :set nolist!<CR>
-nmap O <Plug>AutolistNewLineAbove
-nmap o <Plug>AutolistNewLineBelow
+nnoremap <silent> <leader>1  :call ToggleWrap()<CR>
+nnoremap <silent> <leader>;  :set spell!<CR>
+nnoremap <silent> <leader>s  :set nolist!<CR>
+nnoremap O <Plug>AutolistNewLineAbove
+nnoremap o <Plug>AutolistNewLineBelow
 nnoremap ' `
 nnoremap ` '
 nnoremap <silent><Space> :nohlsearch<Bar>:echo<CR>
