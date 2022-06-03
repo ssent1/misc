@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/usr/local/bin/zsh
 #
 # Update package managers: Homebrew (macOS), npm (JavaScript), pip (Python)
 {
