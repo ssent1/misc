@@ -87,10 +87,10 @@
 : ${ZSH_HIGHLIGHT_STYLES[named-fd]:='fg=#F8F8F2'}
 : ${ZSH_HIGHLIGHT_STYLES[numeric-fd]:='fg=#F8F8F2'}
 : ${ZSH_HIGHLIGHT_STYLES[process-substitution]:='fg=#BD93F9'}
-: ${ZSH_HIGHLIGHT_STYLES[redirection]:='fg=#F8F8F2'}
+: ${ZSH_HIGHLIGHT_STYLES[redirection]:='fg=#F1FA8C'}
 
 # ^ 2022-04-22T14:48:10-0500\
-# % 2022-05-21T16:02:49-0400
+# % 2022-06-04T13:19:29-0400
 
 # Whether the highlighter should be called or not.
 _zsh_highlight_highlighter_main_predicate()
