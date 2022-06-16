@@ -2055,7 +2055,7 @@ Maximize Active Pane</string>
 					<key>partial</key>
 					<true/>
 					<key>regex</key>
-					<string>(^\/.*)( )</string>
+					<string>\n+\Z</string>
 				</dict>
 			</array>
 			<key>Unicode Version</key>
