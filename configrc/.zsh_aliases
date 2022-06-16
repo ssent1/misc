@@ -79,6 +79,8 @@ alias zcp='zmv -C'         # ~ cp -f (copy, force)
 alias zln='zmv -L'         # ~ ln -f (hard link, force)
 alias zls='zmv -Ls'        # ~ ln -sf (symbolic link, force)
 alias zmr='!zmv:0 !!:2-$'  # rerun last zmv command without -n (rm dry run flag)
+alias zmn='zmv -nwv '\''* *'\'' '\''${(L)f// /-}'\'''      # change space to dash, dry run, no exec, implicit parentheses
+alias zmN='zmv -n '\''(*) (*)'\'' '\''${(L)1}-${(L)2}'\''' # change space to dash, dry run, no exec
 
 ### privileged access
 if [[ "$UID" -ne 0 ]]; then
@@ -109,4 +111,4 @@ alias -s {css,html,js,md,sh,zsh,,}='code' # open file.{ext} in VSCode
 ## https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html
 
 ## ^ 2022-01-12T21:16:44-0500
-## % 2022-06-03T17:03:02-0500
+## % 2022-06-16T19:11:38-0500
