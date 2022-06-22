@@ -42,11 +42,12 @@ alias grep='grep -i --color=never'                 # set case -[i]nsensitive
 alias h='history'
 alias ip='curl -sw "\n" https://ifconfig.me/ip|tee >(tr -d "\n"|pbcopy)'
 alias j='jobs -l'
-alias ls='ls -alh'                                 # remap default ls
-alias meteo='bash /Users/syd/Code/meteo/meteo.sh'  # show weather
-alias misd='/Users/syd/Code/misc ; iz'             # mnemonic: misc. directory
-alias mkdir='mkdir -pv'                            # create, list dirs, if req'd
-alias nvad='/Users/syd/Dropbox/nvalt-repo ; iz'    # mnemonic: nvALT repo dir
+alias ls='ls -alh'                                       # remap default ls
+alias manzmv='LESS="$LESS +/^ *zmv *\\[" man zshcontrib' # zmv manpage
+alias meteo='bash /Users/syd/Code/meteo/meteo.sh'        # show weather
+alias misd='/Users/syd/Code/misc ; iz'                   # mnemonic: misc. directory
+alias mkdir='mkdir -pv'                                  # create, list dirs, if req'd
+alias nvad='/Users/syd/Dropbox/nvalt-repo ; iz'          # mnemonic: nvALT repo dir
 alias osa='open /Applications/Signal.app'
 alias osk='open /Applications/Sidekick.app'
 alias owa='open /Applications/WhatsApp.app'
@@ -78,9 +79,9 @@ alias zcalc='zcalc -f -r4' # floating point, four stacks
 alias zcp='zmv -C'         # ~ cp -f (copy, force)
 alias zln='zmv -L'         # ~ ln -f (hard link, force)
 alias zls='zmv -Ls'        # ~ ln -sf (symbolic link, force)
-alias zmr='!zmv:0 !!:2-$'  # rerun last zmv command without -n (rm dry run flag)
-alias zmn='zmv -nwv '\''* *'\'' '\''${(L)f// /-}'\'''      # change space to dash, dry run, no exec, implicit parentheses
 alias zmN='zmv -n '\''(*) (*)'\'' '\''${(L)1}-${(L)2}'\''' # change space to dash, dry run, no exec
+alias zmn='zmv -nwv '\''* *'\'' '\''${(L)f// /-}'\'''      # change space to dash, dry run, no exec, implicit parentheses
+alias zmr='!zmv:0 !!:2-$ && cl'                            # rerun last zmv command without -n (rm dry run flag)
 
 ### privileged access
 if [[ "$UID" -ne 0 ]]; then
@@ -111,4 +112,4 @@ alias -s {css,html,js,md,sh,zsh,,}='code' # open file.{ext} in VSCode
 ## https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html
 
 ## ^ 2022-01-12T21:16:44-0500
-## % 2022-06-16T19:11:38-0500
+## % 2022-06-16T20:11:36-0500
