@@ -10,10 +10,14 @@
 	<true/>
 	<key>AutoHideTmuxClientSession</key>
 	<true/>
+	<key>BracketedPasteMode</key>
+	<true/>
 	<key>CheckTestRelease</key>
 	<true/>
 	<key>Command</key>
 	<string></string>
+	<key>ConvertDosNewlines</key>
+	<true/>
 	<key>Coprocess MRU</key>
 	<array>
 		<string>printf '%s' "$(pbpaste)"</string>
@@ -605,6 +609,8 @@
 	<false/>
 	<key>EnableProxyIcon</key>
 	<true/>
+	<key>EscapeShellCharsWithBackslash</key>
+	<false/>
 	<key>FlashTabBarInFullscreen</key>
 	<false/>
 	<key>FocusFollowsMouse</key>
@@ -1640,7 +1646,7 @@ Maximize Active Pane</string>
 			<key>Right Option Key Changeable</key>
 			<true/>
 			<key>Right Option Key Sends</key>
-			<integer>0</integer>
+			<integer>2</integer>
 			<key>Rows</key>
 			<integer>40</integer>
 			<key>Screen</key>
@@ -3355,6 +3361,8 @@ Maximize Active Pane</string>
 			<string>/Users/syd</string>
 		</dict>
 	</array>
+	<key>OnlyWhenMoreTabs</key>
+	<true/>
 	<key>OpenArrangementAtStartup</key>
 	<false/>
 	<key>OpenBookmark</key>
@@ -3371,6 +3379,12 @@ Maximize Active Pane</string>
 	<false/>
 	<key>PassOnControlClick</key>
 	<true/>
+	<key>PasteSpecialRegex</key>
+	<string></string>
+	<key>PasteSpecialSubstitution</key>
+	<string></string>
+	<key>PasteSpecialUseRegexSubstitution</key>
+	<false/>
 	<key>PerPaneBackgroundImage</key>
 	<false/>
 	<key>PinchToChangeFontSizeDisabled</key>
@@ -3388,7 +3402,9 @@ Maximize Active Pane</string>
 	<key>Print In Black And White</key>
 	<true/>
 	<key>PromptOnQuit</key>
-	<false/>
+	<true/>
+	<key>PromptOnQuitEvenIfThereAreNoWindows</key>
+	<true/>
 	<key>QuickPasteBytesPerCall</key>
 	<integer>1152</integer>
 	<key>QuickPasteDelayBetweenCalls</key>
