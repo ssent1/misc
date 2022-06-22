@@ -1,8 +1,11 @@
 python3 -m pip install -U autopep8
 python3 -m pip install -U gpg
+python3 -m pip install -U greenlet
+python3 -m pip install -U msgpack
 python3 -m pip install -U notmuch
 python3 -m pip install -U pip
 python3 -m pip install -U pycodestyle
+python3 -m pip install -U pynvim
 python3 -m pip install -U rfc6555
 python3 -m pip install -U selectors2
 python3 -m pip install -U setuptools
