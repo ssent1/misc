@@ -51,9 +51,9 @@
 : ${ZSH_HIGHLIGHT_STYLES[back-quoted-argument-delimiter]:='fg=#FF79C6'}
 : ${ZSH_HIGHLIGHT_STYLES[back-quoted-argument-unclosed]:='fg=#FF5555'}
 : ${ZSH_HIGHLIGHT_STYLES[back-quoted-argument]:='fg=#BD93F9'}
-: ${ZSH_HIGHLIGHT_STYLES[dollar-double-quoted-argument]:='fg=#F8F8F2'}
+: ${ZSH_HIGHLIGHT_STYLES[dollar-double-quoted-argument]:='fg=#8BE9FD'}
 : ${ZSH_HIGHLIGHT_STYLES[dollar-quoted-argument-unclosed]:='fg=#FF5555'}
-: ${ZSH_HIGHLIGHT_STYLES[dollar-quoted-argument]:='fg=#F8F8F2'}
+: ${ZSH_HIGHLIGHT_STYLES[dollar-quoted-argument]:='fg=#8BE9FD'}
 : ${ZSH_HIGHLIGHT_STYLES[double-quoted-argument-unclosed]:='fg=#FF5555'}
 : ${ZSH_HIGHLIGHT_STYLES[double-quoted-argument]:='fg=#F1FA8C'}
 : ${ZSH_HIGHLIGHT_STYLES[single-quoted-argument-unclosed]:='fg=#FF5555'}
@@ -82,7 +82,7 @@
 : ${ZSH_HIGHLIGHT_STYLES[arithmetic-expansion]:='fg=#BD93F9'}
 : ${ZSH_HIGHLIGHT_STYLES[assign]:='fg=#F8F8F2'}
 : ${ZSH_HIGHLIGHT_STYLES[default]:='fg=#F8F8F2'}
-: ${ZSH_HIGHLIGHT_STYLES[globbing]:='fg=#F8F8F2'}
+: ${ZSH_HIGHLIGHT_STYLES[globbing]:='fg=#8BE9FD'}
 : ${ZSH_HIGHLIGHT_STYLES[history-expansion]:='fg=#BD93F9'}
 : ${ZSH_HIGHLIGHT_STYLES[named-fd]:='fg=#F8F8F2'}
 : ${ZSH_HIGHLIGHT_STYLES[numeric-fd]:='fg=#F8F8F2'}
