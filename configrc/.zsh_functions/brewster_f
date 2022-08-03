@@ -1,7 +1,7 @@
 # Brewster updates package managers
 ## Homebrew (macOS), npm (Node.js), & pip (Python)
 
-if read -qr "CHOICE?Press [y]es to run Brewster:  "; then
+brewsterf() {if read -qr "CHOICE?Press [y]es to run Brewster:  "; then
     sleep 1
     spinner() {
         slt=0.25
@@ -21,4 +21,4 @@ if read -qr "CHOICE?Press [y]es to run Brewster:  "; then
     return 0
 else
     return 1
-fi
+fi}
