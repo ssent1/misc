@@ -1,5 +1,5 @@
 # Brewster updates package managers
-# Homebrew (macOS), npm (Node.js), & pip (Python)
+## Homebrew (macOS), npm (Node.js), & pip (Python)
 
 if read -qr "CHOICE?Press [y]es to run Brewster:  "; then
     sleep 1
