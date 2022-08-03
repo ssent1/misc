@@ -17,7 +17,7 @@ brewsterf() {if read -qr "CHOICE?Press [y]es to run Brewster:  "; then
         spinner
         i=$(($i + 1))
     done
-    . /Users/syd/Code/misc/Brewster/brewster
+    . $HOME/Code/misc/Brewster/brewster
     return 0
 else
     return 1
