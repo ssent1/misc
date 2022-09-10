@@ -27,3 +27,27 @@ tell application "System Events"
 		end tell
 	end tell
 end tellactivate application "SystemUIServer"
+
+# return status
+activate application "SystemUIServer"
+tell application "System Events"
+	tell process "SystemUIServer"
+		set btMenu to (menu bar item 1 of menu bar 1 whose description contains "Bluetooth")
+		tell btMenu
+			click
+			tell (menu item "Tracer" of menu 1)
+				click
+				if exists menu item "Disconnect" of menu 1 then
+					return "Tracer (Apple Magic Mouse) connected."
+				else
+					if exists menu item "Connect" of menu 1 then
+						return "Not connected."
+					else
+						click btMenu
+						return "Hey! I can't find your Bluetooth mouse. Is it paired?"
+					end if
+				end if
+			end tell
+		end tell
+	end tell
+end tell
