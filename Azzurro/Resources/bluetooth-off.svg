@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="590.556 768.111 128 128" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <clipPath id="clippath0" transform="">
+      <path d="M 0 0 L 60 0 L 60 60 L 0 60 Z" style="fill: none; clip-rule: nonzero;"/>
+    </clipPath>
+  </defs>
+  <g transform="matrix(1, 0, 0, -1, 588.111084, 910.611206)">
+    <g style="" transform="matrix(1, 0, 0, 1, 2.444439, 14.499996)">
+      <path d="M 0 0 L 128 0 L 128 128 L 0 128 L 0 0 Z" style="fill: none;" bx:origin="0.483507 0.473525"/>
+    </g>
+    <g style="clip-path: url(#clippath0);" transform="matrix(2.222222, 0, 0, 2.222222, -0.223118, 11.833334)">
+      <g transform="translate(32.1924 43.666)" style="">
+        <path d="M 0 0 L 4.482 -4.465 L 0.003 -8.926 Z M 0 -27.332 L 4.482 -22.867 L 0.003 -18.405 Z M -4.786 -13.666 L -14.478 -3.988 L -11.669 -1.191 L -3.947 -8.883 L -3.947 9.551 L 10.094 -4.433 L 0.821 -13.666 L 10.094 -22.9 L -3.947 -36.883 L -3.947 -18.449 L -11.669 -26.141 L -14.478 -23.344 Z M -2.19 -40.666 C 9.649 -40.666 17.808 -35.065 17.808 -13.666 C 17.808 7.733 9.649 13.334 -2.19 13.334 C -14.028 13.334 -22.192 7.733 -22.192 -13.666 C -22.192 -35.065 -14.028 -40.666 -2.19 -40.666" style="fill-opacity: 1; fill: rgb(135, 160, 181);"/>
+      </g>
+    </g>
+  </g>
+</svg>
