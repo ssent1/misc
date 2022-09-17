@@ -1,3 +1,4 @@
+# see get-bluetooth-status.sh
 bts=$(blueutil -p)
 cat << EOF
 
