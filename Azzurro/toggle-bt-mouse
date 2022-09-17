@@ -1,0 +1,11 @@
+#! /bin/bash
+getbtmcs=$(/usr/local/bin/blueutil --is-connected 9c-35-eb-16-2e-4e)
+# 9c-35-eb-16-2e-4e => Tracer (Apple Mighty Mouse)
+if [ "$getbtmcs" = 0 ] ; then
+    /usr/local/bin/blueutil --connect 9c-35-eb-16-2e-4e
+    btmc="Tracer is now : NOT connected"
+else
+    /usr/local/bin/blueutil --disconnect 9c-35-eb-16-2e-4e
+    btmc="Tracer has been disconnected"
+fi
+echo "$btmc"
