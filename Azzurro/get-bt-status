@@ -1,0 +1,27 @@
+#! /bin/bash
+getbts=$(/usr/local/bin/blueutil -p)
+getbtms=$(/usr/local/bin/blueutil --is-connected 9c-35-eb-16-2e-4e)
+# 9c-35-eb-16-2e-4e => Tracer (Apple Mighty Mouse)
+if [ "$getbts" = 0 ] ; then
+    bts="Bluetooth Power: Off"
+else
+    bts="Bluetooth Power: On"
+fi
+if [ "$getbtms" = 0 ] ; then
+    btms="Tracer: NOT connected"
+else
+    btms="Tracer: Connected"
+fi
+echo "$bts"
+echo "$btms"
+
+cat << EOF
+<?xml version="1.0"?>
+<items>
+    <item uid="com.petrmanas.btwftoggle" arg="$bts" valid="yes" type="file">
+    <title>Toggle Bluetooth</title>
+    <subtitle>$bts :: $btms</subtitle>
+    <icon type="file">icon.png</icon>
+    </item>
+</items>
+EOF
