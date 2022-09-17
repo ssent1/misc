@@ -3,7 +3,7 @@
     ejected=0
 
     for v in /Volumes/*; do
-        if [[ $v != *"Preboot"* && $v != *"Calvin" && $v != *"com.apple.TimeMachine"* ]]; then
+        if [[ $v != *"Hobbes"* && $v != *"Zorg" && $v != *"com.apple.TimeMachine"* ]]; then
             echo "Ejecting $v..."
             diskutil eject "$v"
 
@@ -24,7 +24,7 @@
         fi
         echo "$msg"
     fi
-    cd "$HOME"/Dropbox/nvalt/ || return
+    cd "$HOME"/Desktop/ || return
 
 # https://apple.stackexchange.com/questions/370406/how-to-eject-all-drives-from-the-command-line
 
@@ -46,4 +46,4 @@
 # Attract more good karma! Credit the author.
 # ---
 # > 2022-02-28T16:01:32-0500
-# + 2022-08-26T19:43:17-0400
+# + 2022-09-15T00:51:53-0400
