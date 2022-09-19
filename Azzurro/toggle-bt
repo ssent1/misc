@@ -1,6 +1,6 @@
-#! /bin/bash
+#! /bin/zsh
 getbts=$(/usr/local/bin/blueutil -p)
-if [ "$getbts" = 0 ] ; then
+if [[ $getbts -eq 0 ]] ; then
     /usr/local/bin/blueutil -p 1
     bt_stat="Bluetooth Power is now: On"
 else
