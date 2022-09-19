@@ -1,11 +1,21 @@
 #! /bin/bash
 getbtmcs=$(/usr/local/bin/blueutil --is-connected 9c-35-eb-16-2e-4e)
 # 9c-35-eb-16-2e-4e => Tracer (Apple Mighty Mouse)
-if [ "$getbtmcs" = 0 ] ; then
+if [[ $getbtmcs -eq 0 ]] ; then
     /usr/local/bin/blueutil --connect 9c-35-eb-16-2e-4e
-    btmc="Tracer is now : NOT connected"
+    btmc="Tracer is now: connected"
 else
     /usr/local/bin/blueutil --disconnect 9c-35-eb-16-2e-4e
     btmc="Tracer has been disconnected"
 fi
 echo "$btmc"
+
+Failed to connect "9c-35-eb-16-2e-4e"
+Tracer is now: connected
+
+# 19-Sep-22
+# [ ] TODO:  add wait; is there a try time for the --connect command?
+# [ ] FIXME: add a failure state (via elif?) if mouse fails to connect
+# [ ] TODO:  see if blueutil reports battery level status
+# [ ] FIXME: see https://www.cyberciti.biz/faq/bash-get-exit-code-of-command/ "exit codes"
+# [ ] FIXME: also https://linuxize.com/post/bash-exit/ "Exit Codes"
