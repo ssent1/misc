@@ -1,19 +1,18 @@
-#! /bin/bash
+#! /bin/zsh
 getbts=$(/usr/local/bin/blueutil -p)
-getbtms=$(/usr/local/bin/blueutil --is-connected 9c-35-eb-16-2e-4e)
-# 9c-35-eb-16-2e-4e => Tracer (Apple Mighty Mouse)
-if [ "$getbts" = 0 ] ; then
+if [[ $getbts -eq 0 ]] ; then
     bts="Bluetooth Power: Off"
 else
     bts="Bluetooth Power: On"
 fi
-if [ "$getbtms" = 0 ] ; then
+
+getbtms=$(/usr/local/bin/blueutil --is-connected 9c-35-eb-16-2e-4e)
+# 9c-35-eb-16-2e-4e => Tracer (Apple Mighty Mouse)
+if [[ $getbtms -eq 0 ]] ; then
     btms="Tracer: NOT connected"
 else
     btms="Tracer: Connected"
 fi
-echo "$bts"
-echo "$btms"
 
 cat << EOF
 <?xml version="1.0"?>
