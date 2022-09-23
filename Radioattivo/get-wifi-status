@@ -1,11 +1,13 @@
-#! /bin/zsh
-wifi=$(networksetup -getairportpower en1)
+#!/bin/zsh
+dev=en1
+wifi=$(networksetup -getairportpower $dev)
+ssid=$(networksetup -getairportnetwork $dev)
 cat << EOF
 <?xml version="1.0"?>
 <items>
     <item uid="com.sydsalmon.radioattivo" arg="$wifi" valid="yes" type="file">
     <title>Wi-Fi Status</title>
-    <subtitle>$wifi</subtitle>
+    <subtitle>$wifi :: $ssid</subtitle>
     <icon type="file">wifi-logo.png</icon>
     </item>
 </items>
