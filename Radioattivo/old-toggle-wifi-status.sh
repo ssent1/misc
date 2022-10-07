@@ -6,5 +6,7 @@ do shell script "networksetup -setairportpower " & wifi & " off"
 else
 do shell script "networksetup -setairportpower " & wifi & " on"
     set output to (" on")
+do shell script "networksetup -setairportnetwork en1 KPL-CountryHills"
+    set output to (" connecting to KPL-CountryHills")
 end if
 end alfred_script
