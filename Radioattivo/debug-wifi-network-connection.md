@@ -1,5 +1,105 @@
 # Debug Wi-Fi - not establishing network connection
 
+- [GET HARDWARE & NETWORK INFO](#get-hardware-&-network-info)
+  - [1. List Device Info](#1.-list-device-info)
+  - [2. List Network Info](#2.-list-network-info)
+  - [3. List Preferred Networks](#3.-list-preferred-networks)
+- [SET VARIABLES](#set-variables)
+- [DECISION TREE](#decision-tree)
+  - [1. Is network service available?](#1.-is-network-service-available?)
+  - [2. Is Wi-Fi radio on?](#2.-is-wi-fi-radio-on?)
+  - [3. Is Wi-Fi service connected to network?](#3.-is-wi-fi-service-connected-to-network?)
+- [ERROR CONDITIONS](#error-conditions)
+- [DIAGNOSTICS](#diagnostics)
+- [COMMANDS NOT RUN](#commands-not-run)
+- [sources](#sources)
+
+## GET HARDWARE & NETWORK INFO
+
+### 1. List Device Info 
+
+```zsh
+networksetup -listallhardwareports
+Hardware Port: Ethernet
+Device: en0
+Ethernet Address: c4:2c:03:0c:5f:e9
+
+Hardware Port: Wi-Fi
+Device: en1
+Ethernet Address: f8:1e:df:e8:46:66
+
+VLAN Configurations
+===================
+```
+
+### 2. List Network Info
+
+```zsh
+networksetup -listallnetworkservices
+An asterisk (*) denotes that a network service is disabled.
+Wi-Fi
+Ethernet
+FireWire
+```
+
+### 3. List Preferred Networks
+
+```zsh
+networksetup -listpreferredwirelessnetworks en1
+Preferred networks on en1:
+    Azkaban
+    Epiphany
+    FidoF1415
+    KPL-CountryHills
+    KPL-MAIN
+    Kitchener Public WiFi
+    zucchero
+    zucker
+```
+
+## SET VARIABLES
+
+```zsh
+dev=en1
+srv=Wi-Fi
+net=KPL-CountryHills
+```
+
+## DECISION TREE
+
+### 1. Is network service available?
+
+```zsh
+networksetup -getnetworkserviceenabled $srv
+Disabled
+Enabled
+
+networksetup -setnetworkserviceenabled $srv on|off # {enable,disable}
+```
+
+### 2. Is Wi-Fi radio on?
+
+> Device power status?
+
+```zsh
+networksetup -getairportpower $dev  # Is Wi-Fi radio on?
+Wi-Fi Power (en1): Off
+Wi-Fi Power (en1): On
+
+networksetup -setairportpower $dev on|off  # {enable,disable}
+```
+
+### 3. Is Wi-Fi service connected to network?
+
+```zsh
+networksetup -getairportnetwork $dev
+You are not associated with an AirPort network.
+Current Wi-Fi Network: KPL-CountryHills
+
+networksetup -setairportnetwork $dev $net  # syntax: $dev $net password, if pwd does not exist in Keychain Access
+Could not find network KPL-CountryHills.   # IF($?=0,,Could not find network $net.)
+```
+
 ## ERROR CONDITIONS
 
 ```zsh
@@ -269,7 +369,7 @@ networksetup
 Tags: system administration, sysadmin, network admin, macos, linux, command line, cli
 
 ^ 2022-09-28T10:25:32-04:00\
-% 2022-10-07T13:07:13-04:00
+% 2022-10-27T19:27:13-04:00
 
 <!-- SOURCES & RESOURCES -->
 
