@@ -23,3 +23,5 @@ end tell
 tell application "Safari" to tell document 1
 	set the clipboard to "[1]: " & URL & " \"" & name & "\"" & return
 end tell
+# https://gist.github.com/prashanthrajagopal/08ab39d62725c8a8716b "get_url.scpt"
+
