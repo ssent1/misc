@@ -1,0 +1,5755 @@
+ Software Versions:
+  CoreWLAN:	16.0 (1657)
+  CoreWLANKit:	16.0 (1657)
+  Menu Extra:	17.0 (1728)
+  System Information:	15.0 (1502)
+  IO80211 Family:	12.0 (1200.12.2b1)
+  Diagnostics:	11.0 (1163)
+  AirPort Utility:	6.3.9 (639.15)
+  Interfaces:
+en1:
+  Card Type:	AirPort Extreme  (0x14E4, 0x7BF)
+  Firmware Version:	wl0: Aug 10 2021 20:10:47 version 9.30.444.18.32.5.71 FWID 01-30b2601e
+  MAC Address:	88:66:5a:00:bf:ee
+  Locale:	FCC
+  Country Code:	X0
+  Wake On Wireless:	Supported
+  AirDrop:	Supported
+  AirDrop Channel:	0
+  Auto Unlock:	Supported
+  Status:	Off
+
+System Software Overview:
+
+  System Version:	macOS 11.6 (20G165)
+  Kernel Version:	Darwin 20.6.0
+  Boot Volume:	iMac
+  Boot Mode:	Normal
+  Computer Name:	CH-iMAC
+  User Name:	User (user)
+  Secure Virtual Memory:	Enabled
+  System Integrity Protection:	Enabled
+  Time since boot:	1:28
+
+
+{B57067F9-E97B-46EE-94F5-179373B81A6C}:
+
+  Version:	11.0.0.11
+  Obtained from:	Identified Developer
+  Last Modified:	2019-05-18, 9:21 AM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Systems, Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/Uninstall/{B57067F9-E97B-46EE-94F5-179373B81A6C}/{B57067F9-E97B-46EE-94F5-179373B81A6C}.app
+  Get Info String:	11.0.0.11, "© 2018 Adobe. All rights reserved."
+
+50onPaletteServer:
+
+  Version:	1.1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/Input Methods/50onPaletteServer.app
+
+ABAssistantService:
+
+  Version:	11.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/Frameworks/AddressBook.framework/Versions/A/Helpers/ABAssistantService.app
+
+About This Mac:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/Applications/About This Mac.app
+
+AccessibilityVisualsAgent:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/PrivateFrameworks/AccessibilitySupport.framework/Versions/A/Resources/AccessibilityVisualsAgent.app
+
+ACCFinderBundleLoader:
+
+  Version:	4.21.0.14
+  Obtained from:	Identified Developer
+  Last Modified:	2021-09-22, 12:17 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Utilities/Adobe Sync/CoreSyncExtension/ACCFinderBundleLoader.app
+
+ACR_13_4_32:
+
+  Version:	5.5.0.619
+  Obtained from:	Identified Developer
+  Last Modified:	2021-09-22, 12:14 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/Uninstall/ACR_13_4_32.app
+  Get Info String:	5.5.0.619
+
+Acrobat Distiller:
+
+  Version:	21.007.20091
+  Obtained from:	Identified Developer
+  Last Modified:	2021-05-19, 10:48 AM
+  Kind:	Universal
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Adobe Acrobat DC/Acrobat Distiller.app
+  Get Info String:	Acrobat Distiller™ 21.007.20091, ©1984 -2021 Adobe Systems Incorporated. All rights reserved.
+
+Acrobat Update Helper:
+
+  Version:	1 . 1 . 1
+  Obtained from:	Identified Developer
+  Last Modified:	2021-08-11, 7:43 AM
+  Kind:	Universal
+  Signed by:	Developer ID Application: Adobe Systems, Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/ARMDC/Application/Acrobat Update Helper.app
+  Get Info String:	1 . 1 . 1, ©2009-2015 Adobe Systems Incorporated. All rights reserved.
+
+AcroLicApp:
+
+  Version:	21.007.20091
+  Obtained from:	Identified Developer
+  Last Modified:	2021-05-19, 10:48 AM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/Acrobat DC Helper Frameworks/OOBE/AcroLicApp.app
+  Get Info String:	Adobe AcroLicense App 21.007.20091, ©1984 -2021 Adobe Inc. All rights reserved.
+
+Activity Monitor:
+
+  Version:	10.14
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Applications/Utilities/Activity Monitor.app
+
+AddPrinter:
+
+  Version:	16.1
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/AddPrinter.app
+
+AddressBookManager:
+
+  Version:	11.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/Frameworks/AddressBook.framework/Versions/A/Helpers/AddressBookManager.app
+
+AddressBookSourceSync:
+
+  Version:	11.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/Frameworks/AddressBook.framework/Versions/A/Helpers/AddressBookSourceSync.app
+
+AddressBookSync:
+
+  Version:	11.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/Frameworks/AddressBook.framework/Helpers/AddressBookSync.app
+
+AddressBookUrlForwarder:
+
+  Version:	11.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/AddressBookUrlForwarder.app
+
+Adobe Acrobat:
+
+  Version:	21.007.20091
+  Obtained from:	Identified Developer
+  Last Modified:	2021-09-24, 3:18 PM
+  Kind:	Universal
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Adobe Acrobat DC/Adobe Acrobat.app
+  Get Info String:	Adobe Acrobat X 21.007.20091, ©1984 -2021 Adobe Systems Incorporated. All rights reserved.
+
+Adobe Acrobat Updater:
+
+  Version:	1 . 1 . 1
+  Obtained from:	Unknown
+  Last Modified:	2021-08-11, 7:50 AM
+  Kind:	Other
+  Location:	/Library/Application Support/Adobe/ARMDC/Application/Adobe Acrobat Updater.app
+  Get Info String:	1 . 1 . 1, ©2009-2015 Adobe Systems Incorporated. All rights reserved.
+
+Adobe After Effects 2021:
+
+  Version:	18.4.1
+  Obtained from:	Identified Developer
+  Last Modified:	2021-09-22, 12:45 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Adobe After Effects 2021/Adobe After Effects 2021.app
+  Get Info String:	18.4.1, © 1992-2021 Adobe. All rights reserved.
+
+Adobe After Effects Render Engine:
+
+  Obtained from:	Identified Developer
+  Last Modified:	2021-09-22, 12:45 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Adobe After Effects 2021/Adobe After Effects Render Engine.app
+
+Adobe Animate 2021:
+
+  Version:	21.0.9
+  Obtained from:	Identified Developer
+  Last Modified:	2021-09-22, 12:52 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Adobe Animate 2021/Adobe Animate 2021.app
+  Get Info String:	Adobe Animate 2021 21.0.9, Copyright © 1991-2021-2021 Adobe. All rights reserved.
+
+Adobe Application Updater:
+
+  Version:	5.6.0.788
+  Obtained from:	Identified Developer
+  Last Modified:	2021-11-02, 4:12 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/Adobe Desktop Common/AppsPanel/Updater/Adobe Application Updater.app
+
+Adobe Audition 2021:
+
+  Version:	14.4
+  Obtained from:	Identified Developer
+  Last Modified:	2021-07-29, 1:35 PM
+  Kind:	Universal
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Adobe Audition 2021/Adobe Audition 2021.app
+  Get Info String:	Adobe Audition, Copyright © 1991-2021 Adobe
+
+Adobe Bridge 2021:
+
+  Version:	11.1.1.185
+  Obtained from:	Identified Developer
+  Last Modified:	2021-09-22, 12:46 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Systems, Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Adobe Bridge 2021/Adobe Bridge 2021.app
+  Get Info String:	11.1.1.185, Copyright 2003-2020, Adobe Inc.
+
+Adobe Character Animator 2021:
+
+  Version:	4.4
+  Obtained from:	Identified Developer
+  Last Modified:	2021-07-29, 1:34 PM
+  Kind:	Universal
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Adobe Character Animator 2021/Adobe Character Animator 2021.app
+  Get Info String:	Character Animator 4.4.0, Copyright © 1991-2021 Adobe. All rights reserved.
+
+Adobe Crash Reporter:
+
+  Version:	10.1.3
+  Obtained from:	Identified Developer
+  Last Modified:	2021-11-02, 4:12 PM
+  Kind:	Universal
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/Adobe Desktop Common/HDBox/AdobeCrashReporter.framework/Versions/A/Adobe Crash Reporter.app
+
+Adobe Desktop Service:
+
+  Version:	5.6.0.788
+  Obtained from:	Identified Developer
+  Last Modified:	2021-11-02, 4:12 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/Adobe Desktop Common/ADS/Adobe Desktop Service.app
+
+Adobe Dimension:
+
+  Version:	3.4.3
+  Obtained from:	Identified Developer
+  Last Modified:	2021-07-08, 10:00 AM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Adobe Dimension/Adobe Dimension.app
+
+Adobe Dreamweaver 2021:
+
+  Version:	21.1.0.15413
+  Obtained from:	Identified Developer
+  Last Modified:	2021-05-19, 9:52 AM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Adobe Dreamweaver 2021/Adobe Dreamweaver 2021.app
+  Get Info String:	21.1.0.15413 Copyright © 2021 Adobe Inc. All rights reserved.
+
+Adobe Illustrator 2021:
+
+  Version:	25.4.1
+  Obtained from:	Identified Developer
+  Last Modified:	2021-08-09, 1:17 PM
+  Kind:	Universal
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Adobe Illustrator 2021/Adobe Illustrator.app
+  Get Info String:	25.4.1, Copyright © 1987-2021 Adobe Systems Inc.  All rights reserved.
+
+Adobe InCopy 2021:
+
+  Version:	16.4.0.54
+  Obtained from:	Identified Developer
+  Last Modified:	2021-09-22, 12:58 PM
+  Kind:	Universal
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Adobe InCopy 2021/Adobe InCopy 2021.app
+  Get Info String:	16.4, Copyright 1999-2021 Adobe. All rights reserved.
+
+Adobe InDesign 2021:
+
+  Version:	16.4.0.54
+  Obtained from:	Identified Developer
+  Last Modified:	2021-09-22, 12:34 PM
+  Kind:	Universal
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Adobe InDesign 2021/Adobe InDesign 2021.app
+  Get Info String:	16.4, Copyright 1999-2021 Adobe. All rights reserved.
+
+Adobe Lightroom:
+
+  Version:	Adobe Lightroom 4.4 (20210805-0652-b84a95f)
+  Obtained from:	Identified Developer
+  Last Modified:	2021-09-22, 12:38 PM
+  Kind:	Universal
+  Signed by:	Developer ID Application: Adobe Systems, Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Adobe Lightroom CC/Adobe Lightroom.app
+
+Adobe Lightroom Classic:
+
+  Version:	10.4 [202108071231-af9219b9]
+  Obtained from:	Identified Developer
+  Last Modified:	2021-09-22, 12:49 PM
+  Kind:	Universal
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Adobe Lightroom Classic/Adobe Lightroom Classic.app
+
+Adobe Media Encoder 2021:
+
+  Version:	15.4.1
+  Obtained from:	Identified Developer
+  Last Modified:	2021-09-22, 12:55 PM
+  Kind:	Universal
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Adobe Media Encoder 2021/Adobe Media Encoder 2021.app
+  Get Info String:	Adobe Media Encoder 2021 15.4.1, Copyright (C) 2008-2021 Adobe
+
+Adobe Photoshop 2021:
+
+  Version:	22.5.1
+  Obtained from:	Identified Developer
+  Last Modified:	2021-09-22, 12:31 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Adobe Photoshop 2021/Adobe Photoshop 2021.app
+  Get Info String:	22.5.1 (20210907.r.441 de74e1a)
+
+Adobe Prelude 2021:
+
+  Version:	10.1
+  Obtained from:	Identified Developer
+  Last Modified:	2021-07-29, 1:39 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Adobe Prelude 2021/Adobe Prelude 2021.app
+  Get Info String:	10.1, Copyright (C) 1991-2021 Adobe Systems, Incorporated
+
+Adobe Premiere Pro 2021:
+
+  Version:	15.4.1
+  Obtained from:	Identified Developer
+  Last Modified:	2021-09-22, 12:40 PM
+  Kind:	Universal
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Adobe Premiere Pro 2021/Adobe Premiere Pro 2021.app
+  Get Info String:	15.4.1, Copyright (C) 1991-2021 Adobe. All rights reserved.
+
+Adobe Premiere Rush:
+
+  Version:	1.5.62
+  Obtained from:	Identified Developer
+  Last Modified:	2021-07-08, 9:55 AM
+  Kind:	Universal
+  Signed by:	Developer ID Application: Adobe Systems, Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Adobe Premiere Rush/Adobe Premiere Rush.app
+  Get Info String:	1.5.62, Copyright (C) 1991-2021 Adobe Systems, Incorporated
+
+Adobe Update Helper:
+
+  Version:	5.6.0.788
+  Obtained from:	Identified Developer
+  Last Modified:	2021-11-02, 4:12 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/Adobe Desktop Common/HDBox/Adobe Update Helper.app
+
+Adobe XD:
+
+  Version:	44.0.12.7
+  Obtained from:	Identified Developer
+  Last Modified:	2021-09-22, 12:36 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Adobe XD/Adobe XD.app
+
+adobe_licensing_helper:
+
+  Version:	1.0.0.60
+  Obtained from:	Identified Developer
+  Last Modified:	2021-11-02, 4:12 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/Adobe Desktop Common/LCC/adobe_licensing_helper.app
+
+adobe_licensing_helper:
+
+  Version:	1.0.0.42
+  Obtained from:	Identified Developer
+  Last Modified:	2021-05-19, 10:48 AM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/Acrobat DC Helper Frameworks/IMSLib/adobe_licensing_helper.app
+
+adobe_licutil:
+
+  Version:	10.0.0.274
+  Obtained from:	Identified Developer
+  Last Modified:	2021-05-19, 10:48 AM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/Acrobat DC Helper Frameworks/adobe_oobelib/adobe_licutil.app
+
+adobe_licutil:
+
+  Version:	11.0.0.39
+  Obtained from:	Identified Developer
+  Last Modified:	2021-05-19, 10:48 AM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/Acrobat DC Helper Frameworks/OOBE/adobe_licutil.app
+
+AdobeCleanUpUtility:
+
+  Version:	8.0.0.60
+  Obtained from:	Identified Developer
+  Last Modified:	2021-05-14, 4:03 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/AdobeGCClient/AdobeCleanUpUtility.app
+
+AdobeCRDaemon:
+
+  Version:	10.1.3
+  Obtained from:	Identified Developer
+  Last Modified:	2021-11-02, 4:12 PM
+  Kind:	Universal
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/Adobe Desktop Common/HDBox/AdobeCrashReporter.framework/Versions/A/AdobeCRDaemon.app
+
+AdobeGCClient:
+
+  Version:	8.0.0.60
+  Obtained from:	Identified Developer
+  Last Modified:	2019-05-18, 11:16 AM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/AdobeGCClient/AdobeGCClient.app
+
+AdobeIPCBroker:
+
+  Version:	6.9.0.47
+  Obtained from:	Identified Developer
+  Last Modified:	2021-11-02, 4:12 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/Adobe Desktop Common/IPCBox/AdobeIPCBroker.app
+  Get Info String:	6.9.0.47 Copyright 2021, Adobe Systems Incorporated. All rights reserved.
+
+AdobeIPCBroker:
+
+  Version:	5.6.0.41
+  Obtained from:	Identified Developer
+  Last Modified:	2021-09-22, 12:14 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Systems, Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Utilities/Adobe Application Manager/IPC/AdobeIPCBroker.app
+  Get Info String:	5.6.0.41 Copyright 2017, Adobe Systems Incorporated. All rights reserved.
+
+AEFT_16_1_3:
+
+  Version:	4.9.0.504
+  Obtained from:	Identified Developer
+  Last Modified:	2019-08-20, 4:18 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Systems, Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/Uninstall/AEFT_16_1_3.app
+  Get Info String:	4.9.0.504
+
+AEFT_18_4_1:
+
+  Version:	5.5.0.619
+  Obtained from:	Identified Developer
+  Last Modified:	2021-09-22, 12:14 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/Uninstall/AEFT_18_4_1.app
+  Get Info String:	5.5.0.619
+
+AICY_14_0_2:
+
+  Version:	4.8.1.435
+  Obtained from:	Identified Developer
+  Last Modified:	2019-05-18, 9:21 AM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Systems, Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/Uninstall/AICY_14_0_2.app
+  Get Info String:	4.8.1.435
+
+AICY_16_4_32:
+
+  Version:	5.5.0.619
+  Obtained from:	Identified Developer
+  Last Modified:	2021-09-22, 12:14 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/Uninstall/AICY_16_4_32.app
+  Get Info String:	5.5.0.619
+
+AinuIM:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/Input Methods/AinuIM.app
+
+AirDrop:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/Finder.app/Contents/Applications/AirDrop.app
+
+AirPlayUIAgent:
+
+  Version:	2.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/AirPlayUIAgent.app
+
+AirPort Base Station Agent:
+
+  Version:	2.2.1
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/AirPort Base Station Agent.app
+  Get Info String:	2.2.1 (221.10), Copyright © 2006 -2020 Apple Inc. All Rights Reserved.
+
+AirPort Utility:
+
+  Version:	6.3.9
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Applications/Utilities/AirPort Utility.app
+  Get Info String:	6.3.9, Copyright 2001 -2020 Apple Inc.
+
+AirScanLegacyDiscovery:
+
+  Version:	16.1
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/Library/Image Capture/Support/LegacyDeviceDiscoveryHelpers/AirScanLegacyDiscovery.app
+
+AirScanScanner:
+
+  Version:	16
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/Image Capture/Devices/AirScanScanner.app
+
+AME_13_1_5:
+
+  Version:	4.9.0.504
+  Obtained from:	Identified Developer
+  Last Modified:	2019-08-20, 4:18 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Systems, Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/Uninstall/AME_13_1_5.app
+  Get Info String:	4.9.0.504
+
+AME_15_4_1_32:
+
+  Version:	5.5.0.619
+  Obtained from:	Identified Developer
+  Last Modified:	2021-09-22, 12:14 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/Uninstall/AME_15_4_1_32.app
+  Get Info String:	5.5.0.619
+
+AOSAlertManager:
+
+  Version:	1.07
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/PrivateFrameworks/AOSKit.framework/Versions/A/Helpers/AOSAlertManager.app
+
+AOSHeartbeat:
+
+  Version:	1.07
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/PrivateFrameworks/AOSKit.framework/Versions/A/Helpers/AOSHeartbeat.app
+
+AOSPushRelay:
+
+  Version:	1.07
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/PrivateFrameworks/AOSKit.framework/Versions/A/Helpers/AOSPushRelay.app
+
+App Store:
+
+  Version:	3.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Applications/App Store.app
+
+AppleMobileDeviceHelper:
+
+  Version:	5.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/Library/Apple/System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/AppleMobileDeviceHelper.app
+
+AppleMobileSync:
+
+  Version:	5.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/Library/Apple/System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/AppleMobileSync.app
+
+AppleScript Utility:
+
+  Version:	1.1.2
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/AppleScript Utility.app
+
+AppleSpell:
+
+  Version:	2.4
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/Services/AppleSpell.service
+
+AppSSOAgent:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/PrivateFrameworks/AppSSO.framework/Support/AppSSOAgent.app
+
+AquaAppearanceHelper:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/PrivateFrameworks/SkyLight.framework/Versions/A/Resources/AquaAppearanceHelper.app
+
+Archive Utility:
+
+  Version:	10.15
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/Applications/Archive Utility.app
+
+ARDAgent:
+
+  Version:	3.9.8
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/RemoteManagement/ARDAgent.app
+
+AskPermissionUI:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/PrivateFrameworks/AskPermission.framework/Versions/A/Resources/AskPermissionUI.app
+
+Assistive Control:
+
+  Version:	2.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/Input Methods/Assistive Control.app
+
+Audacity:
+
+  Version:	3.0.2.0
+  Obtained from:	Identified Developer
+  Last Modified:	2021-04-13, 4:38 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: James Crook (T3N4JQ7YY6), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Audacity.app
+  Get Info String:	Audacity version 3.0.2.0
+
+Audio MIDI Setup:
+
+  Version:	3.5
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Applications/Utilities/Audio MIDI Setup.app
+  Get Info String:	3.5, Copyright 2002-2020 Apple Inc.
+
+AUDT_12_1_5:
+
+  Version:	5.0.0.354
+  Obtained from:	Identified Developer
+  Last Modified:	2019-11-18, 10:54 AM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Systems, Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/Uninstall/AUDT_12_1_5.app
+  Get Info String:	5.0.0.354
+
+AUDT_14_4_32:
+
+  Version:	5.5.0.619
+  Obtained from:	Identified Developer
+  Last Modified:	2021-07-29, 1:17 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/Uninstall/AUDT_14_4_32.app
+  Get Info String:	5.5.0.619
+
+Automator:
+
+  Version:	2.10
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Applications/Automator.app
+
+Automator Application Stub:
+
+  Version:	1.3
+  Obtained from:	Unknown
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Location:	/System/Library/CoreServices/Automator Application Stub.app
+
+Automator Installer:
+
+  Version:	2.10
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/Automator Installer.app
+
+AVB Audio Configuration:
+
+  Version:	940.4
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/AVB Audio Configuration.app
+
+AXVisualSupportAgent:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/PrivateFrameworks/UniversalAccess.framework/Versions/A/Resources/AXVisualSupportAgent.app
+
+Bluetooth File Exchange:
+
+  Version:	8.0.5
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Applications/Utilities/Bluetooth File Exchange.app
+  Get Info String:	8.0.5, Copyright © 2002-2019 Apple Inc. All rights reserved.
+
+Bluetooth Setup Assistant:
+
+  Version:	8.0.5
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/Bluetooth Setup Assistant.app
+  Get Info String:	8.0.5, Copyright © 2002-2019 Apple Inc. All rights reserved.
+
+BluetoothUIServer:
+
+  Version:	8.0.5
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/BluetoothUIServer.app
+  Get Info String:	8.0.5, Copyright © 2002-2019 Apple Inc. All rights reserved.
+
+Books:
+
+  Version:	3.2
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Applications/Books.app
+
+Boot Camp Assistant:
+
+  Version:	6.1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Applications/Utilities/Boot Camp Assistant.app
+
+Build Web Page:
+
+  Version:	10.1
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/Image Capture/Automatic Tasks/Build Web Page.app
+  Get Info String:	10.1, © Copyright 2003-2014 Apple  Inc. All rights reserved.
+
+c4dpy:
+
+  Version:	21.0
+  Obtained from:	Identified Developer
+  Last Modified:	2020-01-27, 10:12 AM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Maxon Computer GmbH (4ZY22YGXQG), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Maxon Cinema 4D R21/c4dpy.app
+  Get Info String:	c4dpy 21.022 © 1989-2019 MAXON Computer GmbH
+
+c4dpy:
+
+  Version:	22.0
+  Obtained from:	Identified Developer
+  Last Modified:	2021-05-19, 9:43 AM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Maxon Computer GmbH (4ZY22YGXQG), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Maxon Cinema 4D R22/c4dpy.app
+  Get Info String:	c4dpy 22.016 © 1989-2020 MAXON Computer GmbH
+
+Calculator:
+
+  Version:	10.16
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Applications/Calculator.app
+  Get Info String:	10.14, Copyright © 2000-2018, Apple Inc.
+
+Calendar:
+
+  Version:	11.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Applications/Calendar.app
+
+CalendarFileHandler:
+
+  Version:	8.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/CalendarFileHandler.app
+
+Calibration Assistant:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/PrivateFrameworks/AmbientDisplay.framework/Versions/A/Resources/Calibration Assistant.app
+
+Canon IJScanner2:
+
+  Version:	4.0.0
+  Obtained from:	Identified Developer
+  Last Modified:	2014-06-25, 11:00 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Canon Inc. (XE2XNRRXZ5), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Image Capture/Devices/Canon IJScanner2.app
+  Get Info String:	Canon IJScanner2 version 4.0.0, Copyright CANON INC. 2009-2014
+
+Canon IJScanner4:
+
+  Version:	4.0.0
+  Obtained from:	Identified Developer
+  Last Modified:	2014-06-25, 11:00 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Canon Inc. (XE2XNRRXZ5), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Image Capture/Devices/Canon IJScanner4.app
+  Get Info String:	Canon IJScanner4 version 4.0.0, Copyright CANON INC. 2009-2014
+
+Canon IJScanner6:
+
+  Version:	4.0.0
+  Obtained from:	Identified Developer
+  Last Modified:	2014-06-25, 11:00 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Canon Inc. (XE2XNRRXZ5), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Image Capture/Devices/Canon IJScanner6.app
+  Get Info String:	Canon IJScanner6 version 4.0.0, Copyright CANON INC. 2009-2014
+
+Captive Network Assistant:
+
+  Version:	5.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/Captive Network Assistant.app
+
+CC Troubleshooter:
+
+  Version:	5.6.0.788
+  Obtained from:	Identified Developer
+  Last Modified:	2021-11-02, 4:12 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Utilities/Adobe Creative Cloud/Utils/CC Troubleshooter.app
+
+CCLibrary:
+
+  Version:	3.14.18-1
+  Obtained from:	Identified Developer
+  Last Modified:	2021-09-22, 12:15 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/Creative Cloud Libraries/CCLibrary.app
+
+CCXP_4_3_2:
+
+  Version:	5.4.5.550
+  Obtained from:	Identified Developer
+  Last Modified:	2021-05-14, 11:38 AM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/Uninstall/CCXP_4_3_2.app
+  Get Info String:	5.4.5.550
+
+CCXP_4_5_2:
+
+  Version:	5.5.0.619
+  Obtained from:	Identified Developer
+  Last Modified:	2021-09-22, 12:14 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/Uninstall/CCXP_4_5_2.app
+  Get Info String:	5.5.0.619
+
+CCXProcess:
+
+  Version:	4.5.2-12
+  Obtained from:	Identified Developer
+  Last Modified:	2021-09-22, 12:16 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Utilities/Adobe Creative Cloud Experience/CCXProcess/CCXProcess.app
+
+CDEC_1_0_0:
+
+  Version:	4.8.1.435
+  Obtained from:	Identified Developer
+  Last Modified:	2019-05-18, 9:21 AM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Systems, Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/Uninstall/CDEC_1_0_0.app
+  Get Info String:	4.8.1.435
+
+Certificate Assistant:
+
+  Version:	5.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/Certificate Assistant.app
+
+CHAR_2_1_1:
+
+  Version:	4.8.2.476
+  Obtained from:	Identified Developer
+  Last Modified:	2019-05-24, 11:49 AM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Systems, Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/Uninstall/CHAR_2_1_1.app
+  Get Info String:	4.8.2.476
+
+CHAR_4_4_32:
+
+  Version:	5.5.0.619
+  Obtained from:	Identified Developer
+  Last Modified:	2021-07-29, 1:17 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/Uninstall/CHAR_4_4_32.app
+  Get Info String:	5.5.0.619
+
+CharacterPalette:
+
+  Version:	2.0.1
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/Input Methods/CharacterPalette.app
+
+Chess:
+
+  Version:	3.18
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Applications/Chess.app
+  Get Info String:	3.18, Copyright 2003–2017 Apple Inc.
+
+ChineseTextConverterService:
+
+  Version:	2.1
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/Services/ChineseTextConverterService.app
+  Get Info String:	Chinese Text Converter 1.1
+
+CIMFindInputCodeTool:
+
+  Version:	104
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/PrivateFrameworks/CoreChineseEngine.framework/Versions/A/SharedSupport/CIMFindInputCodeTool.app
+
+Cinema 4D:
+
+  Version:	21.0
+  Obtained from:	Identified Developer
+  Last Modified:	2020-01-27, 10:12 AM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Maxon Computer GmbH (4ZY22YGXQG), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Maxon Cinema 4D R21/Cinema 4D.app
+  Get Info String:	Cinema 4D 21.022 © 1989-2019 MAXON Computer GmbH
+
+Cinema 4D:
+
+  Version:	22.0
+  Obtained from:	Identified Developer
+  Last Modified:	2021-05-19, 9:43 AM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Maxon Computer GmbH (4ZY22YGXQG), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Maxon Cinema 4D R22/Cinema 4D.app
+  Get Info String:	Cinema 4D 22.016 © 1989-2020 MAXON Computer GmbH
+
+Cinema 4D Lite:
+
+  Version:	21.0
+  Obtained from:	Identified Developer
+  Last Modified:	2020-01-27, 10:13 AM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Maxon Computer GmbH (4ZY22YGXQG), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Maxon Cinema 4D R21/Cinema 4D Lite.app
+  Get Info String:	Cinema 4D Lite 21.022 © 1989-2019 MAXON Computer GmbH
+
+Cinema 4D Team Render Client:
+
+  Version:	21.0
+  Obtained from:	Identified Developer
+  Last Modified:	2020-01-27, 10:12 AM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Maxon Computer GmbH (4ZY22YGXQG), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Maxon Cinema 4D R21/Cinema 4D Team Render Client.app
+  Get Info String:	Cinema 4D Team Render Client 21.022 © 1989-2019 MAXON Computer GmbH
+
+Cinema 4D Team Render Client:
+
+  Version:	22.0
+  Obtained from:	Identified Developer
+  Last Modified:	2021-05-19, 9:43 AM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Maxon Computer GmbH (4ZY22YGXQG), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Maxon Cinema 4D R22/Cinema 4D Team Render Client.app
+  Get Info String:	Cinema 4D Team Render Client 22.016 © 1989-2020 MAXON Computer GmbH
+
+Cinema 4D Team Render Server:
+
+  Version:	21.0
+  Obtained from:	Identified Developer
+  Last Modified:	2020-01-27, 10:12 AM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Maxon Computer GmbH (4ZY22YGXQG), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Maxon Cinema 4D R21/Cinema 4D Team Render Server.app
+  Get Info String:	Cinema 4D Team Render Server 21.022 © 1989-2019 MAXON Computer GmbH
+
+Cinema 4D Team Render Server:
+
+  Version:	22.0
+  Obtained from:	Identified Developer
+  Last Modified:	2021-05-19, 9:43 AM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Maxon Computer GmbH (4ZY22YGXQG), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Maxon Cinema 4D R22/Cinema 4D Team Render Server.app
+  Get Info String:	Cinema 4D Team Render Server 22.016 © 1989-2020 MAXON Computer GmbH
+
+Cineware:
+
+  Version:	21.0
+  Obtained from:	Identified Developer
+  Last Modified:	2020-01-27, 10:12 AM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Maxon Computer GmbH (4ZY22YGXQG), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Maxon Cinema 4D R21/Cineware.app
+  Get Info String:	Cineware 21.022 © 1989-2019 MAXON Computer GmbH
+
+Cineware:
+
+  Version:	22.0
+  Obtained from:	Identified Developer
+  Last Modified:	2021-05-19, 9:43 AM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Maxon Computer GmbH (4ZY22YGXQG), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Maxon Cinema 4D R22/Cineware.app
+  Get Info String:	Cineware 22.016 © 1989-2020 MAXON Computer GmbH
+
+ClassroomStudentMenuExtra:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/Classroom/ClassroomStudentMenuExtra.app
+
+Clock:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/Clock.app
+
+COCM_1_0_32:
+
+  Version:	4.8.1.435
+  Obtained from:	Identified Developer
+  Last Modified:	2019-05-18, 9:21 AM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Systems, Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/Uninstall/COCM_1_0_32.app
+  Get Info String:	4.8.1.435
+
+Cocoa-AppleScript Applet:
+
+  Version:	1.0
+  Obtained from:	Unknown
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Location:	/Library/Application Support/Script Editor/Templates/Cocoa-AppleScript Applet.app
+
+ColorSync Utility:
+
+  Version:	4.14.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Applications/Utilities/ColorSync Utility.app
+
+com.faronics:
+
+  Version:	7.30.220.0207
+  Obtained from:	Identified Developer
+  Last Modified:	2021-09-01, 10:49 AM
+  Kind:	Universal
+  Signed by:	Developer ID Application: Faronics Corporation (HSHQ55YT7B), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/PrivilegedHelperTools/com.faronics.DeepFreezeAgent.app
+
+com.faronics:
+
+  Version:	7.30.220.0207
+  Obtained from:	Identified Developer
+  Last Modified:	2021-09-01, 10:49 AM
+  Kind:	Universal
+  Signed by:	Developer ID Application: Faronics Corporation (HSHQ55YT7B), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/PrivilegedHelperTools/com.faronics.deepfreezed.app
+
+com.microsoft.openxml:
+
+  Obtained from:	Unknown
+  Last Modified:	2021-09-22, 1:19 PM
+  Kind:	Other
+  Location:	/Users/user/Library/Application Scripts/com.microsoft.openxml.excel.app
+
+commandFilter:
+
+  Version:	1.71
+  Obtained from:	Identified Developer
+  Last Modified:	2015-08-19, 11:00 AM
+  Kind:	Intel
+  Signed by:	Developer ID Application: EPSON (TXAEAV5RN4), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Printers/EPSON/Fax/Filter/commandFilter.app
+  Get Info String:	Copyright(C) Seiko Epson Corporation 2012-2015. All rights reserved.
+
+Commandline:
+
+  Version:	21.0
+  Obtained from:	Identified Developer
+  Last Modified:	2020-01-27, 10:12 AM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Maxon Computer GmbH (4ZY22YGXQG), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Maxon Cinema 4D R21/Commandline.app
+  Get Info String:	Commandline 21.022 © 1989-2019 MAXON Computer GmbH
+
+Commandline:
+
+  Version:	22.0
+  Obtained from:	Identified Developer
+  Last Modified:	2021-05-19, 9:43 AM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Maxon Computer GmbH (4ZY22YGXQG), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Maxon Cinema 4D R22/Commandline.app
+  Get Info String:	Commandline 22.016 © 1989-2020 MAXON Computer GmbH
+
+COMP_1_3_32:
+
+  Version:	5.4.5.550
+  Obtained from:	Identified Developer
+  Last Modified:	2021-05-14, 11:38 AM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/Uninstall/COMP_1_3_32.app
+  Get Info String:	5.4.5.550
+
+Computer:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/Finder.app/Contents/Applications/Computer.app
+
+Conflict Resolver:
+
+  Version:	8.1
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/PrivateFrameworks/SyncServicesUI.framework/Versions/A/Resources/Conflict Resolver.app
+  Get Info String:	1.0, Copyright Apple Computer Inc. 2004
+
+Console:
+
+  Version:	1.1
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Applications/Utilities/Console.app
+
+Contact Sheets:
+
+  Obtained from:	Identified Developer
+  Last Modified:	2021-08-09, 1:17 PM
+  Kind:	Universal
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Adobe Illustrator 2021/Scripting.localized/Sample Scripts.localized/AppleScript.localized/Contact Sheet Demo.localized/Contact Sheets.app
+
+Contacts:
+
+  Version:	13.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Applications/Contacts.app
+
+ControlCenter:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/ControlCenter.app
+
+ControlStrip:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/ControlStrip.app
+
+COPS_1_0_32:
+
+  Version:	4.8.1.435
+  Obtained from:	Identified Developer
+  Last Modified:	2019-05-18, 9:21 AM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Systems, Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/Uninstall/COPS_1_0_32.app
+  Get Info String:	4.8.1.435
+
+Core Sync:
+
+  Version:	4.21.0.14
+  Obtained from:	Identified Developer
+  Last Modified:	2021-09-22, 12:17 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Utilities/Adobe Sync/CoreSync/Core Sync.app
+
+CORE_1_0_32:
+
+  Version:	4.8.1.435
+  Obtained from:	Identified Developer
+  Last Modified:	2019-05-18, 9:21 AM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Systems, Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/Uninstall/CORE_1_0_32.app
+  Get Info String:	4.8.1.435
+
+CoreLocationAgent:
+
+  Version:	2420.19.23
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/CoreLocationAgent.app
+  Get Info String:	Copyright © 2013 Apple Inc.
+
+CoreServicesUIAgent:
+
+  Version:	358.10
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/CoreServicesUIAgent.app
+  Get Info String:	Copyright © 2009 Apple Inc.
+
+CORG_1_1_32:
+
+  Version:	4.8.1.435
+  Obtained from:	Identified Developer
+  Last Modified:	2019-05-18, 9:21 AM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Systems, Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/Uninstall/CORG_1_1_32.app
+  Get Info String:	4.8.1.435
+
+COSY_4_11_0_32:
+
+  Version:	5.4.5.550
+  Obtained from:	Identified Developer
+  Last Modified:	2021-05-14, 11:38 AM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/Uninstall/COSY_4_11_0_32.app
+  Get Info String:	5.4.5.550
+
+COSY_4_21_0_32:
+
+  Version:	5.5.0.619
+  Obtained from:	Identified Developer
+  Last Modified:	2021-09-22, 12:14 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/Uninstall/COSY_4_21_0_32.app
+  Get Info String:	5.5.0.619
+
+Creative Cloud:
+
+  Version:	5.6.0.788
+  Obtained from:	Identified Developer
+  Last Modified:	2021-11-02, 4:12 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud.app
+
+Creative Cloud Desktop App:
+
+  Version:	5.6.0.788
+  Obtained from:	Identified Developer
+  Last Modified:	2021-11-02, 4:12 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Utilities/Adobe Creative Cloud/Utils/Creative Cloud Desktop App.app
+
+Creative Cloud Helper:
+
+  Version:	5.6.0.788
+  Obtained from:	Identified Developer
+  Last Modified:	2021-11-02, 4:12 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud Helper.app
+
+Creative Cloud Installer:
+
+  Version:	5.6.0.788
+  Obtained from:	Identified Developer
+  Last Modified:	2021-11-02, 4:12 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Utilities/Adobe Creative Cloud/Utils/Creative Cloud Installer.app
+
+Creative Cloud Uninstaller:
+
+  Version:	5.6.0.788
+  Obtained from:	Identified Developer
+  Last Modified:	2021-11-02, 4:12 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Utilities/Adobe Creative Cloud/Utils/Creative Cloud Uninstaller.app
+
+Cricut Design Space:
+
+  Version:	6.13.344
+  Obtained from:	Identified Developer
+  Last Modified:	2021-09-13, 9:37 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Provo Craft and Novelty, Inc. (25627ZFVT7), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Cricut Design Space.app
+
+Database Events:
+
+  Version:	1.0.6
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/Database Events.app
+
+Deep Freeze Mac:
+
+  Version:	7.30.220.0207
+  Obtained from:	Identified Developer
+  Last Modified:	2021-09-01, 10:49 AM
+  Kind:	Universal
+  Signed by:	Developer ID Application: Faronics Corporation (HSHQ55YT7B), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Faronics/Deep Freeze Mac.app
+
+DFRHUD:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/PrivateFrameworks/UniversalAccess.framework/Versions/A/Resources/DFRHUD.app
+
+Dictation:
+
+  Version:	6.0.99.1
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/Input Methods/DictationIM.app
+
+Dictionary:
+
+  Version:	2.3.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Applications/Dictionary.app
+
+Digital Color Meter:
+
+  Version:	5.22
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Applications/Utilities/Digital Color Meter.app
+
+Directory Utility:
+
+  Version:	6.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/Applications/Directory Utility.app
+
+DiscHelper:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/DiscHelper.app
+
+Disk Utility:
+
+  Version:	20.1
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Applications/Utilities/Disk Utility.app
+
+DiskImageMounter:
+
+  Version:	595.140.1
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/DiskImageMounter.app
+
+DiskImages UI Agent:
+
+  Version:	595.140.1
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/PrivateFrameworks/DiskImages.framework/Versions/A/Resources/DiskImages UI Agent.app
+
+Display Calibrator:
+
+  Version:	4.14
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/ColorSync/Calibrators/Display Calibrator.app
+  Get Info String:	4.14, Copyright 2014-2018 Apple Computer, Inc.
+
+Dock:
+
+  Version:	1.8
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/Dock.app
+  Get Info String:	Dock 1.8
+
+Droplet with Settable Properties:
+
+  Version:	1.0
+  Obtained from:	Unknown
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Other
+  Location:	/Library/Application Support/Script Editor/Templates/Droplets/Droplet with Settable Properties.app
+
+DRWV_19_2_1:
+
+  Version:	4.9.0.504
+  Obtained from:	Identified Developer
+  Last Modified:	2019-08-20, 4:18 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Systems, Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/Uninstall/DRWV_19_2_1.app
+  Get Info String:	4.9.0.504
+
+DRWV_21_1:
+
+  Version:	5.4.5.550
+  Obtained from:	Identified Developer
+  Last Modified:	2021-05-14, 11:38 AM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/Uninstall/DRWV_21_1.app
+  Get Info String:	5.4.5.550
+
+DVD Player:
+
+  Version:	6.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/Applications/DVD Player.app
+
+Dwell Control:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/Dwell Control.app
+
+eaptlstrust:
+
+  Version:	13.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/PrivateFrameworks/EAP8021X.framework/Support/eaptlstrust.app
+
+EmojiFunctionRowIM:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/Input Methods/EmojiFunctionRowIM.app
+
+EPFaxAutoSetupTool:
+
+  Version:	1.71
+  Obtained from:	Identified Developer
+  Last Modified:	2015-08-19, 11:00 AM
+  Kind:	Intel
+  Signed by:	Developer ID Application: EPSON (TXAEAV5RN4), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Printers/EPSON/Fax/AutoSetupTool/EPFaxAutoSetupTool.app
+  Get Info String:	Copyright(C) Seiko Epson Corporation 2009-2015. All rights reserved.
+
+EPSON Scanner:
+
+  Version:	5.7.24
+  Obtained from:	Identified Developer
+  Last Modified:	2015-10-05, 8:23 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: EPSON (TXAEAV5RN4), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Image Capture/Devices/EPSON Scanner.app
+  Get Info String:	5.7.24, Copyright(C) Seiko Epson Corporation 2002-2015 All rights reserved.
+
+epsonfax:
+
+  Version:	1.71
+  Obtained from:	Identified Developer
+  Last Modified:	2015-08-19, 11:00 AM
+  Kind:	Intel
+  Signed by:	Developer ID Application: EPSON (TXAEAV5RN4), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Printers/EPSON/Fax/FaxIOSupport/epsonfax.app
+  Get Info String:	Copyright(C) Seiko Epson Corporation 2009-2015. All rights reserved.
+
+Equator:
+
+  Version:	1.13.1
+  Obtained from:	Identified Developer
+  Last Modified:	2021-08-30, 12:09 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: ROLI Ltd. (S5LKE7JNDX), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Equator.app
+
+EscrowSecurityAlert:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/EscrowSecurityAlert.app
+
+ESHR_3_4_3:
+
+  Version:	5.5.0.617
+  Obtained from:	Identified Developer
+  Last Modified:	2021-07-08, 9:50 AM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/Uninstall/ESHR_3_4_3.app
+  Get Info String:	5.5.0.617
+
+Expansion Slot Utility:
+
+  Version:	2.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/Applications/Expansion Slot Utility.app
+
+FaceTime:
+
+  Version:	5.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Applications/FaceTime.app
+
+Family:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/PrivateFrameworks/FamilyNotification.framework/Versions/A/Resources/Family.app
+
+Family (OSX):
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/Family (OSX).app
+
+Fax Receive Monitor:
+
+  Version:	1.71
+  Obtained from:	Identified Developer
+  Last Modified:	2015-08-19, 11:00 AM
+  Kind:	Intel
+  Signed by:	Developer ID Application: EPSON (TXAEAV5RN4), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Printers/EPSON/Fax/Utility/Fax Receive Monitor.app
+  Get Info String:	1.71, Copyright(C) Seiko Epson Corporation 2009-2015. All rights reserved.
+
+FAX Utility:
+
+  Version:	1.73
+  Obtained from:	Identified Developer
+  Last Modified:	2015-08-19, 11:00 AM
+  Kind:	Intel
+  Signed by:	Developer ID Application: EPSON (TXAEAV5RN4), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Printers/EPSON/Fax/Utility/FAX Utility.app
+  Get Info String:	1.73, Copyright(C) Seiko Epson Corporation 2009-2015. All rights reserved.
+
+Feedback Assistant:
+
+  Version:	5.1
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/Applications/Feedback Assistant.app
+
+FileSystemUIAgent:
+
+  Version:	2.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/KernelEventAgent.bundle/Contents/Resources/FileSystemUIAgent.app
+
+Find My:
+
+  Version:	2.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Applications/FindMy.app
+
+Finder:
+
+  Version:	11.5
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/Finder.app
+  Get Info String:	macOS Finder 11.5
+
+FindMyMacMessenger:
+
+  Version:	4.1
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/PrivateFrameworks/FindMyMac.framework/Versions/A/Resources/FindMyMacMessenger.app
+
+Firefox:
+
+  Version:	88.0.1
+  Obtained from:	Identified Developer
+  Last Modified:	2021-05-04, 3:43 PM
+  Kind:	Universal
+  Signed by:	Developer ID Application: Mozilla Corporation (43AQ936H96), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Firefox.app
+  Get Info String:	Firefox 88.0.1
+
+Flash Player:
+
+  Version:	32.0.0.414
+  Obtained from:	Identified Developer
+  Last Modified:	2021-09-22, 12:52 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Adobe Animate 2021/Players/Flash Player.app
+  Get Info String:	Adobe Flash Player   32.0 r0 Copyright 1996-2020 Adobe and its licensors. All rights reserved.
+
+Flash Player:
+
+  Version:	32.0.0.414
+  Obtained from:	Identified Developer
+  Last Modified:	2021-09-22, 12:52 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Adobe Animate 2021/Players/Release/Flash Player.app
+  Get Info String:	Adobe Flash Player   32.0 r0 Copyright 1996-2020 Adobe and its licensors. All rights reserved.
+
+Flash Player Debugger:
+
+  Version:	32.0.0.414
+  Obtained from:	Identified Developer
+  Last Modified:	2021-09-22, 12:52 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Adobe Animate 2021/Players/Debug/Flash Player Debugger.app
+  Get Info String:	Adobe Flash Player Debugger  32.0 r0 Copyright 1996-2020 Adobe and its licensors. All rights reserved.
+
+FLPR_21_0_9:
+
+  Version:	5.5.0.619
+  Obtained from:	Identified Developer
+  Last Modified:	2021-09-22, 12:14 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/Uninstall/FLPR_21_0_9.app
+  Get Info String:	5.5.0.619
+
+Focusrite Control:
+
+  Version:	3.7.4.1943
+  Obtained from:	Identified Developer
+  Last Modified:	2021-08-17, 12:33 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Focusrite Audio Engineering Ltd. (7VYBQV3T2Q), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Focusrite Control.app
+
+Folder Actions Setup:
+
+  Version:	1.2
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/Applications/Folder Actions Setup.app
+
+FolderActionsDispatcher:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/FolderActionsDispatcher.app
+
+FollowUpUI:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/PrivateFrameworks/CoreFollowUp.framework/Versions/A/Resources/FollowUpUI.app
+
+Font Book:
+
+  Version:	10.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Applications/Font Book.app
+
+FontRegistryUIAgent:
+
+  Version:	81.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/Support/FontRegistryUIAgent.app
+  Get Info String:	Copyright © 2008-2013 Apple Inc.
+
+Fuse:
+
+  Version:	2017.1.0
+  Obtained from:	Identified Developer
+  Last Modified:	2019-05-18, 9:57 AM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Systems, Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Adobe Fuse CC (Beta)/Fuse.app
+
+Games:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/Games.app
+
+GarageBand:
+
+  Version:	10.4.3
+  Obtained from:	App Store
+  Last Modified:	2021-06-07, 11:30 AM
+  Kind:	Universal
+  Signed by:	Apple Mac OS Application Signing, Apple Worldwide Developer Relations Certification Authority, Apple Root CA
+  Location:	/Applications/GarageBand.app
+  Get Info String:	GarageBand 10.4.3, Copyright © 2004–2021 Apple Inc. All Rights Reserved
+
+Google Chrome:
+
+  Version:	93.0.4577.82
+  Obtained from:	Identified Developer
+  Last Modified:	2021-09-24, 3:10 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Google, Inc. (EQHXZ8M8AV), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Google Chrome.app
+  Get Info String:	Google Chrome 93.0.4577.82, Copyright 2021 Google LLC. All rights reserved.
+
+Grapher:
+
+  Version:	2.7
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Applications/Utilities/Grapher.app
+
+HelpViewer:
+
+  Version:	6.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/HelpViewer.app
+
+HindiIM:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/Input Methods/HindiIM.app
+
+Home:
+
+  Version:	5.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Applications/Home.app
+
+iCloud:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/iCloud.app
+
+iCloud Drive:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/Finder.app/Contents/Applications/iCloud Drive.app
+
+iCloud Drive:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/PrivateFrameworks/CloudDocsDaemon.framework/Versions/A/Resources/iCloud Drive.app
+
+iCloudUserNotificationsd:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/PrivateFrameworks/AOSAccounts.framework/Versions/A/Resources/iCloudUserNotificationsd.app
+
+identityservicesd:
+
+  Version:	10.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app
+
+IDSN_16_4_32:
+
+  Version:	5.5.0.619
+  Obtained from:	Identified Developer
+  Last Modified:	2021-09-22, 12:14 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/Uninstall/IDSN_16_4_32.app
+  Get Info String:	5.5.0.619
+
+IDSRemoteURLConnectionAgent:
+
+  Version:	10.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/PrivateFrameworks/IDSFoundation.framework/IDSRemoteURLConnectionAgent.app
+
+ILST_25_4_1_32:
+
+  Version:	5.5.0.619
+  Obtained from:	Identified Developer
+  Last Modified:	2021-07-29, 1:17 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/Uninstall/ILST_25_4_1_32.app
+  Get Info String:	5.5.0.619
+
+Image Capture:
+
+  Version:	8.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Applications/Image Capture.app
+
+Image Events:
+
+  Version:	1.1.6
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/Image Events.app
+
+imagent:
+
+  Version:	10.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/PrivateFrameworks/IMCore.framework/imagent.app
+
+IMAutomaticHistoryDeletionAgent:
+
+  Version:	10.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/PrivateFrameworks/IMDPersistence.framework/IMAutomaticHistoryDeletionAgent.app
+
+iMovie:
+
+  Version:	10.2.3
+  Obtained from:	App Store
+  Last Modified:	2021-05-18, 9:07 AM
+  Kind:	Universal
+  Signed by:	Apple Mac OS Application Signing, Apple Worldwide Developer Relations Certification Authority, Apple Root CA
+  Location:	/Applications/iMovie.app
+
+IMTransferAgent:
+
+  Version:	10.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/PrivateFrameworks/IMTransferServices.framework/IMTransferAgent.app
+
+Install:
+
+  Version:	5.6.0.788
+  Obtained from:	Identified Developer
+  Last Modified:	2021-11-02, 4:12 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/Adobe Desktop Common/HDBox/Install.app
+
+Install Command Line Developer Tools:
+
+  Version:	2384
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/Install Command Line Developer Tools.app
+
+Install in Progress:
+
+  Version:	3.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/Install in Progress.app
+
+Installer:
+
+  Version:	10.1.4
+  Obtained from:	Identified Developer
+  Last Modified:	2021-09-22, 12:58 PM
+  Kind:	Universal
+  Signed by:	Developer ID Application: Sophos (2H5GFH3774), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Sophos/saas/Installer.app
+  Get Info String:	Copyright © 1993-2021 Sophos Ltd. All rights reserved.
+
+Installer:
+
+  Version:	6.2.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/Installer.app
+
+Installer Progress:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/Installer Progress.app
+
+iOS App Installer:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/Applications/iOS App Installer.app
+
+JapaneseIM-KanaTyping:
+
+  Version:	6.3
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/Input Methods/JapaneseIM-KanaTyping.app
+
+JapaneseIM-RomajiTyping:
+
+  Version:	6.3
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/Input Methods/JapaneseIM-RomajiTyping.app
+
+JavaLauncher:
+
+  Version:	319
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/JavaLauncher.app
+
+KASU_2_0_32:
+
+  Version:	4.9.0.504
+  Obtained from:	Identified Developer
+  Last Modified:	2019-08-20, 4:18 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Systems, Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/Uninstall/KASU_2_0_32.app
+  Get Info String:	4.9.0.504
+
+KBRG_9_1:
+
+  Version:	4.8.2.476
+  Obtained from:	Identified Developer
+  Last Modified:	2019-05-24, 11:49 AM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Systems, Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/Uninstall/KBRG_9_1.app
+  Get Info String:	4.8.2.476
+
+KBRG_11_1_1:
+
+  Version:	5.5.0.619
+  Obtained from:	Identified Developer
+  Last Modified:	2021-09-22, 12:14 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/Uninstall/KBRG_11_1_1.app
+  Get Info String:	5.5.0.619
+
+KerberosMenuExtra:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/PrivateFrameworks/AppSSOKerberos.framework/Support/KerberosMenuExtra.app
+
+KeyboardAccessAgent:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/KeyboardAccessAgent.app
+
+KeyboardSetupAssistant:
+
+  Version:	10.7
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/KeyboardSetupAssistant.app
+
+Keychain Access:
+
+  Version:	11.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Applications/Utilities/Keychain Access.app
+
+Keychain Circle Notification:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/Keychain Circle Notification.app
+
+Keynote:
+
+  Version:	11.0.1
+  Obtained from:	App Store
+  Last Modified:	2021-05-19, 11:14 AM
+  Kind:	Universal
+  Signed by:	Apple Mac OS Application Signing, Apple Worldwide Developer Relations Certification Authority, Apple Root CA
+  Location:	/Applications/Keynote.app
+
+KoreanIM:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/Input Methods/KoreanIM.app
+
+Language Chooser:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/Language Chooser.app
+
+Launchpad:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Applications/Launchpad.app
+
+LIBS_3_12_11:
+
+  Version:	5.4.1.534
+  Obtained from:	Identified Developer
+  Last Modified:	2021-03-03, 11:07 AM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/Uninstall/LIBS_3_12_11.app
+  Get Info String:	5.4.1.534
+
+LIBS_3_14_18:
+
+  Version:	5.5.0.619
+  Obtained from:	Identified Developer
+  Last Modified:	2021-09-22, 12:14 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/Uninstall/LIBS_3_14_18.app
+  Get Info String:	5.5.0.619
+
+LocationMenu:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/LocationMenu.app
+
+LockScreen:
+
+  Version:	3.9.8
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/RemoteManagement/AppleVNCServer.bundle/Contents/Support/LockScreen.app
+
+loginwindow:
+
+  Version:	9.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/loginwindow.app
+
+LogTransport:
+
+  Version:	10.1.3
+  Obtained from:	Identified Developer
+  Last Modified:	2021-11-02, 4:12 PM
+  Kind:	Universal
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/Adobe Desktop Common/HDBox/AdobeCrashReporter.framework/Versions/A/LogTransport.app
+
+LptOneClient:
+
+  Version:	4.9.4.26247
+  Obtained from:	Unknown
+  Last Modified:	2021-09-24, 3:34 PM
+  Kind:	Intel
+  Location:	/Applications/LptOneClient.app
+
+LRCC_4_4_32:
+
+  Version:	5.5.0.619
+  Obtained from:	Identified Developer
+  Last Modified:	2021-09-22, 12:14 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/Uninstall/LRCC_4_4_32.app
+  Get Info String:	5.5.0.619
+
+LTRM_10_4_32:
+
+  Version:	5.5.0.619
+  Obtained from:	Identified Developer
+  Last Modified:	2021-09-22, 12:14 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/Uninstall/LTRM_10_4_32.app
+  Get Info String:	5.5.0.619
+
+Mail:
+
+  Version:	14.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Applications/Mail.app
+
+Make Calendar:
+
+  Obtained from:	Identified Developer
+  Last Modified:	2021-08-09, 1:17 PM
+  Kind:	Universal
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Adobe Illustrator 2021/Scripting.localized/Sample Scripts.localized/AppleScript.localized/Calendar.localized/Make Calendar.app
+
+MakePDF:
+
+  Version:	10.1
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/Image Capture/Automatic Tasks/MakePDF.app
+  Get Info String:	10.1, © Copyright 2003-2015 Apple Inc. All rights reserved.
+
+ManagedClient:
+
+  Version:	13.3
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/ManagedClient.app
+
+Maps:
+
+  Version:	3.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Applications/Maps.app
+
+MassStorageCamera:
+
+  Version:	1711.5.2
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/Image Capture/Devices/MassStorageCamera.app
+
+Maxon Cinema 4D Full Installer:
+
+  Version:	S22
+  Obtained from:	Identified Developer
+  Last Modified:	2021-09-22, 12:45 PM
+  Kind:	Other
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/Keyfiles/AfterEffects/18/CustomHooks/Maxon Cinema 4D Full Installer.app
+  Get Info String:	Maxon Cinema 4D S22
+
+Memory Slot Utility:
+
+  Version:	1.5.3
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/Memory Slot Utility.app
+
+Messages:
+
+  Version:	14.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Applications/Messages.app
+
+Microsoft AutoUpdate:
+
+  Version:	4.35
+  Obtained from:	Identified Developer
+  Last Modified:	2021-05-28, 4:56 PM
+  Kind:	Universal
+  Signed by:	Developer ID Application: Microsoft Corporation (UBF8T346G9), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Microsoft/MAU2.0/Microsoft AutoUpdate.app
+
+Microsoft Excel:
+
+  Version:	16.53
+  Obtained from:	Identified Developer
+  Last Modified:	2021-09-22, 11:21 AM
+  Kind:	Universal
+  Signed by:	Developer ID Application: Microsoft Corporation (UBF8T346G9), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Microsoft Excel.app
+
+Microsoft OneNote:
+
+  Version:	16.49
+  Obtained from:	Identified Developer
+  Last Modified:	2021-05-28, 4:56 PM
+  Kind:	Universal
+  Signed by:	Developer ID Application: Microsoft Corporation (UBF8T346G9), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Microsoft OneNote.app
+  Get Info String:	SZLONGVERSION
+
+Microsoft Outlook:
+
+  Version:	16.49
+  Obtained from:	Identified Developer
+  Last Modified:	2021-05-28, 4:56 PM
+  Kind:	Universal
+  Signed by:	Developer ID Application: Microsoft Corporation (UBF8T346G9), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Microsoft Outlook.app
+
+Microsoft PowerPoint:
+
+  Version:	16.53
+  Obtained from:	Identified Developer
+  Last Modified:	2021-09-22, 11:22 AM
+  Kind:	Universal
+  Signed by:	Developer ID Application: Microsoft Corporation (UBF8T346G9), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Microsoft PowerPoint.app
+
+Microsoft Word:
+
+  Version:	16.53
+  Obtained from:	Identified Developer
+  Last Modified:	2021-09-22, 12:18 PM
+  Kind:	Universal
+  Signed by:	Developer ID Application: Microsoft Corporation (UBF8T346G9), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Microsoft Word.app
+
+Migration Assistant:
+
+  Version:	11.6
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Applications/Utilities/Migration Assistant.app
+
+Mission Control:
+
+  Version:	1.2
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Applications/Mission Control.app
+
+MobileDeviceUpdater:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/Library/Apple/System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/Resources/MobileDeviceUpdater.app
+
+MRT:
+
+  Version:	1.81
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/Library/Apple/System/Library/CoreServices/MRT.app
+
+Music:
+
+  Version:	1.1.6
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Applications/Music.app
+  Get Info String:	Music 1.1.6.37, © 2019–2021 Apple Inc. All rights reserved.
+
+NativeMessagingHost:
+
+  Version:	4.0
+  Obtained from:	Identified Developer
+  Last Modified:	2019-05-02, 8:40 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Systems, Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/WebExtnUtils/DC/NativeMessagingHost.app
+
+NativeMessagingHost:
+
+  Version:	4.0
+  Obtained from:	Identified Developer
+  Last Modified:	2021-05-19, 10:48 AM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Systems, Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/WebExtnUtils/NativeMessagingHost.app
+
+nbagent:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/PrivateFrameworks/Noticeboard.framework/Versions/A/Resources/nbagent.app
+
+NetAuthAgent:
+
+  Version:	6.2
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/NetAuthAgent.app
+
+Network:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/Finder.app/Contents/Applications/Network.app
+
+Network Utility:
+
+  Version:	1.9.2
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/Applications/Network Utility.app
+  Get Info String:	1.9.2, Copyright © 2000–2017 Apple Inc. All rights reserved.
+
+News:
+
+  Version:	6.4.1
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Applications/News.app
+
+Notes:
+
+  Version:	4.8.1
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Applications/Notes.app
+
+Notification Center:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/NotificationCenter.app
+
+NowPlayingTouchUI:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/NowPlayingTouchUI.app
+
+Numbers:
+
+  Version:	11.0
+  Obtained from:	App Store
+  Last Modified:	2021-05-19, 11:13 AM
+  Kind:	Universal
+  Signed by:	Apple Mac OS Application Signing, Apple Worldwide Developer Relations Certification Authority, Apple Root CA
+  Location:	/Applications/Numbers.app
+
+OBEXAgent:
+
+  Version:	8.0.5
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/OBEXAgent.app
+  Get Info String:	8.0.5, Copyright © 2002-2019 Apple Inc. All rights reserved.
+
+ODSAgent:
+
+  Version:	1.9
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/ODSAgent.app
+  Get Info String:	1.9 (190.1), Copyright © 2007-2009 Apple Inc. All Rights Reserved.
+
+OneDrive:
+
+  Version:	22.212.1009
+  Obtained from:	Identified Developer
+  Last Modified:	2022-11-03, 6:31 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Microsoft Corporation (UBF8T346G9), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/OneDrive.app
+
+OpenSpell:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/Services/OpenSpell.service
+
+OSDUIHelper:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/OSDUIHelper.app
+
+Pages:
+
+  Version:	11.0
+  Obtained from:	App Store
+  Last Modified:	2021-05-19, 11:15 AM
+  Kind:	Universal
+  Signed by:	Apple Mac OS Application Signing, Apple Worldwide Developer Relations Certification Authority, Apple Root CA
+  Location:	/Applications/Pages.app
+
+Paired Devices:
+
+  Version:	2.6.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/Paired Devices.app
+
+ParentalControls:
+
+  Version:	4.1
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/PrivateFrameworks/FamilyControls.framework/Versions/A/Resources/ParentalControls.app
+  Get Info String:	2.0, Copyright Apple Inc. 2007-2019
+
+Pass Viewer:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/Pass Viewer.app
+
+Photo Booth:
+
+  Version:	11.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Applications/Photo Booth.app
+
+Photo Library Migration Utility:
+
+  Version:	2.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/Photo Library Migration Utility.app
+
+Photos:
+
+  Version:	6.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Applications/Photos.app
+
+PHSP_22_5_1:
+
+  Version:	5.5.0.619
+  Obtained from:	Identified Developer
+  Last Modified:	2021-09-22, 12:14 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/Uninstall/PHSP_22_5_1.app
+  Get Info String:	5.5.0.619
+
+PIPAgent:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/PIPAgent.app
+
+PluginIM:
+
+  Version:	24
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/Input Methods/PluginIM.app
+
+Podcasts:
+
+  Version:	1.1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Applications/Podcasts.app
+
+PodcastsAuthAgent:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/PodcastsAuthAgent.app
+
+PowerChime:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/PowerChime.app
+
+PPRO_15_4_1_32:
+
+  Version:	5.5.0.619
+  Obtained from:	Identified Developer
+  Last Modified:	2021-09-22, 12:14 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/Uninstall/PPRO_15_4_1_32.app
+  Get Info String:	5.5.0.619
+
+PressAndHold:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/Input Methods/PressAndHold.app
+
+Preview:
+
+  Version:	11.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Applications/Preview.app
+
+PrinterProxy:
+
+  Version:	16.2
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/Print.framework/Versions/A/Plugins/PrinterProxy.app
+
+PRLD_8_1_1:
+
+  Version:	4.9.0.504
+  Obtained from:	Identified Developer
+  Last Modified:	2019-08-20, 4:18 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Systems, Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/Uninstall/PRLD_8_1_1.app
+  Get Info String:	4.9.0.504
+
+PRLD_10_1:
+
+  Version:	5.5.0.619
+  Obtained from:	Identified Developer
+  Last Modified:	2021-07-29, 1:17 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/Uninstall/PRLD_10_1.app
+  Get Info String:	5.5.0.619
+
+Problem Reporter:
+
+  Version:	10.13
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/Problem Reporter.app
+
+ProfileHelper:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/ProfileHelper.app
+
+PTPCamera:
+
+  Version:	1711.5.2
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/Image Capture/Devices/PTPCamera.app
+
+Python:
+
+  Version:	2.7.16
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app
+  Get Info String:	2.7.16, (c) 2001-2016 Python Software Foundation.
+
+qlmanage:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/Frameworks/QuickLook.framework/Versions/A/Resources/qlmanage.app
+
+Quick Look Simulator:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/QuickLookUI.framework/Versions/A/Resources/Quick Look Simulator.app
+
+quicklookd:
+
+  Version:	5.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/Frameworks/QuickLook.framework/Versions/A/Resources/quicklookd.app
+  Get Info String:	5.0, Copyright Apple Inc. 2007-2013
+
+QuickLookUIHelper:
+
+  Version:	5.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/QuickLookUI.framework/Versions/A/Resources/QuickLookUIHelper.app
+  Get Info String:	5.0, Copyright Apple Inc. 2007-2013
+
+QuickTime Player:
+
+  Version:	10.5
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Applications/QuickTime Player.app
+  Get Info String:	10.4, Copyright © 2009-2020 Apple Inc. All Rights Reserved.
+
+RapportUIAgent:
+
+  Version:	2.6.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/RapportUIAgent.app
+
+rastertoepfax:
+
+  Version:	1.71
+  Obtained from:	Identified Developer
+  Last Modified:	2015-08-19, 11:00 AM
+  Kind:	Intel
+  Signed by:	Developer ID Application: EPSON (TXAEAV5RN4), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Printers/EPSON/Fax/Filter/rastertoepfax.app
+  Get Info String:	Copyright(C) Seiko Epson Corporation 2009-2015. All rights reserved.
+
+rcd:
+
+  Version:	360
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/rcd.app
+  Get Info String:	360
+
+Recents:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/Finder.app/Contents/Applications/Recents.app
+
+Recursive File Processing Droplet:
+
+  Version:	1.0
+  Obtained from:	Unknown
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Other
+  Location:	/Library/Application Support/Script Editor/Templates/Droplets/Recursive File Processing Droplet.app
+
+Recursive Image File Processing Droplet:
+
+  Version:	1.0
+  Obtained from:	Unknown
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Other
+  Location:	/Library/Application Support/Script Editor/Templates/Droplets/Recursive Image File Processing Droplet.app
+
+RegisterPluginIMApp:
+
+  Version:	24
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/RegisterPluginIMApp.app
+
+Reminders:
+
+  Version:	7.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Applications/Reminders.app
+
+Remove Sophos Endpoint:
+
+  Version:	10.1.4
+  Obtained from:	Identified Developer
+  Last Modified:	2021-08-07, 9:31 PM
+  Kind:	Universal
+  Signed by:	Developer ID Application: Sophos (2H5GFH3774), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Sophos/Remove Sophos Endpoint.app
+  Get Info String:	Copyright © 1993-2021 Sophos Ltd. All rights reserved.
+
+ReportPanic:
+
+  Version:	10.13
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/ReportPanic.app
+
+ROLI Connect:
+
+  Version:	1.0.16
+  Obtained from:	Identified Developer
+  Last Modified:	2021-03-17, 12:13 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: ROLI Ltd. (S5LKE7JNDX), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/ROLI Connect.app
+
+ROLI Dashboard:
+
+  Version:	4.4.1
+  Obtained from:	Identified Developer
+  Last Modified:	2021-08-30, 12:00 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: ROLI Ltd. (S5LKE7JNDX), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/ROLI Dashboard.app
+
+ROLI Studio Drums:
+
+  Version:	1.3.0
+  Obtained from:	Identified Developer
+  Last Modified:	2021-08-30, 12:10 PM
+  Kind:	Universal
+  Signed by:	Developer ID Application: ROLI Ltd. (S5LKE7JNDX), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/ROLI Studio Drums.app
+
+ROLI Studio Player:
+
+  Version:	1.3.0
+  Obtained from:	Identified Developer
+  Last Modified:	2021-08-30, 12:10 PM
+  Kind:	Universal
+  Signed by:	Developer ID Application: ROLI Ltd. (S5LKE7JNDX), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/ROLI Studio Player.app
+
+Rosetta 2 Updater:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Apple Silicon
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/Rosetta 2 Updater.app
+
+RUSH_1_5_62_32:
+
+  Version:	5.5.0.617
+  Obtained from:	Identified Developer
+  Last Modified:	2021-07-08, 9:50 AM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/Uninstall/RUSH_1_5_62_32.app
+  Get Info String:	5.5.0.617
+
+Safari:
+
+  Version:	15.0
+  Obtained from:	Apple
+  Last Modified:	2021-09-22, 12:47 PM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/Applications/Safari.app
+  Get Info String:	15.0, Copyright © 2003-2021 Apple Inc.
+
+Save as Adobe PDF:
+
+  Version:	21.007.20091
+  Obtained from:	Identified Developer
+  Last Modified:	2021-05-19, 10:48 AM
+  Kind:	Universal
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/PDF Services/Save as Adobe PDF.app
+
+SCIM:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/Input Methods/SCIM.app
+
+Screen Sharing:
+
+  Version:	556.1
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/Applications/Screen Sharing.app
+
+Screen Time:
+
+  Version:	3.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/Screen Time.app
+
+screencaptureui:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/screencaptureui.app
+
+ScreenReaderUIServer:
+
+  Version:	10
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/PrivateFrameworks/ScreenReader.framework/Versions/A/Resources/ScreenReaderUIServer.app
+
+ScreenSaverEngine:
+
+  Version:	5.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/ScreenSaverEngine.app
+
+Screenshot:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Applications/Utilities/Screenshot.app
+
+Script Editor:
+
+  Version:	2.11
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Applications/Utilities/Script Editor.app
+
+Script Menu:
+
+  Version:	1
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/Script Menu.app
+
+ScriptMonitor:
+
+  Version:	1.0.1
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/ScriptMonitor.app
+
+Setup:
+
+  Version:	11.0.0.20
+  Obtained from:	Identified Developer
+  Last Modified:	2021-11-02, 4:12 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Systems, Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/Adobe Desktop Common/DEBox/Setup.app
+  Get Info String:	11.0.0.20, "© 2018 Adobe. All rights reserved."
+
+Setup Assistant:
+
+  Version:	10.10
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/Setup Assistant.app
+
+Share Screen Request:
+
+  Version:	3.9.8
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/RemoteManagement/AppleVNCServer.bundle/Contents/Support/Share Screen Request.app
+
+Siri:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Applications/Siri.app
+
+Siri:
+
+  Version:	3006.2.1
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/Siri.app
+
+SmartCard Pairing:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/Frameworks/CryptoTokenKit.framework/ctkbind.app
+
+Software Update:
+
+  Version:	6
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/Software Update.app
+  Get Info String:	Software Update version 4.0, Copyright © 2000-2009, Apple Inc. All rights reserved.
+
+SoftwareUpdateNotificationManager:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/PrivateFrameworks/SoftwareUpdate.framework/Versions/A/Resources/SoftwareUpdateNotificationManager.app
+
+Sophos Diagnostic Utility:
+
+  Version:	10.1.2
+  Obtained from:	Identified Developer
+  Last Modified:	2021-08-07, 9:31 PM
+  Kind:	Universal
+  Signed by:	Developer ID Application: Sophos (2H5GFH3774), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Sophos Anti-Virus/Tools/Sophos Diagnostic Utility.app
+  Get Info String:	Copyright © 1993-2021 Sophos Ltd. All rights reserved.
+
+Sophos Endpoint:
+
+  Version:	1.0
+  Obtained from:	Identified Developer
+  Last Modified:	2021-08-07, 9:31 PM
+  Kind:	Universal
+  Signed by:	Developer ID Application: Sophos (2H5GFH3774), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Sophos/Sophos Endpoint.app
+  Get Info String:	Copyright © 1993-2021 Sophos Ltd. All rights reserved.
+
+Sophos Endpoint Self Help:
+
+  Version:	10.1.3
+  Obtained from:	Identified Developer
+  Last Modified:	2021-08-07, 9:31 PM
+  Kind:	Universal
+  Signed by:	Developer ID Application: Sophos (2H5GFH3774), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Sophos/Sophos Endpoint Self Help.app
+  Get Info String:	Copyright © 1993-2021 Sophos Ltd. All rights reserved.
+
+Sophos Endpoint UIServer:
+
+  Version:	10.1.2
+  Obtained from:	Identified Developer
+  Last Modified:	2021-08-07, 9:31 PM
+  Kind:	Universal
+  Signed by:	Developer ID Application: Sophos (2H5GFH3774), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Sophos Anti-Virus/Sophos Endpoint UIServer.app
+  Get Info String:	Copyright © 1993-2021 Sophos Ltd. All rights reserved.
+
+Sophos Network Extension:
+
+  Version:	10.1.2
+  Obtained from:	Identified Developer
+  Last Modified:	2021-08-07, 9:31 PM
+  Kind:	Universal
+  Signed by:	Developer ID Application: Sophos (2H5GFH3774), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Sophos/Sophos Network Extension.app
+  Get Info String:	Copyright © 1993-2021 Sophos Ltd. All rights reserved.
+
+Sophos Scan:
+
+  Version:	10.1.3
+  Obtained from:	Identified Developer
+  Last Modified:	2021-09-22, 12:58 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Sophos (2H5GFH3774), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Sophos/Sophos Scan.app
+  Get Info String:	Copyright © 1993-2021 Sophos Ltd. All rights reserved.
+
+SophosAgent:
+
+  Version:	10.1.2
+  Obtained from:	Identified Developer
+  Last Modified:	2021-08-07, 9:31 PM
+  Kind:	Universal
+  Signed by:	Developer ID Application: Sophos (2H5GFH3774), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Sophos Anti-Virus/SophosAgent.app
+  Get Info String:	Copyright © 1993-2021 Sophos Ltd. All rights reserved.
+
+SophosAntiVirus:
+
+  Version:	10.1.2
+  Obtained from:	Identified Developer
+  Last Modified:	2021-08-07, 9:31 PM
+  Kind:	Universal
+  Signed by:	Developer ID Application: Sophos (2H5GFH3774), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Sophos Anti-Virus/SophosAntiVirus.app
+  Get Info String:	Copyright © 1993-2021 Sophos Ltd. All rights reserved.
+
+SophosAutoUpdate:
+
+  Version:	10.1.3
+  Obtained from:	Identified Developer
+  Last Modified:	2021-08-07, 9:31 PM
+  Kind:	Universal
+  Signed by:	Developer ID Application: Sophos (2H5GFH3774), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Sophos Anti-Virus/SophosAutoUpdate.app
+  Get Info String:	Copyright © 1993-2021 Sophos Ltd. All rights reserved.
+
+SophosCleanD:
+
+  Version:	10.1.2
+  Obtained from:	Identified Developer
+  Last Modified:	2021-08-07, 9:31 PM
+  Kind:	Universal
+  Signed by:	Developer ID Application: Sophos (2H5GFH3774), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Sophos Anti-Virus/SophosCleanD.app
+  Get Info String:	Copyright © 1993-2021 Sophos Ltd. All rights reserved.
+
+SophosCryptoGuard:
+
+  Version:	10.1.1
+  Obtained from:	Identified Developer
+  Last Modified:	2021-08-07, 9:31 PM
+  Kind:	Universal
+  Signed by:	Developer ID Application: Sophos (2H5GFH3774), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Sophos Anti-Virus/SophosCryptoGuard.app
+  Get Info String:	Copyright © 1993-2021 Sophos Ltd. All rights reserved.
+
+SophosCryptoGuardLegacy:
+
+  Version:	10.1.1
+  Obtained from:	Identified Developer
+  Last Modified:	2021-08-07, 9:31 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Sophos (2H5GFH3774), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Sophos Anti-Virus/SophosCryptoGuardLegacy.app
+  Get Info String:	Copyright © 1993-2021 Sophos Ltd. All rights reserved.
+
+SophosLiveResponse:
+
+  Version:	10.1.3
+  Obtained from:	Identified Developer
+  Last Modified:	2021-08-07, 9:31 PM
+  Kind:	Universal
+  Signed by:	Developer ID Application: Sophos (2H5GFH3774), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Sophos Anti-Virus/SophosLiveResponse.app
+  Get Info String:	Copyright © 1993-2021 Sophos Ltd. All rights reserved.
+
+SophosScanAgent:
+
+  Version:	10.1.3
+  Obtained from:	Identified Developer
+  Last Modified:	2021-09-22, 12:58 PM
+  Kind:	Universal
+  Signed by:	Developer ID Application: Sophos (2H5GFH3774), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Sophos Anti-Virus/SophosScanAgent.app
+  Get Info String:	Copyright © 1993-2021 Sophos Ltd. All rights reserved.
+
+SophosServiceManager:
+
+  Version:	10.1.3
+  Obtained from:	Identified Developer
+  Last Modified:	2021-08-07, 9:31 PM
+  Kind:	Universal
+  Signed by:	Developer ID Application: Sophos (2H5GFH3774), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Sophos Anti-Virus/SophosServiceManager.app
+  Get Info String:	Copyright © 1993-2021 Sophos Ltd. All rights reserved.
+
+SophosSXLD:
+
+  Version:	10.1.0
+  Obtained from:	Identified Developer
+  Last Modified:	2021-08-07, 9:31 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Sophos (2H5GFH3774), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Sophos Anti-Virus/SophosSXLD.app
+  Get Info String:	Copyright © 1993-2021 Sophos Ltd. All rights reserved.
+
+SpacesTouchBarAgent:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/SpacesTouchBarAgent.app
+
+Speech Downloader:
+
+  Version:	9.0.43.3
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/PrivateFrameworks/SpeechObjects.framework/Versions/A/SpeechDataInstallerd.app
+
+SpeechRecognitionServer:
+
+  Version:	9.0.43.3
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/PrivateFrameworks/SpeechObjects.framework/Versions/A/SpeechRecognitionServer.app
+
+SpeechService:
+
+  Version:	9.0.66
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/Services/SpeechService.service
+  Get Info String:	9.0.66
+
+SpeechSynthesisServer:
+
+  Version:	9.0.66
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/SpeechSynthesis.framework/Versions/A/SpeechSynthesisServer.app
+  Get Info String:	9.0.66
+
+SpeechSynthesizerAuditor:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/PrivateFrameworks/ScreenReader.framework/Versions/A/Resources/SpeechSynthesizerAuditor.app
+
+Spotlight:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/Spotlight.app
+
+Spotlight:
+
+  Version:	3.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/Services/Spotlight.service
+
+SPRK_44_0_12:
+
+  Version:	5.5.0.619
+  Obtained from:	Identified Developer
+  Last Modified:	2021-09-22, 12:14 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/Uninstall/SPRK_44_0_12.app
+  Get Info String:	5.5.0.619
+
+SSAssistanceCursor:
+
+  Version:	3.9.8
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/RemoteManagement/ScreensharingAgent.bundle/Contents/Support/SSAssistanceCursor.app
+
+SSDragHelper:
+
+  Version:	3.9.8
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/RemoteManagement/AppleVNCServer.bundle/Contents/Support/SSDragHelper.app
+
+SSInvitationAgent:
+
+  Version:	3.9.8
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/RemoteManagement/ScreensharingAgent.bundle/Contents/Support/SSInvitationAgent.app
+
+SSMenuAgent:
+
+  Version:	3.9.8
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/RemoteManagement/SSMenuAgent.app
+
+Stickies:
+
+  Version:	10.2
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Applications/Stickies.app
+
+STMUIHelper:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/PrivateFrameworks/StorageManagement.framework/Versions/A/Resources/STMUIHelper.app
+
+Stocks:
+
+  Version:	3.4.1
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Applications/Stocks.app
+
+Storage Management:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/Applications/Storage Management.app
+
+storeuid:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeuid.app
+
+Summary Service:
+
+  Version:	2.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/Services/SummaryService.app
+
+SyncServer:
+
+  Version:	8.1
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/Frameworks/SyncServices.framework/Versions/A/Resources/SyncServer.app
+  Get Info String:	© 2002-2003 Apple
+
+syncuid:
+
+  Version:	8.1
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/PrivateFrameworks/SyncServicesUI.framework/Versions/A/Resources/syncuid.app
+  Get Info String:	4.0, Copyright Apple Computer Inc. 2004
+
+System Events:
+
+  Version:	1.3.6
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/System Events.app
+
+System Information:
+
+  Version:	11.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Applications/Utilities/System Information.app
+
+System Preferences:
+
+  Version:	14.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Applications/System Preferences.app
+
+SystemUIServer:
+
+  Version:	1.7
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/SystemUIServer.app
+
+TamilIM:
+
+  Version:	1.6
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/Input Methods/TamilIM.app
+  Get Info String:	Tamil Input Method 1.5
+
+TCIM:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/Input Methods/TCIM.app
+
+TeamViewer Host:
+
+  Version:	15.21.4
+  Obtained from:	Identified Developer
+  Last Modified:	2021-08-12, 10:08 AM
+  Kind:	Universal
+  Signed by:	Developer ID Application: TeamViewer GmbH (H7UGFBUGV6), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/TeamViewerHost.app
+
+Terminal:
+
+  Version:	2.11
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Applications/Utilities/Terminal.app
+
+TextEdit:
+
+  Version:	1.16
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Applications/TextEdit.app
+
+TextInputMenuAgent:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/TextInputMenuAgent.app
+
+TextInputSwitcher:
+
+  Version:	1.1
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/TextInputSwitcher.app
+
+ThermalTrap:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/ThermalTrap.app
+
+Ticket Viewer:
+
+  Version:	4.1
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/Applications/Ticket Viewer.app
+
+Time Machine:
+
+  Version:	1.3
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Applications/Time Machine.app
+
+TMHelperAgent:
+
+  Version:	10.9
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/backupd.bundle/Contents/Resources/TMHelperAgent.app
+
+TrackpadIM:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/Input Methods/TrackpadIM.app
+
+TV:
+
+  Version:	1.1.6
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Applications/TV.app
+  Get Info String:	TV 1.1.6.37, © 2019–2021 Apple Inc. All rights reserved.
+
+TYIM:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/Input Methods/TYIM.app
+
+UASharedPasteboardProgressUI:
+
+  Version:	54.1
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/PrivateFrameworks/UserActivity.framework/Agents/UASharedPasteboardProgressUI.app
+
+UIKitSystem:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/UIKitSystem.app
+
+Ultimaker Cura:
+
+  Version:	4.9
+  Obtained from:	Identified Developer
+  Last Modified:	2021-05-11, 3:53 AM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Ultimaker B.V. (V4B3JXRRQS), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Ultimaker Cura.app
+
+UnifiedPluginInstallerAgent:
+
+  Version:	1.3.0.106
+  Obtained from:	Identified Developer
+  Last Modified:	2021-11-02, 4:12 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/Adobe Desktop Common/RemoteComponents/UPI/UnifiedPluginInstallerAgent/UnifiedPluginInstallerAgent.app
+
+Uninstall Product:
+
+  Version:	11.0.0.20
+  Obtained from:	Identified Developer
+  Last Modified:	2021-11-02, 4:12 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Systems, Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/Adobe Desktop Common/DEBox/DE6/resources/uninstall/Uninstall Product.app
+  Get Info String:	11.0.0.20, "© 2018 Adobe. All rights reserved."
+
+Uninstaller:
+
+  Version:	5.6.0.788
+  Obtained from:	Identified Developer
+  Last Modified:	2021-11-02, 4:12 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Library/Application Support/Adobe/Adobe Desktop Common/HDBox/Uninstaller.app
+  Get Info String:	5.6.0.788
+
+universalAccessAuthWarn:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/PrivateFrameworks/UniversalAccess.framework/Versions/A/Resources/universalAccessAuthWarn.app
+
+UniversalAccessControl:
+
+  Version:	7.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/UniversalAccessControl.app
+
+UniversalAccessHUD:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/PrivateFrameworks/UniversalAccess.framework/Versions/A/Resources/UniversalAccessHUD.app
+
+UnmountAssistantAgent:
+
+  Version:	5.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/UnmountAssistantAgent.app
+
+UserNotificationCenter:
+
+  Version:	64.103
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/UserNotificationCenter.app
+
+VietnameseIM:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/Input Methods/VietnameseIM.app
+
+VirtualScanner:
+
+  Version:	1711.5.2
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/Image Capture/Devices/VirtualScanner.app
+
+VLC:
+
+  Version:	3.0.14
+  Obtained from:	Identified Developer
+  Last Modified:	2021-05-19, 10:23 AM
+  Kind:	Intel
+  Signed by:	Developer ID Application: VideoLAN (75GAHG3SZQ), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/VLC.app
+
+Voice Memos:
+
+  Version:	2.2
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Applications/VoiceMemos.app
+
+VoiceOver:
+
+  Version:	10
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/VoiceOver.app
+
+VoiceOver Quickstart:
+
+  Version:	10
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/PrivateFrameworks/ScreenReader.framework/Versions/A/Resources/VoiceOver Quickstart.app
+
+VoiceOver Utility:
+
+  Version:	10
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Applications/Utilities/VoiceOver Utility.app
+
+Watch Face Help:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/WatchFaceAlert.app
+
+Weather:
+
+  Version:	1.4
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/ClimateProxy.app
+
+Web Gallery:
+
+  Obtained from:	Identified Developer
+  Last Modified:	2021-08-09, 1:17 PM
+  Kind:	Universal
+  Signed by:	Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/Adobe Illustrator 2021/Scripting.localized/Sample Scripts.localized/AppleScript.localized/Web Gallery.localized/Web Gallery.app
+
+WebKitPluginHost:
+
+  Version:	611
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/Frameworks/WebKit.framework/Versions/A/Frameworks/WebKitLegacy.framework/Versions/A/WebKitPluginHost.app
+
+WidgetKit Simulator:
+
+  Version:	1.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/WidgetKit Simulator.app
+
+WiFiAgent:
+
+  Version:	17.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/WiFiAgent.app
+  Get Info String:	17.0, Copyright © 2012-2019 Apple Inc. All rights reserved.
+
+Wireless Diagnostics:
+
+  Version:	11.0
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/CoreServices/Applications/Wireless Diagnostics.app
+
+Wish:
+
+  Version:	8.5.9
+  Obtained from:	Apple
+  Last Modified:	2020-01-01, 3:00 AM
+  Kind:	Universal
+  Signed by:	Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+  Location:	/System/Library/Frameworks/Tk.framework/Versions/8.5/Resources/Wish.app
+  Get Info String:	Wish Shell 8.5.9,
+Copyright © 1989-2021 Tcl Core Team,
+Copyright © 2002-2021 Daniel A. Steffen,
+Copyright © 2001-2009 Apple Inc.,
+Copyright © 2001-2002 Jim Ingham & Ian Reid
+
+zoom:
+
+  Version:	5.6.6 (950)
+  Obtained from:	Identified Developer
+  Last Modified:	2021-05-25, 3:41 PM
+  Kind:	Intel
+  Signed by:	Developer ID Application: Zoom Video Communications, Inc. (BJ4HAAB9B3), Developer ID Certification Authority, Apple Root CA
+  Location:	/Applications/zoom.us.app
+
+com.apple.applicationaccess:
+
+allowMusicVideos:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowExplicitContent:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowInAppPurchases:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowGameCenterProfilePrivacyModification:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowedGameCenterOtherPlayerTypes:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowDictation:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+ratingMovies:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowScreenRecording:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowPodcasts:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowMusicArtistActivity:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowBookstoreErotica:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowNews:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowVehicleUI:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowTVProviderModification:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowAssistant:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowSafari:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowAutomaticAppUpdatesModification:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowAppRemoval:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+ratingApps:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowVideoConferencing:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowPasscodeModification:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowCamera:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowAppInstallation:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+ratingTVShows:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+forceITunesStorePasswordEntry:
+
+  Value:	1
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowAddingGameCenterFriends:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+forceAssistantProfanityFilter:
+
+  Value:	1
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowGameCenterFriendsSharingModification:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowCellularPlanModification:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowDriverDoNotDisturbModifications:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowGameCenterProfileModification:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowBookstore:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowAccountModification:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+blacklistedAppBundleIDs:
+
+  Value:	( "com.apple.mobilemail", "com.apple.Passbook", "com.apple.Health", "com.apple.Fitness" )
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowAppClips:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+forceAutomaticDateAndTime:
+
+  Value:	1
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+ratingRegion:
+
+  Value:	ca
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowAppCellularDataModification:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+PayloadUUID:
+
+  Value:	01F0B37A-B3BE-4710-9333-7CFC39E755EC
+  State:	always
+  Source:	com.apple.applicationaccess (User), com.apple.applicationaccess (User), com.apple.applicationaccess (User), com.apple.applicationaccess (User), com.apple.applicationaccess (User), com.apple.applicationaccess (User), com.apple.applicationaccess (User), com.apple.applicationaccess (User), com.apple.applicationaccess (User), com.apple.applicationaccess (User), com.apple.applicationaccess (User), com.apple.applicationaccess (User), com.apple.applicationaccess (User), com.apple.applicationaccess (User), com.apple.applicationaccess (User), com.apple.applicationaccess (User)
+
+allowGameCenterPrivateMessaging:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowAssistantUserGeneratedContent:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowGameCenterNearbyMultiplayer:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowMusicVideos:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowExplicitContent:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowInAppPurchases:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowGameCenterProfilePrivacyModification:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowedGameCenterOtherPlayerTypes:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowDictation:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+ratingMovies:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowScreenRecording:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowPodcasts:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowMusicArtistActivity:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowBookstoreErotica:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowNews:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowVehicleUI:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowTVProviderModification:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowAssistant:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowSafari:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowAutomaticAppUpdatesModification:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowAppRemoval:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+ratingApps:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowVideoConferencing:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowPasscodeModification:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowCamera:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowAppInstallation:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+ratingTVShows:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+forceITunesStorePasswordEntry:
+
+  Value:	1
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowAddingGameCenterFriends:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+forceAssistantProfanityFilter:
+
+  Value:	1
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowGameCenterFriendsSharingModification:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowCellularPlanModification:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowDriverDoNotDisturbModifications:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowGameCenterProfileModification:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowBookstore:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowAccountModification:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+blacklistedAppBundleIDs:
+
+  Value:	( "com.apple.mobilemail", "com.apple.Passbook", "com.apple.Health", "com.apple.Fitness" )
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowAppClips:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+forceAutomaticDateAndTime:
+
+  Value:	1
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+ratingRegion:
+
+  Value:	ca
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowAppCellularDataModification:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+PayloadUUID:
+
+  Value:	01F0B37A-B3BE-4710-9333-7CFC39E755EC
+  State:	always
+  Source:	com.apple.applicationaccess (User), com.apple.applicationaccess (User), com.apple.applicationaccess (User), com.apple.applicationaccess (User), com.apple.applicationaccess (User), com.apple.applicationaccess (User), com.apple.applicationaccess (User), com.apple.applicationaccess (User), com.apple.applicationaccess (User), com.apple.applicationaccess (User), com.apple.applicationaccess (User), com.apple.applicationaccess (User), com.apple.applicationaccess (User), com.apple.applicationaccess (User), com.apple.applicationaccess (User), com.apple.applicationaccess (User)
+
+allowGameCenterPrivateMessaging:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowAssistantUserGeneratedContent:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+allowGameCenterNearbyMultiplayer:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.applicationaccess (User)
+
+com.apple.appstore:
+
+_manualProfile:
+
+  Value:	1
+  State:	always
+  Source:	com.apple.appstore (Computer), com.apple.appstore (Computer)
+
+PayloadUUID:
+
+  Value:	40E17314-06F8-4486-A844-831515E8901C
+  State:	always
+  Source:	com.apple.appstore (Computer), com.apple.appstore (Computer)
+
+DisableSoftwareUpdateNotifications:
+
+  Value:	1
+  State:	always
+  Source:	com.apple.appstore (Computer), com.apple.appstore (Computer)
+
+_manualProfile:
+
+  Value:	1
+  State:	always
+  Source:	com.apple.appstore (Computer), com.apple.appstore (Computer)
+
+PayloadUUID:
+
+  Value:	40E17314-06F8-4486-A844-831515E8901C
+  State:	always
+  Source:	com.apple.appstore (Computer), com.apple.appstore (Computer)
+
+DisableSoftwareUpdateNotifications:
+
+  Value:	1
+  State:	always
+  Source:	com.apple.appstore (Computer), com.apple.appstore (Computer)
+
+com.apple.familycontrols.contentfilter:
+
+useContentFilter:
+
+  Value:	1
+  State:	always
+  Source:	com.apple.familycontrols.contentfilter (User)
+
+PayloadUUID:
+
+  Value:	9E2425DC-260C-412F-8617-E97F10021CB6
+  State:	always
+  Source:	com.apple.familycontrols.contentfilter (User)
+
+restrictWeb:
+
+  Value:	1
+  State:	always
+  Source:	com.apple.familycontrols.contentfilter (User)
+
+useContentFilter:
+
+  Value:	1
+  State:	always
+  Source:	com.apple.familycontrols.contentfilter (User)
+
+PayloadUUID:
+
+  Value:	9E2425DC-260C-412F-8617-E97F10021CB6
+  State:	always
+  Source:	com.apple.familycontrols.contentfilter (User)
+
+restrictWeb:
+
+  Value:	1
+  State:	always
+  Source:	com.apple.familycontrols.contentfilter (User)
+
+com.apple.iTunes:
+
+disableMusicStore:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.iTunes (User)
+
+PayloadUUID:
+
+  Value:	494F9A78-CB42-474B-99D3-00C25101711D-iTunesPayload
+  State:	always
+  Source:	com.apple.iTunes (User)
+
+disableMusicStore:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.iTunes (User)
+
+PayloadUUID:
+
+  Value:	494F9A78-CB42-474B-99D3-00C25101711D-iTunesPayload
+  State:	always
+  Source:	com.apple.iTunes (User)
+
+com.apple.NetworkBrowser:
+
+DisableAirDrop:
+
+  Value:	1
+  State:	always
+  Source:	com.apple.NetworkBrowser (User)
+
+PayloadUUID:
+
+  Value:	0031F671-3236-4CB1-8917-EF6805AFA624
+  State:	always
+  Source:	com.apple.NetworkBrowser (User)
+
+DisableAirDrop:
+
+  Value:	1
+  State:	always
+  Source:	com.apple.NetworkBrowser (User)
+
+PayloadUUID:
+
+  Value:	0031F671-3236-4CB1-8917-EF6805AFA624
+  State:	always
+  Source:	com.apple.NetworkBrowser (User)
+
+com.apple.SoftwareUpdate:
+
+AutomaticDownload:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.SoftwareUpdate (Computer), com.apple.SoftwareUpdate (Computer)
+
+PayloadUUID:
+
+  Value:	01ABF4A8-C200-455C-A9C6-A35010149C51
+  State:	always
+  Source:	com.apple.SoftwareUpdate (Computer), com.apple.SoftwareUpdate (Computer), com.apple.SoftwareUpdate (Computer), com.apple.SoftwareUpdate (Computer)
+
+_manualProfile:
+
+  Value:	1
+  State:	always
+  Source:	com.apple.SoftwareUpdate (Computer), com.apple.SoftwareUpdate (Computer), com.apple.SoftwareUpdate (Computer), com.apple.SoftwareUpdate (Computer)
+
+restrict-software-update-require-admin-to-install:
+
+  Value:	1
+  State:	always
+  Source:	com.apple.SoftwareUpdate (Computer), com.apple.SoftwareUpdate (Computer)
+
+AutomaticallyInstallAppUpdates:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.SoftwareUpdate (Computer), com.apple.SoftwareUpdate (Computer)
+
+AutomaticallyInstallMacOSUpdates:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.SoftwareUpdate (Computer), com.apple.SoftwareUpdate (Computer)
+
+AutomaticDownload:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.SoftwareUpdate (Computer), com.apple.SoftwareUpdate (Computer)
+
+PayloadUUID:
+
+  Value:	01ABF4A8-C200-455C-A9C6-A35010149C51
+  State:	always
+  Source:	com.apple.SoftwareUpdate (Computer), com.apple.SoftwareUpdate (Computer), com.apple.SoftwareUpdate (Computer), com.apple.SoftwareUpdate (Computer)
+
+_manualProfile:
+
+  Value:	1
+  State:	always
+  Source:	com.apple.SoftwareUpdate (Computer), com.apple.SoftwareUpdate (Computer), com.apple.SoftwareUpdate (Computer), com.apple.SoftwareUpdate (Computer)
+
+restrict-software-update-require-admin-to-install:
+
+  Value:	1
+  State:	always
+  Source:	com.apple.SoftwareUpdate (Computer), com.apple.SoftwareUpdate (Computer)
+
+AutomaticallyInstallAppUpdates:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.SoftwareUpdate (Computer), com.apple.SoftwareUpdate (Computer)
+
+AutomaticallyInstallMacOSUpdates:
+
+  Value:	0
+  State:	always
+  Source:	com.apple.SoftwareUpdate (Computer), com.apple.SoftwareUpdate (Computer)
+
+** Error ** *** -[__NSDictionaryM setObject:forKey:]: object cannot be nil (key: _name):
+
+** Error ** *** -[__NSDictionaryM setObject:forKey:]: object cannot be nil (key: _name):
+
+** Error ** *** -[__NSDictionaryM setObject:forKey:]: object cannot be nil (key: _name):
+
+** Error ** *** -[__NSDictionaryM setObject:forKey:]: object cannot be nil (key: _name):
+
+** Error ** *** -[__NSDictionaryM setObject:forKey:]: object cannot be nil (key: _name):
+
+** Error ** *** -[__NSDictionaryM setObject:forKey:]: object cannot be nil (key: _name):
+
+** Error ** *** -[__NSDictionaryM setObject:forKey:]: object cannot be nil (key: _name):
+
+** Error ** *** -[__NSDictionaryM setObject:forKey:]: object cannot be nil (key: _name):
+
+** Error ** *** -[__NSDictionaryM setObject:forKey:]: object cannot be nil (key: _name):
+
+** Error ** *** -[__NSDictionaryM setObject:forKey:]: object cannot be nil (key: _name):
+
+** Error ** *** -[__NSDictionaryM setObject:forKey:]: object cannot be nil (key: _name):
+
+** Error ** *** -[__NSDictionaryM setObject:forKey:]: object cannot be nil (key: _name):
+
+** Error ** *** -[__NSDictionaryM setObject:forKey:]: object cannot be nil (key: _name):
+
+** Error ** *** -[__NSDictionaryM setObject:forKey:]: object cannot be nil (key: _name):
+
+** Error ** *** -[__NSDictionaryM setObject:forKey:]: object cannot be nil (key: _name):
+
+** Error ** *** -[__NSDictionaryM setObject:forKey:]: object cannot be nil (key: _name):
+
+** Error ** *** -[__NSDictionaryM setObject:forKey:]: object cannot be nil (key: _name):
+
+** Error ** *** -[__NSDictionaryM setObject:forKey:]: object cannot be nil (key: _name):
+
+Device Configuration Profiles:
+
+Disable Software Update Notification:
+
+  Description:	Disables software update notifications to reduce the likelihood of a software update while Frozen.
+  Organization:	Faronics Deep Freeze
+  Installation Date:	Wednesday, September 1, 2021 at 10:49:29 AM Eastern Daylight Time (2021-09-01 14:49:29 +0000)
+  Identifier:	com.faronics.SWUpdatesDisableNotifications
+  UUID:	17FB3109-FD65-440E-89C9-F66C0C4EA864
+  Version:	1
+  Verification State:	Verified
+  Removal Disallowed:	Yes
+
+com.apple.appstore:
+
+  Description:	Disables software update notifications to reduce the likelihood of a software update while Frozen.
+  Organization:	Faronics Deep Freeze
+  Name:	Software Update Settings
+  Identifier:	com.faronics.SWUpdatesDisableNotifications
+  UUID:	40E17314-06F8-4486-A844-831515E8901C
+  Version:	1
+  Payload Data:	{
+    DisableSoftwareUpdateNotifications = 1;
+}
+
+Disable Automatic Software Update Installs:
+
+  Description:	Disables automatic install of software updates (On Catalina or higher) and restricts software updates to admin users (On Mojave or higher) to reduce the likelihood of a software update while Frozen.
+  Organization:	Faronics Deep Freeze
+  Installation Date:	Wednesday, September 1, 2021 at 10:49:35 AM Eastern Daylight Time (2021-09-01 14:49:35 +0000)
+  Identifier:	com.faronics.SWUpdatesRequireAdmin
+  UUID:	EF8D86F6-23C7-4C93-AD2D-42DFF7A9850F
+  Version:	1
+  Verification State:	Verified
+  Removal Disallowed:	Yes
+
+com.apple.SoftwareUpdate:
+
+  Description:	Disables automatic install of software updates to reduce the likelihood of a software update while Frozen.
+  Organization:	Faronics Deep Freeze
+  Name:	Disable automatic update installs
+  Identifier:	com.faronics.SWUpdatesDisableAutoInstall
+  UUID:	01ABF4A8-C200-455C-A9C6-A35010149C51
+  Version:	1
+  Payload Data:	{
+    AutomaticDownload = 0;
+    AutomaticallyInstallAppUpdates = 0;
+    AutomaticallyInstallMacOSUpdates = 0;
+}
+
+com.apple.SoftwareUpdate:
+
+  Description:	Restricts software update installs to admin users to reduce the likelihood of a software update while Frozen.
+  Organization:	Faronics Deep Freeze
+  Name:	Restrict updates to admin users
+  Identifier:	com.faronics.SWUpdatesRequireAdmin
+  UUID:	0D06E1D0-91E5-43C3-A5AB-D0DD751E3F17
+  Version:	2
+  Payload Data:	{
+    "restrict-software-update-require-admin-to-install" = 1;
+}
+
+Disable Software Update Notification:
+
+  Description:	Disables software update notifications to reduce the likelihood of a software update while Frozen.
+  Organization:	Faronics Deep Freeze
+  Installation Date:	Wednesday, September 1, 2021 at 10:49:29 AM Eastern Daylight Time (2021-09-01 14:49:29 +0000)
+  Identifier:	com.faronics.SWUpdatesDisableNotifications
+  UUID:	17FB3109-FD65-440E-89C9-F66C0C4EA864
+  Version:	1
+  Verification State:	Verified
+  Removal Disallowed:	Yes
+
+com.apple.appstore:
+
+  Description:	Disables software update notifications to reduce the likelihood of a software update while Frozen.
+  Organization:	Faronics Deep Freeze
+  Name:	Software Update Settings
+  Identifier:	com.faronics.SWUpdatesDisableNotifications
+  UUID:	40E17314-06F8-4486-A844-831515E8901C
+  Version:	1
+  Payload Data:	{
+    DisableSoftwareUpdateNotifications = 1;
+}
+
+com.apple.appstore:
+
+  Description:	Disables software update notifications to reduce the likelihood of a software update while Frozen.
+  Organization:	Faronics Deep Freeze
+  Name:	Software Update Settings
+  Identifier:	com.faronics.SWUpdatesDisableNotifications
+  UUID:	40E17314-06F8-4486-A844-831515E8901C
+  Version:	1
+  Payload Data:	{
+    DisableSoftwareUpdateNotifications = 1;
+}
+
+Disable Automatic Software Update Installs:
+
+  Description:	Disables automatic install of software updates (On Catalina or higher) and restricts software updates to admin users (On Mojave or higher) to reduce the likelihood of a software update while Frozen.
+  Organization:	Faronics Deep Freeze
+  Installation Date:	Wednesday, September 1, 2021 at 10:49:35 AM Eastern Daylight Time (2021-09-01 14:49:35 +0000)
+  Identifier:	com.faronics.SWUpdatesRequireAdmin
+  UUID:	EF8D86F6-23C7-4C93-AD2D-42DFF7A9850F
+  Version:	1
+  Verification State:	Verified
+  Removal Disallowed:	Yes
+
+com.apple.SoftwareUpdate:
+
+  Description:	Disables automatic install of software updates to reduce the likelihood of a software update while Frozen.
+  Organization:	Faronics Deep Freeze
+  Name:	Disable automatic update installs
+  Identifier:	com.faronics.SWUpdatesDisableAutoInstall
+  UUID:	01ABF4A8-C200-455C-A9C6-A35010149C51
+  Version:	1
+  Payload Data:	{
+    AutomaticDownload = 0;
+    AutomaticallyInstallAppUpdates = 0;
+    AutomaticallyInstallMacOSUpdates = 0;
+}
+
+com.apple.SoftwareUpdate:
+
+  Description:	Restricts software update installs to admin users to reduce the likelihood of a software update while Frozen.
+  Organization:	Faronics Deep Freeze
+  Name:	Restrict updates to admin users
+  Identifier:	com.faronics.SWUpdatesRequireAdmin
+  UUID:	0D06E1D0-91E5-43C3-A5AB-D0DD751E3F17
+  Version:	2
+  Payload Data:	{
+    "restrict-software-update-require-admin-to-install" = 1;
+}
+
+com.apple.SoftwareUpdate:
+
+  Description:	Disables automatic install of software updates to reduce the likelihood of a software update while Frozen.
+  Organization:	Faronics Deep Freeze
+  Name:	Disable automatic update installs
+  Identifier:	com.faronics.SWUpdatesDisableAutoInstall
+  UUID:	01ABF4A8-C200-455C-A9C6-A35010149C51
+  Version:	1
+  Payload Data:	{
+    AutomaticDownload = 0;
+    AutomaticallyInstallAppUpdates = 0;
+    AutomaticallyInstallMacOSUpdates = 0;
+}
+
+com.apple.SoftwareUpdate:
+
+  Description:	Restricts software update installs to admin users to reduce the likelihood of a software update while Frozen.
+  Organization:	Faronics Deep Freeze
+  Name:	Restrict updates to admin users
+  Identifier:	com.faronics.SWUpdatesRequireAdmin
+  UUID:	0D06E1D0-91E5-43C3-A5AB-D0DD751E3F17
+  Version:	2
+  Payload Data:	{
+    "restrict-software-update-require-admin-to-install" = 1;
+}
+
+
+
+
+Automatic:
+
+  Active Location:	Yes
+  Services:
+Ethernet:
+  Type:	Ethernet
+  BSD Device Name:	en0
+  Hardware (MAC) Address:	3c:7d:0a:0c:39:13
+  IPv4:
+  Addresses:	192.168.8.62
+  Configuration Method:	Manual
+  Router:	192.168.8.254
+  Subnet Masks:	255.255.255.0
+  IPv6:
+  Configuration Method:	Automatic
+  DNS:
+  Server Addresses:	192.168.2.2, 192.168.2.3, 192.168.2.4
+  Proxies:
+  Exceptions List:	*.local, 169.254/16
+  FTP Passive Mode:	Yes
+  HTTP Proxy Enabled:	Yes
+  HTTP Proxy Port:	80
+  HTTP Proxy Server:	192.168.1.205
+USB 10/100/1000 LAN:
+  Type:	Ethernet
+  BSD Device Name:	en6
+  IPv4:
+  Configuration Method:	DHCP
+  IPv6:
+  Configuration Method:	Automatic
+  Proxies:
+  Exceptions List:	*.local, 169.254/16
+  FTP Passive Mode:	Yes
+Wi-Fi:
+  Type:	IEEE80211
+  BSD Device Name:	en1
+  Hardware (MAC) Address:	88:66:5a:00:bf:ee
+  IPv4:
+  Configuration Method:	DHCP
+  IPv6:
+  Configuration Method:	Automatic
+  Proxies:
+  Exceptions List:	*.local, 169.254/16
+  FTP Passive Mode:	Yes
+  HTTP Proxy Enabled:	Yes
+  HTTP Proxy Port:	80
+  HTTP Proxy Server:	192.168.1.205
+  IEEE80211:
+  Allow Legacy Networks:	0
+  Join Mode Fallback:	Do Nothing
+  Power Enabled:	0
+  Remember Joined Networks:	1
+  Require Admin Network Change:	1
+  Require Admin Power Toggle:	1
+  Version:	3000
+Bluetooth PAN:
+  Type:	Ethernet
+  BSD Device Name:	en5
+  IPv4:
+  Configuration Method:	DHCP
+  IPv6:
+  Configuration Method:	Automatic
+  Proxies:
+  Exceptions List:	*.local, 169.254/16
+  FTP Passive Mode:	Yes
+Thunderbolt Bridge:
+  Type:	Bridge
+  BSD Device Name:	bridge0
+  Hardware (MAC) Address:	82:7f:1c:a1:10:00
+  IPv4:
+  Configuration Method:	DHCP
+  IPv6:
+  Configuration Method:	Automatic
+  Proxies:
+  Exceptions List:	*.local, 169.254/16
+  FTP Passive Mode:	Yes
+
+
+
+
+Ethernet:
+
+  Type:	Ethernet
+  Hardware:	Ethernet
+  BSD Device Name:	en0
+  IPv4 Addresses:	192.168.8.62
+  IPv4:
+  Additional Routes:
+  Destination Address:	192.168.8.62
+  Subnet Mask:	255.255.255.255
+  Destination Address:	169.254.0.0
+  Subnet Mask:	255.255.0.0
+  Addresses:	192.168.8.62
+  ARP Resolved Hardware Address:	68:9e:0b:81:ce:df
+  ARP Resolved IP Address:	192.168.8.254
+  Configuration Method:	Manual
+  Confirmed Interface Name:	en0
+  Interface Name:	en0
+  Network Signature:	IPv4.Router=192.168.8.254;IPv4.RouterHardwareAddress=68:9e:0b:81:ce:df
+  Router:	192.168.8.254
+  Subnet Masks:	255.255.255.0
+  IPv6:
+  Configuration Method:	Automatic
+  DNS:
+  Server Addresses:	192.168.2.2, 192.168.2.3, 192.168.2.4
+  Ethernet:
+  MAC Address:	3c:7d:0a:0c:39:13
+  Media Options:	Full Duplex
+  Media Subtype:	1000baseT
+  Proxies:
+  Exceptions List:	*.local, 169.254/16
+  FTP Passive Mode:	Yes
+  HTTP Proxy Enabled:	Yes
+  HTTP Proxy Port:	80
+  HTTP Proxy Server:	192.168.1.205
+  Service Order:	0
+
+
+
+
+Hardware Overview:
+
+  Model Name:	iMac
+  Model Identifier:	iMac20,1
+  Processor Name:	6-Core Intel Core i5
+  Processor Speed:	3.3 GHz
+  Number of Processors:	1
+  Total Number of Cores:	6
+  L2 Cache (per Core):	256 KB
+  L3 Cache:	12 MB
+  Hyper-Threading Technology:	Enabled
+  Memory:	8 GB
+  System Firmware Version:	1554.140.20.0.0 (iBridge: 18.16.14759.0.1,0)
+  Serial Number (system):	C02F29LUPN5V
+  Hardware UUID:	D40678EA-FD2F-5D38-B496-CE3900FDF10B
+  Provisioning UDID:	D40678EA-FD2F-5D38-B496-CE3900FDF10B
+  Activation Lock Status:	Enabled
+
+  Apple Pay Information:	 
+    Platform ID:	N5B2M002C3A50000
+    Serial Number:	040631EB925D800201570194523056934700F91EBE3F160F
+    Device:	0xc8
+    Production Signed:	Yes
+    Restricted Mode:	No
+    Hardware:	0x00000007
+    Firmware:	0x0700
+    JCOP OS:	14.03
+
+  Controller Information:	 
+    Hardware:	b2.2 ()
+    Firmware:	1.3e rev 102250
+    Middleware:	4.1.1.36
+
+Devices:
+
+External Headphones:
+
+  Default Output Device:	Yes
+  Default System Output Device:	Yes
+  Manufacturer:	Apple Inc.
+  Output Channels:	2
+  Current SampleRate:	48000
+  Transport:	Built-in
+  Output Source:	External Headphones
+
+iMac Microphone:
+
+  Default Input Device:	Yes
+  Input Channels:	1
+  Manufacturer:	Apple Inc.
+  Current SampleRate:	44100
+  Transport:	Built-in
+  Input Source:	iMac Microphone
+
+iMac Speakers:
+
+  Manufacturer:	Apple Inc.
+  Output Channels:	2
+  Current SampleRate:	44100
+  Transport:	Built-in
+  Output Source:	iMac Speakers
+
+  Apple Bluetooth Software Version:	8.0.5d7
+  Hardware, Features, and Settings:
+  Name:	CH-iMAC
+  Address:	88-66-5A-0A-F6-16
+  Bluetooth Low Energy Supported:	Yes
+  Handoff Supported:	Yes
+  Instant Hot Spot Supported:	Yes
+  Manufacturer:	Broadcom
+  Transport:	UART
+  Chipset:	4364B3
+  Firmware Version:	v65 c4187
+  Bluetooth Power:	On
+  Discoverable:	Off
+  Connectable:	Yes
+  Auto Seek Pointing:	On
+  Remote wake:	On
+  Vendor ID:	0x05AC
+  Product ID:	0x0096
+  Bluetooth Core Spec:	5.0 (0x9)
+  HCI Revision:	0x105B
+  LMP Version:	5.0 (0x9)
+  LMP Subversion:	0x2041
+  Device Type (Major):	Computer
+  Device Type (Complete):	Mac Desktop
+  Composite Class Of Device:	0x380104
+  Device Class (Major):	0x01
+  Device Class (Minor):	0x01
+  Service Class:	0x1C0
+  Auto Seek Keyboard:	On
+  Devices (Paired, Configured, etc.):
+  Magic Keyboard:
+  Address:	64-0B-D7-14-C2-5D
+  Major Type:	Peripheral
+  Minor Type:	Keyboard
+  Services:	Magic Keyboard
+  Paired:	Yes
+  Configured:	Yes
+  Connected:	No
+  Manufacturer:	Broadcom (0x5, 0x240C)
+  Bluetooth Core Spec:	3.0
+  Firmware Version:	0x0107
+  Vendor ID:	0x004C
+  Product ID:	0x0267
+  Class of Device:	0x05 0x10 0x2540
+  Host Connectable:	Yes
+  EDR Supported:	Yes
+  eSCO Supported:	No
+  SSP Supported:	Yes
+  Magic Mouse 2:
+  Address:	A8-91-3D-3C-EF-CB
+  Major Type:	Peripheral
+  Minor Type:	Mouse
+  Services:	Magic Mouse 2
+  Paired:	Yes
+  Configured:	Yes
+  Connected:	No
+  Manufacturer:	Broadcom (0x5, 0x240C)
+  Bluetooth Core Spec:	3.0
+  Firmware Version:	0x0107
+  Vendor ID:	0x004C
+  Product ID:	0x0269
+  Class of Device:	0x05 0x20 0x2580
+  Host Connectable:	Yes
+  EDR Supported:	Yes
+  eSCO Supported:	No
+  SSP Supported:	Yes
+  Services:
+  Bluetooth File Transfer:
+  Folder other devices can browse:	~/Public
+  When receiving items:	Accept all without warning
+  State:	Disabled
+  Bluetooth File Exchange:
+  Folder for accepted items:	~/Downloads
+  When other items are accepted:	Save to location
+  When receiving items:	Accept all without warning
+  State:	Disabled
+  Bluetooth Internet Sharing:
+  State:	Disabled
+  Incoming Serial Ports:
+  Bluetooth-Incoming-Port:
+  RFCOMM Channel:	3
+  Requires Authentication:	No
+
+Broadcom 57766-A1:
+
+  Name:	ethernet
+  Type:	Ethernet Controller
+  Bus:	PCI
+  Vendor ID:	0x14e4
+  Device ID:	0x1686
+  Subsystem Vendor ID:	0x14e4
+  Subsystem ID:	0x1686
+  Revision ID:	0x0001
+  Link Width:	x1
+  BSD name:	en0
+  Kext name:	AppleBCM5701Ethernet.kext
+  Firmware version:	57766a-v1.15
+  Location:	/System/Library/Extensions/IONetworkingFamily.kext/Contents/PlugIns/AppleBCM5701Ethernet.kext
+  mDNS offload capable:	3c:7d:0a:0c:39:13
+  Version:	11.0.0
+
+iBridge:
+
+  Type:	USB
+  BSD name:	en4
+  Kext name:	AppleUSBNCM.kext
+  Location:	/System/Library/Extensions/AppleUSBNCM.kext
+  Version:	5.0.0
+  MAC Address:	ac:de:48:00:11:22
+  Product ID:	33331
+  Vendor ID:	1452
+
+AMD Radeon Pro 5300:
+
+  Chipset Model:	AMD Radeon Pro 5300
+  Type:	GPU
+  Bus:	PCIe
+  PCIe Lane Width:	x8
+  VRAM (Total):	4 GB
+  Vendor:	AMD (0x1002)
+  Device ID:	0x7340
+  Revision ID:	0x0047
+  ROM Revision:	113-D3220I-231
+  VBIOS Version:	113-D322A1XL-012
+  Option ROM Version:	113-D322A1XL-012
+  EFI Driver Version:	01.01.231
+  Metal Family:	Supported, Metal GPUFamily macOS 2
+  Displays:
+iMac:
+  Display Type:	Built-In Retina LCD
+  Resolution:	Retina 5K (5120 x 2880)
+  Framebuffer Depth:	30-Bit Color (ARGB2101010)
+  Main Display:	Yes
+  Mirror:	Off
+  Online:	Yes
+  Automatically Adjust Brightness:	Yes
+  Connection Type:	Internal
+
+Memory Slots:
+
+  ECC:	Disabled
+  Upgradeable Memory:	Yes
+
+Slot 1 (Channel A / DIMM 1):
+
+  Size:	Empty
+  Type:	Empty
+  Speed:	Empty
+  Status:	Empty
+  Manufacturer:	Empty
+  Part Number:	Empty
+  Serial Number:	Empty
+
+Slot 2 (Channel A / DIMM 0):
+
+  Size:	4 GB
+  Type:	DDR4
+  Speed:	2667 MHz
+  Status:	OK
+  Manufacturer:	SK Hynix
+  Part Number:	HMA851S6DJR6N-VK
+  Serial Number:	84796A70
+
+Slot 3 (Channel B / DIMM 1):
+
+  Size:	Empty
+  Type:	Empty
+  Speed:	Empty
+  Status:	Empty
+  Manufacturer:	Empty
+  Part Number:	Empty
+  Serial Number:	Empty
+
+Slot 4 (Channel B / DIMM 0):
+
+  Size:	4 GB
+  Type:	DDR4
+  Speed:	2667 MHz
+  Status:	OK
+  Manufacturer:	SK Hynix
+  Part Number:	HMA851S6DJR6N-VK
+  Serial Number:	84796A52
+
+Apple SSD Controller:
+
+APPLE SSD AP0512N:
+
+  Capacity:	500.28 GB (500,277,792,768 bytes)
+  TRIM Support:	Yes
+  Model:	APPLE SSD AP0512N
+  Revision:	1,161.100
+  Serial Number:	C02101302D2016724
+  Link Width:	x4
+  Link Speed:	8.0 GT/s
+  Detachable Drive:	No
+  BSD Name:	disk0
+  Partition Map Type:	GPT (GUID Partition Table)
+  Removable Media:	No
+  S.M.A.R.T. status:	Verified
+  Volumes:
+EFI:
+  Capacity:	314.6 MB (314,572,800 bytes)
+  File System:	MS-DOS FAT32
+  BSD Name:	disk0s1
+  Content:	EFI
+  Volume UUID:	E783267B-A4C3-3556-B751-DBED770EB996
+disk0s2:
+  Capacity:	499.96 GB (499,963,174,912 bytes)
+  BSD Name:	disk0s2
+  Content:	Apple_APFS
+
+APPLE SSD AP0512N:
+
+  Capacity:	500.28 GB (500,277,792,768 bytes)
+  TRIM Support:	Yes
+  Model:	APPLE SSD AP0512N
+  Revision:	1,161.100
+  Serial Number:	C02101302D2016724
+  Link Width:	x4
+  Link Speed:	8.0 GT/s
+  Detachable Drive:	No
+  BSD Name:	disk0
+  Partition Map Type:	GPT (GUID Partition Table)
+  Removable Media:	No
+  S.M.A.R.T. status:	Verified
+  Volumes:
+EFI:
+  Capacity:	314.6 MB (314,572,800 bytes)
+  File System:	MS-DOS FAT32
+  BSD Name:	disk0s1
+  Content:	EFI
+  Volume UUID:	E783267B-A4C3-3556-B751-DBED770EB996
+disk0s2:
+  Capacity:	499.96 GB (499,963,174,912 bytes)
+  BSD Name:	disk0s2
+  Content:	Apple_APFS
+
+System Power Settings:
+
+  AC Power:
+  System Sleep Timer (Minutes):	1
+  Disk Sleep Timer (Minutes):	10
+  Display Sleep Timer (Minutes):	10
+  Sleep on Power Button:	Yes
+  Automatic Restart on Power Loss:	No
+  Wake on LAN:	Yes
+  Current Power Source:	Yes
+  Display Sleep Uses Dim:	Yes
+  Hibernate Mode:	3
+  PrioritizeNetworkReachabilityOverSleep:	0
+
+Hardware Configuration:
+
+  UPS Installed:	No
+
+iMac:
+
+  Free:	303.4 GB (303,402,323,968 bytes)
+  Capacity:	499.96 GB (499,963,174,912 bytes)
+  Mount Point:	/
+  File System:	APFS
+  Writable:	No
+  Ignore Ownership:	No
+  BSD Name:	disk1s5s1
+  Volume UUID:	6971781D-1F29-4B4A-B0A0-2C750123A355
+  Physical Drive:
+  Device Name:	APPLE SSD AP0512N
+  Media Name:	AppleAPFSMedia
+  Medium Type:	SSD
+  Protocol:	PCI-Express
+  Internal:	Yes
+  Partition Map Type:	Unknown
+  S.M.A.R.T. Status:	Verified
+
+iMac - Data:
+
+  Free:	303.4 GB (303,402,323,968 bytes)
+  Capacity:	499.96 GB (499,963,174,912 bytes)
+  Mount Point:	/System/Volumes/Data
+  File System:	APFS
+  Writable:	Yes
+  Ignore Ownership:	No
+  BSD Name:	disk1s1
+  Volume UUID:	5C7B779C-AE93-4DBB-AB1E-ECEA7B866475
+  Physical Drive:
+  Device Name:	APPLE SSD AP0512N
+  Media Name:	AppleAPFSMedia
+  Medium Type:	SSD
+  Protocol:	PCI-Express
+  Internal:	Yes
+  Partition Map Type:	Unknown
+  S.M.A.R.T. Status:	Verified
+
+StorageSpace:
+
+  Free:	303.4 GB (303,402,323,968 bytes)
+  Capacity:	499.96 GB (499,963,174,912 bytes)
+  Mount Point:	/Library/Application Support/Faronics/Private/StorageSpace
+  File System:	APFS
+  Writable:	Yes
+  Ignore Ownership:	No
+  BSD Name:	disk1s8
+  Volume UUID:	4934BB8C-6341-4E68-8D71-90987DD9F05E
+  Physical Drive:
+  Device Name:	APPLE SSD AP0512N
+  Media Name:	AppleAPFSMedia
+  Medium Type:	SSD
+  Protocol:	PCI-Express
+  Internal:	Yes
+  Partition Map Type:	Unknown
+  S.M.A.R.T. Status:	Verified
+
+StorageSpace:
+
+  Free:	303.4 GB (303,402,323,968 bytes)
+  Capacity:	499.96 GB (499,963,174,912 bytes)
+  Mount Point:	/Library/Application Support/Faronics/Private/StorageSpace
+  File System:	APFS
+  Writable:	Yes
+  Ignore Ownership:	No
+  BSD Name:	disk1s8
+  Volume UUID:	4934BB8C-6341-4E68-8D71-90987DD9F05E
+  Physical Drive:
+  Device Name:	APPLE SSD AP0512N
+  Media Name:	AppleAPFSMedia
+  Medium Type:	SSD
+  Protocol:	PCI-Express
+  Internal:	Yes
+  Partition Map Type:	Unknown
+  S.M.A.R.T. Status:	Verified
+
+StorageSpace:
+
+  Free:	303.4 GB (303,402,323,968 bytes)
+  Capacity:	499.96 GB (499,963,174,912 bytes)
+  Mount Point:	/Volumes/StorageSpace 1
+  File System:	APFS
+  Writable:	Yes
+  Ignore Ownership:	No
+  BSD Name:	disk1s7
+  Volume UUID:	2006C660-7752-4E80-A5AE-B18C815290F3
+  Physical Drive:
+  Device Name:	APPLE SSD AP0512N
+  Media Name:	AppleAPFSMedia
+  Medium Type:	SSD
+  Protocol:	PCI-Express
+  Internal:	Yes
+  Partition Map Type:	Unknown
+  S.M.A.R.T. Status:	Verified
+
+Thunderbolt Bus:
+
+  Vendor Name:	Apple Inc.
+  Device Name:	iMac
+  UID:	0x0001BD7E68684400
+  Route String:	0
+  Firmware Version:	58.2
+  Domain UUID:	19ADC681-41B8-5F56-918C-87D86570E5A0
+  Port:
+  Status:	No device connected
+  Link Status:	0x101
+  Speed:	Up to 40 Gb/s x1
+  Current Link Width:	0x1
+  Receptacle:	1
+  Link Controller Firmware Version:	1.42.0
+  Port:
+  Status:	No device connected
+  Link Status:	0x101
+  Speed:	Up to 40 Gb/s x1
+  Current Link Width:	0x1
+  Receptacle:	2
+  Link Controller Firmware Version:	1.42.0
+
+USB 3.1 Bus:
+
+  Host Controller Driver:	AppleIntelCNLUSBXHCI
+  PCI Device ID:	0x06ed 
+  PCI Revision ID:	0x0000 
+  PCI Vendor ID:	0x8086 
+
+USB3.0 Hub:
+
+  Product ID:	0x0616
+  Vendor ID:	0x05e3  (Genesys Logic, Inc.)
+  Version:	92.26
+  Speed:	Up to 5 Gb/s
+  Manufacturer:	GenesysLogic
+  Location ID:	0x14900000 / 2
+  Current Available (mA):	900
+  Current Required (mA):	0
+  Extra Operating Current (mA):	0
+
+USB Flash Drive:
+
+  Product ID:	0x0cd1
+  Vendor ID:	0x21c4  (Netcom Technology (HK) Limited)
+  Version:	11.00
+  Serial Number:	04AVER6ZSY5FAJ6M
+  Speed:	Up to 5 Gb/s
+  Manufacturer:	Lexar
+  Location ID:	0x14910000 / 7
+  Current Available (mA):	900
+  Current Required (mA):	304
+  Extra Operating Current (mA):	0
+  Media:
+USB Flash Drive:
+  Capacity:	31.04 GB (31,037,849,600 bytes)
+  Removable Media:	Yes
+  BSD Name:	disk2
+  Logical Unit:	0
+  Partition Map Type:	GPT (GUID Partition Table)
+  S.M.A.R.T. status:	Verified
+  USB Interface:	0
+  Volumes:
+EFI:
+  Capacity:	209.7 MB (209,715,200 bytes)
+  File System:	MS-DOS FAT32
+  BSD Name:	disk2s1
+  Content:	EFI
+  Volume UUID:	0E239BC6-F960-3107-89CF-1C97F78BB46B
+Borg:
+  Capacity:	30.83 GB (30,826,037,248 bytes)
+  Free:	19.8 GB (19,802,292,224 bytes)
+  Writable:	Yes
+  File System:	ExFAT
+  BSD Name:	disk2s2
+  Mount Point:	/Volumes/Borg
+  Content:	Microsoft Basic Data
+  Volume UUID:	28EBD15A-2ACB-3CF0-8228-18670BDFCFF0
+
+USB2.0 Hub:
+
+  Product ID:	0x0608
+  Vendor ID:	0x05e3  (Genesys Logic, Inc.)
+  Version:	85.36
+  Speed:	Up to 480 Mb/s
+  Location ID:	0x14600000 / 3
+  Current Available (mA):	500
+  Current Required (mA):	100
+  Extra Operating Current (mA):	0
+
+Macally XKEYHUB USB Keyboard:
+
+  Product ID:	0x0043
+  Vendor ID:	0x2222
+  Version:	1.10
+  Speed:	Up to 1.5 Mb/s
+  Manufacturer:	Macally Peripherals
+  Location ID:	0x14630000 / 6
+  Current Available (mA):	500
+  Current Required (mA):	100
+  Extra Operating Current (mA):	0
+
+USB Optical Mouse:
+
+  Product ID:	0x2510
+  Vendor ID:	0x093a  (Pixart Imaging, Inc.)
+  Version:	1.00
+  Speed:	Up to 1.5 Mb/s
+  Manufacturer:	PixArt
+  Location ID:	0x14300000 / 4
+  Current Available (mA):	500
+  Current Required (mA):	100
+  Extra Operating Current (mA):	0
+
+USB2.0 Hub:
+
+  Product ID:	0x0610
+  Vendor ID:	0x05e3  (Genesys Logic, Inc.)
+  Version:	92.26
+  Speed:	Up to 480 Mb/s
+  Manufacturer:	GenesysLogic
+  Location ID:	0x14100000 / 1
+  Current Available (mA):	500
+  Current Required (mA):	100
+  Extra Operating Current (mA):	0
+
+Bluetooth PAN:
+
+  Type:	Ethernet
+  Hardware:	Ethernet
+  BSD Device Name:	en5
+  IPv4:
+  Configuration Method:	DHCP
+  IPv6:
+  Configuration Method:	Automatic
+  Proxies:
+  Exceptions List:	*.local, 169.254/16
+  FTP Passive Mode:	Yes
+  Service Order:	3
+
+USB 10/100/1000 LAN:
+
+  Type:	Ethernet
+  Hardware:	Ethernet
+  BSD Device Name:	en6
+  IPv4:
+  Configuration Method:	DHCP
+  IPv6:
+  Configuration Method:	Automatic
+  Proxies:
+  Exceptions List:	*.local, 169.254/16
+  FTP Passive Mode:	Yes
+  Service Order:	1
+
+Wi-Fi:
+
+  Type:	AirPort
+  Hardware:	AirPort
+  BSD Device Name:	en1
+  IPv4:
+  Configuration Method:	DHCP
+  IPv6:
+  Configuration Method:	Automatic
+  Ethernet:
+  MAC Address:	88:66:5a:00:bf:ee
+  Media Options:	
+  Media Subtype:	Auto Select
+  Proxies:
+  Exceptions List:	*.local, 169.254/16
+  FTP Passive Mode:	Yes
+  HTTP Proxy Enabled:	Yes
+  HTTP Proxy Port:	80
+  HTTP Proxy Server:	192.168.1.205
+  Service Order:	2
+
+
+
