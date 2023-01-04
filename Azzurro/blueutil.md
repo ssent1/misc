@@ -17,37 +17,37 @@ blueutil -v
 2.9.0
 
 " status
--p, --power               # output power state as 1 or 0
--p, --power STATE         # set power state
--d, --discoverable        # output discoverable state as 1 or 0
--d, --discoverable STATE  # set discoverable state
+-p, --power              # output power state as 1 or 0
+-p, --power STATE        # set power state
+-d, --discoverable       # output discoverable state as 1 or 0
+-d, --discoverable STATE # set discoverable state
 
 " connection
---favourites       # list favourite devices; --favorites
---inquiry [T]      # inquiry devices in range, 10 seconds duration by default excluding time for name updates
---paired           # list paired devices
---recent [N]       # list recently used devices, 10 by default, 0 to list all
---connected        # list connected devices
---info ID          # show information about device
---is-connected ID  # connected state of device as 1 or 0
---connect ID       # create a connection to device
+--favourites      # list favourite devices; --favorites
+--inquiry [T]     # inquiry devices in range, 10 seconds duration by default excluding time for name updates
+--paired          # list paired devices
+--recent [N]      # list recently used devices, 10 by default, 0 to list all
+--connected       # list connected devices
+--info ID         # show information about device
+--is-connected ID # connected state of device as 1 or 0
+--connect ID      # create a connection to device
 
 " pairing
---disconnect ID        # close the connection to device
---pair ID [PIN]        # pair with device, optional PIN of up to 16 characters will be used instead of interactive input if requested in specific pair mode
---unpair ID            # EXPERIMENTAL unpair the device
---add-favourite ID     # add to favourites; also: --add-favorite ID
---remove-favourite ID  # remove from favourites; also: --remove-favorite ID
---format FORMAT        # change output format of info and all listing commands
+--disconnect ID       # close the connection to device
+--pair ID [PIN]       # pair with device, optional PIN of up to 16 characters will be used instead of interactive input if requested in specific pair mode
+--unpair ID           # EXPERIMENTAL unpair the device
+--add-favourite ID    # add to favourites; also: --add-favorite ID
+--remove-favourite ID # remove from favourites; also: --remove-favorite ID
+--format FORMAT       # change output format of info and all listing commands
 
 " EXPERIMENTAL 
---wait-connect ID [TIMEOUT]                 # wait for device to connect
---wait-disconnect ID [TIMEOUT]              # wait for device to disconnect
---wait-rssi ID OP VALUE [PERIOD [TIMEOUT]]  # wait for device RSSI value which is 0 for golden range, -129 if it cannot be read (e.g. device is disconnected)
+--wait-connect ID [TIMEOUT]                # wait for device to connect
+--wait-disconnect ID [TIMEOUT]             # wait for device to disconnect
+--wait-rssi ID OP VALUE [PERIOD [TIMEOUT]] # wait for device RSSI value which is 0 for golden range, -129 if it cannot be read (e.g. device is disconnected)
 
 " help
--h, --help     # show help
--v, --version  # show version
+-h, --help    # show help
+-v, --version # show version
 
 " parameters
 STATE  : {1=on,0=off,toggle}
@@ -79,7 +79,7 @@ Exit codes:
 Tags: system administration, sysadmin, network admin, macos, linux, command line, cli
 
 ^ 2022-09-09T16:31:39-0400\
-% 2022-09-09T16:31:39-0400
+% 2023-01-04T10:53:58-0400
 
 <!-- SOURCES & RESOURCES -->
 
