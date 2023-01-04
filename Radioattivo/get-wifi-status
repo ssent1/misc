@@ -1,5 +1,5 @@
 #!/bin/zsh
-dev=en1
+dev=$(networksetup -listallhardwareports | grep -A 1 Wi-Fi | tail -n 1 | cut -b 9-12)
 wifi=$(networksetup -getairportpower $dev)
 ssid=$(networksetup -getairportnetwork $dev)
 cat << EOF
