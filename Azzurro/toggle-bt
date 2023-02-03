@@ -1,10 +1,16 @@
 #! /bin/zsh
+bt_mouse="9c35eb162e4e"
+mouse_name="Tracer"
+
 getbts=$(/usr/local/bin/blueutil -p)
 if [[ $getbts -eq 0 ]] ; then
     /usr/local/bin/blueutil -p 1
-    bt_stat="Bluetooth Power is now: On"
+    blueutil --connect "$bt_mouse"
+    bt_stat="Turning Bluetooth power on. Connecting $mouse_name..."
+    print ""
 else
     /usr/local/bin/blueutil -p 0
-    bt_stat="Bluetooth Power is now: Off"
+    blueutil --disconnect "$bt_mouse"
+    bt_stat="Disconnecting $mouse_name... Turning Bluetooth power off."
 fi
 echo "$bt_stat"
