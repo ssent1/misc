@@ -2,18 +2,21 @@
 "
 " GLOBAL
 filetype plugin indent on    " enable plugin detection,indent, syntax highlights
+set conceallevel=0           " Markdown not hidden; cursor line not hidden
 set confirm                  " confirm changes [Yes, No, Cancel] instead of error
-set gcr=a:blinkon0           " disable cursor blink
+set guicursor+=a:blinkon0    " disable cursor blink
 set gdefault                 " substitute all matches in a line
 set hlsearch!                " toggle highlight search results
 set ignorecase               " enable case-insensitive search
 set incsearch                " show search results while typing
 set linebreak                " enable line break at words; requires: wrap
+set rtp^=/usr/share/vimpager " enable vimpager
 set rtp+=/usr/local/opt/fzf  " enable interactive command-line fuzzy finder/filter
 set showbreak=-->            " enable line break prefix
 set showmatch!               " toggle highlight matching braces
 set smartcase                " enable smart-case search
 set textwidth=120            " set column width for line wrap
+set colorcolumn=+1           " highlight column 120
 set title                    " enable title in terminal
 set visualbell               " enable visual bell, no beep
 set wrap!                    " toggle line wrap
@@ -21,8 +24,8 @@ set wrapscan                 " wrap when search reaches start/end of file
 syntax on                    " enable syntax highlighting
 
 " SPELLCHECK
-set complete+=kspell       " enable word completion; triggers: <C-n>/<C-p>
-set spelllang=en_ca,en_us  " enable spellcheck; Canadian, American
+set complete+=kspell      " enable word completion; triggers: <C-n>/<C-p>
+set spelllang=en_ca,en_us " enable spellcheck; Canadian, American
 augroup markdownSpell
     autocmd!
     autocmd FileType markdown setlocal spell!
@@ -30,69 +33,77 @@ augroup markdownSpell
 augroup END
 
 " HYBRID LINE NUMBERS
-set number relativenumber  " enable hybrid line numbers
+set number relativenumber " enable hybrid line numbers
 
 " TABS
-set autoindent     " auto-indent new lines
-set expandtab      " use spaces instead of tabs
-set smartindent    " enable smart-indent
-set smarttab       " enable smart-tabs
-set shiftwidth=4   " >>:    set # of whitespace columns made by >> (shift)
-set softtabstop=4  " <Tab>: set # of whitespace columns for <Tab> keystroke
-set tabstop=4      " \t:    set # of columns produced by \t <Tab> character
+set autoindent    " auto-indent new lines
+set expandtab     " use spaces instead of tabs
+set smartindent   " enable smart-indent
+set smarttab      " enable smart-tabs
+set shiftwidth=4  " >>:    set # of whitespace columns made by >> (shift)
+set softtabstop=4 " <Tab>: set # of whitespace columns for <Tab> keystroke
+set tabstop=4     " \t:    set # of columns produced by \t <Tab> character
 
 " COPY & PASTE
-set clipboard=unnamed  " enable copy to clipboard
+set clipboard=unnamed " enable copy to clipboard
 
 " ADVANCED
-runtime macros/matchit.vim          " enable extended % matching
-set autoread                        " reload files, if changed outside vim
-set backspace=indent,eol,start      " set backspace behaviour
-set hidden                          " hide buffers instead of closing them
-set history=1000                    " set maximum items in command history
-set listchars=tab:>-,trail:·,eol:$  " define whitespace characters
-set mouse=a                         " enable mouse in all modes
-set ruler                           " show row and column ruler information
-set showcmd                         " show incomplete commands in status line
-set showmode                        " show current mode in status line
-set statusline+=%f                  " show file in status line
-set undolevels=1000                 " set maximum undo level
-set viminfo='1000,f1                " save bookmarks
+runtime macros/matchit.vim         " enable extended % matching
+set autoread                       " reload files, if changed outside vim
+set autowrite                      " :write before running commands
+set backspace=indent,eol,start     " set backspace behaviour
+set encoding=utf-8                 " use the Unicode character set
+set hidden                         " hide buffers instead of closing them
+set history=1000                   " set maximum items in command history
+set listchars=tab:>-,trail:·,eol:$ " define whitespace characters
+set modelines=0                    " disable modelines, security precaution
+set nomodeline                     " disable modelines, security precaution
+set mouse=a                        " enable mouse
+set nrformats+=unsigned            " disable octal mode, improves vim-speeddating performance
+set nrformats+=alpha               " enable {in,de}crementing alpha chars
+set ruler                          " show row and column ruler information
+set showcmd                        " show incomplete commands in status line
+set showmode                       " show current mode in status line
+set statusline+=%f                 " show file in status line
+set undolevels=1000                " set maximum undo level
+set viminfo='1000,f1               " save bookmarks
+
+" CREATE FILE ON INITIAL EDIT
 augroup initSave
     autocmd!
-    autocmd BufNewFile * :write  " create file on initial edit
+    autocmd BufNewFile * :write 
 augroup END
 
-" KEY MAPS
-inoremap <CR> <Esc><Plug>AutolistReturn
+" KEY BINDING MAPS
 let mapleader="'"
-nnoremap <silent> <leader>1  :call ToggleWrap()<CR>
-nnoremap <silent> <leader>;  :set spell!<CR>
-nnoremap <silent> <leader>s  :set nolist!<CR>
-nnoremap O <Plug>AutolistNewLineAbove
-nnoremap o <Plug>AutolistNewLineBelow
 nnoremap ' `
 nnoremap ` '
+nmap <F3> i<C-R>=strftime('%Y-%m-%dT%H:%M:%S%z')<CR><Esc>
+imap <F3> <C-R>=strftime('%Y-%m-%dT%H:%M:%S%z')<CR>
+nnoremap <silent> <leader>1  :call ToggleWrap()<CR>
+nnoremap <silent> <leader>;  :set spell!<CR>
+nnoremap <silent> <leader>w  :set nolist!<CR>
 nnoremap <silent><Space> :nohlsearch<Bar>:echo<CR>
-noremap <C-e> 3<C-e>
-noremap <C-y> 3<C-y>
+nnoremap <C-e> 3<C-e>
+nnoremap <C-y> 3<C-y>
+
 " leader: '
-" toggles
-  " wrap lines:  '1
-  " spellcheck:  ';
-  " whitespace:  's
-" swap mark leaders
+" swap mark leaders to ' from `
+" toggle
+" line wrap:                 '1
+" spellcheck:                ';
+" show whitespace:           'w
 " clear search highlighting: <Space>
 " move screen three lines
-  " <Down>:  <C-e>
-  " <Up>:    <C-y>
+" <Down> = <C-e>
+" <Up>   = <C-y>
 
 " SWAP AND BACKUP FILES
 set backupdir=~/.vim_tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set directory=~/.vim_tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 
 " COMPLETION
-set wildignore+=*.gem  " ignore the following tab completion items:
+set wildignore+=*.gem " ignore the following tab completion items:
 set wildignore+=*.png,*.jpg,*.gif
 set wildignore+=*DS_Store*
 set wildignore+=*sass-cache*
@@ -102,11 +113,11 @@ set wildignore+=tmp/**
 set wildignore+=vendor/cache/**
 set wildignore+=vendor/rails/**
 set wildignore=*.o,*.obj,*~
-set wildmenu  " enable <C-n> and <C-p> to scroll thru matches
+set wildmenu " enable <C-n> and <C-p> to scroll thru matches
 set wildmode=list:longest
 
 " SCROLLING
-set scrolloff=8  " start scrolling 8 lines away from margins
+set scrolloff=8 " start scrolling 8 lines away from margins
 set sidescroll=1
 set sidescrolloff=15
 
@@ -115,9 +126,9 @@ augroup dynamicCursor
     autocmd!
     autocmd InsertEnter,InsertLeave * set cul! culopt=screenline
 augroup END
-let &t_SI = "\e[5 q"  " start insert  mode, cursor = blinking bar
-let &t_SR = "\e[3 q"  " start replace mode, cursor = steady underline
-let &t_EI = "\e[1 q"  " end   irnsert mode, cursor = blinking block
+let &t_SI = "\e[6 q" " start insert  mode, cursor = steady bar       (5 = blinking bar)
+let &t_SR = "\e[4 q" " start replace mode, cursor = steady underline (3 = blinking underline)
+let &t_EI = "\e[2 q" " end   irnsert mode, cursor = steady block     (1 = blinking block)
 set guicursor+=i:blinkwait300-blinkon100-blinkoff200
 set ttimeout
 set ttimeoutlen=1
@@ -126,15 +137,12 @@ set ttyfast
 
 " TOGGLE WRAPPING MODES
 function ToggleWrap()
-    if (&wrap == 1)
-        if (&linebreak == 0)
-            set linebreak
-        else
-            set nowrap
-        endif
+    if (&wrap == 1 && &linebreak == 1)
+        set nowrap
+        set nolinebreak
     else
         set wrap
-        set nolinebreak
+        set linebreak
     endif
 endfunction
 
@@ -142,8 +150,9 @@ endfunction
 "" Automatic Installation
 let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/.vim'
 if empty(glob(data_dir . '/autoload/plug.vim'))
-  silent execute '!curl -fLo '.data_dir.'/autoload/plug.vim --create-dirs  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
-  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+    silent execute '!curl -fLo '.data_dir.'/autoload/plug.vim --create-dirs  
+                \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+    autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
 "" Install vim-plug if not found
@@ -154,21 +163,28 @@ endif
 
 "" Run PlugInstall if there are missing plugins
 autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
-    \| PlugInstall --sync | source $MYVIMRC
-    \| endif
+            \| PlugInstall --sync | source $MYVIMRC
+            \| endif
+
+let g:polyglot_disabled = ['markdown'] " conflict: vim-polyglot & vim-markdown, interferes with mkdx list indentation
 
 "" Load plugins
 call plug#begin('~/.vim/plugged')
 Plug 'ap/vim-css-color'
-Plug 'bradford-smith94/vim-autolist'
 Plug 'chriskempson/base16-vim'
 Plug 'christoomey/vim-titlecase'
+Plug 'clarke/vim-renumber'
+Plug 'dense-analysis/ale'
 Plug 'dhruvasagar/vim-table-mode'
 Plug 'dracula/vim', { 'as': 'dracula' }
-Plug 'scrooloose/nerdtree'
 Plug 'godlygeek/tabular'
+Plug 'junegunn/goyo.vim'
+Plug 'junegunn/vim-peekaboo'
 Plug 'mechatroner/rainbow_csv', {'as': 'rainbow-csv' }
 Plug 'preservim/vim-markdown'
+Plug 'scrooloose/nerdtree'
+Plug 'sheerun/vim-polyglot'
+Plug 'SidOfc/mkdx'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-speeddating'
 Plug 'tpope/vim-surround'
@@ -178,31 +194,33 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 call plug#end()
 
-""  Set plugin options
+""  Set plugin options "
 """ airline
-let g:airline#extensions#tabline#enabled = 1  " show buffers in top status bar
-let g:airline_powerline_fonts = 1             " load powerline symbols
-let g:airline_theme='dark'                    " enable dark-mode theme
-
-""" autolist
-let g:autolist_unordered_markers = ['-', '*', '+', '- [ ]', '- [x]']
+let g:airline#extensions#tabline#enabled = 1 " show buffers in top status bar
+let g:airline_powerline_fonts = 1            " load powerline symbols
+let g:airline_theme='dark'                   " enable dark-mode theme
 
 """ css-color
 function s:CssColorInit(typ, keywords, groups)
-  try
-    call css_color#init(a:typ, a:keywords, a:groups)
-  catch /^Vim\%((\a\+)\)\=:E117/
-    " echom 'ap/vim-css-color is not installed.'"
-  endtry 
+    try
+        call css_color#init(a:typ, a:keywords, a:groups)
+    catch /^Vim\%((\a\+)\)\=:E117/
+        " echom 'ap/vim-css-color is not installed.'"
+    endtry 
 endfunction
 
 augroup CssColorCustomFiletypes
-  autocmd!
-  autocmd Filetype md call s:CssColorInit('css','extended','hex')
-  command ColorToggle call css_color#toggle()
+    autocmd!
+    autocmd Filetype md call s:CssColorInit('css','extended','hex')
+    command ColorToggle call css_color#toggle()
 augroup END
 
+""" HTML
+let g:html_indent_tags = 'li\|p' " treat <li>|<p> like block tags
+
 """ markdown
+"let g:vim_markdown_auto_insert_bullets = 1
+"let g:vim_markdown_new_list_item_indent = 0
 let g:vim_markdown_toc_autofit = 1
 set nofoldenable  " disable folding, vim-markdown
 hi DiffDelete ctermfg=17  ctermbg=45  guifg=#00005f guibg=#00dfff
@@ -211,12 +229,22 @@ hi SpellBad   ctermfg=233 ctermbg=141 guifg=#000000 guibg=#BD93F9
 hi SpellCap   ctermfg=232 ctermbg=212 guifg=#000000 guibg=#FF79C6
 hi SpellLocal ctermfg=232 ctermbg=117 guifg=#000000 guibg=#8BE9FD
 
-" REFERENCES
-"" https://gist.github.com/joegoggins/8482408
-"" https://items.sjbach.com/319/configuring-vim-right.html
-"" https://nvie.com/posts/how-i-boosted-my-vim/
-"" https://vimconfig.com
-"" https://www.shortcutfoo.com/blog/top-49-vim-configuration-options"
+""" mkdx
+let g:mkdx#settings = {
+            \ "auto_update": { "enable": 1 },
+            \ 'enter': { 'shift': 0 },
+            \ 'fold': { 'enable': 1 },
+            \ 'highlight': { 'enable': 1 },
+            \ 'links': { 'external': { 'enable': 1 } },
+            \ 'toc': { 'text': 'Contents', 'update_on_write': 0 }, }
 
-"" ^ 2022-01-12T21:16:44-0500
-"" % 2023-05-11T18:18:25-0500
+" REFERENCES
+" https://gist.github.com/joegoggins/8482408
+" https://items.sjbach.com/319/configuring-vim-right.html
+" https://nvie.com/posts/how-i-boosted-my-vim/
+" https://vimconfig.com
+
+" https://github.com/thoughtbot/dotfiles/blob/main/vimrc
+" https://invisible-island.net/xterm/ctlseqs/ctlseqs.html 'XTerm Control Sequences: CSI Ps SP q: Set cursor style'
+" ^ 2022-01-12T21:16:44-0500
+" % 2023-07-09T23:29:26-0400
