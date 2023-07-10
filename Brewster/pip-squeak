@@ -1,0 +1,10 @@
+python3 -m pip install -U cffi
+python3 -m pip install -U gpg
+python3 -m pip install -U gpg
+python3 -m pip install -U gpg
+python3 -m pip install -U notmuch
+python3 -m pip install -U notmuch2
+python3 -m pip install -U pip
+python3 -m pip install -U pycparser
+python3 -m pip install -U setuptools
+python3 -m pip install -U wheel
