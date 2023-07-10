@@ -1,0 +1,28 @@
+# Syd Salmon's Zsh Plugin Configuration
+
+## for a better UX, load syntax-highlighting and suggestions early 
+zinit wait lucid light-mode for \
+    atinit"zicompinit; zicdreplay" \
+    romkatv/powerlevel10k \
+    zsh-users/zsh-autosuggestions \
+    zdharma-continuum/fast-syntax-highlighting
+
+## zinit Turbo Mode
+zinit wait lucid atload light-mode for \
+    agkozak/zsh-z \
+    dracula/vim \
+    jeffreytse/zsh-vi-mode \
+    zdharma-continuum/history-search-multi-word \
+    zsh-users/zsh-completions
+
+## autoload
+zinit wait lucid atload"zicompinit; zicdreplay" blockf for \
+    atload"!_zsh_autosuggest_start" \
+    jeffreytse/zsh-vi-mode \
+    zsh-users/zsh-completions \
+    zsh-users/zsh-autosuggestions
+
+# notes & references
+
+## ^ 2022-01-12T21:16:44-0500
+## % 2023-05-16T20:28:25-0400
