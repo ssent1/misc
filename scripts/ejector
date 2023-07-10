@@ -24,7 +24,11 @@
         fi
         echo "$msg"
     fi
+<<<<<<< HEAD
     cd "$HOME"/Desktop/ || return
+=======
+    cd "$HOME"/Dropbox/nvalt/ || return
+>>>>>>> 46681ab (updated)
 
 # https://apple.stackexchange.com/questions/370406/how-to-eject-all-drives-from-the-command-line
 
