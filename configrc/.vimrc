@@ -72,6 +72,8 @@ set viminfo='1000,f1               " save bookmarks
 augroup initSave
     autocmd!
     autocmd BufNewFile * :write 
+    autocmd BufNewFile *.md :let@r=''|:let@r="# \n\n- - -\n<!--sources-->\n\n\nTags: \n\n^\n\\\n%\n"|:put r
+                \|:let@r=strftime(' %FT%T%z')|:norm!"rp2k"rpgJ4kmaggdd$"
 augroup END
 
 " KEY BINDING MAPS
@@ -247,4 +249,4 @@ let g:mkdx#settings = {
 " https://github.com/thoughtbot/dotfiles/blob/main/vimrc
 " https://invisible-island.net/xterm/ctlseqs/ctlseqs.html 'XTerm Control Sequences: CSI Ps SP q: Set cursor style'
 " ^ 2022-01-12T21:16:44-0500
-" % 2023-07-09T23:29:26-0400
+" % 2023-07-12T11:33:07-0400
