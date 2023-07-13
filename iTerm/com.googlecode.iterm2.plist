@@ -4057,6 +4057,18 @@ Maximize Active Pane</string>
 			<key>escaping</key>
 			<integer>2</integer>
 			<key>guid</key>
+			<string>B58D5EBF-27D7-4B1A-9A9F-188BBC1C7CC7</string>
+			<key>title</key>
+			<string>cdf :: convert doc footer</string>
+			<key>value</key>
+			<string>:exe "norm Go"|:let [@q,@r,@s,@t]=['','','','']|:let@q="- - -\n&lt;!--sources--&gt;\n\n\nTags: \n\n^\n\\\n%\n"|:put q|:let@r=strftime(' %FT%T%z')|:norm"rp2k"rpgJ4k6{3dd"s3dd4ddma}"td'a}"tp}dd}"sp3jdd"</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>escaping</key>
+			<integer>2</integer>
+			<key>guid</key>
 			<string>9F4C2C89-9662-4090-92F3-5B86ADF2AAC4</string>
 			<key>title</key>
 			<string>cpl :: copy linewise</string>
@@ -4086,6 +4098,18 @@ Maximize Active Pane</string>
 			<string>crl :: convert reference link</string>
 			<key>value</key>
 			<string>:%s/\v^\[(\d+)\]: ([^ ]+) "([^"]+)"/\1. [\3](\2)/</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>escaping</key>
+			<integer>2</integer>
+			<key>guid</key>
+			<string>76F53578-8B83-464C-85AE-3D3B4D1F9EF0</string>
+			<key>title</key>
+			<string>ctr :: convert to reference link</string>
+			<key>value</key>
+			<string>:'a,'zs/\v^(\d+)\. \[([^\]]+)\]\(([^\)]+)\)/[\1]: \3 "\2"/</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -4313,18 +4337,6 @@ don't believe everything you see
 despite looking like lines of four
 things are not as they appear to be
 this is but one line and nothing more</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>escaping</key>
-			<integer>2</integer>
-			<key>guid</key>
-			<string>76F53578-8B83-464C-85AE-3D3B4D1F9EF0</string>
-			<key>title</key>
-			<string>ctr :: convert to reference link</string>
-			<key>value</key>
-			<string>:'a,'zs/\v^(\d+)\. \[([^\]]+)\]\(([^\)]+)\)/[\1]: \3 "\2"/</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
