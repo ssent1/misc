@@ -1,0 +1,30 @@
+#!/usr/local/bin/zsh
+#
+# Update package managers: Homebrew (macOS), npm (JavaScript), pip (Python)
+{
+    # update Homebrew
+    brew upgrade
+    brew update
+    brew cleanup
+    brew doctor
+    printf "\r[${(%):-%F{green}√${(%):-%f}] Homebrew${(%):-%F{green} update completed.  ${(%):-%f}\n"
+
+    # update npm - Node.js (JavaScript) package manager
+    npm update
+    npm prune
+    printf "\r[${(%):-%F{green}√${(%):-%f}] npm${(%):-%F{green} update completed.  ${(%):-%f}\n"
+
+    # update pip - Python 3.x package manager
+    # build Python3 package update list
+    # python3 pip, python3 -m pip
+    # pip 22.0.4 from /usr/local/lib/python3.9/site-packages/pip (python 3.9)
+    p3pul="$HOME/Code/misc/Brewster/pip-squeak"
+    python3 -m pip list | awk '(NR <=2) {next} /^([a-zA-Z0-9]+).*/ {print "python3 -m pip install -U " $1}' >"$p3pul"
+    sleep 2
+    while IFS= read -r line; do printf '%s\n' "$line"; done <"$p3pul"
+    printf "\r[${(%):-%F{green}√${(%):-%f}] Python 3.x${(%):-%F{green} update completed.  ${(%):-%f}\n"
+} 
+
+# - - -
+# ^ 2022-06-03T12:00:00-0400
+# % 2023-07-13T10:56:45-0400
