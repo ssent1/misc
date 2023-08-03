@@ -4035,7 +4035,7 @@ Maximize Active Pane</string>
 			<key>guid</key>
 			<string>6D259BD3-519C-42A8-8CF1-63566ECC9802</string>
 			<key>title</key>
-			<string>ab :: align from :\zs</string>
+			<string>af :: align from :\zs</string>
 			<key>value</key>
 			<string>:Tabularize /:\zs/l0r1</string>
 			<key>version</key>
@@ -4055,13 +4055,13 @@ Maximize Active Pane</string>
 		</dict>
 		<dict>
 			<key>escaping</key>
-			<integer>2</integer>
+			<integer>0</integer>
 			<key>guid</key>
 			<string>B58D5EBF-27D7-4B1A-9A9F-188BBC1C7CC7</string>
 			<key>title</key>
 			<string>cdf :: convert doc footer</string>
 			<key>value</key>
-			<string>:exe "norm Go"|:let [@q,@r,@s,@t]=['','','','']|:let@q="- - -\n&lt;!--sources--&gt;\n\n\nTags: \n\n^\n\\\n%\n"|:put q|:let@r=strftime(' %FT%T%z')|:norm"rp2k"rpgJ4k6{3dd"s3dd4ddma}"td'a}"tp}dd}"sp3jdd"</string>
+			<string>:exe "norm Go"|:let@q="- - -\n&lt;!-- sources --&gt;\n\n\nTags: \n\n^\n\\\n%\n"|:put q|:let@r=strftime(' %FT%T%z')|:norm"rp2k"rpgJ4k6{3dd"s3dd4ddma}"td'a}"tp}dd}"sp3jdd"</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -4073,19 +4073,19 @@ Maximize Active Pane</string>
 			<key>title</key>
 			<string>cpl :: copy linewise</string>
 			<key>value</key>
-			<string>:let @q=''|:%s/\v_/\=setreg('Q', submatch(1), 'l')/n|:let @*=@q|:norm G] p</string>
+			<string>:%s/\v_/\=setreg('Q', submatch(1), 'l')/n|:let @*=@q|:norm G"qp</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>escaping</key>
-			<integer>2</integer>
+			<integer>0</integer>
 			<key>guid</key>
 			<string>40155841-DD4E-44E0-B95C-D71D3A59EBA9</string>
 			<key>title</key>
 			<string>cpl :: copy linewise, multiple atoms</string>
 			<key>value</key>
-			<string>:let @q=''|:%s/\v_/\=setreg('Q', submatch(1).'{str}'.submatch(2), 'l')/n|:let @*=@q|:2put</string>
+			<string>:%s/\v_/\=setreg('Q', submatch(1).'{str}'.submatch(2), 'l')/n|:let @*=@q|:norm 2G"qp</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -4145,7 +4145,7 @@ Maximize Active Pane</string>
 			<key>title</key>
 			<string>fnr :: footer, note &amp; resources</string>
 			<key>value</key>
-			<string>:exe "norm! Go" |:let@r=''|:let@r="- - -\n&lt;!--sources--&gt;\n\n\nTags: \n\n^\n\\\n%\n"|:put r|:let@r=strftime(' %FT%T%z')|:norm!"rp2k"rpgJ4k"</string>
+			<string>:exe "norm! Go" |:let@r="- - -\n&lt;!-- sources --&gt;\n\n\nTags: \n\n^\n\\\n%\n"|:put r|:let@r=strftime(' %FT%T%z')|:norm!"rp2k"rpgJ4k"</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -4157,7 +4157,7 @@ Maximize Active Pane</string>
 			<key>title</key>
 			<string>fts :: update footer timestamp</string>
 			<key>value</key>
-			<string>:exe "norm G"|:call search('\d\+')|:exe "norm D"|:put =strftime('%FT%T%z')|:exe "norm kJ"|:w</string>
+			<string>:exe "norm G"|:call search('\d\+')|:exe "norm D"|:put =strftime('%FT%T%z')|:exe "norm kJ"|:write</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -4237,11 +4237,23 @@ Maximize Active Pane</string>
 			<key>escaping</key>
 			<integer>2</integer>
 			<key>guid</key>
+			<string>8DE41842-5CC6-47C6-AF68-9403FFC24C97</string>
+			<key>title</key>
+			<string>scsv :: sort line by csvs</string>
+			<key>value</key>
+			<string>:exe "norm ^df "|:call setline('.',join(sort(split(getline('.'),', ')),', '))|:norm ""P^"</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>escaping</key>
+			<integer>0</integer>
+			<key>guid</key>
 			<string>A17218B8-C9ED-46F9-B053-7E33B433C597</string>
 			<key>title</key>
-			<string>ttf :: convert title to filename</string>
+			<string>sav :: convert title to filename</string>
 			<key>value</key>
-			<string>:1s/\\&gt;[^ ]//e|:1s/\\&gt;\\W\\+/-/e|:1s/^#\\(.*\\)/\\L\\1.md/e|:let@q=''|:1s/^\\(.*\\)\\n/\\=setreg('Q',submatch(1))/n|:let@+=@q|:set nohlsearch|:undo|:exe 'sav' @q</string>
+			<string>:let[@q,@r]=['','']|:1s/^\s\+\|\s\+$//e|:1s/^\(.*\)\n/\=setreg('q',submatch(1))/n|:1s/\&gt;[^ ]//e|:1s/\&gt;\W\+/-/e|:1s/^#\s\(.*\)/\=setreg('r',tolower(submatch(1)).'.md')/n|:1d|:1put! q|:exe 'sav' @r|:set nohlsearch</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -4337,6 +4349,30 @@ don't believe everything you see
 despite looking like lines of four
 things are not as they appear to be
 this is but one line and nothing more</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>escaping</key>
+			<integer>2</integer>
+			<key>guid</key>
+			<string>F468814C-BF6C-4A98-AC02-FEC4EEC9DFE2</string>
+			<key>title</key>
+			<string>tfl :: trim footer links</string>
+			<key>value</key>
+			<string>:%s/\v(\[\d\]: %(https?|ftp):\/\/[^\s\/\$\.\?\#]+.\S+\w)%(\/)?( "[^·–—\|\-]+\w)[^"]+/\1\2/e</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>escaping</key>
+			<integer>2</integer>
+			<key>guid</key>
+			<string>F2D1D3CA-38D7-4F9D-A47A-88A4CF8B757E</string>
+			<key>title</key>
+			<string>curl :: capture url</string>
+			<key>value</key>
+			<string>:%s/\v(https?|ftp):\/\/[^\s\/\$\.\?\#]+.\S+</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
