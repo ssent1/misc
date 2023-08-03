@@ -26,8 +26,8 @@ syntax on                    " enable syntax highlighting
 " SPELLCHECK
 set complete+=kspell      " enable word completion; triggers: <C-n>/<C-p>
 set spelllang=en_ca,en_us " enable spellcheck; Canadian, American
-augroup markdownSpell
-    autocmd!
+augroup markdown_spell
+    au!
     autocmd FileType markdown setlocal spell!
     autocmd BufRead,BufNewFile *.md setlocal spell
 augroup END
@@ -69,11 +69,12 @@ set undolevels=1000                " set maximum undo level
 set viminfo='1000,f1               " save bookmarks
 
 " CREATE FILE ON INITIAL EDIT
-augroup initSave
-    autocmd!
-    autocmd BufNewFile * :write 
+augroup init_save
+    au!
+    autocmd BufNewFile * :write
     autocmd BufNewFile *.md :let@r=''|:let@r="# \n\n- - -\n<!--sources-->\n\n\nTags: \n\n^\n\\\n%\n"|:put r
                 \|:let@r=strftime(' %FT%T%z')|:norm!"rp2k"rpgJ4kmaggdd$"
+    autocmd BufRead,BufNewFile *.py setlocal textwidth=80
 augroup END
 
 " KEY BINDING MAPS
@@ -82,23 +83,30 @@ nnoremap ' `
 nnoremap ` '
 nmap <F3> i<C-R>=strftime('%Y-%m-%dT%H:%M:%S%z')<CR><Esc>
 imap <F3> <C-R>=strftime('%Y-%m-%dT%H:%M:%S%z')<CR>
+nnoremap <silent> <Space>    :nohlsearch<Bar>:echo<CR>
+nnoremap <silent> <leader>e  :edit <C-R>=expand("%:p:h")."/" <CR>
+nnoremap <silent> <leader>ev :edit $MYVIMRC<cr>
+nnoremap <silent> <leader>sv :source $MYVIMRC<cr>
 nnoremap <silent> <leader>1  :call ToggleWrap()<CR>
 nnoremap <silent> <leader>;  :set spell!<CR>
 nnoremap <silent> <leader>w  :set nolist!<CR>
-nnoremap <silent><Space> :nohlsearch<Bar>:echo<CR>
 nnoremap <C-e> 3<C-e>
 nnoremap <C-y> 3<C-y>
 
-" leader: '
-" swap mark leaders to ' from `
-" toggle
-" line wrap:                 '1
-" spellcheck:                ';
-" show whitespace:           'w
-" clear search highlighting: <Space>
-" move screen three lines
-" <Down> = <C-e>
-" <Up>   = <C-y>
+" set leader to '
+" swap :mark leaders ' <==> `
+" F3 = inset date in ISO 8601 format
+" <Space> = reset search highlighting:
+" 'e = edit file in same directory as active buffer
+" 'ev = edit ~./vimrc in a new buffer
+" 'sv = source ~./vimrc
+" toggle:
+"   '1 = line wrap
+"   '; = spellcheck
+"   'w = show whitespace
+" Move screen three lines:
+"   <C-e> = <Down>
+"   <C-y> = <Up>
 
 " SWAP AND BACKUP FILES
 set backupdir=~/.vim_tmp,~/.tmp,~/tmp,/var/tmp,/tmp
@@ -124,10 +132,11 @@ set sidescroll=1
 set sidescrolloff=15
 
 " CURSOR APPEARANCE
-augroup dynamicCursor
-    autocmd!
+augroup dynamic_cursor
+    au!
     autocmd InsertEnter,InsertLeave * set cul! culopt=screenline
 augroup END
+
 let &t_SI = "\e[6 q" " start insert  mode, cursor = steady bar       (5 = blinking bar)
 let &t_SR = "\e[4 q" " start replace mode, cursor = steady underline (3 = blinking underline)
 let &t_EI = "\e[2 q" " end   irnsert mode, cursor = steady block     (1 = blinking block)
@@ -138,7 +147,7 @@ set listchars=tab:>-,trail:~,extends:>,precedes:<,space:.
 set ttyfast
 
 " TOGGLE WRAPPING MODES
-function ToggleWrap()
+function! ToggleWrap()
     if (&wrap == 1 && &linebreak == 1)
         set nowrap
         set nolinebreak
@@ -152,9 +161,12 @@ endfunction
 "" Automatic Installation
 let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/.vim'
 if empty(glob(data_dir . '/autoload/plug.vim'))
-    silent execute '!curl -fLo '.data_dir.'/autoload/plug.vim --create-dirs  
+    silent execute '!curl -fLo '.data_dir.'/autoload/plug.vim --create-dirs
                 \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
-    autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+    augroup install_plug
+        au!
+        autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+    augroup END
 endif
 
 "" Install vim-plug if not found
@@ -164,9 +176,12 @@ if empty(glob('~/.vim/autoload/plug.vim'))
 endif
 
 "" Run PlugInstall if there are missing plugins
-autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
-            \| PlugInstall --sync | source $MYVIMRC
-            \| endif
+augroup install_plugins
+    au!
+    autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
+                \| PlugInstall --sync | source $MYVIMRC
+                \| endif
+augroup END
 
 let g:polyglot_disabled = ['markdown'] " conflict: vim-polyglot & vim-markdown, interferes with mkdx list indentation
 
@@ -182,11 +197,13 @@ Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'godlygeek/tabular'
 Plug 'junegunn/goyo.vim'
 Plug 'junegunn/vim-peekaboo'
+Plug 'mattn/emmet-vim'
 Plug 'mechatroner/rainbow_csv', {'as': 'rainbow-csv' }
 Plug 'preservim/vim-markdown'
 Plug 'scrooloose/nerdtree'
 Plug 'sheerun/vim-polyglot'
 Plug 'SidOfc/mkdx'
+Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-speeddating'
 Plug 'tpope/vim-surround'
@@ -203,16 +220,16 @@ let g:airline_powerline_fonts = 1            " load powerline symbols
 let g:airline_theme='dark'                   " enable dark-mode theme
 
 """ css-color
-function s:CssColorInit(typ, keywords, groups)
+function! s:CssColorInit(typ, keywords, groups)
     try
         call css_color#init(a:typ, a:keywords, a:groups)
     catch /^Vim\%((\a\+)\)\=:E117/
         " echom 'ap/vim-css-color is not installed.'"
-    endtry 
+    endtry
 endfunction
 
 augroup CssColorCustomFiletypes
-    autocmd!
+    au!
     autocmd Filetype md call s:CssColorInit('css','extended','hex')
     command ColorToggle call css_color#toggle()
 augroup END
@@ -224,7 +241,7 @@ let g:html_indent_tags = 'li\|p' " treat <li>|<p> like block tags
 "let g:vim_markdown_auto_insert_bullets = 1
 "let g:vim_markdown_new_list_item_indent = 0
 let g:vim_markdown_toc_autofit = 1
-set nofoldenable  " disable folding, vim-markdown
+set nofoldenable!  " disable folding, vim-markdown
 hi DiffDelete ctermfg=17  ctermbg=45  guifg=#00005f guibg=#00dfff
 hi MatchParen ctermfg=17  ctermbg=45  guifg=#00005f guibg=#00dfff
 hi SpellBad   ctermfg=233 ctermbg=141 guifg=#000000 guibg=#BD93F9
@@ -233,12 +250,52 @@ hi SpellLocal ctermfg=232 ctermbg=117 guifg=#000000 guibg=#8BE9FD
 
 """ mkdx
 let g:mkdx#settings = {
-            \ "auto_update": { "enable": 1 },
-            \ 'enter': { 'shift': 0 },
-            \ 'fold': { 'enable': 1 },
-            \ 'highlight': { 'enable': 1 },
-            \ 'links': { 'external': { 'enable': 1 } },
-            \ 'toc': { 'text': 'Contents', 'update_on_write': 0 }, }
+            \ 'image_extension_pattern': 'a\?png\|jpe\?g\|gif\|svg',
+            \ "auto_update" : { "enable": 1 },
+            \ 'checkbox': { 'toggles': [' ', 'x', '-'] },
+            \ 'enter'       : { 'shift': 0 },
+            \ 'highlight'   : { 'enable': 1 },
+            \ 'links'       : { 'external': { 'enable': 1 } },
+            \ 'table'       : { 'divider': '|', 'header_divider': '-',
+            \                       'align': { 'left': [], 'center': [], 'right': [],
+            \                           'default': 'left' } },
+            \ 'tokens': { 'enter': ['-', '*', '>'], 'italic': '_' },
+            \ 'toc': { 'text': 'Contents', 'position': 4, 'update_on_write': 0 },
+            \ }
+
+" ABBREVIATIONS
+"" Command-line mode
+cabbrev ![    ([^]+)<Left><Left><Left>
+cabbrev alb    Tabularize /<Left>
+cabbrev alf    Tabularize /\zs/l0r1<S-Left><Right>
+cabbrev cap   :%s/\vchrome-extension:\/\/efaidnbmnnnibpcajpcglclefindmkaj\/(https?\|ftp)(:\/\/[^\s\/\$\.\?\#]+.\S+)/\1\2/
+cabbrev curl  :%s/\v(https?\|ftp):\/\/[^\s\/\$\.\?\#]+.\S+/\1\2/
+cabbrev s'    'a,'zs/\v^()<Left>
+cabbrev sr    .,s/\v^()<Left><Left><Left><Left><Left>
+cabbrev sv    %s/\v^()<Left>
+cabbrev yfn   :let @+ = expand("%:t")
+cabbrev yfp   :let @+ = expand("%:p")
+cabbrev yrp   :let @+ = expand("%")
+
+"" Insert mode
+iabbrev @@    sksalmon@gmail.com
+iabbrev nb    N.B.
+
+" ![    insert 'logical NOT' regex, move cursor inside brackets
+" alb   align by <character>
+" alf   align from first instance of <character>, move cursor to position for <character>
+" cap   capture url Adobe PDF extension
+" curl  capture urls
+
+" very magic search, range, rm trailing space:
+"" s'   marked range: 'a,'z
+"" sr   specified range: .,<n>; move cursor <n> (enter line number, $ (enf of file), etc.)
+"" sv   entire document: %
+
+" y<..>  yank <current buffer filename> to system clipboard
+"" yfn   %:t tail (filename, last path component only), .vimrc
+"" yfp   %:p expand to full path,                       /Users/<dir>/.vimrc
+"" yrp   % current file name (relative path),           /Users/syd/.vimrc
 
 " REFERENCES
 " https://gist.github.com/joegoggins/8482408
@@ -249,4 +306,4 @@ let g:mkdx#settings = {
 " https://github.com/thoughtbot/dotfiles/blob/main/vimrc
 " https://invisible-island.net/xterm/ctlseqs/ctlseqs.html 'XTerm Control Sequences: CSI Ps SP q: Set cursor style'
 " ^ 2022-01-12T21:16:44-0500
-" % 2023-07-12T11:33:07-0400
+" % 2023-08-03T10:22:11-0400
