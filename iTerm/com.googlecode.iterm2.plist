@@ -4008,7 +4008,7 @@ Maximize Active Pane</string>
 	<key>SeparateWindowTitlePerTab</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>
-	<true/>
+	<false/>
 	<key>ShowNewOutputIndicator</key>
 	<true/>
 	<key>ShowPaneTitles</key>
@@ -4187,7 +4187,7 @@ Maximize Active Pane</string>
 		</dict>
 		<dict>
 			<key>escaping</key>
-			<integer>2</integer>
+			<integer>0</integer>
 			<key>guid</key>
 			<string>498F611D-A4F9-427A-8A8D-25C2DA18AA53</string>
 			<key>title</key>
