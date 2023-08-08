@@ -1,4 +1,4 @@
-" Syd Salmon's Vim Configuration
+" Syd's Vim Configuration
 "
 " GLOBAL
 filetype plugin indent on    " enable plugin detection,indent, syntax highlights
@@ -260,28 +260,30 @@ let g:mkdx#settings = {
             \                       'align': { 'left': [], 'center': [], 'right': [],
             \                           'default': 'left' } },
             \ 'tokens': { 'enter': ['-', '*', '>'], 'italic': '_' },
-            \ 'toc': { 'text': 'Contents', 'position': 4, 'update_on_write': 0 },
+            \ 'toc': { 'text': 'Contents', 'position': 2, 'update_on_write': 0 },
             \ }
 
 " ABBREVIATIONS
 "" Command-line mode
-cabbrev ![    ([^]+)<Left><Left><Left>
-cabbrev alb    Tabularize /<Left>
-cabbrev alf    Tabularize /\zs/l0r1<S-Left><Right>
-cabbrev cap   :%s/\vchrome-extension:\/\/efaidnbmnnnibpcajpcglclefindmkaj\/(https?\|ftp)(:\/\/[^\s\/\$\.\?\#]+.\S+)/\1\2/
-cabbrev curl  :%s/\v(https?\|ftp):\/\/[^\s\/\$\.\?\#]+.\S+/\1\2/
-cabbrev s'    'a,'zs/\v^()<Left>
-cabbrev sr    .,s/\v^()<Left><Left><Left><Left><Left>
-cabbrev sv    %s/\v^()<Left>
-cabbrev yfn   :let @+ = expand("%:t")
-cabbrev yfp   :let @+ = expand("%:p")
-cabbrev yrp   :let @+ = expand("%")
+
+cabbrev !!  :([^]+)<Left><Left><Left>
+cabbrev alb :Tabularize /
+cabbrev alf :Tabularize /\zs/l0r1<S-Left><Right>
+cabbrev cap :%s/\vchrome-extension:\/\/efaidnbmnnnibpcajpcglclefindmkaj\/(https?\|ftp)(:\/\/[^\s\/\$\.\?\#]+.\S+)/\1\2/
+cabbrev ccq :%s/\v[“”]\+?/"/e|:%s/\v[‘’]\+?/'/e
+cabbrev s'  :'a,'zs/\v()<Left>
+cabbrev sd  :%s/\v()<Left>
+cabbrev sr  :.,s/\v()<Left><Left><Left><Left><Left>
+cabbrev yfn :let @+ = expand("%:t")
+cabbrev yfp :let @+ = expand("%:p")
+cabbrev yrp :let @+ = expand("%")
 
 "" Insert mode
 iabbrev @@    sksalmon@gmail.com
 iabbrev nb    N.B.
+iabbrev zym   Zymonetics
 
-" ![    insert 'logical NOT' regex, move cursor inside brackets
+" !!    insert 'logical NOT' regex, move cursor inside brackets
 " alb   align by <character>
 " alf   align from first instance of <character>, move cursor to position for <character>
 " cap   capture url Adobe PDF extension
@@ -289,8 +291,8 @@ iabbrev nb    N.B.
 
 " very magic search, range, rm trailing space:
 "" s'   marked range: 'a,'z
+"" sd   entire document: %
 "" sr   specified range: .,<n>; move cursor <n> (enter line number, $ (enf of file), etc.)
-"" sv   entire document: %
 
 " y<..>  yank <current buffer filename> to system clipboard
 "" yfn   %:t tail (filename, last path component only), .vimrc
@@ -306,4 +308,4 @@ iabbrev nb    N.B.
 " https://github.com/thoughtbot/dotfiles/blob/main/vimrc
 " https://invisible-island.net/xterm/ctlseqs/ctlseqs.html 'XTerm Control Sequences: CSI Ps SP q: Set cursor style'
 " ^ 2022-01-12T21:16:44-0500
-" % 2023-08-03T10:22:11-0400
+" % 2023-08-07T21:49:34-0400
