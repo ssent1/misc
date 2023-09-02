@@ -430,6 +430,22 @@ Respond with one or more commands. Do not include any explanation or additional 
 			<key>Text</key>
 			<string></string>
 		</dict>
+		<key>0x43-0x60000-0x8</key>
+		<dict>
+			<key>Action</key>
+			<integer>63</integer>
+			<key>Apply Mode</key>
+			<integer>0</integer>
+			<key>Escaping</key>
+			<integer>2</integer>
+			<key>Text</key>
+			<dict>
+				<key>guid</key>
+				<string>E460C5DB-DFDE-41A9-A28D-7B90760A08D2</string>
+			</dict>
+			<key>Version</key>
+			<integer>2</integer>
+		</dict>
 		<key>0x46-0x60000-0x3</key>
 		<dict>
 			<key>Action</key>
@@ -2192,7 +2208,7 @@ Maximize Active Pane</string>
 					<key>auto-rainbow style</key>
 					<integer>0</integer>
 					<key>font</key>
-					<string>.SFNS-Regular 12</string>
+					<string>Times-Roman 12</string>
 					<key>remove empty components</key>
 					<false/>
 				</dict>
@@ -2245,7 +2261,9 @@ Maximize Active Pane</string>
 								<key>auto-rainbow style</key>
 								<integer>0</integer>
 								<key>font</key>
-								<string>.AppleSystemUIFont 12</string>
+								<string>.SFNS-Regular 12</string>
+								<key>remove empty components</key>
+								<false/>
 							</dict>
 						</dict>
 					</dict>
@@ -2300,7 +2318,9 @@ Maximize Active Pane</string>
 								<key>auto-rainbow style</key>
 								<integer>0</integer>
 								<key>font</key>
-								<string>.AppleSystemUIFont 12</string>
+								<string>.SFNS-Regular 12</string>
+								<key>remove empty components</key>
+								<false/>
 							</dict>
 						</dict>
 					</dict>
@@ -2353,7 +2373,9 @@ Maximize Active Pane</string>
 								<key>auto-rainbow style</key>
 								<integer>0</integer>
 								<key>font</key>
-								<string>.AppleSystemUIFont 12</string>
+								<string>.SFNS-Regular 12</string>
+								<key>remove empty components</key>
+								<false/>
 							</dict>
 						</dict>
 					</dict>
@@ -2400,7 +2422,9 @@ Maximize Active Pane</string>
 								<key>auto-rainbow style</key>
 								<integer>0</integer>
 								<key>font</key>
-								<string>.AppleSystemUIFont 12</string>
+								<string>.SFNS-Regular 12</string>
+								<key>remove empty components</key>
+								<false/>
 							</dict>
 						</dict>
 					</dict>
@@ -2447,7 +2471,9 @@ Maximize Active Pane</string>
 								<key>auto-rainbow style</key>
 								<integer>0</integer>
 								<key>font</key>
-								<string>.AppleSystemUIFont 12</string>
+								<string>.SFNS-Regular 12</string>
+								<key>remove empty components</key>
+								<false/>
 							</dict>
 						</dict>
 					</dict>
@@ -2481,7 +2507,9 @@ Maximize Active Pane</string>
 								<key>auto-rainbow style</key>
 								<integer>0</integer>
 								<key>font</key>
-								<string>.AppleSystemUIFont 12</string>
+								<string>.SFNS-Regular 12</string>
+								<key>remove empty components</key>
+								<false/>
 							</dict>
 						</dict>
 					</dict>
@@ -2528,7 +2556,9 @@ Maximize Active Pane</string>
 								<key>auto-rainbow style</key>
 								<integer>0</integer>
 								<key>font</key>
-								<string>.AppleSystemUIFont 12</string>
+								<string>.SFNS-Regular 12</string>
+								<key>remove empty components</key>
+								<false/>
 							</dict>
 						</dict>
 					</dict>
@@ -2550,6 +2580,8 @@ Maximize Active Pane</string>
 								<integer>1</integer>
 								<key>auto-rainbow style</key>
 								<integer>0</integer>
+								<key>font</key>
+								<string>.SFNS-Regular 12</string>
 								<key>remove empty components</key>
 								<false/>
 							</dict>
@@ -3996,9 +4028,9 @@ Maximize Active Pane</string>
 	<key>PromptOnQuitEvenIfThereAreNoWindows</key>
 	<true/>
 	<key>QuickPasteBytesPerCall</key>
-	<integer>1152</integer>
+	<integer>1728</integer>
 	<key>QuickPasteDelayBetweenCalls</key>
-	<real>0.0066666663624346256</real>
+	<real>0.0044444440864026546</real>
 	<key>QuitWhenAllWindowsClosed</key>
 	<true/>
 	<key>Selection Respects Soft Boundaries</key>
@@ -4008,7 +4040,7 @@ Maximize Active Pane</string>
 	<key>SeparateWindowTitlePerTab</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>
-	<false/>
+	<true/>
 	<key>ShowNewOutputIndicator</key>
 	<true/>
 	<key>ShowPaneTitles</key>
@@ -4129,11 +4161,43 @@ Maximize Active Pane</string>
 			<key>escaping</key>
 			<integer>2</integer>
 			<key>guid</key>
-			<string>62DF6B35-2EF2-4A46-AAA7-9E82BDF2ACFE</string>
+			<string>F2D1D3CA-38D7-4F9D-A47A-88A4CF8B757E</string>
 			<key>title</key>
-			<string>find $$ file in cwd</string>
+			<string>curl :: capture url</string>
 			<key>value</key>
-			<string>find . -type f -iname "*_*"</string>
+			<string>:%s/\v([fh]tt?ps?:\/\/[^\/\$\.\?\#]+\S+)</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>escaping</key>
+			<integer>0</integer>
+			<key>guid</key>
+			<string>0C53E799-C3C7-46FC-94E1-3C3810BDDD3B</string>
+			<key>tags</key>
+			<array/>
+			<key>title</key>
+			<string>dfn :: definition snippet</string>
+			<key>value</key>
+			<string>__word-phrase__ | 'pronunciation |  
+function \[subFunction\]  
+    defn  
+    _usage_
+</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>escaping</key>
+			<integer>2</integer>
+			<key>guid</key>
+			<string>62DF6B35-2EF2-4A46-AAA7-9E82BDF2ACFE</string>
+			<key>tags</key>
+			<array/>
+			<key>title</key>
+			<string>fnd $$ find file in '.' cwd</string>
+			<key>value</key>
+			<string>find . -maxdepth 1 -type f -iname '*_*'</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -4142,10 +4206,12 @@ Maximize Active Pane</string>
 			<integer>0</integer>
 			<key>guid</key>
 			<string>E05B24D1-8116-46F4-90D2-49E01A51D427</string>
+			<key>tags</key>
+			<array/>
 			<key>title</key>
 			<string>fnr :: footer, note &amp; resources</string>
 			<key>value</key>
-			<string>:exe "norm! Go" |:let@r="- - -\n&lt;!-- sources --&gt;\n\n\nTags: \n\n^\n\\\n%\n"|:put r|:let@r=strftime(' %FT%T%z')|:norm!"rp2k"rpgJ4k"</string>
+			<string>:exe "norm! Go" |:let@r="- - -\n&lt;!-- sources --&gt;\n\nTags: \n\n^\n\\\n%\n"|:put r|:let@r=strftime(' %FT%T%z')|:norm!"rp2k"rpgJ4k"</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -4158,6 +4224,20 @@ Maximize Active Pane</string>
 			<string>fts :: update footer timestamp</string>
 			<key>value</key>
 			<string>:exe "norm G"|:call search('\d\+')|:exe "norm D"|:put =strftime('%FT%T%z')|:exe "norm kJ"|:write</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>escaping</key>
+			<integer>0</integer>
+			<key>guid</key>
+			<string>E460C5DB-DFDE-41A9-A28D-7B90760A08D2</string>
+			<key>tags</key>
+			<array/>
+			<key>title</key>
+			<string>gcc - fix comment spacing</string>
+			<key>value</key>
+			<string>:%s/\v(\&lt;!--)(\w)([^-]+)(\w)(--.*)/\1 \2\3\4 \5/e</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -4254,6 +4334,20 @@ Maximize Active Pane</string>
 			<string>sav :: convert title to filename</string>
 			<key>value</key>
 			<string>:let[@q,@r]=['','']|:1s/^\s\+\|\s\+$//e|:1s/^\(.*\)\n/\=setreg('q',submatch(1))/n|:1s/\&gt;[^ ]//e|:1s/\&gt;\W\+/-/e|:1s/^#\s\(.*\)/\=setreg('r',tolower(submatch(1)).'.md')/n|:1d|:1put! q|:exe 'sav' @r|:set nohlsearch</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>escaping</key>
+			<integer>0</integer>
+			<key>guid</key>
+			<string>EA7AC844-0EDC-4DAA-A34A-A4ADCA760081</string>
+			<key>tags</key>
+			<array/>
+			<key>title</key>
+			<string>sbd :: sort by domain, reference links</string>
+			<key>value</key>
+			<string>:exe "norm {ma}mz"|:'a,'zs/\v^\[\d+]/[1]/|:'a+1,'z-1 sort u|:'a,'zs/\v^(\[\d+\]: [fh]tt?ps?:\/\/)(([^\.]+\.)([^\.\/]+\.[^\/]+)|([^\.\/]+\.[^\/]+))(.*)/\4\5\6#\1\3/|:'a+1,'z-1 sort u|:'a,'zs/\v(.*)#(.*)/\2\1/|:let i=1 | g/^\[1\]/s//\='['.i.']'/ | let i=i+1</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -4358,21 +4452,9 @@ this is but one line and nothing more</string>
 			<key>guid</key>
 			<string>F468814C-BF6C-4A98-AC02-FEC4EEC9DFE2</string>
 			<key>title</key>
-			<string>tfl :: trim footer links</string>
+			<string>ttc :: trim title cruft from URLs</string>
 			<key>value</key>
 			<string>:%s/\v(\[\d\]: %(https?|ftp):\/\/[^\s\/\$\.\?\#]+.\S+\w)%(\/)?( "[^·–—\|\-]+\w)[^"]+/\1\2/e</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>escaping</key>
-			<integer>2</integer>
-			<key>guid</key>
-			<string>F2D1D3CA-38D7-4F9D-A47A-88A4CF8B757E</string>
-			<key>title</key>
-			<string>curl :: capture url</string>
-			<key>value</key>
-			<string>:%s/\v(https?|ftp):\/\/[^\s\/\$\.\?\#]+.\S+</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
