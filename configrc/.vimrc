@@ -72,7 +72,7 @@ set viminfo='1000,f1               " save bookmarks
 augroup init_save
     au!
     autocmd BufNewFile * :write
-    autocmd BufNewFile *.md :let@r=''|:let@r="# \n\n- - -\n<!--sources-->\n\n\nTags: \n\n^\n\\\n%\n"|:put r
+    autocmd BufNewFile *.md :let@r=''|:let@r="# \n\n- - -\n<!-- sources -->\n\n\nTags: \n\n^\n\\\n%\n"|:put r
                 \|:let@r=strftime(' %FT%T%z')|:norm!"rp2k"rpgJ4kmaggdd$"
     autocmd BufRead,BufNewFile *.py setlocal textwidth=80
 augroup END
@@ -259,24 +259,26 @@ let g:mkdx#settings = {
             \ 'table'       : { 'divider': '|', 'header_divider': '-',
             \                       'align': { 'left': [], 'center': [], 'right': [],
             \                           'default': 'left' } },
-            \ 'tokens': { 'enter': ['-', '*', '>'], 'italic': '_' },
+            \ 'tokens': { 'enter': ['-', '*', '>'], 'bold': '__','italic': '_' },
             \ 'toc': { 'text': 'Contents', 'position': 2, 'update_on_write': 0 },
             \ }
 
 " ABBREVIATIONS
 "" Command-line mode
 
-cabbrev !!  :([^]+)<Left><Left><Left>
-cabbrev alb :Tabularize /
-cabbrev alf :Tabularize /\zs/l0r1<S-Left><Right>
-cabbrev cap :%s/\vchrome-extension:\/\/efaidnbmnnnibpcajpcglclefindmkaj\/(https?\|ftp)(:\/\/[^\s\/\$\.\?\#]+.\S+)/\1\2/
-cabbrev ccq :%s/\v[“”]\+?/"/e|:%s/\v[‘’]\+?/'/e
-cabbrev s'  :'a,'zs/\v()<Left>
-cabbrev sd  :%s/\v()<Left>
-cabbrev sr  :.,s/\v()<Left><Left><Left><Left><Left>
-cabbrev yfn :let @+ = expand("%:t")
-cabbrev yfp :let @+ = expand("%:p")
-cabbrev yrp :let @+ = expand("%")
+cabbrev !!   [^]+<Left><Left>
+cabbrev alb  Tabularize /
+cabbrev alf  Tabularize /\zs/l0r1<S-Left><Right>
+cabbrev cap  %s/\vchrome-extension:\/\/efaidnbmnnnibpcajpcglclefindmkaj\/(https?\|ftp)(:\/\/[^\s\/\$\.\?\#]+.\S+)/\1\2/
+cabbrev ccq  %s/\v[“”]\+?/"/e\|:%s/\v[‘’]\+?/'/e
+cabbrev cul  'a,'zs/\v([fh]tt?ps?:\/\/[^\/\$\.\?\#]+\S+)
+cabbrev cuL  %s/\v([fh]tt?ps?:\/\/[^\/\$\.\?\#]+\S+)
+cabbrev s'   'a,'zs/\v()<Left>
+cabbrev sd   %s/\v()<Left>
+cabbrev sr   .,s/\v()<S-Left><<Right>Right>
+cabbrev yfn  let @+ = expand("%:t")
+cabbrev yfp  let @+ = expand("%:p")
+cabbrev yrp  let @+ = expand("%")
 
 "" Insert mode
 iabbrev @@    sksalmon@gmail.com
@@ -287,7 +289,7 @@ iabbrev zym   Zymonetics
 " alb   align by <character>
 " alf   align from first instance of <character>, move cursor to position for <character>
 " cap   capture url Adobe PDF extension
-" curl  capture urls
+" cul   capture urls
 
 " very magic search, range, rm trailing space:
 "" s'   marked range: 'a,'z
@@ -308,4 +310,4 @@ iabbrev zym   Zymonetics
 " https://github.com/thoughtbot/dotfiles/blob/main/vimrc
 " https://invisible-island.net/xterm/ctlseqs/ctlseqs.html 'XTerm Control Sequences: CSI Ps SP q: Set cursor style'
 " ^ 2022-01-12T21:16:44-0500
-" % 2023-08-07T21:49:34-0400
+" % 2023-08-29T14:45:41-0400
