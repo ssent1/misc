@@ -13,6 +13,8 @@ Respond with one or more commands. Do not include any explanation or additional 
 	<true/>
 	<key>AlternateMouseScroll</key>
 	<true/>
+	<key>AutoComposer</key>
+	<false/>
 	<key>AutoHideTmuxClientSession</key>
 	<true/>
 	<key>BracketedPasteMode</key>
