@@ -1,0 +1,111 @@
+#!/bin/zsh
+# donga populates a temporary home directory with command line goodies.
+#
+# 1. install Xcode Command Line Tools
+# 2. tweak Dock, get attached volumes, set variables
+
+[ ! -d /Library/Developer/CommandLineTools ] && xcode-select --install ||;
+print "${(%):-%F{blue}Xcode Command Line Tools:${(%):-%f} ${(%):-%F{green}installed${(%):-%f}"
+
+defaults write com.apple.helpviewer "DevMode" -bool "true"
+defaults write com.apple.LaunchServices "LSQuarantine" -bool "false"
+defaults write com.apple.menuextra.clock "DateFormat" -string "\"EEE d MMM HH:mm:ss\"" 
+defaults write com.apple.screencapture "disable-shadow" -bool "true" 
+defaults write com.apple.screencapture "include-date" -bool "false" 
+defaults write com.apple.screencapture "location" -string "~"
+defaults write com.apple.screencapture "show-thumbnail" -bool "false" 
+defaults write -g "NSQuitAlwaysKeepsWindows" -bool "true"
+defaults write -g "NSColorSimulateHardwareAccent" -bool "true"
+defaults write -g "NSColorSimulatedHardwareEnclosureNumber" -int "7"
+defaults write -g "AppleReduceDesktopTinting" -int "1"
+defaults write -g AppleWindowTabbingMode -string "always"
+defaults -currentHost write com.apple.coreservices.useractivityd "ActivityAdvertisingAllowed" -bool "false"
+defaults -currentHost write com.apple.coreservices.useractivityd "ActivityReceivingAllowed" -bool "false"
+
+defaults write com.apple.dock "autohide" -bool "true"
+defaults write com.apple.dock "autohide-delay" -float 0
+defaults write com.apple.dock "autohide-time-modifier" -float 0
+defaults write com.apple.dock "enable-spring-load-actions-on-all-items" -bool "true"
+defaults write com.apple.dock "largestsize" 128
+defaults write com.apple.dock "mineffect" suck
+defaults write com.apple.dock "orientation" right
+defaults write com.apple.dock "show-recents" -bool "false"
+defaults write com.apple.dock "static-only" -bool "true"
+defaults write com.apple.dock "tilesize" 16
+killall Dock
+
+defaults write -g "AppleShowAllExtensions" -bool "true"
+defaults write -g "NSDocumentSaveNewDocumentsToCloud" -bool "false" 
+defaults write -g "NSToolbarTitleViewRolloverDelay" -float "0"
+defaults write com.apple.finder "AppleShowAllFiles" -bool "true"
+defaults write com.apple.finder "CreateDesktop" -bool "false"
+defaults write com.apple.finder "FXEnableExtensionChangeWarning" -bool "false"
+defaults write com.apple.finder "FXPreferredViewStyle" -string "Nlsv"
+defaults write com.apple.finder "ShowExternalHardDrivesOnDesktop" -bool "false"
+defaults write com.apple.finder "ShowPathbar" -bool "true"
+defaults write com.apple.finder "ShowRemovableMediaOnDesktop" -bool "false"
+defaults write com.apple.finder "_FXSortFoldersFirst" -bool "true"
+defaults write com.apple.finder "_FXSortFoldersFirstOnDesktop" -bool "true"
+killall Finder
+
+osascript -e "set volume output volume 40"
+osascript -e 'tell application "Finder" to set desktop picture to POSIX file "/System/Library/Desktop Pictures/Catalina.heic"'
+osascript -e 'tell application "System Events"' -e 'tell dock preferences to set autohide menu bar to not autohide menu bar' -e 'end tell'
+osascript -e 'tell application "Google Chrome"' -e 'activate' -e 'open location "chrome-extension://djdmadneanknadilpjiknlnanaolmbfk/options.html"' -e 'end tell'
+
+disks=$(diskutil list | tail -r -2 | tail -1) 
+disk=$(sed -E 's/.*Microsoft.*Data..([A-Za-z0-9]+).*/\1/' <<< "$disks") 
+dir0=".ch-imac"
+dir1=".dots.ch-imac"
+fontdir0="Library/Fonts"
+fontdir1="nerd-fonts-victor-mono"
+font="Victor Mono Regular Nerd Font Complete.ttf"
+alias -g azk="/Volumes/$disk/backup_zorg/"
+
+## 3. cp {.ch-imac, .dots.ch-imac}
+[ ! -e ~/"$fontdir0/$font" ] &&;
+rsync -avzP /Volumes/$disk/backup_zorg/$dir0/$fontdir1/ ~/"$fontdir0" ||;
+print "\"${(%):-%F{blue}$font:r${(%):-%f}\": ${(%):-%F{green}loaded${(%):-%f}"
+
+[ ! -d /Volumes/$disk/backup_zorg/$dir0 ] &&;
+print "${(%):-%F{blue}$dir0:${(%):-%f} ${(%):-%F{red}not found${(%):-%f}" ||;
+rsync -avzP /Volumes/$disk/backup_zorg/$dir0/*.* 2> /dev/null ~
+
+[ ! -d /Volumes/$disk/backup_zorg/$dir1 ] &&;
+print "${(%):-%F{blue}$dir1:${(%):-%f} ${(%):-%F{red}not found${(%):-%f}" ||;
+rsync -avzP /Volumes/$disk/backup_zorg/$dir1/.* 2> /dev/null ~
+
+defaults write com.googlecode.iterm2 PrefsCustomFolder -string $HOME
+defaults write com.googlecode.iterm2 LoadPrefsFromCustomFolder -bool true
+
+## 4. modify permissions
+set -o extendedglob
+find ~ -type d -maxdepth 1 \( -iname ".*" ! -iname ".Trash" \) -exec chmod -R go-wx {} +
+find ~ -type f -maxdepth 1 \( -iname ".*" ! -iname ".Trash" \) -exec chmod -R go-wx {} +
+chmod 644 ~/.ssh/*.pub* && chmod 0600 ~/.ssh/^*.pub* 
+chmod 644 ~/com.google*.plist ~/dracula.*
+chmod 744 ~/iTerm.app
+
+. ~/.zshrc
+
+# chmod <https://chmodcommand.com/>
+# octal | symbolic |perms        |comments (default = 0777)                        |
+# 0777  | ugo=rwx  | -rwxrwxrwx  | USB flash drive default; set to specified modes |
+# 0644  |          | -rw-r--r--  | cannot be done in one step symbollically        |
+# 0600  | go-rwx   | -rw-------  | from default 0777                               |
+# 0700  | go-rwx   | -rwx------  | from default 0777                               |
+
+# troubleshooting
+# printf "%s\n" $disk $disks $dir0 $dir1 $fontdir0 $fontdir1 $font
+
+# donga (noun)
+#   1. (slang, Australia): temporary housing; often refers to fly-in/fly-out work camps.
+#   2. (in an ice shelf) a small ravine with steep sides.
+#   3. (in South Africa) an eroded ravine; a dry watercourse.
+#
+# https://www.abc.net.au/news/2016-09-23/origin-of-word-donga-ongoing-mystery-to-linguists/7871488
+
+# https://macos-defaults.com/
+
+# ^ 2022-12-06T14:21:12-0500 \
+# % 2023-09-05T23:17:50-0400
