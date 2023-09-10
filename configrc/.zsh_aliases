@@ -2,8 +2,7 @@
 
 # aliases
 ## global aliases
-
-alias -g coc='~/Code/config'                                          # cd to configuration files
+alias -g coc='~/Code/misc/configrc/configrc'                          # cd to configuration files
 alias -g com='~/Code/misc'                                            # miscellaneous code directory
 alias -g ldd='exa -D --sort=mod'                                      # list directories, sort, descending, MODIFIED
 alias -g ldn='exa -Dr'                                                # list directories, sort, descending, NAME
@@ -66,7 +65,7 @@ alias more='less'
 alias nva='~/Dropbox/nvalt ; iz' # cd to nvalt, then show 10 most recent items
 alias oop='open /Applications/Opera\ GX.app'
 alias osi='open /Applications/Signal.app'
-alias osk='open /Applications/Sidekick.app'
+alias ogc='open /Applications/Google\ Chrome.app'
 alias owa='open /Applications/WhatsApp.app'
 alias path='printf ${PATH//:/\\n}"\n"'           # show binary directories
 alias pbpaste='print "$(pbpaste)"'               # add \n, suppress % (no \n)
@@ -85,11 +84,12 @@ alias rm='rmt'                                   # run rmt(); interactively move
 alias rsr='rsync -CavzP syd@$ipa:'               # 'pull' remote => local: rsync user@host:src local_dest
 alias scanz='. ~/Code/misc/scanz/scanz'
 alias smartrg='ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 admin@192.168.1.1'
-alias src='. ~/.zshrc'                       # source zsh
-alias ssh1='ssh 192.168.1.'                  # ssh to local device
-alias teux='vim ~/Dropbox/nvalt/teuxdeux.md' # open To Do list
-alias tmp='vim tmp-$(date +%Y%m%d@%H%M%S%z)' # create temp file with timestamp
-alias {trh,tt}='trash'                       # trash item(s)
+alias src='. ~/.zshrc'                           # source zsh
+alias ssh1='ssh 192.168.1.'                      # ssh to local device
+alias teux='. ~/Dropbox/nvalt/donga-teuxdeux.sh' # open To Do list
+# alias teux='vim ~/Dropbox/nvalt/{teuxdeux,blog-post-ideas}.md' # open To Do list
+alias tmp='vim tmp-$(date +%Y%m%d@%H%M%S%z)'     # create temp file with timestamp
+alias {trh,tt}='trash'                           # trash item(s)
 alias {v,vi}='vim'
 alias wf='ns=$(networksetup -getnetworkserviceenabled Wi-Fi) \
     print "Netowrk Service (Wi-Fi): $ns" \
@@ -119,9 +119,9 @@ if [[ "$UID" -ne 0 ]]; then
 fi
 
 ## parametrized aliases
-brs() { brew search $1 && brew info $1 }     # search Homebrew for <word>, [ -e <term> ] && show details
-fnd() { find . -type f -iname "*$1*" }       # find <word> in current working directory
-rp() { realpath -m $1|tee /dev/tty|pbcopy }  # resolve qualified path: get resolved canonical path
+brs() { brew search $1 && brew info $1 }                 # search Homebrew for <word>, [ -e <term> ] && show details
+fnd() { find $HOME/Dropbox/nvalt -type f -iname "*$1*" } # find <word> in current working directory
+rp() { realpath -m $1|tee /dev/tty|pbcopy }              # resolve qualified path: get resolved canonical path
 rfd() { awk 'NF>0' $HOME/Downloads/app_purge/$1|while read line ; do sudo rm -Rfd "${line}.md" ; done }
 # delete items listed in app_purge file
 
@@ -138,4 +138,4 @@ gitd() { git diff $1 }                      # git diff: show changes
 ## https://github.com/ogham/exa/issues/511 "Feature request: configuration files"
 
 ## ^ 2022-01-12T21:16:44-0500
-## % 2023-07-05T11:30:44-0400
+## % 2023-09-09T22:22:26-0400
