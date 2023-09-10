@@ -4,15 +4,15 @@
 ## global aliases
 alias -g coc='~/Code/misc/configrc/configrc'                          # cd to configuration files
 alias -g com='~/Code/misc'                                            # miscellaneous code directory
-alias -g ldd='exa -D --sort=mod'                                      # list directories, sort, descending, MODIFIED
-alias -g ldn='exa -Dr'                                                # list directories, sort, descending, NAME
-alias -g lsD='exa -r --sort=mod'                                      # sort, ascending, MODIFIED
-alias -g lsN='exa -r'                                                 # sort, ascending, name
-alias -g lsS='exa -r --sort=size'                                     # sort, ascending, size
-alias -g lsd='exa --sort=mod'                                         # sort, descending, MODIFIED
-alias -g lsn='exa'                                                    # sort, descending, NAME
-alias -g lss='exa --sort=size'                                        # sort, descending, SIZE
-alias -g lst='exa --tree --level=2'                                   # sort, descending, NAME && show directory tree
+alias -g ldd='eza -D --sort=mod'                                      # list directories, sort, descending, MODIFIED
+alias -g ldn='eza -Dr'                                                # list directories, sort, descending, NAME
+alias -g lsD='eza -r --sort=mod'                                      # sort, ascending, MODIFIED
+alias -g lsN='eza -r'                                                 # sort, ascending, name
+alias -g lsS='eza -r --sort=size'                                     # sort, ascending, size
+alias -g lsd='eza --sort=mod'                                         # sort, descending, MODIFIED
+alias -g lsn='eza'                                                    # sort, descending, NAME
+alias -g lss='eza --sort=size'                                        # sort, descending, SIZE
+alias -g lst='eza --tree --level=2'                                   # sort, descending, NAME && show directory tree
 alias -g mp='~/Dropbox/nvalt/manpages/'                               # open cheatsheets, shortcuts, CLI manuals
 alias -g mpv='~/Dropbox/nvalt/manpages/lang/vim'                      # open vim directory
 alias -g nv='~/Dropbox/nvalt/'                                        # open working directory
@@ -135,7 +135,7 @@ gitd() { git diff $1 }                      # git diff: show changes
 
 # notes & references
 ## https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html
-## https://github.com/ogham/exa/issues/511 "Feature request: configuration files"
+## https://github.com/ogham/eza/issues/511 "Feature request: configuration files"
 
 ## ^ 2022-01-12T21:16:44-0500
-## % 2023-09-09T22:22:26-0400
+## % 2023-09-09T22:28:33-0400
