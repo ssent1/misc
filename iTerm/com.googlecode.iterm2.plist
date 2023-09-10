@@ -4101,6 +4101,35 @@ Maximize Active Pane</string>
 		</dict>
 		<dict>
 			<key>escaping</key>
+			<integer>0</integer>
+			<key>guid</key>
+			<string>E1CFA47D-E54F-4217-B6B7-FE93994C3F05</string>
+			<key>tags</key>
+			<array/>
+			<key>title</key>
+			<string>crl :: conv to unordered checklist &lt; ref link</string>
+			<key>value</key>
+			<string>:exe "norm {ma}mz"|:'a+1,'z-1s/\v^\[(\d+)\]: ([^ ]+) "([^"]+)"/- [ ] [\3](\2)/e
+</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>escaping</key>
+			<integer>0</integer>
+			<key>guid</key>
+			<string>2F0A102C-86B9-4898-9068-7D9EEA51F414</string>
+			<key>tags</key>
+			<array/>
+			<key>title</key>
+			<string>Crl :: conv to ordered checklist &lt; ref link</string>
+			<key>value</key>
+			<string>'a,'z s/\v^\[0?([1-9]+)\]: ([^ ]+) "([^"]+)"/\1. [ ] [\3](\2)/</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>escaping</key>
 			<integer>2</integer>
 			<key>guid</key>
 			<string>9F4C2C89-9662-4090-92F3-5B86ADF2AAC4</string>
@@ -4120,18 +4149,6 @@ Maximize Active Pane</string>
 			<string>cpl :: copy linewise, multiple atoms</string>
 			<key>value</key>
 			<string>:%s/\v_/\=setreg('Q', submatch(1).'{str}'.submatch(2), 'l')/n|:let @*=@q|:norm 2G"qp</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>escaping</key>
-			<integer>2</integer>
-			<key>guid</key>
-			<string>2F0A102C-86B9-4898-9068-7D9EEA51F414</string>
-			<key>title</key>
-			<string>crl :: convert reference link</string>
-			<key>value</key>
-			<string>:%s/\v^\[(\d+)\]: ([^ ]+) "([^"]+)"/\1. [\3](\2)/</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
