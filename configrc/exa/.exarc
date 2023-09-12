@@ -1,0 +1,8 @@
+--all
+--colour=always
+--git
+--git-ignore
+--group-directories-first
+--icons
+--long
+--time-style=iso
