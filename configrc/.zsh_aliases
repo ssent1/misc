@@ -135,7 +135,6 @@ gitd() { git diff $1 }                      # git diff: show changes
 
 # notes & references
 ## https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html
-## https://github.com/ogham/exa/issues/511#issuecomment-1484366035 "Feature request: configuration files"
 
 ## ^ 2022-01-12T21:16:44-0500
-## % 2023-09-12T11:42:28-0400
+## % 2023-09-12T23:25:11-0400
