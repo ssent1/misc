@@ -265,38 +265,41 @@ let g:mkdx#settings = {
 
 " ABBREVIATIONS
 "" Command-line mode
-
-cabbrev !!   [^]+<Left><Left>
-cabbrev Crl :exe "norm {ma}mz"\|:'a+1,'z-1s/\v^\[0?([1-9]+)\]: ([^ ]+) "([^"]+)"/\1. [ ] [\3](\2)/e
-cabbrev Tsp  let@r=strftime('%Y-%m-%d')\|:norm!"rp"
-cabbrev alb  Tabularize /
-cabbrev alf  Tabularize /\zs/l0r1<S-Left><Right>
-cabbrev cap  %s/\vchrome-extension:\/\/efaidnbmnnnibpcajpcglclefindmkaj\/(https?\|ftp)(:\/\/[^\s\/\$\.\?\#]+.\S+)/\1\2/
-cabbrev ccq  %s/\v[“”]\+?/"/e\|:%s/\v[‘’]\+?/'/e
-cabbrev crl :exe "norm {ma}mz"\|:'a+1,'z-1s/\v^\[(\d+)\]: ([^ ]+) "([^"]+)"/- [ ] [\3](\2)/e
-cabbrev cuL  %s/\v([fh]tt?ps?:\/\/[^\/\$\.\?\#]+\S+)
-cabbrev cul  'a,'zs/\v([fh]tt?ps?:\/\/[^\/\$\.\?\#]+\S+)
-cabbrev s'   'a,'zs/\v()<Left>
-cabbrev sd   %s/\v()<Left>
-cabbrev sr   .,s/\v()<S-Left><<Right>Right>
-cabbrev srt  exe "norm {ma}mz"\|:'a+1,'z-1 sort u
-cabbrev yfn  let @+ = expand("%:t")
-cabbrev yfp  let @+ = expand("%:p")
-cabbrev yrp  let @+ = expand("%")
+cabbrev !!     :[^]+<Left><Left>
+cabbrev ''     :exe "norm {jma}kmz"
+cabbrev alb    :Tabularize /
+cabbrev alf    :Tabularize /\zs/l0r1<S-Left><Right>
+cabbrev cap    :%s/\vchrome-extension:\/\/efaidnbmnnnibpcajpcglclefindmkaj\/(https?\|ftp)(:\/\/[^\s\/\$\.\?\#]+.\S+)/\1\2/
+cabbrev ccq    :%s/\v[“”]\+?/"/e\|:%s/\v[‘’]\+?/'/e
+cabbrev crl    :exe "norm {jma}kmz"\|:'a,'zs/\v^\[(\d+)\]: ([^ ]+) "([^"]+)"/- [ ] [\3](\2)/e
+cabbrev Crl    :exe "norm {jma}kmz"\|:'a,'zs/\v^\[0?([1-9]+)\]: ([^ ]+) "([^"]+)"/\1. [ ] [\3](\2)/e
+cabbrev cuL    :%s/\v([fh]tt?ps?:\/\/[^\/\$\.\?\#]+\S+)
+cabbrev cul    :'a,'zs/\v([fh]tt?ps?:\/\/[^\/\$\.\?\#]+\S+)
+cabbrev s'     :'a,'zs/\v()<Left>
+cabbrev sd     :%s/\v()<Left>
+cabbrev sr     :.,s/\v()<S-Left><<Right>Right>
+cabbrev srt    :exe "norm {jma}kmz"\|:'a,'z sort u
+cabbrev Tsp    :let@r=strftime('%Y-%m-%d')\|:norm!"rp"
+cabbrev ttc    :exe "norm {jma}kmz"\|:'a,'zs/\v(\[\d\]:\s([fh]tt?ps?:\/\/[^\/$.?#]+\S+)\/?)\s"\2"/\1/e\|:'a,'zs/\v(\[\d\]:\s[fh]tt?ps?:\/\/[^\/$.?#]+\S+)\|(\s"[^-·–—\|"]+\w)[^"]*(")/\1\2\3/e\|:set nohlsearch
+cabbrev yfn    :let @+ = expand("%:t")
+cabbrev yfp    :let @+ = expand("%:p")
+cabbrev yrp    :let @+ = expand("%")
 
 "" Insert mode
 iabbrev @@    sksalmon@gmail.com
 iabbrev nb    N.B.
 iabbrev zym   Zymonetics
 
-" !!    insert 'logical NOT' regex, move cursor inside brackets
-" Crl   conv to ordered checklist < ref link
-" alb   align by <character>
-" alf   align from first instance of <character>, move cursor to position for <character>
-" cap   capture url Adobe PDF extension
-" crl   convert to unordered checklist < reference link
-" cul   capture urls
-" srt   sort range, unique
+" !!     insert 'logical NOT' regex, move cursor inside brackets
+" ''     mark paragraph as range; trims leading/training line
+" alb    align by <character>
+" alf    align from first instance of <character>, move cursor to position for <character>
+" cap    capture url Adobe PDF extension
+" crl    convert to unordered checklist < reference link
+" Crl    conv to ordered checklist < ref link
+" cul    capture urls
+" srt    sort range, unique
+" ttc    trim title cruft from URLs
 
 " very magic search, range, rm trailing space:
 "" s'   marked range: 'a,'z
@@ -313,8 +316,8 @@ iabbrev zym   Zymonetics
 " https://items.sjbach.com/319/configuring-vim-right.html
 " https://nvie.com/posts/how-i-boosted-my-vim/
 " https://vimconfig.com
-
 " https://github.com/thoughtbot/dotfiles/blob/main/vimrc
 " https://invisible-island.net/xterm/ctlseqs/ctlseqs.html 'XTerm Control Sequences: CSI Ps SP q: Set cursor style'
+
 " ^ 2022-01-12T21:16:44-0500
-" % 2023-09-07T01:37:59-0400
+" % 2023-09-12T21:17:10-0400
