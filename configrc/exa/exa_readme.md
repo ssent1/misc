@@ -114,13 +114,35 @@ alias -g lst='eza --tree --level=2' # sort, descending, NAME && show directory t
 
 2. Save your work and source your `~/.zshrc` and/or `~/.zsh_aliases` again and you're good-to-go.
 
+## explained
+
+```zsh
+#!/usr/bin/env
+zsh set -euo pipefail # Enables strict error checking. Options:
+  -e          # Exit immediately if any command fails.
+  -u          # Treat unset variables as errors.
+  -o pipefail # Exit with a non-zero status if any command in a pipeline fails.
+
+readonly file="$HOME/.ezarc" # sets a read-only variable named file to the path of ~/.ezarc.
+
+readonly opts=("${(f):-$(<"$file")}") # sets a read-only array named opts to the contents of the .ezarc file.
+  (f)   # this flag tells Zsh to split the file contents into separate elements based on newline characters.
+  ${:-} # this syntax provides a default value of an empty string if the .ezarc file is empty or does not exist.
+
+/usr/local/bin/eza "${opts[@]}" "$@" # run eza with the options in:
+  "${opts[@]}" # opts array; passes all elements of the array as separate arguments to eza
+  "$@"         # passes all command-line arguments passed to the script as separate arguments to eza
+
+# The @ symbol expands to all elements of an array.
+```
+
 - - -
 <!-- sources -->
-[1]: https://github.com/ogham/exa/ "ogham/exa: A modern replacement for ‘ls’."
+[1]: https://github.com/ogham/exa/ "ogham/exa: A modern replacement for ls"
 [2]: https://github.com/eza-community/eza "eza-community/eza: A modern, maintained replacement for ls"
-[3]: https://github.com/eza-community/eza/issues/139#issuecomment-1714885116 "feat: Support configuration file · Issue #139 · eza-community/eza"
+[3]: https://github.com/eza-community/eza/issues/139#issuecomment-1714885116 "Support configuration file"
 
 Tags: config, configuration files, zsh
 
 ^ 2023-09-12T11:50:35-0400\
-% 2023-09-12T12:12:58-0400
+% 2023-09-13T00:15:01-0400
