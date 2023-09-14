@@ -39,8 +39,7 @@ alias cpv='rsync -CavzP'                      # copy: verbose, archive, compress
 alias diff='colordiff -u'                     # compare lines, unify context
 alias dirs='dirs -v'                          # list directory stack w/ index number
 alias eip='ipconfig getifaddr en0'            # get IP address for Ethernet
-alias ej='. ~/Code/misc/scripts/ejector'      # eject external media
-# alias ej='. ~/.ejector' # eject external media
+alias ej='. ~/Code/misc/configrc/ejector'     # eject external media
 alias flush='"sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder; say "Your DNS cache is clean."'
 alias gip='curl -sw \n https://ifconfig.me/ip|tee >(tr -d \n|pbcopy)' # get IP address
 alias gitA='git add . && git commit -m "" && gitp'                    # git add && git commit all
@@ -137,4 +136,4 @@ gitd() { git diff $1 }                      # git diff: show changes
 ## https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html
 
 ## ^ 2022-01-12T21:16:44-0500
-## % 2023-09-12T23:25:11-0400
+## % 2023-09-13T16:07:35-0400
