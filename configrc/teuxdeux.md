@@ -29,36 +29,137 @@
 3. [ ] [Forefront](https://accounts.forefront.ai/sign-in)
 4. [ ] [Saved](https://www.google.com/save/list/XHntOX47PY-p__eBS6NXkg), [Collections](https://www.google.com/collections/)
 
-## 06-Sep-2023
+## 13-Sep-2023
 
-- [-] [SLI Beauty - Private Label Skin Care and Hair Care](file:///Users/syd/Sites/dev.salonlabel.com/index.html)
-- [ ] [What Happens to Your Body When You Do 50 Push Ups Everyday-It's Shocking! - YouTube](https://www.youtube.com/watch?v=oiWfRKq8pr4)
-- [x] [UFC 293 Embedded: Vlog Series - Episode 1 - YouTube](https://www.youtube.com/watch?v=dju4RzTQyGw)
-- [x] [When Israel Adesanya Punished Cocky Guys For Being Disrespectful! Not For The Faint-hearted! - YouTube](https://www.youtube.com/watch?v=YflUoxEDPZA)
-- [x] [HOW Porsche Actually Set Nurburgring Lap Records (Everything Explained) - YouTube](https://www.youtube.com/watch?v=vJGFucJhOC8)
-- [x] [Elon Musk: 5 Time Management Methods! The Time Management Master CEO of Tesla, SpaceX, xAi, Open ai - YouTube](https://www.youtube.com/watch?v=80rYPize5HA)
-- [x] [Bono (U2) - Running To Stand Still (The Busk, St Patrick's Cathedral, Dublin 24.12.21) - YouTube](https://www.youtube.com/watch?v=8EAuep7vUdQ)
-- [ ] [Man's 'Retirement Corpus' With Life Expectancy 90 Years Has People Rethinking Their Plans - News18](https://www.news18.com/viral/mans-retirement-corpus-with-life-expectancy-90-years-has-people-rethinking-their-plans-8521867.html)
-- [ ] ['Slum' Landlord Stuffed 40 Tenants Into a 4-Bed House, Making $450,000](https://www-businessinsider-com.cdn.ampproject.org/v/s/www.businessinsider.com/landlord-stuffed-40-tenants-4-bed-house-making-450000-2023-8?amp=&amp_gsa=1&amp_js_v=a9&usqp=mq331AQGsAEggAID#amp_tf=From%20%251%24s&aoh=16926214157470&csi=0&referrer=https%3A%2F%2Fwww.google.com&ampshare=https%3A%2F%2Fwww.businessinsider.com%2Flandlord-stuffed-40-tenants-4-bed-house-making-450000-2023-8)
-- [ ] [This venture-backed startup has quietly bought more than 80 mom-and-pop shops | TechCrunch](https://techcrunch.com/2023/08/24/this-venture-backed-startup-has-quietly-bought-more-than-80-mom-and-pop-shops/)
-- [ ] [Meet Relume, the bootstrapped AI web builder that wants to supercharge Figma and Webflow | TechCrunch](https://techcrunch.com/2023/08/22/meet-relume-the-bootstrapped-ai-web-builder-that-wants-to-supercharge-figma-and-webflow/)
-- [ ] [Business & Corporate Development | Amazon.jobs](https://www.amazon.jobs/en/business_categories/business-corporate-development)
-- [ ] [5 Free Courses to Boost Your AI Skills from Microsoft](https://www.analyticsinsight.net/5-free-courses-to-boost-your-ai-skills-from-microsoft/)
-- [ ] [Toronto University in Canada invites application for vacant (208) Research and Academic jobs – Scholar Idea](https://scholaridea.com/2023/08/18/toronto-university-in-canada-invites-application-for-vacant-208-research-and-academic-jobs/)
-- [ ] [This Trail Near Toronto Leads To A Towering Ribbon Waterfall That Belongs In Costa Rica - Narcity](https://www.narcity.com/toronto/tew-waterfall-near-toronto-is-almost-as-tall-as-niagara-falls)
-- [ ] [Companies like Amazon, Netflix, and Meta are paying salaries as high as $900,000 to attract generative AI talent | Business Insider India](https://www.businessinsider.in/tech/news/companies-like-amazon-netflix-and-meta-are-paying-salaries-as-high-as-900000-to-attract-generative-ai-talent/articleshow/102752820.cms)
-- [ ] [Ex Google employee says 'coffee shop' interview question has stumped most candidates hoping for a job](https://www.ladbible.com/community/google-interview-questions-coffee-shop-378434-20230810)
-- [ ] [How AI, ChatGPT Helps Workers Get Higher-Paying Jobs​, Side Hustles](https://www-businessinsider-com.cdn.ampproject.org/v/s/www.businessinsider.com/ai-chatgpt-jobs-side-hustle-make-more-money-accessible-2023-8?amp=&amp_gsa=1&amp_js_v=a9&usqp=mq331AQGsAEggAID#amp_tf=From%20%251%24s&aoh=16918475321279&csi=0&referrer=https%3A%2F%2Fwww.google.com&ampshare=https%3A%2F%2Fwww.businessinsider.com%2Fai-chatgpt-jobs-side-hustle-make-more-money-accessible-2023-8)
-- [ ] [Ex-Google recruiter about why you should put hobbies on your resume](https://www.cnbc.com/2023/08/10/ex-google-recruiter-about-why-you-should-put-hobbies-on-your-resume.html)
-- [ ] [Google Launches Beginner-Friendly GA4 Training Course](https://www.searchenginejournal.com/google-launches-beginner-friendly-ga4-training-course/493722/)
-- [ ] [Warren Buffett's former deputy who snagged her job with a daring letter says the risk of doing so is 'pretty low' — so why not try](https://finance.yahoo.com/news/warren-buffetts-former-deputy-snagged-124551551.html)
-- [ ] [ChatGPT Suggests 10 Business Ideas That Will Make You $100K | GOBankingRates](https://www.gobankingrates.com/money/business/chatgpt-suggests-business-ideas-that-will-make-you-100k/)
+<!-- maria -->
+- [ ] [Supply Chain Management Fundamentals](https://continuing-education.conestogac.on.ca/courses/BUS1860)
+- [ ] [Business Administration Supply Chain & Operations Management](https://www.conestogac.on.ca/fulltime/business-administration-supply-chain-and-operations-management)
+- [ ] [Supply Chain Management](https://www.conestogac.on.ca/handbook/1411)
+- [ ] [coco scm fundamentals](https://www.google.com/search?q=conestoga+college+supply+chain+management+fundamentals)
+
+<!-- mostly job-related links -->
+- [ ] [America's F*cked Up Tax System](https://www.youtube.com/shorts/q0OjvN8tgK4)
+- [ ] [Conor McGregor cruising the open sea on his Lamborghini yacht](https://www.youtube.com/shorts/BB2Ypc1Ckzg)
+- [ ] [Putin is RICHER Than Me](https://www.youtube.com/shorts/2xBaYax2Xqg)
+- [ ] [Apple Event](https://www.youtube.com/watch?v=ZiP1l7jlIIA)
 - [ ] [Vice President Strategy, Trilogy (Remote) - $400,000/year USD](https://mail.google.com/mail/u/0/#all/FMfcgzGtwzjcQDxFPrsxSqFPsDJJwlCN)
-- [ ] [Watch UFC Fight Night: Gane vs Spivac](https://watchwrestling.store/watch-ufc-fight-night-gane-vs-spivac-9-2-23/)
-- [ ] [Part 2](https://www.dailymotion.com/embed/video/k3zFmgWQJ4iuzszqzjP)
-- [ ] [Part 3](https://www.dailymotion.com/embed/video/kOjc69Lyxi7VzczqzjR)
-- [ ] [22-year-old on track to make $77,000/year without a college degree](https://www.cnbc.com/2023/08/17/22-year-old-on-track-to-make-77000-dollars-per-year-without-a-college-degree.html)
-- [ ] [Praised by Elon Musk, top Chinese EV maker BYD urges China’s car brands to go global and ‘demolish the old legends’ | Fortune](https://fortune.com/2023/08/13/elon-musk-tesla-chinese-ev-maker-byd-china-car-brands-go-global-demolish-old-legends/)
+- [-] [SLI Beauty](file:///Users/syd/Sites/dev.salonlabel.com/index.html)
+- [ ] [50 Push Ups Everyday](https://www.youtube.com/watch?v=oiWfRKq8pr4)
+- [ ] ['Slum' Landlord](https://www-businessinsider-com.cdn.ampproject.org/v/s/www.businessinsider.com/landlord-stuffed-40-tenants-4-bed-house-making-450000-2023-8)
+- [ ] [Teamshares, TechCrunch](https://techcrunch.com/2023/08/24/this-venture-backed-startup-has-quietly-bought-more-than-80-mom-and-pop-shops/)
+- [ ] [Relume, supercharge Figma and Webflow](https://techcrunch.com/2023/08/22/meet-relume-the-bootstrapped-ai-web-builder-that-wants-to-supercharge-figma-and-webflow/)
+- [ ] [Business & Corporate Development](https://www.amazon.jobs/en/business_categories/business-corporate-development)
+- [ ] [5 Free AI Courses @ Microsoft](https://www.analyticsinsight.net/5-free-courses-to-boost-your-ai-skills-from-microsoft/)
+- [ ] [208 vacant jobs, Toronto University](https://scholaridea.com/2023/08/18/toronto-university-in-canada-invites-application-for-vacant-208-research-and-academic-jobs/)
+- [ ] [Towering Ribbon Waterfall](https://www.narcity.com/toronto/tew-waterfall-near-toronto-is-almost-as-tall-as-niagara-falls)
+- [ ] [FAANGS paying $900,000](https://www.businessinsider.in/tech/news/companies-like-amazon-netflix-and-meta-are-paying-salaries-as-high-as-900000-to-attract-generative-ai-talent/articleshow/102752820.cms)
+- [ ] [Ex Google interview question](https://www.ladbible.com/community/google-interview-questions-coffee-shop-378434-20230810)
+- [ ] [Get High-pay Jobs w/ AI](https://www-businessinsider-com.cdn.ampproject.org/v/s/www.businessinsider.com/ai-chatgpt-jobs-side-hustle-make-more-money-accessible-2023-8)
+- [ ] [Ex-Google recruiter hobbies on resume](https://www.cnbc.com/2023/08/10/ex-google-recruiter-about-why-you-should-put-hobbies-on-your-resume.html)
+- [ ] [Google GA4 Training Course](https://www.searchenginejournal.com/google-launches-beginner-friendly-ga4-training-course/493722/)
+- [ ] [Take risks](https://finance.yahoo.com/news/warren-buffetts-former-deputy-snagged-124551551.html)
+- [ ] [ChatGPT - 10 $100K Business Ideas](https://www.gobankingrates.com/money/business/chatgpt-suggests-business-ideas-that-will-make-you-100k/)
+- [ ] [22-year-old makes $77,000](https://www.cnbc.com/2023/08/17/22-year-old-on-track-to-make-77000-dollars-per-year-without-a-college-degree.html)
+- [ ] [Praised by Elon Musk, BYD](https://fortune.com/2023/08/13/elon-musk-tesla-chinese-ev-maker-byd-china-car-brands-go-global-demolish-old-legends/)
+
+<!-- research ideas -->
+- [ ] Blog: A Loud Silence 
+- [ ] [Effective Writing Tutorial](https://www.niu.edu/writingtutorial/index.shtml)
+- [ ] [8GB vs 16GB vs 24GB M2 MacBook Air](https://youtu.be/watch?v=jEbdbuzZCXE)
+- [ ] John Maxwell, on leadership 
+- [ ] 27000 churches set to fold in the next, 2019 CBC, Globe and Mail
+
+<!-- psychedelics -->
+- [ ] [BEYOND TOURISM INNOVATION CHALLENGE](https://convocatorias.iadb.org/en/beyondtourism)
+- [ ] [💤 BEYOND TOURISM FAQ](https://convocatorias.iadb.org/en/beyondtourism/faq)
+- [ ] [Top 5 Psychedelic Developments](https://thedalesreport.com/psychedelics/tdrs-top-5-psychedelic-developments-for-the-week-of-march-13/)
+- [ ] [less exposure surgery - Google Search](https://www.google.com/search?q=less+exposure+surgery)
+- [ ] [The LESS Institute](https://www.thelessinstitute.com/blog)
+- [ ] [SpineFrontier Inc](https://www.google.com/search?q=SpineFrontier+Inc)
+- [ ] [9th Annual Biohacking Conference](https://biohackingconference.com/)
+- [ ] [Innovative Medicine](https://innovativemedicine.com/)
+- [ ] [Ayahuasca Tourism in South America](https://maps.org/news-letters/v08n3/08359gru.html)
+- [ ] [Photo](https://photos.google.com/photo/AF1QipPgvI5mktLDt3tp1u-NCW3uODiOw6B1k6igXh-q)
+- [ ] [Stream of Consciousness: Psychedelic Tourism: An Interview with the Founder & CEO of Atman Retreat on Apple Podcasts](https://podcasts.apple.com/us/podcast/psychedelic-tourism-an-interview-with-the-founder/id1499349461?i=1000468393857)
+- [ ] [Peru: A Rush of “Psychedelic Tourists” (French)](https://pulitzercenter.org/stories/peru-rush-psychedelic-tourists-french)
+- [ ] [https://wd3.myworkdaysite.com/recruiting/bsigroup/BSI_Careers](https://wd3.myworkdaysite.com/recruiting/bsigroup/BSI_Careers)
+- [ ] [All-Inclusive Magic Mushroom, Ayahuasca Retreats Are New Luxury Trips](https://www.bloomberg.com/news/articles/2021-08-19/all-inclusive-magic-mushroom-ayahuasca-retreats-are-new-luxury-trips)
+- [ ] [Drug-Device Combination Products under MDR](https://www.bsigroup.com/en-CA/Medical-Devices/Technologies/drug-device-combination-products/)
+- [ ] [Regulatory roadmap for biologic (Schedule D) drugs in Canada](https://www.canada.ca/en/health-canada/services/drugs-health-products/biologics-radiopharmaceuticals-genetic-therapies/regulatory-roadmap-for-biologic-drugs.html)
+- [ ] [Recently viewed – Figma](https://www.figma.com/files/recent?fuid=1190379129178447517)
+- [ ] [biologics medical devices](https://www.google.com/search?q=biologics+medical+devices&rlz=1C5CHFA_enCA972CA972&oq=biologics+medical&aqs=chrome.1.69i57j0i512l2j0i10i22i30j0i22i30l2j0i15i22i30j0i22i30l3.13175j1j7&sourceid=chrome&ie=UTF-8)
+- [ ] [psychedelic tourism](https://www.google.com/search?q=psychedelic+tourism&newwindow=1&rlz=1C5CHFA_enCA972CA972&sxsrf=ALiCzsYELHW3kk7-eLqj-40srh_HM0Q3Ng:1673040308247&ei=tJG4Y63TDvKfptQPwfusmAs&start=10&sa=N&ved=2ahUKEwit_ZHq8LP8AhXyj4kEHcE9C7MQ8NMDegQICxAW&biw=1709&bih=1304&dpr=2)
+- [ ] [How MDMA and Psilocybin Became Hot Investments](https://www.nytimes.com/2021/05/09/health/psychedelics-mdma-psilocybin-molly-mental-health.html?action=click&module=RelatedLinks&pgtype=Article)
+- [ ] [Veterans Have Become Unlikely Lobbyists in Push to Legalize Psychedelic Drugs](https://www.nytimes.com/2021/11/11/health/veterans-psychedelics-ptsd-depression.html?action=click&module=RelatedLinks&pgtype=Article)
+- [ ] [The Rise of Psychedelic Retreats](https://www.nytimes.com/2021/11/25/travel/psychedelic-retreat-ayahuasca.html)
+- [ ] <https://cem.ca/app/uploads/2021/05/The-Newly-Institute-Investor-Presentation-June-2021.pdf>
+
+<!-- startup business -->
+- [ ] [Liquid IV, a $100M Phenomenon 💧💰](https://www.youtube.com/watch?v=vEaLgY0IzF4)
+- [ ] [Buy a Business With No Money in 2023](https://www.youtube.com/watch?v=StVBPKLBAb4)
+- [x] [Codie Sanchez](https://www.youtube.com/@CodieSanchezCT)
+
+<!-- product market fit -->
+- [ ] [6 Steps to Finding Product-Market](https://productcoalition.com/how-to-find-product-market-fit-4b0249f34429)
+- [ ] [Product-Market Fit](https://theproductmanager.com/topics/how-to-find-product-market-fit/)
+- [ ] [What is Product-Market fit?](https://delighted.com/blog/how-to-measure-and-track-product-market-fit)
+- [ ] [What is Product-Market Fit](https://www.hotjar.com/grow-your-saas-startup/product-market-fit/)
+- [ ] [What is Product-Market Fit?](https://mailchimp.com/en-ca/resources/product-market-fit/)
+- [ ] [How to Measure Product-Market Fit](https://www.productplan.com/learn/how-to-measure-product-market-fit/)
+- [ ] [What is Product Market Fit?](https://www.shopify.com/ca/blog/product-market-fit)
+
+<!-- ai & chatgpt -->
+- [ ] [gpt4free](https://github.com/xtekky/gpt4free)
+- [ ] [Scaler Topics](https://www.scaler.com/topics/)
+- [ ] <https://minigpt-4.github.io/>
+- [ ] <https://www.bing.com/search?q=chatgpt+equivalent>
+- [ ] <https://www.makeuseof.com/best-alternatives-chatgpt/>
+- [ ] <https://deepai.org/>
+- [ ] <https://www.fastcompany.com/90856183/30-ai-tools-you-can-try-for-free>
+- [ ] <https://zapier.com/blog/best-ai-image-generator/>
+- [ ] <https://www.fotor.com/features/ai-image-generator/>
+- [ ] <https://www.zdnet.com/article/best-ai-art-generator/>
+- [ ] <https://www.tomsguide.com/features/5-best-ai-image-generators-tested-and-compared>
+- [ ] <https://www.howtogeek.com/875801/chatgpt-alternatives/>
+- [ ] <https://writesonic.com/>
+- [ ] <https://openai.com/research/gpt-4>
+- [ ] <https://writesonic.com/blog/chatgpt-alternatives/>
+- [ ] <https://www.tomsguide.com/features/chatgpt-alternatives>
+- [ ] <https://www.techradar.com/features/chatgpt-alternatives>
+- [ ] <https://www.searchenginejournal.com/chatgpt-alternatives/482939/>
+
+<!-- graphical -->
+- [ ] [Damascus - dbrand](https://dbrand.com/shop/special-edition/damascus)
+- [ ] [NEXT STEPS: The Way Wk 1 - Legacy Church](https://lgcychurch.churchcenter.com/people/forms/321907)
+- [ ] [MeshMixer](https://web.archive.org/web/20200220222607/http://www.meshmixer.com/download.html)
+- [ ] [blender - demos](https://mirror.clarkson.edu/blender/)
+- [ ] [The Way](https://legacy-church.teachable.com/courses/1561535/lectures/35717856)
+
+<!-- prompt engineering -->
+- [ ] [The Beginner's Guide to Statistical Analysis](https://www.scribbr.com/category/statistics/)
+- [ ] [Favorite pages](https://www.google.com/save/list/XHntOX47PY-p__eBS6NXkg?q=Favorite+pages&sa=X&ved=2ahUKEwiT7Ir62en-AhXgwikDHaxhCjAQ5oAKegQIARAH)
+- [ ] [Prompt Engineering](https://www.coursera.org/learn/prompt-engineering/lecture/r8lYY/overview-of-the-course)
+- [ ] [How to Grow Traffic by 60.99%](https://diggitymarketing.com/seo-topical-authority-case-study/)
+
+<!-- zsh -->
+- [ ] [Oh My Zsh + PowerLevel10k = 😎 terminal](https://dev.to/abdfnx/oh-my-zsh-powerlevel10k-cool-terminal-1no0)
+- [ ] [Oh My Zsh](https://ohmyz.sh/)
+- [ ] [Oh My Zsh Plugins](https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins)
+- [ ] [Zsh shortcuts](https://dev.to/terrytyli/zsh-shortcuts-for-moving-cursor-1jhe)
+- [ ] [Navigate the Linux terminal faster](https://www.redhat.com/sysadmin/shortcuts-command-line-navigation)
+- [ ] [Zsh Introduction](https://wiki.zshell.dev/docs)
+- [ ] [Zsh](https://github.com/z-shell)
+
+<!-- tigercat industries -->
+Jacek and he's still looking for people to join his team. If you're interested then here's his number and email. 
+5198974883
+Navrotjp@gmail.com
+
+Jacek Nawrot - Electronics Designer - Tigercat Industries
+
+LinkedIn
+https://ca.linkedin.com › jacek-nawrot-0605614
+Jacek Nawrot · Control Systems Project Manager at Tigercat Industries Inc. · Report · Report · Experience · Education · Looking for career advice? · Others named Jacek ...
 
 ## 25-Aug-23
 
@@ -345,4 +446,4 @@
 Tags: mdi, mental health, personal development exercise, productivity, relationships, teuxdeux, todo
 
 ^ 2020-11-12T18:26:31-0500\
-% 2023-09-12T23:19:39-0400
+% 2023-09-13T00:47:03-0400
