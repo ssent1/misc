@@ -269,18 +269,19 @@ cabbrev !!     :[^]+<Left><Left>
 cabbrev ''     :exe "norm {jma}kmz"
 cabbrev alb    :Tabularize /
 cabbrev alf    :Tabularize /\zs/l0r1<S-Left><Right>
-cabbrev cap    :%s/\vchrome-extension:\/\/efaidnbmnnnibpcajpcglclefindmkaj\/(https?\|ftp)(:\/\/[^\s\/\$\.\?\#]+.\S+)/\1\2/
-cabbrev ccq    :%s/\v[“”]\+?/"/e\|:%s/\v[‘’]\+?/'/e
+cabbrev cap    :%s@\vchrome-extension:\/\/efaidnbmnnnibpcajpcglclefindmkaj\/(https?\|ftp)(:\/\/[^\s\/\$\.\?\#]+.\S+)@\1\2@e
+cabbrev ccq    :%s@“\|”@"@e|%:s@‘\|’@'@e
+cabbrev cdf    :$ka\|'a\|:-1s/\n\n//e\|:?^\s*$?\|:+1,$d\|:let @q=@"\|:-3kz\|:-7ka\|:'a,'zs/\v_(\d{4}-\d{2}-\d{2}[tT_]\d{2}:\d{2}:\d{2}-\d{4})_/\1/e\|:'a,'zs/\v(\d{4})(\d{2})(\d{2})[tT_](\d{2})(\d{2})(\d{2})/\1-\2-\3T\4:\5:\6-0_00/e\|:'a,'zs/\v(\d{4})(\d{2})(\d{2})[tT_](\d{2})(\d{2})(\d{2})(\d{4})/\1-\2-\3T\4:\5:\6-\7/e\|:'a,'zd\|:let @r=@"\|:-1,$d\|:let@s="- - -\n<!-- sources -->\n\n"\|:pu s\|:pu q\|:pu r
 cabbrev crl    :exe "norm {jma}kmz"\|:'a,'zs/\v^\[(\d+)\]: ([^ ]+) "([^"]+)"/- [ ] [\3](\2)/e
 cabbrev Crl    :exe "norm {jma}kmz"\|:'a,'zs/\v^\[0?([1-9]+)\]: ([^ ]+) "([^"]+)"/\1. [ ] [\3](\2)/e
 cabbrev cuL    :%s/\v([fh]tt?ps?:\/\/[^\/\$\.\?\#]+\S+)
 cabbrev cul    :'a,'zs/\v([fh]tt?ps?:\/\/[^\/\$\.\?\#]+\S+)
 cabbrev s'     :'a,'zs/\v()<Left>
-cabbrev sd     :%s/\v()<Left>
+cabbrev sd     :%s///<Left><Left>
 cabbrev sr     :.,s/\v()<S-Left><<Right>Right>
 cabbrev srt    :exe "norm {jma}kmz"\|:'a,'z sort u
 cabbrev Tsp    :let@r=strftime('%Y-%m-%d')\|:norm!"rp"
-cabbrev ttc    :exe "norm {jma}kmz"\|:'a,'zs/\v(\[\d\]:\s([fh]tt?ps?:\/\/[^\/$.?#]+\S+)\/?)\s"\2"/\1/e\|:'a,'zs/\v(\[\d\]:\s[fh]tt?ps?:\/\/[^\/$.?#]+\S+)\|(\s"[^-·–—\|"]+\w)[^"]*(")/\1\2\3/e\|:set nohlsearch
+cabbrev ttc    :exe "norm {jma}kmz"\|:'a,'zs/\v(\[\d\]:\s([fh]tt?ps?:\/\/[^\/$.?#]+\S+)\/?)\s"\2"/\1/e\|:'a,'zs/\v%(\s[-\/:^\|·––—⋅]\s)([A-Za-z0-9 ]+)"$/"/\|:'a,'zs/\v(\[\d\]:\s[fh]tt?ps?:\/\/[^\/$.?#]+\S+)\|(\s"[^-·–—\|"]+\w)[^"]*(")/\1\2\3/e\|:set nohlsearch
 cabbrev yfn    :let @+ = expand("%:t")
 cabbrev yfp    :let @+ = expand("%:p")
 cabbrev yrp    :let @+ = expand("%")
@@ -295,6 +296,7 @@ iabbrev zym   Zymonetics
 " alb    align by <character>
 " alf    align from first instance of <character>, move cursor to position for <character>
 " cap    capture url Adobe PDF extension
+" cdf    convert document footer
 " crl    convert to unordered checklist < reference link
 " Crl    conv to ordered checklist < ref link
 " cul    capture urls
@@ -320,4 +322,4 @@ iabbrev zym   Zymonetics
 " https://invisible-island.net/xterm/ctlseqs/ctlseqs.html 'XTerm Control Sequences: CSI Ps SP q: Set cursor style'
 
 " ^ 2022-01-12T21:16:44-0500
-" % 2023-09-12T21:17:10-0400
+" % 2023-09-17T21:59:54-0400
