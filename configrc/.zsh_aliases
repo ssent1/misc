@@ -15,6 +15,7 @@ alias -g lss='eza --sort=size'                                    # sort, descen
 alias -g lst='eza --tree --level=2'                               # sort, descending, NAME && show directory tree
 alias -g mp='~/Dropbox/nvalt/manpages/'                           # open cheatsheets, shortcuts, CLI manuals
 alias -g mpv='~/Dropbox/nvalt/manpages/lang/vim'                  # open vim directory
+alias -g mpz='~/Dropbox/nvalt/manpages/lang/zsh'                  # open zsh directory
 alias -g nv='~/Dropbox/nvalt/'                                    # open working directory
 alias -g pbc='|pbcopy'                                            # copy to system clipboard
 alias -g songd='~/Dropbox/nvalt/music/songs/'                     # open song directory
@@ -136,4 +137,4 @@ gitd() { git diff $1 }                      # git diff: show changes
 ## https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html
 
 ## ^ 2022-01-12T21:16:44-0500
-## % 2023-09-13T16:07:35-0400
+## % 2023-09-17T13:28:56-0400
