@@ -72,9 +72,11 @@ set viminfo='1000,f1               " save bookmarks
 augroup init_save
     au!
     autocmd BufNewFile * :write
-    autocmd BufNewFile *.md :let@r=''|:let@r="# \n\n- - -\n<!-- sources -->\n\n\nTags: \n\n^\n\\\n%\n"|:put r
+    " autocmd BufNewFile * execute 'cd '.expand('%:p:h') | execute 'e '.expand('%') | execute 'write'
+    autocmd BufNewFile *.md :let@r=''|:let@r="# \n\n- - -\n<!-- sources -->\n\nTags: \n\n^\n\\\n%\n"|:put r
                 \|:let@r=strftime(' %FT%T%z')|:norm!"rp2k"rpgJ4kmaggdd$"
     autocmd BufRead,BufNewFile *.py setlocal textwidth=80
+    autocmd BufRead,BufNewFile *.html setlocal textwidth=0
 augroup END
 
 " KEY BINDING MAPS
@@ -199,6 +201,7 @@ Plug 'junegunn/goyo.vim'
 Plug 'junegunn/vim-peekaboo'
 Plug 'mattn/emmet-vim'
 Plug 'mechatroner/rainbow_csv', {'as': 'rainbow-csv' }
+Plug 'mtth/scratch.vim'
 Plug 'preservim/vim-markdown'
 Plug 'scrooloose/nerdtree'
 Plug 'sheerun/vim-polyglot'
@@ -255,7 +258,7 @@ let g:mkdx#settings = {
             \ 'checkbox': { 'toggles': [' ', 'x', '-'] },
             \ 'enter'       : { 'shift': 0 },
             \ 'highlight'   : { 'enable': 1 },
-            \ 'links'       : { 'external': { 'enable': 1 } },
+            \ 'links'       : { 'external': { 'enable': 0 } },
             \ 'table'       : { 'divider': '|', 'header_divider': '-',
             \                       'align': { 'left': [], 'center': [], 'right': [],
             \                           'default': 'left' } },
@@ -270,18 +273,18 @@ cabbrev ''     :exe "norm {jma}kmz"
 cabbrev alb    :Tabularize /
 cabbrev alf    :Tabularize /\zs/l0r1<S-Left><Right>
 cabbrev cap    :%s@\vchrome-extension:\/\/efaidnbmnnnibpcajpcglclefindmkaj\/(https?\|ftp)(:\/\/[^\s\/\$\.\?\#]+.\S+)@\1\2@e
-cabbrev ccq    :%s@“\|”@"@e|%:s@‘\|’@'@e
-cabbrev cdf    :$ka\|'a\|:-1s/\n\n//e\|:?^\s*$?\|:+1,$d\|:let @q=@"\|:-3kz\|:-7ka\|:'a,'zs/\v_(\d{4}-\d{2}-\d{2}[tT_]\d{2}:\d{2}:\d{2}-\d{4})_/\1/e\|:'a,'zs/\v(\d{4})(\d{2})(\d{2})[tT_](\d{2})(\d{2})(\d{2})/\1-\2-\3T\4:\5:\6-0_00/e\|:'a,'zs/\v(\d{4})(\d{2})(\d{2})[tT_](\d{2})(\d{2})(\d{2})(\d{4})/\1-\2-\3T\4:\5:\6-\7/e\|:'a,'zd\|:let @r=@"\|:-1,$d\|:let@s="- - -\n<!-- sources -->\n\n"\|:pu s\|:pu q\|:pu r
-cabbrev crl    :exe "norm {jma}kmz"\|:'a,'zs/\v^\[(\d+)\]: ([^ ]+) "([^"]+)"/- [ ] [\3](\2)/e
-cabbrev Crl    :exe "norm {jma}kmz"\|:'a,'zs/\v^\[0?([1-9]+)\]: ([^ ]+) "([^"]+)"/\1. [ ] [\3](\2)/e
+cabbrev ccq    :%s/^\s\+\\\|\s\+$//e\|%s/\s\{2,}/ /e\|%s/\n\+\%$//e\|%s/^\_s\{2,}/\r/e\|%s/‘\\\|’/'/e\|%s/“\\\|”/"/e
+cabbrev cdf    :$ka\|'a\|-1s/\n\n//e\|?^\s*$?\|+1,$d\|let @q=@"\|-3kz\|-7ka\|'a,'zs/\v_(\d{4}-\d{2}-\d{2}[tT_]\d{2}:\d{2}:\d{2}-\d{4})_/\1/e\|'a,'zs/\v(\d{4})(\d{2})(\d{2})[tT_](\d{2})(\d{2})(\d{2})/\1-\2-\3T\4:\5:\6-0_00/e\|'a,'zs/\v(\d{4})(\d{2})(\d{2})[tT_](\d{2})(\d{2})(\d{2})(\d{4})/\1-\2-\3T\4:\5:\6-\7/e\|'a,'zd\|let @r=@"\|-1,$d\|let@s="- - -\n<!-- sources -->\n\n"\|pu s\|pu q\|pu r
+cabbrev crl    :exe "norm {jma}kmz"\|'a,'zs/\v^\[(\d+)\]: ([^ ]+) "([^"]+)"/- [ ] [\3](\2)/e
+cabbrev Crl    :exe "norm {jma}kmz"\|'a,'zs/\v^\[0?([1-9]+)\]: ([^ ]+) "([^"]+)"/\1. [ ] [\3](\2)/e
 cabbrev cuL    :%s/\v([fh]tt?ps?:\/\/[^\/\$\.\?\#]+\S+)
 cabbrev cul    :'a,'zs/\v([fh]tt?ps?:\/\/[^\/\$\.\?\#]+\S+)
 cabbrev s'     :'a,'zs/\v()<Left>
 cabbrev sd     :%s///<Left><Left>
 cabbrev sr     :.,s/\v()<S-Left><<Right>Right>
-cabbrev srt    :exe "norm {jma}kmz"\|:'a,'z sort u
-cabbrev Tsp    :let@r=strftime('%Y-%m-%d')\|:norm!"rp"
-cabbrev ttc    :exe "norm {jma}kmz"\|:'a,'zs/\v(\[\d\]:\s([fh]tt?ps?:\/\/[^\/$.?#]+\S+)\/?)\s"\2"/\1/e\|:'a,'zs/\v%(\s[-\/:^\|·––—⋅]\s)([A-Za-z0-9 ]+)"$/"/\|:'a,'zs/\v(\[\d\]:\s[fh]tt?ps?:\/\/[^\/$.?#]+\S+)\|(\s"[^-·–—\|"]+\w)[^"]*(")/\1\2\3/e\|:set nohlsearch
+cabbrev srt    :exe "norm {jma}kmz"\|'a,'z sort u
+cabbrev Tsp    :let@r=strftime('%Y-%m-%d')\|norm!"rp"
+cabbrev ttc    :exe "norm {jma}kmz"\|'a,'zs/\v(\[\d\]:\s([fh]tt?ps?:\/\/[^\/$.?#]+\S+)\/?)\s"\2"/\1/e\|'a,'zs/\v%(\s[-\/:^\|·––—⋅]\s)([A-Za-z0-9 ]+)"$/"/\|'a,'zs/\v(\[\d\]:\s[fh]tt?ps?:\/\/[^\/$.?#]+\S+)\|(\s"[^-·–—\|"]+\w)[^"]*(")/\1\2\3/e\|set nohlsearch
 cabbrev yfn    :let @+ = expand("%:t")
 cabbrev yfp    :let @+ = expand("%:p")
 cabbrev yrp    :let @+ = expand("%")
@@ -296,6 +299,14 @@ iabbrev zym   Zymonetics
 " alb    align by <character>
 " alf    align from first instance of <character>, move cursor to position for <character>
 " cap    capture url Adobe PDF extension
+
+" ccq
+"" trim leading/trailing whitespace
+"" condense >= 2 spaces into one
+"" remove newlines from end-of-file
+"" consolidate >= 2 blank lines into one
+"" convert curly “‘quotes’” to  “‘straight’”
+
 " cdf    convert document footer
 " crl    convert to unordered checklist < reference link
 " Crl    conv to ordered checklist < ref link
@@ -321,5 +332,6 @@ iabbrev zym   Zymonetics
 " https://github.com/thoughtbot/dotfiles/blob/main/vimrc
 " https://invisible-island.net/xterm/ctlseqs/ctlseqs.html 'XTerm Control Sequences: CSI Ps SP q: Set cursor style'
 
-" ^ 2022-01-12T21:16:44-0500
-" % 2023-09-17T21:59:54-0400
+" Last update: set g:mkdx#settings = 'links' { 'enable': 0 } ==> disable getting website; desired: open in browser
+" ^ 2023-09-28T11:15:05-0400
+" % 2023-09-28T11:37:05-0400
