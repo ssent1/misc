@@ -4239,10 +4239,12 @@ function \[subFunction\]
 			<integer>2</integer>
 			<key>guid</key>
 			<string>6163564D-D8D5-4A64-B91C-2B067A5F90E1</string>
+			<key>tags</key>
+			<array/>
 			<key>title</key>
 			<string>fts :: update footer timestamp</string>
 			<key>value</key>
-			<string>:exe "norm G"|:call search('\d\+')|:exe "norm D"|:put =strftime('%FT%T%z')|:exe "norm kJ"|:write</string>
+			<string>:call search('\d\{4}-\d\{2}-\d\{2}', 'b')|:exe "norm D"|:put =strftime('%FT%T%z')|:exe "norm kJ"|:write</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -4305,6 +4307,20 @@ function \[subFunction\]
 			<string>tmp :: file, ISO 8601</string>
 			<key>value</key>
 			<string>:exe 'e tmp@'.strftime("%Y%d%mT%H%M%S%z")</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>escaping</key>
+			<integer>2</integer>
+			<key>guid</key>
+			<string>7D84D77F-5AF4-40DE-89F2-5EEB9F855AFC</string>
+			<key>tags</key>
+			<array/>
+			<key>title</key>
+			<string>tmp</string>
+			<key>value</key>
+			<string>now=$(date +%Y%m%dT%H%M%S%z) ; vim /Users/syd/Dropbox/nvalt/"tmp@$now.md"</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -4467,9 +4483,11 @@ this is but one line and nothing more</string>
 		</dict>
 		<dict>
 			<key>escaping</key>
-			<integer>2</integer>
+			<integer>0</integer>
 			<key>guid</key>
 			<string>F468814C-BF6C-4A98-AC02-FEC4EEC9DFE2</string>
+			<key>tags</key>
+			<array/>
 			<key>title</key>
 			<string>ttc :: trim title cruft from URLs</string>
 			<key>value</key>
