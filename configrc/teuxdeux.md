@@ -29,6 +29,10 @@
 3. [ ] [Forefront](https://accounts.forefront.ai/sign-in)
 4. [ ] [Saved](https://www.google.com/save/list/XHntOX47PY-p__eBS6NXkg), [Collections](https://www.google.com/collections/)
 
+[1]: https://www.fixinghealthcarepodcast.com/ "Fixing Healthcare - A podcast with a plan to fix American healthare"
+[1]: https://www.amazon.com/dp/1610397657 "Mistreated: Why We Think We're Getting Good Health Care - and Why We're Usually Wrong: Pearl MD, Robert: 9781610397650: Amazon.com: Books"
+[1]: https://www.hachettebookgroup.com/titles/robert-pearl/uncaring/9781541758254/?lens=publicaffairs "Uncaring by Robert Pearl, MD | Hachette Book Group"
+
 ## 13-Sep-2023
 
 <!-- maria -->
@@ -446,4 +450,4 @@ Jacek Nawrot · Control Systems Project Manager at Tigercat Industries Inc. · R
 Tags: mdi, mental health, personal development exercise, productivity, relationships, teuxdeux, todo
 
 ^ 2020-11-12T18:26:31-0500\
-% 2023-09-13T00:47:03-0400
+% 2023-09-14T21:33:44-0400
