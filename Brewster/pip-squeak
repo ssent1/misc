@@ -21,6 +21,7 @@ python3 -m pip install -U platformdirs
 python3 -m pip install -U pycparser
 python3 -m pip install -U requests
 python3 -m pip install -U setuptools
+python3 -m pip install -U six
 python3 -m pip install -U tqdm
 python3 -m pip install -U urllib3
 python3 -m pip install -U virtualenv
