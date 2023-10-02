@@ -35,6 +35,16 @@
 
 ## 13-Sep-2023
 
+[1]: https://www.youtube.com/watch?v=TdkmQCx4rx0 "WORLD’S FASTEST PORSCHE Come From HERE! Complete Manthey Factory Tour - YouTube"
+[1]: https://www.youtube.com/watch?v=O8gH63fAvBQ "3 Highly Confident High Status Body Language Cues | Shayan Wahedi - YouTube"
+[1]: https://www.youtube.com/watch?v=QxB3b7fxMEA&t=48s "A Case for Color Blindness | Coleman Hughes | TED - YouTube"
+[1]: https://www.youtube.com/watch?v=MVYrJJNdrEg "Mark Zuckerberg: First Interview in the Metaverse | Lex Fridman Podcast #398 - YouTube"
+[1]: https://www.youtube.com/watch?v=5p248yoa3oE "(1) Andrew Ng: Opportunities in AI - 2023 - YouTube"
+[1]: https://www.youtube.com/watch?v=SDVwEtZDW7M "How to Have the Best Year Ever - Jim Rohn's Timeless Personal Development Teachings! - YouTube"
+[1]: https://www.native-instruments.com/en/career-center/career/6794164002 "Career Center"
+[1]: https://www.ehmac.ca/ "Canadian Mac Forums at ehMac"
+[1]: https://www.upwork.com/en-gb/resources/how-much-do-freelancers-make "How Much Can Freelancers Make in 2023? | Upwork"
+
 <!-- maria -->
 - [ ] [Supply Chain Management Fundamentals](https://continuing-education.conestogac.on.ca/courses/BUS1860)
 - [ ] [Business Administration Supply Chain & Operations Management](https://www.conestogac.on.ca/fulltime/business-administration-supply-chain-and-operations-management)
@@ -450,4 +460,4 @@ Jacek Nawrot · Control Systems Project Manager at Tigercat Industries Inc. · R
 Tags: mdi, mental health, personal development exercise, productivity, relationships, teuxdeux, todo
 
 ^ 2020-11-12T18:26:31-0500\
-% 2023-09-14T21:33:44-0400
+% 2023-09-29T22:40:25-0400
