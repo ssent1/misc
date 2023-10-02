@@ -268,26 +268,29 @@ let g:mkdx#settings = {
 
 " ABBREVIATIONS
 "" Command-line mode
-cabbrev !!     :[^]+<Left><Left>
-cabbrev ''     :exe "norm {jma}kmz"
-cabbrev alb    :Tabularize /
-cabbrev alf    :Tabularize /\zs/l0r1<S-Left><Right>
-cabbrev cap    :%s@\vchrome-extension:\/\/efaidnbmnnnibpcajpcglclefindmkaj\/(https?\|ftp)(:\/\/[^\s\/\$\.\?\#]+.\S+)@\1\2@e
-cabbrev ccq    :%s/^\s\+\\\|\s\+$//e\|%s/\s\{2,}/ /e\|%s/\n\+\%$//e\|%s/^\_s\{2,}/\r/e\|%s/‘\\\|’/'/e\|%s/“\\\|”/"/e
-cabbrev cdf    :$ka\|'a\|-1s/\n\n//e\|?^\s*$?\|+1,$d\|let @q=@"\|-3kz\|-7ka\|'a,'zs/\v_(\d{4}-\d{2}-\d{2}[tT_]\d{2}:\d{2}:\d{2}-\d{4})_/\1/e\|'a,'zs/\v(\d{4})(\d{2})(\d{2})[tT_](\d{2})(\d{2})(\d{2})/\1-\2-\3T\4:\5:\6-0_00/e\|'a,'zs/\v(\d{4})(\d{2})(\d{2})[tT_](\d{2})(\d{2})(\d{2})(\d{4})/\1-\2-\3T\4:\5:\6-\7/e\|'a,'zd\|let @r=@"\|-1,$d\|let@s="- - -\n<!-- sources -->\n\n"\|pu s\|pu q\|pu r
-cabbrev crl    :exe "norm {jma}kmz"\|'a,'zs/\v^\[(\d+)\]: ([^ ]+) "([^"]+)"/- [ ] [\3](\2)/e
-cabbrev Crl    :exe "norm {jma}kmz"\|'a,'zs/\v^\[0?([1-9]+)\]: ([^ ]+) "([^"]+)"/\1. [ ] [\3](\2)/e
-cabbrev cuL    :%s/\v([fh]tt?ps?:\/\/[^\/\$\.\?\#]+\S+)
-cabbrev cul    :'a,'zs/\v([fh]tt?ps?:\/\/[^\/\$\.\?\#]+\S+)
-cabbrev s'     :'a,'zs/\v()<Left>
-cabbrev sd     :%s///<Left><Left>
-cabbrev sr     :.,s/\v()<S-Left><<Right>Right>
-cabbrev srt    :exe "norm {jma}kmz"\|'a,'z sort u
-cabbrev Tsp    :let@r=strftime('%Y-%m-%d')\|norm!"rp"
-cabbrev ttc    :exe "norm {jma}kmz"\|'a,'zs/\v(\[\d\]:\s([fh]tt?ps?:\/\/[^\/$.?#]+\S+)\/?)\s"\2"/\1/e\|'a,'zs/\v%(\s[-\/:^\|·––—⋅]\s)([A-Za-z0-9 ]+)"$/"/\|'a,'zs/\v(\[\d\]:\s[fh]tt?ps?:\/\/[^\/$.?#]+\S+)\|(\s"[^-·–—\|"]+\w)[^"]*(")/\1\2\3/e\|set nohlsearch
-cabbrev yfn    :let @+ = expand("%:t")
-cabbrev yfp    :let @+ = expand("%:p")
-cabbrev yrp    :let @+ = expand("%")
+
+cabbrev !!     [^]+<Left><Left>
+cabbrev ''     exe "norm {jma}kmz"
+cabbrev alb    Tabularize /
+cabbrev alf    Tabularize /\zs/l0r1<S-Left><Right>
+cabbrev cap    %s@\vchrome-extension:\/\/efaidnbmnnnibpcajpcglclefindmkaj\/(https?\|ftp)(:\/\/[^\s\/\$\.\?\#]+.\S+)@\1\2@e
+cabbrev ccq    %s/^\s\+\\\|\s\+$//e\|%s/\s\{2,}/ /e\|%s/\n\+\%$//e\|%s/^\_s\{2,}/\r/e\|%s/‘\\\|’/'/e\|%s/“\\\|”/"/e
+cabbrev cdf    $ka\|'a\|-1s/\n\n//e\|?^\s*$?\|+1,$d\|let @q=@"\|-3kz\|-7ka\|'a,'zs/\v_(\d{4}-\d{2}-\d{2}[tT_]\d{2}:\d{2}:\d{2}-\d{4})_/\1/e\|'a,'zs/\v(\d{4})(\d{2})(\d{2})[tT_](\d{2})(\d{2})(\d{2})/\1-\2-\3T\4:\5:\6-0_00/e\|'a,'zs/\v(\d{4})(\d{2})(\d{2})[tT_](\d{2})(\d{2})(\d{2})(\d{4})/\1-\2-\3T\4:\5:\6-\7/e\|'a,'zd\|let @r=@"\|-1,$d\|let@s="- - -\n<!-- sources -->\n"\|pu s\|pu q\|pu r
+cabbrev cpl    %s/\v_/\=setreg('Q', submatch(1), 'l')/n\|let @*=@q\|norm 2G"qp
+cabbrev cpL    %s/\v_/\=setreg('Q', submatch(1).'{str}'.submatch(2), 'l')/n\|let @*=@q\|norm 2G"qp
+cabbrev crl    exe "norm {jma}kmz"\|'a,'zs/\v^\[(\d+)\]: ([^ ]+) "([^"]+)"/- [ ] [\3](\2)/e
+cabbrev Crl    exe "norm {jma}kmz"\|'a,'zs/\v^\[0?([1-9]+)\]: ([^ ]+) "([^"]+)"/\1. [ ] [\3](\2)/e
+cabbrev cuL    %s/\v([fh]tt?ps?:\/\/[^\/\$\.\?\#]+\S+)
+cabbrev cul    'a,'zs/\v([fh]tt?ps?:\/\/[^\/\$\.\?\#]+\S+)
+cabbrev s'     'a,'zs/\v()<Left>
+cabbrev sd     %s///<Left><Left>
+cabbrev sr     .,s/\v()<S-Left><Right>Right>
+cabbrev srt    exe "norm {jma}kmz"\|'a,'z sort ui
+cabbrev Tsp    let@r=strftime('%Y-%m-%d')\|norm!"rp"
+cabbrev ttc    exe "norm {jma}kmz"\|'a,'zs/\v(\[\d\]:\s([fh]tt?ps?:\/\/[^\/$.?#]+\S+)\/?)\s"\2"/\1/e\|'a,'zs/\v%(\s[-\/:^\|·––—⋅]\s)([A-Za-z0-9 ]+)"$/"/\|'a,'zs/\v(\[\d\]:\s[fh]tt?ps?:\/\/[^\/$.?#]+\S+)\|(\s"[^-·–—\|"]+\w)[^"]*(")/\1\2\3/e\|set nohlsearch
+cabbrev yfn    let @+ = expand("%:t")
+cabbrev yfp    let @+ = expand("%:p")
+cabbrev yrp    let @+ = expand("%")
 
 "" Insert mode
 iabbrev @@    sksalmon@gmail.com
@@ -299,25 +302,22 @@ iabbrev zym   Zymonetics
 " alb    align by <character>
 " alf    align from first instance of <character>, move cursor to position for <character>
 " cap    capture url Adobe PDF extension
-
-" ccq
-"" trim leading/trailing whitespace
-"" condense >= 2 spaces into one
-"" remove newlines from end-of-file
-"" consolidate >= 2 blank lines into one
-"" convert curly “‘quotes’” to  “‘straight’”
-
+" ccq    trim ^/$ whitespace, condense >= 2 { spaces, blank lines } into one, rm newlines @ $, convert curly “‘quotes’”
 " cdf    convert document footer
-" crl    convert to unordered checklist < reference link
+" cpl    copy linewise 
+" cpL    copy linewise, multiple atoms
 " Crl    conv to ordered checklist < ref link
+" crl    convert to unordered checklist < reference link
 " cul    capture urls
-" srt    sort range, unique
-" ttc    trim title cruft from URLs
 
-" very magic search, range, rm trailing space:
-"" s'   marked range: 'a,'z
-"" sd   entire document: %
-"" sr   specified range: .,<n>; move cursor <n> (enter line number, $ (enf of file), etc.)
+" s<..>  very magic search, range, rm trailing space:
+"" s'    marked range: 'a,'z
+"" sd    entire document: %
+"" sr    specified range: .,<n>; move cursor <n> (enter line number, $ (enf of file), etc.)
+" srt    sort range, unique
+
+" ddt    insert date (yyyy-mm-dd)
+" ttc    trim title cruft from URLs
 
 " y<..>  yank <current buffer filename> to system clipboard
 "" yfn   %:t tail (filename, last path component only), .vimrc
@@ -334,4 +334,4 @@ iabbrev zym   Zymonetics
 
 " Last update: set g:mkdx#settings = 'links' { 'enable': 0 } ==> disable getting website; desired: open in browser
 " ^ 2023-09-28T11:15:05-0400
-" % 2023-09-28T11:37:05-0400
+" % 2023-10-01T21:09:37-0400
