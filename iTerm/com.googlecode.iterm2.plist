@@ -4055,30 +4055,6 @@ Maximize Active Pane</string>
 			<key>escaping</key>
 			<integer>2</integer>
 			<key>guid</key>
-			<string>09BC4C5E-CB45-4D8F-B189-ED11367D8C60</string>
-			<key>title</key>
-			<string>ab :: align by #</string>
-			<key>value</key>
-			<string>:Tabularize /#</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>escaping</key>
-			<integer>2</integer>
-			<key>guid</key>
-			<string>6D259BD3-519C-42A8-8CF1-63566ECC9802</string>
-			<key>title</key>
-			<string>af :: align from :\zs</string>
-			<key>value</key>
-			<string>:Tabularize /:\zs/l0r1</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>escaping</key>
-			<integer>2</integer>
-			<key>guid</key>
 			<string>00492567-BCB7-485A-A96F-298F5E5884F9</string>
 			<key>title</key>
 			<string>ccq :: convert curly quotes</string>
