@@ -94,6 +94,7 @@ nnoremap <silent> <leader>;  :set spell!<CR>
 nnoremap <silent> <leader>w  :set nolist!<CR>
 nnoremap <C-e> 3<C-e>
 nnoremap <C-y> 3<C-y>
+let g:user_emmet_leader_key=','
 
 " set leader to '
 " swap :mark leaders ' <==> `
@@ -268,25 +269,29 @@ let g:mkdx#settings = {
 
 " ABBREVIATIONS
 "" Command-line mode
-
 cabbrev !!     [^]+<Left><Left>
 cabbrev ''     exe "norm {jma}kmz"
 cabbrev alb    Tabularize /
 cabbrev alf    Tabularize /\zs/l0r1<S-Left><Right>
 cabbrev cap    %s@\vchrome-extension:\/\/efaidnbmnnnibpcajpcglclefindmkaj\/(https?\|ftp)(:\/\/[^\s\/\$\.\?\#]+.\S+)@\1\2@e
-cabbrev ccq    %s/^\s\+\\\|\s\+$//e\|%s/\s\{2,}/ /e\|%s/\n\+\%$//e\|%s/^\_s\{2,}/\r/e\|%s/‘\\\|’/'/e\|%s/“\\\|”/"/e
+cabbrev ccq    %s/^\s\+\|\s\+$//e\|%s/\s\{2,}/ /e\|%s/\n\+\%$//e\|%s/^\_s\{2,}/\r/e\|%s/‘\\|’/'/e\|%s/“\\|”/"/e
 cabbrev cdf    $ka\|'a\|-1s/\n\n//e\|?^\s*$?\|+1,$d\|let @q=@"\|-3kz\|-7ka\|'a,'zs/\v_(\d{4}-\d{2}-\d{2}[tT_]\d{2}:\d{2}:\d{2}-\d{4})_/\1/e\|'a,'zs/\v(\d{4})(\d{2})(\d{2})[tT_](\d{2})(\d{2})(\d{2})/\1-\2-\3T\4:\5:\6-0_00/e\|'a,'zs/\v(\d{4})(\d{2})(\d{2})[tT_](\d{2})(\d{2})(\d{2})(\d{4})/\1-\2-\3T\4:\5:\6-\7/e\|'a,'zd\|let @r=@"\|-1,$d\|let@s="- - -\n<!-- sources -->\n"\|pu s\|pu q\|pu r
-cabbrev cpl    %s/\v_/\=setreg('Q', submatch(1), 'l')/n\|let @*=@q\|norm 2G"qp
-cabbrev cpL    %s/\v_/\=setreg('Q', submatch(1).'{str}'.submatch(2), 'l')/n\|let @*=@q\|norm 2G"qp
+cabbrev cpl    let @q=''\|%s/\v_/\=setreg('Q', submatch(1), 'l')/n\|let @*=@q\|norm 2G"qp
+cabbrev cpL    let @q=''\|%s/\v_/\=setreg('Q', submatch(1).'{str}'.submatch(2), 'l')/n\|let @*=@q\|norm 2G"qp
 cabbrev crl    exe "norm {jma}kmz"\|'a,'zs/\v^\[(\d+)\]: ([^ ]+) "([^"]+)"/- [ ] [\3](\2)/e
 cabbrev Crl    exe "norm {jma}kmz"\|'a,'zs/\v^\[0?([1-9]+)\]: ([^ ]+) "([^"]+)"/\1. [ ] [\3](\2)/e
+cabbrev ctf    s/\v^\s+\|\s+$//e\|s/\v^(.*)\n/\=setreg('q',submatch(1))/n\|s/\>[^ ]//e\|s/\>\W\+/-/e\|s/\v^(.*)/\=setreg('r',tolower(submatch(1)).'.md')/n\|d\|put! q\|let @*=@r\|set nohlsearch
+cabbrev ctr    exe "norm {jma}kmz"\|'a,'zs/\v^(\d+)\. \[([^\]]+)\]\(([^\)]+)\)/[\1]: \3 "\2"/
+cabbrev cts    call search('\v(\d{4})(\d{2})(\d{2})[tT_](\d{2})(\d{2})(\d{2})', 'b')\|s/\v(\d{4})(\d{2})(\d{2})[tT_](\d{2})(\d{2})(\d{2})/\1-\2-\3T\4:\5:\6-0_00/\|call search('\d\+')\|exe "norm 24yl"
 cabbrev cuL    %s/\v([fh]tt?ps?:\/\/[^\/\$\.\?\#]+\S+)
-cabbrev cul    'a,'zs/\v([fh]tt?ps?:\/\/[^\/\$\.\?\#]+\S+)
-cabbrev s'     'a,'zs/\v()<Left>
+cabbrev cul    exe "norm {jma}kmz"\|'a,'zs/\v([fh]tt?ps?:\/\/[^\/\$\.\?\#]+\S+)
+cabbrev ddt    let@r=strftime('%Y-%m-%d')\|norm!"rp"
+cabbrev gcc    %s/\v(\<!--)(\w)([^-]+)(\w)(--.*)/\1 \2\3\4 \5/e
+cabbrev s'     exe "norm {jma}kmz"\|'a,'zs/\v()<Left>
+cabbrev sbd    exe "norm {ma}mz"\|:'a,'zs/\v^\[\d+]/[1]/\|:'a+1,'z-1 sort u\|:'a,'zs/\v^(\[\d+\]: [fh]tt?ps?:\/\/)(([^\.]+\.)([^\.\/]+\.[^\/]+)\|([^\.\/]+\.[^\/]+))(.*)/\4\5\6#\1\3/\|:'a+1,'z-1 sort u\|:'a,'zs/\v(.*)#(.*)/\2\1/\|:let i=1 \| g/^\[1\]/s//\='['.i.']'/ \| let i=i+1
 cabbrev sd     %s///<Left><Left>
-cabbrev sr     .,s/\v()<S-Left><Right>Right>
+cabbrev sr     .,s/\v()<S-Left><Right><Right>
 cabbrev srt    exe "norm {jma}kmz"\|'a,'z sort ui
-cabbrev Tsp    let@r=strftime('%Y-%m-%d')\|norm!"rp"
 cabbrev ttc    exe "norm {jma}kmz"\|'a,'zs/\v(\[\d\]:\s([fh]tt?ps?:\/\/[^\/$.?#]+\S+)\/?)\s"\2"/\1/e\|'a,'zs/\v%(\s[-\/:^\|·––—⋅]\s)([A-Za-z0-9 ]+)"$/"/\|'a,'zs/\v(\[\d\]:\s[fh]tt?ps?:\/\/[^\/$.?#]+\S+)\|(\s"[^-·–—\|"]+\w)[^"]*(")/\1\2\3/e\|set nohlsearch
 cabbrev yfn    let @+ = expand("%:t")
 cabbrev yfp    let @+ = expand("%:p")
@@ -308,16 +313,20 @@ iabbrev zym   Zymonetics
 " cpL    copy linewise, multiple atoms
 " Crl    conv to ordered checklist < ref link
 " crl    convert to unordered checklist < reference link
+" ctf    convert line to filename
+" ctr    convert to reference link
+" cts    convert compact timestamp to ISO 8601
 " cul    capture urls
+" ddt    insert date (yyyy-mm-dd)
+" gcc    fix comment spacing :%s/\v(\<!--)(\w)([^-]+)(\w)(--.*)/\1 \2\3\4 \5/e
+" sbd    sort reference links by domain
+" srt    sort range, unique
+" ttc    trim title cruft from URLs
 
-" s<..>  very magic search, range, rm trailing space:
+" s<..>  {range} very magic search pattern {cursor position}:
 "" s'    marked range: 'a,'z
 "" sd    entire document: %
 "" sr    specified range: .,<n>; move cursor <n> (enter line number, $ (enf of file), etc.)
-" srt    sort range, unique
-
-" ddt    insert date (yyyy-mm-dd)
-" ttc    trim title cruft from URLs
 
 " y<..>  yank <current buffer filename> to system clipboard
 "" yfn   %:t tail (filename, last path component only), .vimrc
@@ -333,5 +342,5 @@ iabbrev zym   Zymonetics
 " https://invisible-island.net/xterm/ctlseqs/ctlseqs.html 'XTerm Control Sequences: CSI Ps SP q: Set cursor style'
 
 " Last update: set g:mkdx#settings = 'links' { 'enable': 0 } ==> disable getting website; desired: open in browser
-" ^ 2023-09-28T11:15:05-0400
-" % 2023-10-01T21:09:37-0400
+" ^ 2022-01-12T21:16:44-0500
+" % 2023-10-23T22:22:10-0400
