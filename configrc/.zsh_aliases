@@ -107,6 +107,11 @@ alias zmN='zmv -n '\''(*) (*)'\'' '\''${(L)1}-${(L)2}'\'''     # change space to
 alias zmn='zmv -nwv '\''* *'\'' '\''${(L)f// /-}'\'''          # same as above, implicit parentheses
 alias zmr='!zmv:0 !!:2-$'                                      # rerun last zmv in execute mode
 
+### temp
+alias sli='cd /Users/syd/Sites/dev.salonlabel.com && vim index.html find-xargs-perl.md'
+alias sips='sips -g all'   # get metadata
+alias trm='exiftool -all=' # remove metadata
+
 ### privileged access
 if [[ "$UID" -ne 0 ]]; then
     alias dgk='sudo spctl --master-disable # disable Gatekeeper'
@@ -137,4 +142,4 @@ gitd() { git diff $1 }                      # git diff: show changes
 ## https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html
 
 ## ^ 2022-01-12T21:16:44-0500
-## % 2023-09-17T13:28:56-0400
+## % 2023-10-06T17:05:25-0400
