@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.snratio.areacode</string>
+	<key>category</key>
+	<string>Productivity</string>
+	<key>connections</key>
+	<dict>
+		<key>06C9C4A9-38CE-441A-8D06-E2F2D8B39B60</key>
+		<array/>
+		<key>7DD3BDE5-A157-42E5-9376-F681FB50A4EE</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>06C9C4A9-38CE-441A-8D06-E2F2D8B39B60</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>David Klem</string>
+	<key>description</key>
+	<string>Find area code by name or number</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Area Code</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>keyword</key>
+				<string>acd</string>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Searching…</string>
+				<key>script</key>
+				<string>IFS=$'\n'
+match=($(grep -i {query} codes.txt))
+echo '&lt;?xml version="1.0"?&gt;'
+echo -e '&lt;items&gt;\n'
+if [[ -n "$match" ]] ; then
+        for i in ${match[@]}; do
+                npac=($(echo "$i" | cut -d\: -f1))
+                city=($(echo "$i" | cut -d\: -f2))
+                echo "&lt;item arg=\"$npac\" valid=\"yes\"&gt;"
+                echo "&lt;title&gt;Area code $npac =&gt; $city&lt;/title&gt;"
+                echo "&lt;subtitle&gt;Press Enter for more details&lt;/subtitle&gt;"
+                echo -e "&lt;icon&gt;ac.png&lt;/icon&gt;&lt;/item&gt;\n"
+        done
+else
+        echo "&lt;item arg=\"{query}\" valid=\"yes\"&gt;"
+        echo "&lt;title&gt;Area code {query} =&gt; NOT FOUND&lt;/title&gt;"
+        echo "&lt;subtitle&gt;Go to https://www.allareacodes.com/{query} for more info.&lt;/subtitle&gt;"
+        echo -e "&lt;icon&gt;ac.png&lt;/icon&gt;&lt;/item&gt;\n"
+fi
+echo "&lt;/items&gt;"</string>
+				<key>title</key>
+				<string>Enter area code…</string>
+				<key>type</key>
+				<integer>5</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>7DD3BDE5-A157-42E5-9376-F681FB50A4EE</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>script</key>
+				<string>open "https://allareacodes.com/{query}"</string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>06C9C4A9-38CE-441A-8D06-E2F2D8B39B60</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>06C9C4A9-38CE-441A-8D06-E2F2D8B39B60</key>
+		<dict>
+			<key>ypos</key>
+			<real>60</real>
+		</dict>
+		<key>7DD3BDE5-A157-42E5-9376-F681FB50A4EE</key>
+		<dict>
+			<key>ypos</key>
+			<real>60</real>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string>https://github.com/dklem</string>
+</dict>
+</plist>
