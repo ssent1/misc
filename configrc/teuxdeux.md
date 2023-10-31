@@ -29,6 +29,23 @@
 3. [ ] [Forefront](https://accounts.forefront.ai/sign-in)
 4. [ ] [Saved](https://www.google.com/save/list/XHntOX47PY-p__eBS6NXkg), [Collections](https://www.google.com/collections/)
 
+- [ ] [What Are the Theoretical Limits of Human Strength?](https://www.youtube.com/watch?v=u6x7cC1TkWw)
+- [ ] [Steve Ballmer](https://www.youtube.com/watch?v=38-lLJdDiys)
+- [ ] [mathematical thinking](https://www.youtube.com/watch?v=LN7cCW1rSsI)
+- [ ] [Youngest Billionaires](https://www.youtube.com/watch?v=efY2SxojNlU)
+- [ ] [Arnold Schwarzenegger documentary](https://www.youtube.com/watch?v=8fsF1LKjPpo)
+- [ ] [Jesse Itzler's Playbook](https://www.youtube.com/watch?v=ff1z3GUcfO8)
+- [ ] [Speak With Incredible Precision](https://www.youtube.com/watch?v=TNxlOZc_pAc)
+- [ ] [24 Surprising Billion-Dollar Industries](https://www.youtube.com/watch?v=apRg-105hB0)
+- [ ] [Make Money While Sleep](https://www.newtraderu.com/2023/05/08/if-you-dont-find-a-way-to-make-money-while-sleep-you-will-work-until-you-die-warren-buffett/)
+- [ ] [Scam City](https://www.youtube.com/watch?v=cD19-AWj_4g&list=PLTRNQOWwuox_fn9E2z5akKL9yjgr23bB-&index=3)
+- [ ] []()
+
+
+
+
+
+
 [1]: https://www.fixinghealthcarepodcast.com/ "Fixing Healthcare - A podcast with a plan to fix American healthare"
 [1]: https://www.amazon.com/dp/1610397657 "Mistreated: Why We Think We're Getting Good Health Care - and Why We're Usually Wrong: Pearl MD, Robert: 9781610397650: Amazon.com: Books"
 [1]: https://www.hachettebookgroup.com/titles/robert-pearl/uncaring/9781541758254/?lens=publicaffairs "Uncaring by Robert Pearl, MD | Hachette Book Group"
@@ -460,4 +477,4 @@ Jacek Nawrot · Control Systems Project Manager at Tigercat Industries Inc. · R
 Tags: mdi, mental health, personal development exercise, productivity, relationships, teuxdeux, todo
 
 ^ 2020-11-12T18:26:31-0500\
-% 2023-09-29T22:40:25-0400
+% 2023-10-30T15:23:31-0400
