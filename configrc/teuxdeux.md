@@ -29,6 +29,59 @@
 3. [ ] [Forefront](https://accounts.forefront.ai/sign-in)
 4. [ ] [Saved](https://www.google.com/save/list/XHntOX47PY-p__eBS6NXkg), [Collections](https://www.google.com/collections/)
 
+[1]: https://login.on.mycarecompass.lifelabs.com/account/login "MyCareCompass"
+[1]: https://docs.google.com/spreadsheets/d/1WC1Hytn2ohoKRLIbeqSi4vay4QFb2kjcEUOixK411fU/edit#gid=79719834 "lab-report-log-sks - Google Sheets"
+
+- [Tic-tac](https://youtube.com/shorts/HiDGfFOzfnk)
+
+## [A Diller, A Dollar](https://youtube.com/shorts/219f_wH2vDg)
+
+by Mother Goose
+
+A diller, a dollar,
+A ten o' clock scholar,
+What makes you come so soon?
+You used to come at ten o'clock,
+But now you come at noon.
+
+[1]: https://www.youtube.com/watch?v=znspK9gDKLw "Someone You Loved | Lewis Capaldi | Erica Klein Choreography - YouTube"
+[1]: https://www.youtube.com/watch?v=AN01SJ4_73E "Lyrical Dance - Someone You Loved by Lewis Capaldi - YouTube"
+[1]: https://www.youtube.com/watch?v=yXHQfbFfBbw "Lewis Capaldi - Someone You Loved | Jan Ravnik Choreography | Artist Request - YouTube"
+[1]: https://www.youtube.com/watch?v=loLp6rOjWik "[Contemporary Lyrical Jazz] Someone You Loved - Lewis Capaldi Choreography.Mia - YouTube"
+[1]: https://www.youtube.com/watch?v=NUeOAe5--hE "Lewis Capaldi - Someone You Loved - Sharmila Dance Center - YouTube"
+[1]: https://www.youtube.com/watch?v=e4WrRKSgGI0 "Lewis Capaldi: Tiny Desk Concert - YouTube"
+[1]: https://www.youtube.com/watch?v=5Di5Tnx8Bp4 "Lewis Capaldi - Wish You The Best (Live from The Voice) - YouTube"
+[Someone You Loved, Lewis Capaldi](https://www.youtube.com/watch?v=zABLecsR5UE)
+[Someone You Loved, Lewis Capaldi](https://genius.com/Lewis-capaldi-someone-you-loved-lyrics)
+[Someone You Loved, Lewis Capaldi - chords](https://tabs.ultimate-guitar.com/tab/lewis-capaldi/someone-you-loved-chords-2512737)
+[Someone You Loved, Lewis Capaldi - tutorial](https://www.youtube.com/watch?v=jLcrmEcDNOI)
+[Shut up and stop selling](https://youtube.com/shorts/SAG_Lqo-KBw)
+[Yes or no?](https://youtube.com/shorts/WLjygR-CPck)
+
+[1]: https://edex.adobe.com/professional-learning/self-paced-course/generative-ai-in-the-classroom-with-adobe-express "Generative AI in the Classroom with Adobe Express | Adobe Education Exchange"
+[1]: https://www.airtable.com/ "The platform to build next‒gen apps | Airtable"
+[1]: https://www.youtube.com/watch?v=CgHfcrm3oXw "(5) Figma Tutorial: Create and present animated slide deck presentations from Figma - YouTube"
+[1]: https://www.youtube.com/watch?v=dK34a80iQUM "(5) Figma for Education: Presenting with Figma - YouTube"
+[1]: https://www.youtube.com/watch?v=SN3t8qiTa2Q&t=85s "(5) Create STUNNING Interactive Presentations!! | Figma Tutorial - YouTube"
+[1]: https://www.thedesignership.com/courses/the-ultimate-figma-masterclass "Figma Course | The Ultimate Figma Masterclass Course"
+[1]: https://www.thedesignership.com/products/ux-case-study-presentation-template "Free UX Case Study Presentation Template | Designership"
+[1]: https://snapinsta.app/ "Instagram Downloader"
+[1]: https://time.is/?c=d3l1_3j_3F1_3Y1_3WXtH2iXfmrXc1Xo-300Xz1Xa1Xb4e4185.28571f.2d99db.abbd8.1bb85e.5e3293.5e1d39Xw1Xv20221112Xh0Xi1XZ1XmXuXs0&l=en "Time.is 00:58"
+[1]: https://www.google.com/save/list/XHntOX47PY-p__eBS6NXkg?q=Favorite+pages&sa=X&ved=2ahUKEwjwuOHf8Z2CAxVv58kDHapmDeIQ5oAKegQIARAH "Favorite pages"
+[1]: https://www.youtube.com/results?search_query=roy+wood+jr "(4) roy wood jr - YouTube"
+[1]: https://www.youtube.com/watch?v=i0MiEfOVZvQ "Sea Waves and Old Cello music. 8 hours Alpha binaural beats | root chakra healing. 432 hz frequency - YouTube"
+[1]: https://www.youtube.com/watch?v=ob1kdKYX2sE "Perez RESPONDS to Mexico CRASH: Hamilton P2 👀 - YouTube"
+[1]: https://www.youtube.com/watch?v=9cBYv7xYM1c "Trump UNABLE TO READ Speech, Starts WITNESS TAMPERING - YouTube"
+[1]: https://www.youtube.com/watch?v=3FNYvj2U0HM "YouTube"
+[1]: https://www.youtube.com/watch?v=c_6BrF7jOGk "(4) I Doubled A Business in 60 Days to Show It's Not Luck (Part 1) - YouTube"
+[1]: https://www.google.com/save/list/XHntOX47PY-p__eBS6NXkg "Favorite pages"
+[1]: https://www.linkedin.com/feed/update/urn:li:activity:7125162637008539649/ "(99+) Post | Feed | LinkedIn"
+[1]: https://www.linkedin.com/analytics/post-summary/urn:li:activity:7125162637008539649/ "(99+) LinkedIn"
+[1]: https://booleanstrings.com/tools/ "150+ Top Sourcing / #OSINT Tools | Boolean Strings"
+[1]: https://sector035.nl/articles/category:article "Articles | Sector035"
+[1]: https://cipher387.github.io/osint_stuff_tool_collection/ "osint_stuff_tool_collection | A collection of several hundred online tools for OSINT"
+[1]: https://inteltechniques.com/tools/Search.html "IntelTechniques Search Tool"
+[1]: https://github.com/Sjamilla/awesome-recruitment#%EF%B8%8F-my-favourites "GitHub - Sjamilla/awesome-recruitment: List of my favourite recruitment things 💫"
 - [ ] [What Are the Theoretical Limits of Human Strength?](https://www.youtube.com/watch?v=u6x7cC1TkWw)
 - [ ] [Steve Ballmer](https://www.youtube.com/watch?v=38-lLJdDiys)
 - [ ] [mathematical thinking](https://www.youtube.com/watch?v=LN7cCW1rSsI)
@@ -41,10 +94,7 @@
 - [ ] [Scam City](https://www.youtube.com/watch?v=cD19-AWj_4g&list=PLTRNQOWwuox_fn9E2z5akKL9yjgr23bB-&index=3)
 - [ ] []()
 
-
-
-
-
+mv /Users/syd/Dropbox/nvalt/manpages/steam/art/human\ body\ proportion\ calculator.md /Users/syd/Dropbox/nvalt/manpages/steam/art/human-body-proportion-calculator.md
 
 [1]: https://www.fixinghealthcarepodcast.com/ "Fixing Healthcare - A podcast with a plan to fix American healthare"
 [1]: https://www.amazon.com/dp/1610397657 "Mistreated: Why We Think We're Getting Good Health Care - and Why We're Usually Wrong: Pearl MD, Robert: 9781610397650: Amazon.com: Books"
@@ -477,4 +527,4 @@ Jacek Nawrot · Control Systems Project Manager at Tigercat Industries Inc. · R
 Tags: mdi, mental health, personal development exercise, productivity, relationships, teuxdeux, todo
 
 ^ 2020-11-12T18:26:31-0500\
-% 2023-10-30T15:23:31-0400
+% 2023-11-04T15:04:01-0400
