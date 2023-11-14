@@ -288,7 +288,9 @@ cabbrev cul    exe "norm {jma}kmz"\|'a,'zs/\v([fh]tt?ps?:\/\/[^\/\$\.\?\#]+\S+)
 cabbrev ddt    let@r=strftime('%Y-%m-%d')\|norm!"rp"
 cabbrev gcc    %s/\v(\<!--)(\w)([^-]+)(\w)(--.*)/\1 \2\3\4 \5/e
 cabbrev s'     exe "norm {jma}kmz"\|'a,'zs/\v()<Left>
-cabbrev sbd    exe "norm {ma}mz"\|:'a,'zs/\v^\[\d+]/[1]/\|:'a+1,'z-1 sort u\|:'a,'zs/\v^(\[\d+\]: [fh]tt?ps?:\/\/)(([^\.]+\.)([^\.\/]+\.[^\/]+)\|([^\.\/]+\.[^\/]+))(.*)/\4\5\6#\1\3/\|:'a+1,'z-1 sort u\|:'a,'zs/\v(.*)#(.*)/\2\1/\|:let i=1 \| g/^\[1\]/s//\='['.i.']'/ \| let i=i+1
+cabbrev sav    call search('% \d\{4}-\d\{2}-\d\{2}', 'b')\|exe "norm 2lD"\|put =strftime('%FT%T%z')\|exe "norm kJ"\|write
+cabbrev Sav    bufdo call search('% \d\{4}-\d\{2}-\d\{2}', 'b')\|exe "norm 2lD"\|put =strftime('%FT%T%z')\|exe "norm kJ"\|write
+cabbrev sbd    exe "norm {ma}mz"\|'a,'zs/\v^\[\d+]/[1]/\|'a+1,'z-1 sort u\|'a,'zs/\v^(\[\d+\]:\s[fh]tt?ps?:\/\/)(([^\.]+\.)([^\.\/]+\.[^\/]+)|([^\.\/]+\.[^\/]+))(.*)/\4\5\6#\1\3/\|'a+1,'z-1 sort u\|'a,'zs/\v(.*)#(.*)/\2\1/\|let i=1 \| g/^\[1\]/s//\='['.i.']'/ \| let i=i+1
 cabbrev sd     %s///<Left><Left>
 cabbrev sr     .,s/\v()<S-Left><Right><Right>
 cabbrev srt    exe "norm {jma}kmz"\|'a,'z sort ui
@@ -319,6 +321,8 @@ iabbrev zym   Zymonetics
 " cul    capture urls
 " ddt    insert date (yyyy-mm-dd)
 " gcc    fix comment spacing :%s/\v(\<!--)(\w)([^-]+)(\w)(--.*)/\1 \2\3\4 \5/e
+" sav    update timestamp
+" Sav    for all buffers, update timestamps
 " sbd    sort reference links by domain
 " srt    sort range, unique
 " ttc    trim title cruft from URLs
@@ -343,4 +347,4 @@ iabbrev zym   Zymonetics
 
 " Last update: set g:mkdx#settings = 'links' { 'enable': 0 } ==> disable getting website; desired: open in browser
 " ^ 2022-01-12T21:16:44-0500
-" % 2023-10-23T22:22:10-0400
+" % 2023-11-14T12:12:14-0500
