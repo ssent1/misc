@@ -29,12 +29,27 @@
 3. [ ] [Forefront](https://accounts.forefront.ai/sign-in)
 4. [ ] [Saved](https://www.google.com/save/list/XHntOX47PY-p__eBS6NXkg), [Collections](https://www.google.com/collections/)
 
-[1]: https://login.on.mycarecompass.lifelabs.com/account/login "MyCareCompass"
-[1]: https://docs.google.com/spreadsheets/d/1WC1Hytn2ohoKRLIbeqSi4vay4QFb2kjcEUOixK411fU/edit#gid=79719834 "lab-report-log-sks - Google Sheets"
+## 2023-11-26
 
-- [Tic-tac](https://youtube.com/shorts/HiDGfFOzfnk)
+- [ ] [0:18:42 Sewing Machines, Veritasium]([https://www.youtube.com/watch?v=RQYuyHNLPTQ])
+- [ ] [0:22:09 Q* Hypothesis ]([https://www.youtube.com/watch?v=LT-tLOdzDHA])
+- [ ] [0:23:03 The Cheapest Porsche 911, Seen Through Glass]([https://www.youtube.com/watch?v=b8XrPLrt4IE])
+- [ ] [0:38:20 Q* Hypothesis ]([https://www.youtube.com/watch?v=R0PEPzcvWRQ])
+- [ ] [0:39:28 the Roths-child family's]([https://www.youtube.com/watch?v=IbWl40xgw0B])
+- [ ] [0:52:26 Malware, Jack Rhysider]([https://www.youtube.com/watch?v=ADCvaIWkEZw])
+- [ ] [1:31:52  Alexandr Wang: 26-Year-Old Billionaire]([https://www.youtube.com/watch?v=gDMemWgEJak])
+- [ ] [1:43:54 The Pirate Bay, Jack Rhysider]([https://www.youtube.com/watch?v=eFQFW5JgUjE])
+- [ ] [2:22:04 Genius Inventions: Technical Marvels]([https://www.youtube.com/watch?v=iLj8ttLqfEI])
+
+- [ ] [Modernization of Cosmetics Regulation Act of 2022 (MoCRA)](https://www.fda.gov/cosmetics/cosmetics-laws-regulations/modernization-cosmetics-regulation-act-2022-mocra)
+- [ ] [product-categorization-lead-capture-tool - Google Sheets](https://docs.google.com/spreadsheets/d/1J-ZHJK8HGzGWihYAqVGlTcbuKzR78kMscf0MXavWofw/edit#gid=1077951310)
+- [ ] [Tic-tac - your mom's breath](https://youtube.com/shorts/HiDGfFOzfnk)
+
+- [x] [MyCareCompass](https://login.on.mycarecompass.lifelabs.com/account/login)
+- [x] [lab-report-log-sks - Google Sheets](https://docs.google.com/spreadsheets/d/1WC1Hytn2ohoKRLIbeqSi4vay4QFb2kjcEUOixK411fU/edit#gid=79719834)
 
 ## [A Diller, A Dollar](https://youtube.com/shorts/219f_wH2vDg)
+
 
 by Mother Goose
 
@@ -44,19 +59,20 @@ What makes you come so soon?
 You used to come at ten o'clock,
 But now you come at noon.
 
-[1]: https://www.youtube.com/watch?v=znspK9gDKLw "Someone You Loved | Lewis Capaldi | Erica Klein Choreography - YouTube"
-[1]: https://www.youtube.com/watch?v=AN01SJ4_73E "Lyrical Dance - Someone You Loved by Lewis Capaldi - YouTube"
-[1]: https://www.youtube.com/watch?v=yXHQfbFfBbw "Lewis Capaldi - Someone You Loved | Jan Ravnik Choreography | Artist Request - YouTube"
-[1]: https://www.youtube.com/watch?v=loLp6rOjWik "[Contemporary Lyrical Jazz] Someone You Loved - Lewis Capaldi Choreography.Mia - YouTube"
-[1]: https://www.youtube.com/watch?v=NUeOAe5--hE "Lewis Capaldi - Someone You Loved - Sharmila Dance Center - YouTube"
-[1]: https://www.youtube.com/watch?v=e4WrRKSgGI0 "Lewis Capaldi: Tiny Desk Concert - YouTube"
-[1]: https://www.youtube.com/watch?v=5Di5Tnx8Bp4 "Lewis Capaldi - Wish You The Best (Live from The Voice) - YouTube"
-[Someone You Loved, Lewis Capaldi](https://www.youtube.com/watch?v=zABLecsR5UE)
-[Someone You Loved, Lewis Capaldi](https://genius.com/Lewis-capaldi-someone-you-loved-lyrics)
-[Someone You Loved, Lewis Capaldi - chords](https://tabs.ultimate-guitar.com/tab/lewis-capaldi/someone-you-loved-chords-2512737)
-[Someone You Loved, Lewis Capaldi - tutorial](https://www.youtube.com/watch?v=jLcrmEcDNOI)
-[Shut up and stop selling](https://youtube.com/shorts/SAG_Lqo-KBw)
-[Yes or no?](https://youtube.com/shorts/WLjygR-CPck)
+- [ ] [Someone You Loved | Lewis Capaldi | Erica Klein Choreography - YouTube](https://www.youtube.com/watch?v=znspK9gDKLw)
+- [ ] [Lyrical Dance - Someone You Loved by Lewis Capaldi - YouTube](https://www.youtube.com/watch?v=AN01SJ4_73E)
+- [ ] [Lewis Capaldi - Someone You Loved | Jan Ravnik Choreography | Artist Request - YouTube](https://www.youtube.com/watch?v=yXHQfbFfBbw)
+- [ ] [Someone You Loved - Lewis Capaldi Choreography.Mia - YouTube](https://www.youtube.com/watch?v=loLp6rOjWik)
+- [ ] [Lewis Capaldi - Someone You Loved - Sharmila Dance Center - YouTube](https://www.youtube.com/watch?v=NUeOAe5--hE)
+- [ ] [Lewis Capaldi: Tiny Desk Concert - YouTube](https://www.youtube.com/watch?v=e4WrRKSgGI0)
+- [ ] [Lewis Capaldi - Wish You The Best (Live from The Voice) - YouTube](https://www.youtube.com/watch?v=5Di5Tnx8Bp4)
+- [ ] [Someone You Loved, Lewis Capaldi](https://www.youtube.com/watch?v=zABLecsR5UE)
+- [ ] [Someone You Loved, Lewis Capaldi](https://genius.com/Lewis-capaldi-someone-you-loved-lyrics)
+- [ ] [Someone You Loved, Lewis Capaldi - chords](https://tabs.ultimate-guitar.com/tab/lewis-capaldi/someone-you-loved-chords-2512737)
+- [ ] [Someone You Loved, Lewis Capaldi - tutorial](https://www.youtube.com/watch?v=jLcrmEcDNOI)
+
+- [ ] [Shut up and stop selling](https://youtube.com/shorts/SAG_Lqo-KBw)
+- [ ] [Yes or no?](https://youtube.com/shorts/WLjygR-CPck)
 
 [1]: https://edex.adobe.com/professional-learning/self-paced-course/generative-ai-in-the-classroom-with-adobe-express "Generative AI in the Classroom with Adobe Express | Adobe Education Exchange"
 [1]: https://www.airtable.com/ "The platform to build next‒gen apps | Airtable"
@@ -527,4 +543,4 @@ Jacek Nawrot · Control Systems Project Manager at Tigercat Industries Inc. · R
 Tags: mdi, mental health, personal development exercise, productivity, relationships, teuxdeux, todo
 
 ^ 2020-11-12T18:26:31-0500\
-% 2023-11-04T15:04:01-0400
+% 2023-11-26T15:05:40-0500
