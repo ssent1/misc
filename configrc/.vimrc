@@ -72,9 +72,9 @@ set viminfo='1000,f1               " save bookmarks
 augroup init_save
     au!
     autocmd BufNewFile * :write
-    " autocmd BufNewFile * execute 'cd '.expand('%:p:h') | execute 'e '.expand('%') | execute 'write'
-    autocmd BufNewFile *.md :let@r=''|:let@r="# \n\n- - -\n<!-- sources -->\n\nTags: \n\n^\n\\\n%\n"|:put r
-                \|:let@r=strftime(' %FT%T%z')|:norm!"rp2k"rpgJ4kmaggdd$"
+    " autocmd BufNewFile * execute 'cd '.expand('%:p:h') |:execute 'e '.expand('%') |:execute 'write'
+    autocmd BufNewFile *.md :let@r='' |:let@r="# \n\n- - -\n<!-- sources -->\n\nTags: \n\n^\n\\\n%\n" |:put r
+                \ |:let@r=strftime(' %FT%T%z') |:norm!"rp2k"rpgJ4kmaggdd$"
     autocmd BufRead,BufNewFile *.py setlocal textwidth=80
     autocmd BufRead,BufNewFile *.html setlocal textwidth=0
 augroup END
@@ -168,7 +168,7 @@ if empty(glob(data_dir . '/autoload/plug.vim'))
                 \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
     augroup install_plug
         au!
-        autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+        autocmd VimEnter * PlugInstall --sync |:source $MYVIMRC
     augroup END
 endif
 
@@ -182,8 +182,8 @@ endif
 augroup install_plugins
     au!
     autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
-                \| PlugInstall --sync | source $MYVIMRC
-                \| endif
+                \ |:PlugInstall --sync |:source $MYVIMRC
+                \ |:endif
 augroup END
 
 let g:polyglot_disabled = ['markdown'] " conflict: vim-polyglot & vim-markdown, interferes with mkdx list indentation
@@ -255,46 +255,49 @@ hi SpellLocal ctermfg=232 ctermbg=117 guifg=#000000 guibg=#8BE9FD
 """ mkdx
 let g:mkdx#settings = {
             \ 'image_extension_pattern': 'a\?png\|jpe\?g\|gif\|svg',
-            \ "auto_update" : { "enable": 1 },
-            \ 'checkbox': { 'toggles': [' ', 'x', '-'] },
-            \ 'enter'       : { 'shift': 0 },
-            \ 'highlight'   : { 'enable': 1 },
-            \ 'links'       : { 'external': { 'enable': 0 } },
-            \ 'table'       : { 'divider': '|', 'header_divider': '-',
-            \                       'align': { 'left': [], 'center': [], 'right': [],
-            \                           'default': 'left' } },
-            \ 'tokens': { 'enter': ['-', '*', '>'], 'bold': '__','italic': '_' },
-            \ 'toc': { 'text': 'Contents', 'position': 2, 'update_on_write': 0 },
+            \ 'enter':     { 'enable': 0, 'shift': 0, 'o': 1, 'shifto': 1, 'malformed': 1 },
+            \ 'checkbox':  { 'toggles': [' ', 'x', '-'] },
+            \ 'highlight': { 'enable': 1 },
+            \ 'links':     { 'external': { 'enable': 1 } },
+            \ 'table':     { 'divider': '|', 'header_divider': '-',
+                \ 'align': { 'left': [], 'center': [], 'right': [], 'default': 'left' } },
+            \ 'tokens':    { 'enter': ['-', '*', '>'], 'bold': '__','italic': '_' },
+            \ 'toc':       { 'text': 'Contents', 'position': 2, 'update_on_write': 0 },
             \ }
 
 " ABBREVIATIONS
 "" Command-line mode
 cabbrev !!     [^]+<Left><Left>
 cabbrev ''     exe "norm {jma}kmz"
-cabbrev alb    Tabularize /
-cabbrev alf    Tabularize /\zs/l0r1<S-Left><Right>
+cabbrev alb    Tabularize /:
+cabbrev alf    Tabularize /^[^:]*:\zs/l0r1
 cabbrev cap    %s@\vchrome-extension:\/\/efaidnbmnnnibpcajpcglclefindmkaj\/(https?\|ftp)(:\/\/[^\s\/\$\.\?\#]+.\S+)@\1\2@e
-cabbrev ccq    %s/^\s\+\|\s\+$//e\|%s/\s\{2,}/ /e\|%s/\n\+\%$//e\|%s/^\_s\{2,}/\r/e\|%s/‘\\|’/'/e\|%s/“\\|”/"/e
-cabbrev cdf    $ka\|'a\|-1s/\n\n//e\|?^\s*$?\|+1,$d\|let @q=@"\|-3kz\|-7ka\|'a,'zs/\v_(\d{4}-\d{2}-\d{2}[tT_]\d{2}:\d{2}:\d{2}-\d{4})_/\1/e\|'a,'zs/\v(\d{4})(\d{2})(\d{2})[tT_](\d{2})(\d{2})(\d{2})/\1-\2-\3T\4:\5:\6-0_00/e\|'a,'zs/\v(\d{4})(\d{2})(\d{2})[tT_](\d{2})(\d{2})(\d{2})(\d{4})/\1-\2-\3T\4:\5:\6-\7/e\|'a,'zd\|let @r=@"\|-1,$d\|let@s="- - -\n<!-- sources -->\n"\|pu s\|pu q\|pu r
-cabbrev cpl    let @q=''\|%s/\v_/\=setreg('Q', submatch(1), 'l')/n\|let @*=@q\|norm 2G"qp
-cabbrev cpL    let @q=''\|%s/\v_/\=setreg('Q', submatch(1).'{str}'.submatch(2), 'l')/n\|let @*=@q\|norm 2G"qp
-cabbrev crl    exe "norm {jma}kmz"\|'a,'zs/\v^\[(\d+)\]: ([^ ]+) "([^"]+)"/- [ ] [\3](\2)/e
-cabbrev Crl    exe "norm {jma}kmz"\|'a,'zs/\v^\[0?([1-9]+)\]: ([^ ]+) "([^"]+)"/\1. [ ] [\3](\2)/e
-cabbrev ctf    s/\v^\s+\|\s+$//e\|s/\v^(.*)\n/\=setreg('q',submatch(1))/n\|s/\>[^ ]//e\|s/\>\W\+/-/e\|s/\v^(.*)/\=setreg('r',tolower(submatch(1)).'.md')/n\|d\|put! q\|let @*=@r\|set nohlsearch
-cabbrev ctr    exe "norm {jma}kmz"\|'a,'zs/\v^(\d+)\. \[([^\]]+)\]\(([^\)]+)\)/[\1]: \3 "\2"/
-cabbrev cts    call search('\v(\d{4})(\d{2})(\d{2})[tT_](\d{2})(\d{2})(\d{2})', 'b')\|s/\v(\d{4})(\d{2})(\d{2})[tT_](\d{2})(\d{2})(\d{2})/\1-\2-\3T\4:\5:\6-0_00/\|call search('\d\+')\|exe "norm 24yl"
+cabbrev ccq    %s/^\s\+\|\s\+$//e\ |:%s/\s\{2,}/ /e\ |:%s/\n\+\%$//e\ |:%s/^\_s\{2,}/\r/e\ |:%s/‘\\|’/'/e\ |:%s/“\\|”/"/e
+cabbrev cdf    $ka\ |:'a\|-1s/\n\n//e\ |:?^\s*$?\ |:+1,$d\ |:let @q=@"\ |:-3kz\ |:-7ka\ |:'a,'zs/\v_(\d{4}-\d{2}-\d{2}[tT_]\d{2}:\d{2}:\d{2}-\d{4})_/\1/e\ |:'a,'zs/\v(\d{4})(\d{2})(\d{2})[tT_](\d{2})(\d{2})(\d{2})/\1-\2-\3T\4:\5:\6-0_00/e\ |:'a,'zs/\v(\d{4})(\d{2})(\d{2})[tT_](\d{2})(\d{2})(\d{2})(\d{4})/\1-\2-\3T\4:\5:\6-\7/e\ |:'a,'zd\ |:let @r=@"\ |:-1,$d\ |:let@s="- - -\n<!-- sources -->\n"\ |:pu s\ |:pu q\ |:pu r
+cabbrev cpl    let @q=''\ |:%s/\v_/\=setreg('Q', submatch(1), 'l')/n\ |:let @*=@q\ |:norm 2G"qp
+cabbrev cpL    let @q=''\ |:%s/\v_/\=setreg('Q', submatch(1).'{str}'.submatch(2), 'l')/n\ |:let @*=@q\ |:norm 2G"qp
+cabbrev crl    exe "norm {jma}kmz"\ |:'a,'zs/\v^\[(\d+)\]: ([^ ]+) "([^\"]+)"/- [ ] [\3](\2)/e |:noh
+cabbrev Crl    exe "norm {jma}kmz"\ |:'a,'zs/\v^\[0?([1-9]+)\]: ([^ ]+) "([^\"]+)"/\1. [ ] [\3](\2)/e |:noh
+cabbrev Csv    call setline('.', join(reverse(uniq(split(getline('.'), ',\s*'))), ', '))
+cabbrev csv    call setline('.', join(sort(uniq(split(getline('.'), ',\s*'))), ', '))
+cabbrev ctf    s/\v^\s+\|\s+$//e\ |:s/\v^(.*)\n/\=setreg('q',submatch(1))/n\ |:s/\>[^ ]//e\ |:s/\>\W\+/-/e\ |:s/\v^(.*)/\=setreg('r',tolower(submatch(1)).'.md')/n\ |:d\ |:put! q\ |:let @*=@r\ |:noh
+cabbrev ctr    exe "norm {jma}kmz"\ |:'a,'zs/\v^(\d+)\. \[([^\]]+)\]\(([^\)]+)\)/[\1]: \3 "\2"/
+cabbrev cts    call search('\v(\d{4})(\d{2})(\d{2})[tT_](\d{2})(\d{2})(\d{2})', 'b')\ |:s/\v(\d{4})(\d{2})(\d{2})[tT_](\d{2})(\d{2})(\d{2})/\1-\2-\3T\4:\5:\6-0_00/\ |:call search('\d\+')\ |:exe "norm 24yl"
 cabbrev cuL    %s/\v([fh]tt?ps?:\/\/[^\/\$\.\?\#]+\S+)
-cabbrev cul    exe "norm {jma}kmz"\|'a,'zs/\v([fh]tt?ps?:\/\/[^\/\$\.\?\#]+\S+)
-cabbrev ddt    let@r=strftime('%Y-%m-%d')\|norm!"rp"
+cabbrev cul    exe "norm {jma}kmz"\ |:'a,'zs/\v([fh]tt?ps?:\/\/[^\/\$\.\?\#]+\S+) |:noh
+cabbrev ddt    let@r=strftime('%Y-%m-%d')\ |:norm!"rp"
 cabbrev gcc    %s/\v(\<!--)(\w)([^-]+)(\w)(--.*)/\1 \2\3\4 \5/e
-cabbrev s'     exe "norm {jma}kmz"\|'a,'zs/\v()<Left>
-cabbrev sav    call search('% \d\{4}-\d\{2}-\d\{2}', 'b')\|exe "norm 2lD"\|put =strftime('%FT%T%z')\|exe "norm kJ"\|write
-cabbrev Sav    bufdo call search('% \d\{4}-\d\{2}-\d\{2}', 'b')\|exe "norm 2lD"\|put =strftime('%FT%T%z')\|exe "norm kJ"\|write
-cabbrev sbd    exe "norm {ma}mz"\|'a,'zs/\v^\[\d+]/[1]/\|'a+1,'z-1 sort u\|'a,'zs/\v^(\[\d+\]:\s[fh]tt?ps?:\/\/)(([^\.]+\.)([^\.\/]+\.[^\/]+)|([^\.\/]+\.[^\/]+))(.*)/\4\5\6#\1\3/\|'a+1,'z-1 sort u\|'a,'zs/\v(.*)#(.*)/\2\1/\|let i=1 \| g/^\[1\]/s//\='['.i.']'/ \| let i=i+1
+cabbrev hyp    s/^\\s\\+\\|\\s\\+$//e\\ |:s/\\s\\{2,}\\|\\t\\+/ /e\\ |:exe 's/^\\(.*\\)\\n/\\=execute(\"let @q=submatch(1)\")'/n\\ |:s/\\\\>\\S\\+//e\\ |:s/-\\+//e\\ |:s/\\\\>\\s\\+/-/e\\ |:exe 's/\\\\(\\\\<\\\\w.*\\\\)/\\=execute(\"let @r=submatch(1)\")'/n\\|d\\|pu! q:let @r=tolower(@r.'.md')\\ |:noh
+cabbrev s'     exe "norm {jma}kmz"\ |:'a,'zs/\v()<Left>
+cabbrev Sav    1s/^\\s\\+\\|\\s\\+$//e\\ |:1s/\\s\\{2,}\\|\\t\\+/ /e\\ |:exe '1s/^\\(.*\\)\\n/\\=execute(\"let @q=submatch(1)\")'/n\\ |:1s/\\\\>\\S\\+//e\\ |:1s/-\\+//e\\ |:1s/\\\\>\\s\\+/-/e\\ |:exe '1s/\\\\(\\\\<\\\\w.*\\\\)/\\=execute(\"let @r=submatch(1)\")'/n\\|1d\\|1pu! q\\ |:exe 'sav'tolower(@r.'.md')\\ |:1noh
+cabbrev sav    s/^\\s\\+\\|\\s\\+$//e\\ |:s/\\s\\{2,}\\|\\t\\+/ /e\\ |:exe 's/^\\(.*\\)\\n/\\=execute(\"let @q=submatch(1)\")'/n\\ |:s/\\\\>\\S\\+//e\\ |:s/-\\+//e\\ |:s/\\\\>\\s\\+/-/e\\ |:exe 's/\\\\(\\\\<\\\\w.*\\\\)/\\=execute(\"let @r=submatch(1)\")'/n\\|d\\|pu! q\\ |:exe 'sav'tolower(@r.'.md')\\ |:noh
+cabbrev sbd    exe "norm {ma}mz"\ |:'a,'zs/\v^\[\d+]/[1]/\ |:'a+1,'z-1 sort ui\ |:'a,'zs/\v^(\[\d+\]:\s[fh]tt?ps?:\/\/)(([^\.]+\.)([^\.\/]+\.[^\/]+)\|([^\.\/]+\.[^\/]+))(.*)/\4\5\6#\1\3/\ |:'a+1,'z-1 sort ui\ |:'a,'zs/\v(.*)#(.*)/\2\1/\ |:let i=1 \ |:g/^\[1\]/s//\='['.i.']'/ \ |:let i=i+1
 cabbrev sd     %s///<Left><Left>
 cabbrev sr     .,s/\v()<S-Left><Right><Right>
-cabbrev srt    exe "norm {jma}kmz"\|'a,'z sort ui
-cabbrev ttc    exe "norm {jma}kmz"\|'a,'zs/\v(\[\d\]:\s([fh]tt?ps?:\/\/[^\/$.?#]+\S+)\/?)\s"\2"/\1/e\|'a,'zs/\v%(\s[-\/:^\|·––—⋅]\s)([A-Za-z0-9 ]+)"$/"/\|'a,'zs/\v(\[\d\]:\s[fh]tt?ps?:\/\/[^\/$.?#]+\S+)\|(\s"[^-·–—\|"]+\w)[^"]*(")/\1\2\3/e\|set nohlsearch
+cabbrev srt    exe "norm {jma}kmz"\ |:'a,'z sort ui
+cabbrev Tsp    bufdo :call search('% \d\{4}-\d\{2}-\d\{2}', 'b')\ |:exe "norm 2lD"\ |:put =strftime('%FT%T%z')\ |:exe "norm kJ"\ |:write
+cabbrev tsp    call search('% \d\{4}-\d\{2}-\d\{2}', 'b')\ |:exe "norm 2lD"\ |:put =strftime('%FT%T%z')\ |:exe "norm kJ"\ |:write
+cabbrev ttc    exe "norm {jma}kmz"\ |:'a,'zs/\v(\[\d\]:\s([fh]tt?ps?:\/\/[^\/$.?#]+\S+)\/?)\s"\2"/\1/e\ |:'a,'zs/\v%(\s[-\/:^\|·––—⋅]\s)([A-Za-z0-9 ]+)"$/"/\ |:'a,'zs/\v(\[\d\]:\s[fh]tt?ps?:\/\/[^\/$.?#]+\S+)\ |:(\s"[^-·–—\|"]+\w)[^"]*(")/\1\2\3/e\ |:noh
 cabbrev yfn    let @+ = expand("%:t")
 cabbrev yfp    let @+ = expand("%:p")
 cabbrev yrp    let @+ = expand("%")
@@ -306,8 +309,8 @@ iabbrev zym   Zymonetics
 
 " !!     insert 'logical NOT' regex, move cursor inside brackets
 " ''     mark paragraph as range; trims leading/training line
-" alb    align by <character>
-" alf    align from first instance of <character>, move cursor to position for <character>
+" alb    align by <character>, default = :
+" alf    align from first instance of <character>, default = :
 " cap    capture url Adobe PDF extension
 " ccq    trim ^/$ whitespace, condense >= 2 { spaces, blank lines } into one, rm newlines @ $, convert curly “‘quotes’”
 " cdf    convert document footer
@@ -315,16 +318,21 @@ iabbrev zym   Zymonetics
 " cpL    copy linewise, multiple atoms
 " Crl    conv to ordered checklist < ref link
 " crl    convert to unordered checklist < reference link
+" csv    sort line by comma separated values (csv), ascending order
+" Csv    sort line by comma separated values (csv), descending order
 " ctf    convert line to filename
 " ctr    convert to reference link
 " cts    convert compact timestamp to ISO 8601
 " cul    capture urls
 " ddt    insert date (yyyy-mm-dd)
 " gcc    fix comment spacing :%s/\v(\<!--)(\w)([^-]+)(\w)(--.*)/\1 \2\3\4 \5/e
-" sav    update timestamp
-" Sav    for all buffers, update timestamps
+" hyp    hyphenate line
+" Sav    save line => filename; save current buffer with current line (contents of :reg r) as filename
+" sav    save title => filename; save current buffer with title (contents of :reg r) as filename.
 " sbd    sort reference links by domain
 " srt    sort range, unique
+" Tsp    for all buffers, update timestamps
+" tsp    update timestamp
 " ttc    trim title cruft from URLs
 
 " s<..>  {range} very magic search pattern {cursor position}:
@@ -347,4 +355,4 @@ iabbrev zym   Zymonetics
 
 " Last update: set g:mkdx#settings = 'links' { 'enable': 0 } ==> disable getting website; desired: open in browser
 " ^ 2022-01-12T21:16:44-0500
-" % 2023-11-14T12:12:14-0500
+" % 2023-11-26T15:15:08-0500
