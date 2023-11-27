@@ -5,7 +5,9 @@
 - [TeuxDeux List](#teuxdeux-list)
 - [Contents](#contents)
     - [Daily Checklist](#daily-checklist)
-    - [06-Sep-2023](#06-sep-2023)
+    - [2023-11-26](#2023-11-26)
+    - [A Diller, A Dollar](#a-diller-a-dollar)
+    - [13-Sep-2023](#13-sep-2023)
     - [25-Aug-23](#25-aug-23)
     - [13-Aug-22](#13-aug-22)
     - [Top 9 AI Skills](#top-9-ai-skills)
@@ -31,16 +33,19 @@
 
 ## 2023-11-26
 
-- [ ] [0:18:42 Sewing Machines, Veritasium]([https://www.youtube.com/watch?v=RQYuyHNLPTQ])
-- [ ] [0:22:09 Q* Hypothesis ]([https://www.youtube.com/watch?v=LT-tLOdzDHA])
-- [ ] [0:23:03 The Cheapest Porsche 911, Seen Through Glass]([https://www.youtube.com/watch?v=b8XrPLrt4IE])
-- [ ] [0:38:20 Q* Hypothesis ]([https://www.youtube.com/watch?v=R0PEPzcvWRQ])
-- [ ] [0:39:28 the Roths-child family's]([https://www.youtube.com/watch?v=IbWl40xgw0B])
+- [ ] [Yes or no?](https://youtube.com/shorts/WLjygR-CPck)
+- [x] [0:18:42 Sewing Machines, Veritasium](https://www.youtube.com/watch?v=RQYuyHNLPTQ)
+- [x] [0:22:09 Q* Hypothesis ](https://www.youtube.com/watch?v=LT-tLOdzDHA)
+- [x] [0:38:20 Q* Hypothesis ]([https://www.youtube.com/watch?v=R0PEPzcvWRQ])
+- [x] [0:23:03 The Cheapest Porsche 911, Seen Through Glass](https://www.youtube.com/watch?v=b8XrPLrt4IE)
+- [x] [0:39:28 the Roths-child family's]([https://www.youtube.com/watch?v=IbWl40xgw0B])
 - [ ] [0:52:26 Malware, Jack Rhysider]([https://www.youtube.com/watch?v=ADCvaIWkEZw])
-- [ ] [1:31:52  Alexandr Wang: 26-Year-Old Billionaire]([https://www.youtube.com/watch?v=gDMemWgEJak])
+- [ ] [1:31:52 Alexandr Wang: 26-Year-Old Billionaire]([https://www.youtube.com/watch?v=gDMemWgEJak])
 - [ ] [1:43:54 The Pirate Bay, Jack Rhysider]([https://www.youtube.com/watch?v=eFQFW5JgUjE])
 - [ ] [2:22:04 Genius Inventions: Technical Marvels]([https://www.youtube.com/watch?v=iLj8ttLqfEI])
-
+- [ ] [Blue Collar Billionaire - Noah Kagan](https://www.youtube.com/watch?v=lBKfWcPT-Ug)
+- [ ] [Safest County, Gang Problem?](https://www.youtube.com/watch?v=Alhz-RgoCok)
+- [ ] [Who's robbing millions from The Bank of Canada? - The Fifth Estate](https://www.youtube.com/watch?v=L3AqxPvmt44)
 - [ ] [Modernization of Cosmetics Regulation Act of 2022 (MoCRA)](https://www.fda.gov/cosmetics/cosmetics-laws-regulations/modernization-cosmetics-regulation-act-2022-mocra)
 - [ ] [product-categorization-lead-capture-tool - Google Sheets](https://docs.google.com/spreadsheets/d/1J-ZHJK8HGzGWihYAqVGlTcbuKzR78kMscf0MXavWofw/edit#gid=1077951310)
 - [ ] [Tic-tac - your mom's breath](https://youtube.com/shorts/HiDGfFOzfnk)
@@ -49,7 +54,6 @@
 - [x] [lab-report-log-sks - Google Sheets](https://docs.google.com/spreadsheets/d/1WC1Hytn2ohoKRLIbeqSi4vay4QFb2kjcEUOixK411fU/edit#gid=79719834)
 
 ## [A Diller, A Dollar](https://youtube.com/shorts/219f_wH2vDg)
-
 
 by Mother Goose
 
@@ -72,61 +76,56 @@ But now you come at noon.
 - [ ] [Someone You Loved, Lewis Capaldi - tutorial](https://www.youtube.com/watch?v=jLcrmEcDNOI)
 
 - [ ] [Shut up and stop selling](https://youtube.com/shorts/SAG_Lqo-KBw)
-- [ ] [Yes or no?](https://youtube.com/shorts/WLjygR-CPck)
 
-[1]: https://edex.adobe.com/professional-learning/self-paced-course/generative-ai-in-the-classroom-with-adobe-express "Generative AI in the Classroom with Adobe Express | Adobe Education Exchange"
-[1]: https://www.airtable.com/ "The platform to build next‒gen apps | Airtable"
-[1]: https://www.youtube.com/watch?v=CgHfcrm3oXw "(5) Figma Tutorial: Create and present animated slide deck presentations from Figma - YouTube"
-[1]: https://www.youtube.com/watch?v=dK34a80iQUM "(5) Figma for Education: Presenting with Figma - YouTube"
-[1]: https://www.youtube.com/watch?v=SN3t8qiTa2Q&t=85s "(5) Create STUNNING Interactive Presentations!! | Figma Tutorial - YouTube"
-[1]: https://www.thedesignership.com/courses/the-ultimate-figma-masterclass "Figma Course | The Ultimate Figma Masterclass Course"
-[1]: https://www.thedesignership.com/products/ux-case-study-presentation-template "Free UX Case Study Presentation Template | Designership"
-[1]: https://snapinsta.app/ "Instagram Downloader"
-[1]: https://time.is/?c=d3l1_3j_3F1_3Y1_3WXtH2iXfmrXc1Xo-300Xz1Xa1Xb4e4185.28571f.2d99db.abbd8.1bb85e.5e3293.5e1d39Xw1Xv20221112Xh0Xi1XZ1XmXuXs0&l=en "Time.is 00:58"
-[1]: https://www.google.com/save/list/XHntOX47PY-p__eBS6NXkg?q=Favorite+pages&sa=X&ved=2ahUKEwjwuOHf8Z2CAxVv58kDHapmDeIQ5oAKegQIARAH "Favorite pages"
-[1]: https://www.youtube.com/results?search_query=roy+wood+jr "(4) roy wood jr - YouTube"
-[1]: https://www.youtube.com/watch?v=i0MiEfOVZvQ "Sea Waves and Old Cello music. 8 hours Alpha binaural beats | root chakra healing. 432 hz frequency - YouTube"
-[1]: https://www.youtube.com/watch?v=ob1kdKYX2sE "Perez RESPONDS to Mexico CRASH: Hamilton P2 👀 - YouTube"
-[1]: https://www.youtube.com/watch?v=9cBYv7xYM1c "Trump UNABLE TO READ Speech, Starts WITNESS TAMPERING - YouTube"
-[1]: https://www.youtube.com/watch?v=3FNYvj2U0HM "YouTube"
-[1]: https://www.youtube.com/watch?v=c_6BrF7jOGk "(4) I Doubled A Business in 60 Days to Show It's Not Luck (Part 1) - YouTube"
-[1]: https://www.google.com/save/list/XHntOX47PY-p__eBS6NXkg "Favorite pages"
-[1]: https://www.linkedin.com/feed/update/urn:li:activity:7125162637008539649/ "(99+) Post | Feed | LinkedIn"
-[1]: https://www.linkedin.com/analytics/post-summary/urn:li:activity:7125162637008539649/ "(99+) LinkedIn"
-[1]: https://booleanstrings.com/tools/ "150+ Top Sourcing / #OSINT Tools | Boolean Strings"
-[1]: https://sector035.nl/articles/category:article "Articles | Sector035"
-[1]: https://cipher387.github.io/osint_stuff_tool_collection/ "osint_stuff_tool_collection | A collection of several hundred online tools for OSINT"
-[1]: https://inteltechniques.com/tools/Search.html "IntelTechniques Search Tool"
-[1]: https://github.com/Sjamilla/awesome-recruitment#%EF%B8%8F-my-favourites "GitHub - Sjamilla/awesome-recruitment: List of my favourite recruitment things 💫"
-- [ ] [What Are the Theoretical Limits of Human Strength?](https://www.youtube.com/watch?v=u6x7cC1TkWw)
-- [ ] [Steve Ballmer](https://www.youtube.com/watch?v=38-lLJdDiys)
-- [ ] [mathematical thinking](https://www.youtube.com/watch?v=LN7cCW1rSsI)
-- [ ] [Youngest Billionaires](https://www.youtube.com/watch?v=efY2SxojNlU)
-- [ ] [Arnold Schwarzenegger documentary](https://www.youtube.com/watch?v=8fsF1LKjPpo)
-- [ ] [Jesse Itzler's Playbook](https://www.youtube.com/watch?v=ff1z3GUcfO8)
-- [ ] [Speak With Incredible Precision](https://www.youtube.com/watch?v=TNxlOZc_pAc)
+- [ ] [I Doubled A Business in 60 Days to Show It's Not Luck (Part 1) - YouTube](https://www.youtube.com/watch?v=c_6BrF7jOGk)
+- [ ] [roy wood jr - YouTube](https://www.youtube.com/results?search_query=roy+wood+jr)
+- [ ] [Create STUNNING Interactive Presentations!! | Figma Tutorial - YouTube](https://www.youtube.com/watch?v=SN3t8qiTa2Q&t=85s)
+- [ ] [Figma for Education: Presenting with Figma - YouTube](https://www.youtube.com/watch?v=dK34a80iQUM)
+- [ ] [Figma Tutorial: Create and present animated slide deck presentations from Figma - YouTube](https://www.youtube.com/watch?v=CgHfcrm3oXw)
+- [ ] [LinkedIn](https://www.linkedin.com/analytics/post-summary/urn:li:activity:7125162637008539649/)
+- [ ] [Post | Feed | LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7125162637008539649/)
+- [ ] [150+ Top Sourcing / #OSINT Tools | Boolean Strings](https://booleanstrings.com/tools/)
 - [ ] [24 Surprising Billion-Dollar Industries](https://www.youtube.com/watch?v=apRg-105hB0)
+- [ ] [Arnold Schwarzenegger documentary](https://www.youtube.com/watch?v=8fsF1LKjPpo)
+- [ ] [Articles | Sector035](https://sector035.nl/articles/category:article)
+- [ ] [Favorite pages](https://www.google.com/save/list/XHntOX47PY-p__eBS6NXkg)
+- [ ] [Favorite pages](https://www.google.com/save/list/XHntOX47PY-p__eBS6NXkg?q=Favorite+pages&sa=X&ved=2ahUKEwjwuOHf8Z2CAxVv58kDHapmDeIQ5oAKegQIARAH)
+- [ ] [Figma Course | The Ultimate Figma Masterclass Course](https://www.thedesignership.com/courses/the-ultimate-figma-masterclass)
+- [ ] [Free UX Case Study Presentation Template | Designership](https://www.thedesignership.com/products/ux-case-study-presentation-template)
+- [ ] [Generative AI in the Classroom with Adobe Express | Adobe Education Exchange](https://edex.adobe.com/professional-learning/self-paced-course/generative-ai-in-the-classroom-with-adobe-express)
+- [ ] [GitHub - Sjamilla/awesome-recruitment: List of my favourite recruitment things 💫](https://github.com/Sjamilla/awesome-recruitment#%EF%B8%8F-my-favourites)
+- [ ] [Instagram Downloader](https://snapinsta.app/)
+- [ ] [IntelTechniques Search Tool](https://inteltechniques.com/tools/Search.html)
+- [ ] [Jesse Itzler's Playbook](https://www.youtube.com/watch?v=ff1z3GUcfO8)
 - [ ] [Make Money While Sleep](https://www.newtraderu.com/2023/05/08/if-you-dont-find-a-way-to-make-money-while-sleep-you-will-work-until-you-die-warren-buffett/)
+- [ ] [mathematical thinking](https://www.youtube.com/watch?v=LN7cCW1rSsI)
+- [ ] [osint_stuff_tool_collection | A collection of several hundred online tools for OSINT](https://cipher387.github.io/osint_stuff_tool_collection/)
+- [ ] [Perez RESPONDS to Mexico CRASH: Hamilton P2 👀 - YouTube](https://www.youtube.com/watch?v=ob1kdKYX2sE)
 - [ ] [Scam City](https://www.youtube.com/watch?v=cD19-AWj_4g&list=PLTRNQOWwuox_fn9E2z5akKL9yjgr23bB-&index=3)
-- [ ] []()
-
-mv /Users/syd/Dropbox/nvalt/manpages/steam/art/human\ body\ proportion\ calculator.md /Users/syd/Dropbox/nvalt/manpages/steam/art/human-body-proportion-calculator.md
-
-[1]: https://www.fixinghealthcarepodcast.com/ "Fixing Healthcare - A podcast with a plan to fix American healthare"
-[1]: https://www.amazon.com/dp/1610397657 "Mistreated: Why We Think We're Getting Good Health Care - and Why We're Usually Wrong: Pearl MD, Robert: 9781610397650: Amazon.com: Books"
-[1]: https://www.hachettebookgroup.com/titles/robert-pearl/uncaring/9781541758254/?lens=publicaffairs "Uncaring by Robert Pearl, MD | Hachette Book Group"
+- [ ] [Sea Waves and Old Cello music. 8 hours Alpha binaural beats | root chakra healing. 432 hz frequency - YouTube](https://www.youtube.com/watch?v=i0MiEfOVZvQ)
+- [ ] [Speak With Incredible Precision](https://www.youtube.com/watch?v=TNxlOZc_pAc)
+- [ ] [Steve Ballmer](https://www.youtube.com/watch?v=38-lLJdDiys)
+- [ ] [The platform to build next‒gen apps | Airtable](https://www.airtable.com/)
+- [ ] [Time.is 00:58](https://time.is/?c=d3l1_3j_3F1_3Y1_3WXtH2iXfmrXc1Xo-300Xz1Xa1Xb4e4185.28571f.2d99db.abbd8.1bb85e.5e3293.5e1d39Xw1Xv20221112Xh0Xi1XZ1XmXuXs0&l=en)
+- [ ] [Trump UNABLE TO READ Speech, Starts WITNESS TAMPERING - YouTube](https://www.youtube.com/watch?v=9cBYv7xYM1c)
+- [ ] [What Are the Theoretical Limits of Human Strength?](https://www.youtube.com/watch?v=u6x7cC1TkWw)
+- [ ] [Youngest Billionaires](https://www.youtube.com/watch?v=efY2SxojNlU)
+- [ ] [YouTube](https://www.youtube.com/watch?v=3FNYvj2U0HM)
+- [ ] [Fixing Healthcare](https://www.fixinghealthcarepodcast.com/)
+- [ ] [Mistreated: Why We Think We're Getting Good Health Care](https://www.amazon.com/dp/1610397657)
+- [ ] [Uncaring by Robert Pearl, MD](https://www.hachettebookgroup.com/titles/robert-pearl/uncaring/9781541758254/?lens=publicaffairs)
 
 ## 13-Sep-2023
 
-[1]: https://www.youtube.com/watch?v=TdkmQCx4rx0 "WORLD’S FASTEST PORSCHE Come From HERE! Complete Manthey Factory Tour - YouTube"
-[1]: https://www.youtube.com/watch?v=O8gH63fAvBQ "3 Highly Confident High Status Body Language Cues | Shayan Wahedi - YouTube"
-[1]: https://www.youtube.com/watch?v=QxB3b7fxMEA&t=48s "A Case for Color Blindness | Coleman Hughes | TED - YouTube"
-[1]: https://www.youtube.com/watch?v=MVYrJJNdrEg "Mark Zuckerberg: First Interview in the Metaverse | Lex Fridman Podcast #398 - YouTube"
-[1]: https://www.youtube.com/watch?v=5p248yoa3oE "(1) Andrew Ng: Opportunities in AI - 2023 - YouTube"
-[1]: https://www.youtube.com/watch?v=SDVwEtZDW7M "How to Have the Best Year Ever - Jim Rohn's Timeless Personal Development Teachings! - YouTube"
-[1]: https://www.native-instruments.com/en/career-center/career/6794164002 "Career Center"
-[1]: https://www.ehmac.ca/ "Canadian Mac Forums at ehMac"
-[1]: https://www.upwork.com/en-gb/resources/how-much-do-freelancers-make "How Much Can Freelancers Make in 2023? | Upwork"
+- [ ] [World's Fastest Porsche](https://www.youtube.com/watch?v=TdkmQCx4rx0)
+- [ ] [3 Highly Confident High Status Body Language Cues](https://www.youtube.com/watch?v=O8gH63fAvBQ)
+- [ ] [A Case for Color Blindness](https://www.youtube.com/watch?v=QxB3b7fxMEA&t=48s)
+- [ ] [Mark Zuckerberg: Metaverse First](https://www.youtube.com/watch?v=MVYrJJNdrEg)
+- [ ] [Andrew Ng: Opportunities in AI](https://www.youtube.com/watch?v=5p248yoa3oE)
+- [ ] [How to Have the Best Year Ever](https://www.youtube.com/watch?v=SDVwEtZDW7M)
+- [ ] [Career Center](https://www.native-instruments.com/en/career-center/career/6794164002)
+- [ ] [Canadian Mac Forums at ehMac](https://www.ehmac.ca/)
+- [ ] [How Much Can Freelancers Make in 2023?](https://www.upwork.com/en-gb/resources/how-much-do-freelancers-make)
 
 <!-- maria -->
 - [ ] [Supply Chain Management Fundamentals](https://continuing-education.conestogac.on.ca/courses/BUS1860)
@@ -178,7 +177,7 @@ mv /Users/syd/Dropbox/nvalt/manpages/steam/art/human\ body\ proportion\ calculat
 - [ ] [Ayahuasca Tourism in South America](https://maps.org/news-letters/v08n3/08359gru.html)
 - [ ] [Photo](https://photos.google.com/photo/AF1QipPgvI5mktLDt3tp1u-NCW3uODiOw6B1k6igXh-q)
 - [ ] [Stream of Consciousness: Psychedelic Tourism: An Interview with the Founder & CEO of Atman Retreat on Apple Podcasts](https://podcasts.apple.com/us/podcast/psychedelic-tourism-an-interview-with-the-founder/id1499349461?i=1000468393857)
-- [ ] [Peru: A Rush of “Psychedelic Tourists” (French)](https://pulitzercenter.org/stories/peru-rush-psychedelic-tourists-french)
+- [ ] [Peru: A Rush of "Psychedelic Tourists" (French)](https://pulitzercenter.org/stories/peru-rush-psychedelic-tourists-french)
 - [ ] [https://wd3.myworkdaysite.com/recruiting/bsigroup/BSI_Careers](https://wd3.myworkdaysite.com/recruiting/bsigroup/BSI_Careers)
 - [ ] [All-Inclusive Magic Mushroom, Ayahuasca Retreats Are New Luxury Trips](https://www.bloomberg.com/news/articles/2021-08-19/all-inclusive-magic-mushroom-ayahuasca-retreats-are-new-luxury-trips)
 - [ ] [Drug-Device Combination Products under MDR](https://www.bsigroup.com/en-CA/Medical-Devices/Technologies/drug-device-combination-products/)
@@ -304,27 +303,25 @@ Jacek Nawrot · Control Systems Project Manager at Tigercat Industries Inc. · R
 ## Old Links and Bookmarks
 
 - [ ] [#00CC00 Hex Color](https://www.colorcombos.com/00CC00-hex-color)
-- [ ] [(20+) Syd Salmon - Hey Judy, how are you? Things have been so crazy,... | Facebook](https://www.facebook.com/permalink.php?story_fbid=10150245547810581&id=546185580&ref=notif&notif_t=feed_comment)
-- [ ] [(99+) Feed | LinkedIn](https://www.linkedin.com/feed/)
-- [ ] [0-60 Times | Find 0 to 60 & Quarter Mile Times Car Specs](https://www.zeroto60times.com/)
+- [ ] [0-60 Times](https://www.zeroto60times.com/)
 - [ ] [2ndalpha/gasmask: Hosts file manager for OS X](https://github.com/2ndalpha/gasmask)
 - [ ] [4 SEO Tips to Instantly Take Advantage of Google Instant Preview](https://blog.hubspot.com/blog/tabid/6307/bid/7110/4-seo-tips-to-instantly-take-advantage-of-google-instant-preview.aspx?source=email-magnet-67)
-- [ ] [7 Easy Steps to Bootstrapping Success | Inc.com](https://www.inc.com/magazine/20101001/7-easy-steps-to-bootstrapping-success.html)
-- [ ] [8 Best Open Source Shopping Carts - Webtecker](https://webtecker.com/2008/04/22/8-best-open-source-shopping-cart-solutions/)
-- [ ] [A Content Marketing and Video Production Agency - Boston, MA - Tippingpoint Labs](https://www.tippingpointlabs.com/)
-- [ ] [A Special Evening about The Landmark Forum - sksalmon@gmail.com - Gmail](https://mail.google.com/mail/u/0/#all/FMfcgxmTmlKlJLxZdPvGjxKLchkpTHhW)
+- [ ] [7 Easy Steps to Bootstrapping Success](https://www.inc.com/magazine/20101001/7-easy-steps-to-bootstrapping-success.html)
+- [ ] [8 Best Open Source Shopping Carts](https://webtecker.com/2008/04/22/8-best-open-source-shopping-cart-solutions/)
+- [ ] [A Content Marketing and Video Production Agency](https://www.tippingpointlabs.com/)
 - [ ] [A simpler way to organize your work - Workflowy](https://workflowy.com/)
+- [ ] [A Special Evening about The Landmark Forum - sksalmon@gmail.com - Gmail](https://mail.google.com/mail/u/0/#all/FMfcgxmTmlKlJLxZdPvGjxKLchkpTHhW)
 - [ ] [A-Fest Livecast: Live your Quest from Mexico 2016 - YouTube](https://www.youtube.com/watch?v=dFLWPLS1VzI)
-- [ ] [ART BACKWASH](https://artbackwash.blogspot.com/)
 - [ ] [About Courses - Poodwaddle](https://www.poodwaddle.com/)
 - [ ] [About Us | A People-first Marketing and Creative Agency](https://brainrider.com/about-us/)
 - [ ] [Arbonne](https://www.arbonne.com/shop_online/showCatalog.asp?category=290)
+- [ ] [ART BACKWASH](https://artbackwash.blogspot.com/)
 - [ ] [Awards Overview - REBRAND](https://rebrand.com/awards-2020rebrand100-overview/)
+- [ ] [bant sales meaning - Google Search](https://www.google.com/search?q=bant+sales+meaning&oq=bantt+sales&aqs=chrome.2.69i57j0i10i512l9.10349j0j4&sourceid=chrome&ie=UTF-8)
 - [ ] [Big Cartel - Easy Online Stores for Artists and Makers](https://www.bigcartel.com/)
 - [ ] [Box — Secure Cloud Content Management, Workflow, and Collaboration](https://www.box.com/home)
 - [ ] [Box](https://account.box.com/login)
 - [ ] [Business Design News & Trends | Fast Company](https://www.fastcompany.com/co-design)
-- [ ] [CSS3 Solutions for Internet Explorer — Smashing Magazine](https://www.smashingmagazine.com/2010/04/css3-solutions-for-internet-explorer/)
 - [ ] [Can personal trainers and health coaches give nutrition advice?](https://www.precisionnutrition.com/can-personal-trainers-give-nutrition-advice)
 - [ ] [Canada's Credit Unions](https://canadascreditunions.ca/)
 - [ ] [Checklist App & Templates | 100% Free | Checklist.com](https://checklist.com/)
@@ -334,34 +331,36 @@ Jacek Nawrot · Control Systems Project Manager at Tigercat Industries Inc. · R
 - [ ] [Color Converter Tool | NO BS Marketplace](https://nobsmarketplace.com/resources/tools/rgb-to-hex/)
 - [ ] [Compliance and enforcement: Drug and health products - Canada.ca](https://www.canada.ca/en/health-canada/services/drugs-health-products/compliance-enforcement.html)
 - [ ] [Content Marketing Platform | Hire Freelance Content Writers | Zerys](https://www.zerys.com/)
+- [ ] [CSS3 Solutions for Internet Explorer — Smashing Magazine](https://www.smashingmagazine.com/2010/04/css3-solutions-for-internet-explorer/)
 - [ ] [Custom Forms with No Server Code | Formspree](https://formspree.io/)
-- [ ] [DIYthemes — Build a FAST website YOU can manage with the Focus WordPress Theme](https://diythemes.com/)
 - [ ] [Database Error](https://andydrish.com/)
 - [ ] [Dean Graziosi and Chad Bartlett LIVE! - YouTube](https://www.youtube.com/watch?v=eKOHhd-x-BY)
+- [ ] [diagnext.com](https://oneperiodic.com/)
 - [ ] [Digital Marketing Transformation | Ready North](https://www.readynorth.com/)
-- [ ] [Download Royalty Free Stock SVG Vectors, Clip Art and Icons.](https://vectorportal.com/)
+- [ ] [DIYthemes — Build a FAST website YOU can manage with the Focus WordPress Theme](https://diythemes.com/)
 - [ ] [Download music, movies, games, software! The Pirate Bay - The galaxy's most resilient BitTorrent site](https://thepiratebay.org/index.html)
+- [ ] [Download Royalty Free Stock SVG Vectors, Clip Art and Icons.](https://vectorportal.com/)
 - [ ] [Edelweiss](https://www.edelweiss.plus/#sku=0670022152&page=1)
 - [ ] [Exchange rates - Bank of Canada](https://www.bankofcanada.ca/rates/exchange/?page_moved=1)
 - [ ] [Explore Computer Programming Courses and Programs | edX](https://www.edx.org/learn/computer-programming)
 - [ ] [Extensions in Bookmarks – Add-ons for Firefox (en-US)](https://addons.mozilla.org/en-US/firefox/extensions/category/bookmarks/)
 - [ ] [F*ck You. Pay Me.](https://vimeo.com/22053820)
-- [ ] [FREE 5-day Nutrition Coaching Course](https://www.precisionnutrition.com/nutrition-coaching-intro)
-- [ ] [FREE 5-day nutrition coaching course](https://www.precisionnutrition.com/nutrition-coaching-support-educate)
 - [ ] [February 2017 Internal Newsletter - sksalmon@gmail.com - Gmail](https://mail.google.com/mail/u/0/#section_query/label%3AThe+Luxury+Network+is%3Ainbox+/FMfcgxmTmlLvGrJTQdwJvZgHSplSZqCM)
+- [ ] [Feed | LinkedIn](https://www.linkedin.com/feed/)
 - [ ] [Find A Rate | Canada Post](https://www.canadapost-postescanada.ca/cpc/en/tools/find-a-rate.page)
 - [ ] [Fitday: Free Diet & Weight Loss Journal](https://www.fitday.com/auth/login?_a_Date=1286755200.)
+- [ ] [FREE 5-day Nutrition Coaching Course](https://www.precisionnutrition.com/nutrition-coaching-intro)
+- [ ] [FREE 5-day nutrition coaching course](https://www.precisionnutrition.com/nutrition-coaching-support-educate)
 - [ ] [Free Online Appointment Scheduling Software | Calendly](https://calendly.com/)
-- [ ] [GO.CO](https://www.go.co/)
 - [ ] [Geek to Live: Mastering Wget](https://lifehacker.com/geek-to-live-mastering-wget-161202)
+- [ ] [GO.CO](https://www.go.co/)
 - [ ] [Google Maps Platform  |  Google for Developers](https://developers.google.com/maps/)
 - [ ] [Google Partners](https://www.google.com/partners/#p_certificationexam)
-- [ ] [Google’s Income Rises 32%, Topping Forecast - The New York Times](https://www.nytimes.com/2010/10/15/technology/15google.html?th&emc=th)
+- [ ] [Google's Income Rises 32%, Topping Forecast - The New York Times](https://www.nytimes.com/2010/10/15/technology/15google.html?th&emc=th)
 - [ ] [Government Funding for Business-INAC Services Limited](https://inacservices.com/)
 - [ ] [Growth Pipeline Advisory & Opportunity Analytics | Frost & Sullivan](https://www.frost.com/)
 - [ ] [Gunpowder Business - Home](http://gunpowderbusiness.com/)
-- [ ] [HOW TO: Create Custom Backgrounds for Twitter, YouTube, & MySpace | Mashable](https://mashable.com/archive/custom-twitter-youtube-myspace-backgrounds)
-- [ ] [HTML5 For Web Designers, A Book Apart](https://abookapart.com/products/html5-for-web-designers)
+- [ ] [heidicarincosmetics.com](http://heidicarincosmetics.com/)
 - [ ] [Hold the Vegetables: How 'Now vs. Later' Affects Customer Choice - Knowledge at Wharton](https://knowledge.wharton.upenn.edu/article/hold-the-vegetables-how-now-vs-later-affects-customer-choice/)
 - [ ] [Hollywood and the Power of Myth: Zuckerberg, Jobs and Hearst - Knowledge at Wharton](https://knowledge.wharton.upenn.edu/article/hollywood-and-the-power-of-myth-zuckerberg-jobs-and-hearst/)
 - [ ] [Home - Beardwood&Co.](https://www.beardwood.com/)
@@ -369,12 +368,16 @@ Jacek Nawrot · Control Systems Project Manager at Tigercat Industries Inc. · R
 - [ ] [Home | Bill Gates](https://www.gatesnotes.com/)
 - [ ] [Home | Spark with Nora Young | CBC Radio](https://www.cbc.ca/radio/spark#idc-container)
 - [ ] [House & Apartment Cleaning in Toronto | Hire Confidently On HomeStars | HomeStars](https://homestars.com/companies/2894589-hurrahome)
+- [ ] [How it feels to live in a sexless marriage – readers respond | Family | The Guardian](https://www.theguardian.com/lifeandstyle/2016/oct/01/how-it-feels-to-live-in-a-sexless-marriage-readers-respond)
 - [ ] [How To Harness The Power Of Collaboration For Luxu - Grammarly](https://app.grammarly.com/ddocs/145897882)
 - [ ] [How To Start a Business in 11 Steps (2023)](https://www.shopify.com/blog/how-to-start-a-business)
-- [ ] [How it feels to live in a sexless marriage – readers respond | Family | The Guardian](https://www.theguardian.com/lifeandstyle/2016/oct/01/how-it-feels-to-live-in-a-sexless-marriage-readers-respond)
+- [ ] [HOW TO: Create Custom Backgrounds for Twitter, YouTube, & MySpace | Mashable](https://mashable.com/archive/custom-twitter-youtube-myspace-backgrounds)
+- [ ] [HTML5 For Web Designers, A Book Apart](https://abookapart.com/products/html5-for-web-designers)
 - [ ] [Inside The Globe - The Globe and Mail](https://www.theglobeandmail.com/inside-the-globe/)
 - [ ] [Internet Marketing - Digital Marketing Online | Rankhigher.ca](https://www.rankhigher.ca/)
 - [ ] [Is Y Combinator (still) worth it? Yes, but only if you do this 1 thing](https://blog.close.com/mindset-yc-waste-of-time/)
+- [ ] [johnmasters.com](https://johnmasters.com/)
+- [ ] [kabbalah double tree of life - Google Search](https://www.google.ca/search?hl=en&client=firefox-a&hs=bzV&rls=org.mozilla:en-US:official&biw=1680&bih=898&tbs=isch:1&q=kabbalah+double+tree+of+life&oq=&tbm=isch)
 - [ ] [Ketchup and Mustard](https://www.ketchup-mustard.com/)
 - [ ] [Layer Styles](https://www.layerstyles.org/)
 - [ ] [Licensed Natural Health Products Database (LNHPD) - Canada.ca](https://www.canada.ca/en/health-canada/services/drugs-health-products/natural-non-prescription/applications-submissions/product-licensing/licensed-natural-health-products-database.html)
@@ -383,7 +386,9 @@ Jacek Nawrot · Control Systems Project Manager at Tigercat Industries Inc. · R
 - [ ] [Lumosity Brain Training: Challenge & Improve Your Mind](https://www.lumosity.com/en/)
 - [ ] [Luxury Daily](https://www.luxurydaily.com/save-the-date-luxury-roundtable-engaging-gens-x-y-z-conference-new-york-may-3-10/)
 - [ ] [Mac DVDRipper Pro](https://www.macdvdripperpro.com/)
+- [ ] [macromates.com/screencasts](https://macromates.com/screencasts)
 - [ ] [MacRumors Buyer's Guide: Know When to Buy iPhone, Mac, iPad](https://buyersguide.macrumors.com/#MacBook_Air)
+- [ ] [make case](https://andydrish.com/the-cold-hard-truth-about-business-you-can-make-cash-or-be-cool-choose-one/)
 - [ ] [Microsoft 365 for Mac, Office for Mac](https://www.microsoft.com/en-ca/microsoft-365/mac/microsoft-365-for-mac)
 - [ ] [Multiple Backgrounds with CSS3 - CSS3 . Info](https://www.css3.info/preview/multiple-backgrounds/)
 - [ ] [Namechk - Username and Domain Name Checker - Search All Domain Names and User Names to see if they're available](https://namechk.com/)
@@ -393,19 +398,19 @@ Jacek Nawrot · Control Systems Project Manager at Tigercat Industries Inc. · R
 - [ ] [Online Payment Processing For Software | Worldline Canada](https://www.bambora.com/en/ca/)
 - [ ] [Ontario Public Service Careers - Search for Jobs](https://www.gojobs.gov.on.ca/Search.aspx)
 - [ ] [OzGrid.com - Your major resource of all things Microsoft Excel](https://www.ozgrid.com/)
-- [ ] [Page Not Found | IBS New York](https://www.ibsnewyork.com/attendee-resources/frequently-asked-questions)
 - [ ] [Page not found > Fiore Productivity](https://www.neilfiore.com/coach.shtml)
+- [ ] [Page Not Found | IBS New York](https://www.ibsnewyork.com/attendee-resources/frequently-asked-questions)
 - [ ] [Podcasts | Google Partners - Podcasts for Agencies](https://events.withgoogle.com/google-partners-podcasts/listen/#content)
 - [ ] [Privacy error](https://ubercart.org/)
 - [ ] [Private Site](https://danielmatusiak1.wordpress.com/2017/02/28/from-ben-mosss-desk-miami-luxury-lifestyle/)
 - [ ] [Product Announcement](https://www.businesscatalyst.com/)
 - [ ] [Professional Logo Design And Web Design Services - Professional Logo Design and Web Design Services](https://www.logodesigncreation.com/)
-- [ ] [RGB #908D87 | 17-0205 TPX Elephant Skin | RGB Chart & Multi Tool](https://www.perbang.dk/rgb/908D87/)
 - [ ] [Radio Silence](https://radiosilenceapp.com/)
 - [ ] [Rakesh Agrawal's blog | Rakesh Agrawal's personal blog](https://blog.agrawals.org/)
 - [ ] [Ray Edwards Training](https://rayedwards.mykajabi.com/login)
 - [ ] [Remembering Rob Stewart, BSc'01](http://www.alumni.westernu.ca/news/remembering-rob-stewart.html)
 - [ ] [Reuters | Breaking International News & Views](https://www.reuters.com/)
+- [ ] [RGB #908D87 | 17-0205 TPX Elephant Skin | RGB Chart & Multi Tool](https://www.perbang.dk/rgb/908D87/)
 - [ ] [Roofing Services | Roofing Contractors in Kitchener | The Roofman](https://www.roofman.com/)
 - [ ] [Ruby on Rails — A web-app framework that includes everything needed to create database-backed web applications according to the Model-View-Controller (MVC) pattern.](https://rubyonrails.org/)
 - [ ] [Sales & Social Media Tips - YouTube](https://www.youtube.com/salestips)
@@ -417,12 +422,13 @@ Jacek Nawrot · Control Systems Project Manager at Tigercat Industries Inc. · R
 - [ ] [Site is not secure](http://waterlootechjobs.com/)
 - [ ] [Site is not secure](http://www.thegatesnotes.com/)
 - [ ] [Snap Goods - Best Home Goods Reviewed](https://snapgoods.com/)
+- [ ] [soho.ca is coming soon](https://soho.ca/sme/toronto/schedule.asp)
 - [ ] [Spoor.org](https://spoor.org/)
 - [ ] [Start and grow your e-commerce business - 3-Day Free Trial - Shopify USA](https://www.shopify.com/)
 - [ ] [StoreSprite shopping cart software, ecommerce solutions: sell online, selling, e-commerce](https://www.storesprite.com/)
-- [ ] [TEDx Community Network / Log in](https://tedxcommunity.pbworks.com/n/session/login?return_to_page=%2Fn%2F)
-- [ ] [TWENTYth Logo'd Stuff](https://twentyth.com/)
+- [ ] [Syd Salmon - Hey Judy, how are you? Things have been so crazy,... | Facebook](https://www.facebook.com/permalink.php?story_fbid=10150245547810581&id=546185580&ref=notif&notif_t=feed_comment)
 - [ ] [TeamSnap :: Log In](https://go.teamsnap.com/login/signin)
+- [ ] [TEDx Community Network / Log in](https://tedxcommunity.pbworks.com/n/session/login?return_to_page=%2Fn%2F)
 - [ ] [The Beauty Brains — Real scientists answer your beauty questions](https://thebeautybrains.com/)
 - [ ] [The Brand Architect Group](https://www.brandarchitect.com/)
 - [ ] [The Brotherhood of Kings](https://m.facebook.com/groups/1689420591355242)
@@ -442,6 +448,8 @@ Jacek Nawrot · Control Systems Project Manager at Tigercat Industries Inc. · R
 - [ ] [Treehouse Blog | Learn programming, design, and more—all online and on your own time.](https://blog.teamtreehouse.com/)
 - [ ] [Trello](https://trello.com/home)
 - [ ] [Troubleshoot audio or video issues with uploads on YouTube - YouTube Help](https://support.google.com/youtube/answer/58134?visit_id=638290528185927064-694411792&hl=en&rd=1)
+- [ ] [turbo 21st century marketing / what we do / 21st](https://www.turbomarketing.ca/en/offre/21e_cause-effet.php)
+- [ ] [TWENTYth Logo'd Stuff](https://twentyth.com/)
 - [ ] [Typotheque type foundry - unique, high quality fonts for print and screens](https://www.typotheque.com/)
 - [ ] [Volusion: Ecommerce Website Builder & Online Selling Platform](https://www.volusion.com/)
 - [ ] [W3Schools Online Web Tutorials](https://www.w3schools.com/)
@@ -451,23 +459,14 @@ Jacek Nawrot · Control Systems Project Manager at Tigercat Industries Inc. · R
 - [ ] [Wilfrid Laurier University Athletics & Recreation](https://laurierathletics.com/)
 - [ ] [Wireless Canada](http://canadianwirelesstradeshow.com/)
 - [ ] [Words Ending In Co](https://wordfind.com/ends-with/co/)
-- [ ] [Year by year, the changing face of one British family | Daily Mail Online](https://www.dailymail.co.uk/news/article-1325006/Year-year-changing-face-British-family.html)
-- [ ] [YouCanBookMe](https://app.youcanbook.me/#/login)
-- [ ] [Your Web Department | The Toronto Website Firm since 2006](https://www.yourwebdepartment.com/)
-- [ ] [Zazzle CA | Customize Products, Create Designs, Shop Personalized Gifts & Instant Downloads](https://www.zazzle.ca/)
-- [ ] [bant sales meaning - Google Search](https://www.google.com/search?q=bant+sales+meaning&oq=bantt+sales&aqs=chrome.2.69i57j0i10i512l9.10349j0j4&sourceid=chrome&ie=UTF-8)
-- [ ] [diagnext.com](https://oneperiodic.com/)
-- [ ] [heidicarincosmetics.com](http://heidicarincosmetics.com/)
-- [ ] [johnmasters.com](https://johnmasters.com/)
-- [ ] [kabbalah double tree of life - Google Search](https://www.google.ca/search?hl=en&client=firefox-a&hs=bzV&rls=org.mozilla:en-US:official&biw=1680&bih=898&tbs=isch:1&q=kabbalah+double+tree+of+life&oq=&tbm=isch)
-- [ ] [macromates.com/screencasts](https://macromates.com/screencasts)
-- [ ] [make case](https://andydrish.com/the-cold-hard-truth-about-business-you-can-make-cash-or-be-cool-choose-one/)
-- [ ] [soho.ca is coming soon](https://soho.ca/sme/toronto/schedule.asp)
-- [ ] [turbo 21st century marketing / what we do / 21st](https://www.turbomarketing.ca/en/offre/21e_cause-effet.php)
 - [ ] [www.spyderworksdesign.com](https://www.spyderworksdesign.com/)
 - [ ] [www.thinkingwithtype.com](https://www.thinkingwithtype.com/)
 - [ ] [www.thinkingwithtype.com](https://www.thinkingwithtype.com/contents/extras/#Tools_for_Teachers)
 - [ ] [www.youtubedisco.de](https://www.youtubedisco.de/)
+- [ ] [Year by year, the changing face of one British family | Daily Mail Online](https://www.dailymail.co.uk/news/article-1325006/Year-year-changing-face-British-family.html)
+- [ ] [YouCanBookMe](https://app.youcanbook.me/#/login)
+- [ ] [Your Web Department | The Toronto Website Firm since 2006](https://www.yourwebdepartment.com/)
+- [ ] [Zazzle CA | Customize Products, Create Designs, Shop Personalized Gifts & Instant Downloads](https://www.zazzle.ca/)
 
 ### Coding
 
@@ -543,4 +542,4 @@ Jacek Nawrot · Control Systems Project Manager at Tigercat Industries Inc. · R
 Tags: mdi, mental health, personal development exercise, productivity, relationships, teuxdeux, todo
 
 ^ 2020-11-12T18:26:31-0500\
-% 2023-11-26T15:05:40-0500
+% 2023-11-26T17:42:00-0500
