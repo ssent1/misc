@@ -13,6 +13,7 @@ python3 -m pip install -U flit_core
 python3 -m pip install -U frozenlist
 python3 -m pip install -U hatchling
 python3 -m pip install -U idna
+python3 -m pip install -U Jinja2
 python3 -m pip install -U lit
 python3 -m pip install -U MarkupSafe
 python3 -m pip install -U multidict
