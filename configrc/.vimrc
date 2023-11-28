@@ -287,10 +287,10 @@ cabbrev cuL    %s/\v([fh]tt?ps?:\/\/[^\/\$\.\?\#]+\S+)/\1/ \|:noh
 cabbrev cul    exe "norm {jma}kmz" \|:'a,'zs/\v([fh]tt?ps?:\/\/[^\/\$\.\?\#]+\S+)/\1/ \|:noh
 cabbrev ddt    let@r=strftime('%Y-%m-%d') \|:norm!"rp"
 cabbrev gcc    %s/\v(\<!--)(\w)([^-]+)(\w)(--.*)/\1 \2\3\4 \5/e
-cabbrev hyp    s/^\\s\\+\\|\\s\\+$//e\ \|:s/\\s\\{2,}\\|\\t\\+/ /e\ \|:exe 's/^\\(.*\\)\\n/\\=execute(\"let @q=submatch(1)\")'/n\ \|:s/\\\\>\\S\\+//e\ \|:s/-\\+//e\ \|:s/\\\\>\\s\\+/-/e\ \|:exe 's/\\\\(\\\\<\\\\w.*\\\\)/\\=execute(\"let @r=submatch(1)\")'/n\\|d\\|pu! q:let @r=tolower(@r.'.md')\ \|:noh
+"cabbrev hyp    
 cabbrev s'     exe "norm {jma}kmz" \|:'a,'zs/\v()<Left>
-cabbrev Sav    1s/^\\s\\+\\|\\s\\+$//e\ \|:1s/\\s\\{2,}\\|\\t\\+/ /e\ \|:exe '1s/^\\(.*\\)\\n/\\=execute(\"let @q=submatch(1)\")'/n\ \|:1s/\\\\>\\S\\+//e\ \|:1s/-\\+//e\ \|:1s/\\\\>\\s\\+/-/e\ \|:exe '1s/\\\\(\\\\<\\\\w.*\\\\)/\\=execute(\"let @r=submatch(1)\")'/n\\|1d\\|1pu! q\ \|:exe 'sav'tolower(@r.'.md')\ \|:1noh
-cabbrev sav    s/^\\s\\+\\|\\s\\+$//e\ \|:s/\\s\\{2,}\\|\\t\\+/ /e\ \|:exe 's/^\\(.*\\)\\n/\\=execute(\"let @q=submatch(1)\")'/n\ \|:s/\\\\>\\S\\+//e\ \|:s/-\\+//e\ \|:s/\\\\>\\s\\+/-/e\ \|:exe 's/\\\\(\\\\<\\\\w.*\\\\)/\\=execute(\"let @r=submatch(1)\")'/n\\|d\\|pu! q\ \|:exe 'sav'tolower(@r.'.md')\ \|:noh
+cabbrev Ssv    1 \|:s/\v^\s+\|\s+$//e \|:let title = getline('.') \|:s/\W\+/-/e \|:s/\v<-(.*)/\=setreg('r',tolower(submatch(1)).'.md')/n \|:call setline('.',title) \|:noh
+cabbrev ssv    1 \|:s/\v^\s+\|\s+$//e \|:let title = getline('.') \|:s/\W\+/-/e \|:s/\v<-(.*)/\=setreg('r',tolower(submatch(1)).'.md')/n \|:call setline('.',title) \|:exe 'sav'@r \|:noh
 cabbrev sbd    exe "norm {ma}mz" \|:'a,'zs/\v^\[\d+]/[1]/ \|:'a+1,'z-1 sort ui \|:'a,'zs/\v^(\[\d+\]:\s[fh]tt?ps?:\/\/)(([^\.]+\.)([^\.\/]+\.[^\/]+)\|([^\.\/]+\.[^\/]+))(.*)/\4\5\6#\1\3/ \|:'a+1,'z-1 sort ui \|:'a,'zs/\v(.*)#(.*)/\2\1/ \|:let i=1  \|:g/^\[1\]/s//\='['.i.']'/  \|:let i=i+1
 cabbrev sd     %s///<Left><Left>
 cabbrev sr     .,s/\v()<S-Left><Right><Right>
@@ -314,7 +314,7 @@ iabbrev zym   Zymonetics
 " cap    capture url Adobe PDF extension
 " ccq    trim ^/$ whitespace, condense >= 2 { spaces, blank lines } into one, rm newlines @ $, convert curly “‘quotes’”
 " cdf    convert document footer
-" cpl    copy linewise 
+" cpl    copy linewise
 " cpL    copy linewise, multiple atoms
 " Crl    conv to ordered checklist < ref link
 " crl    convert to unordered checklist < reference link
@@ -327,8 +327,8 @@ iabbrev zym   Zymonetics
 " ddt    insert date (yyyy-mm-dd)
 " gcc    fix comment spacing :%s/\v(\<!--)(\w)([^-]+)(\w)(--.*)/\1 \2\3\4 \5/e
 " hyp    hyphenate line
-" Sav    save line => filename; save current buffer with current line (contents of :reg r) as filename
-" sav    save title => filename; save current buffer with title (contents of :reg r) as filename.
+" Ssv    copy filename to :reg r, use buffer's title line as filename
+" ssv    save (write) buffer to disk using title line as filename
 " sbd    sort reference links by domain
 " srt    sort range, unique
 " Tsp    for all buffers, update timestamps
@@ -355,4 +355,4 @@ iabbrev zym   Zymonetics
 
 " Last update: set g:mkdx#settings = 'links' { 'enable': 0 } ==> disable getting website; desired: open in browser
 " ^ 2022-01-12T21:16:44-0500
-" % 2023-11-26T17:28:30-0500
+" % 2023-11-27T23:11:22-0500
