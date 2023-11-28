@@ -39,6 +39,7 @@ alias cnti='find . -maxdepth 1|wc -l'         # items: count ITEMS in directory
 alias cpv='rsync -CavzP'                      # copy: verbose, archive, compress, show progress
 alias diff='colordiff -u'                     # compare lines, unify context
 alias dirs='dirs -v'                          # list directory stack w/ index number
+alias dl='~/Downloads'                        # go to Downloads directory
 alias eip='ipconfig getifaddr en0'            # get IP address for Ethernet
 alias ej='. ~/Code/misc/configrc/ejector'     # eject external media
 alias flush='"sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder; say "Your DNS cache is clean."'
@@ -142,4 +143,4 @@ gitd() { git diff $1 }                      # git diff: show changes
 ## https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html
 
 ## ^ 2022-01-12T21:16:44-0500
-## % 2023-10-06T17:05:25-0400
+## % 2023-11-27T13:18:35-0500
