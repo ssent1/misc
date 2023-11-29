@@ -80,13 +80,15 @@ EOB
 
 query="{query}"
 
-app=$(echo "$query" | sed -E 's/(.*),(.*)/\1/g')
-url=$(echo "$query" | sed -E 's/(.*),(.*)/\2/g')
+app=$(echo "$query" | sed -E 's/(.*)\@(.*)/\1/g')
+url=$(echo "$query" | sed -E 's/(.*)\@(.*)/\2/g')
+
 
 if [[ -n $url ]]; then
-  echo "$app:t:r" && sleep 2 && echo "$app:t:r" "$url"
+  open -a "$app:t:r" && sleep 2 && open -a "$app:t:r" "$url"
+  wait for 2 seconds for browser to load, then open location
 else
-  echo "$app:t:r"
+  open -a "$app:t:r"
 fi
 
 # test
@@ -101,9 +103,20 @@ fi
 #query="/Applications/Blisk.app,"
 ## query="{query}"
 #
-#app=$(echo "$query" | sed -E 's/(.*),(.*)/\1/g')
-#url=$(echo "$query" | sed -E 's/(.*),(.*)/\2/g')
-#
+# Run Test Script
+
+# query="{query}"
+
+# app=$(echo "$query" | sed -E 's/(.*)\@(.*)/\1/g')
+# url=$(echo "$query" | sed -E 's/(.*)\@(.*)/\2/g')
+
+# if [[ -n $url ]]; then
+#   echo "$app:t:r" && sleep 2 && echo "$app:t:r" "$url"
+# else
+#   echo "$app:t:r"
+# fi
+
+# annotated test script
 #if [[ -n $url ]]; then
 ## test whether there's url
 ## -n len(str) != 0; N.B. -z len(str) = 0
@@ -121,7 +134,7 @@ fi
 
 osascript
 -e "tell application \"$app\""
-    -e 'activate'
+-e 'activate'
 -e 'end tell'
 -e "open location \"$url\""
 
@@ -129,4 +142,4 @@ osascript -e "tell application \"$app\"" -e 'activate' -e 'end tell' -e "open lo
 
 # - - -
 # ^ 2023-11-28T11:56:39-0500\
-# % 2023-11-28T12:37:11-0500
+# % 2023-11-29T11:27:42-0500
