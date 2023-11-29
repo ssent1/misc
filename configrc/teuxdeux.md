@@ -5,8 +5,8 @@
 - [TeuxDeux List](#teuxdeux-list)
 - [Contents](#contents)
     - [Daily Checklist](#daily-checklist)
+    - [Music](#music)
     - [2023-11-26](#2023-11-26)
-    - [A Diller, A Dollar](#a-diller-a-dollar)
     - [13-Sep-2023](#13-sep-2023)
     - [25-Aug-23](#25-aug-23)
     - [13-Aug-22](#13-aug-22)
@@ -16,6 +16,8 @@
         - [WebDev](#webdev)
         - [Parked](#parked)
         - [SolClean](#solclean)
+    - [Tutorials](#tutorials)
+    - [Funny Ideas](#funny-ideas)
 
 ## Daily Checklist
 
@@ -31,98 +33,93 @@
 3. [ ] [Forefront](https://accounts.forefront.ai/sign-in)
 4. [ ] [Saved](https://www.google.com/save/list/XHntOX47PY-p__eBS6NXkg), [Collections](https://www.google.com/collections/)
 
-## 2023-11-26
+## Music
 
-- [ ] [Yes or no?](https://youtube.com/shorts/WLjygR-CPck)
-- [x] [0:18:42 Sewing Machines, Veritasium](https://www.youtube.com/watch?v=RQYuyHNLPTQ)
-- [x] [0:22:09 Q* Hypothesis ](https://www.youtube.com/watch?v=LT-tLOdzDHA)
-- [x] [0:38:20 Q* Hypothesis ]([https://www.youtube.com/watch?v=R0PEPzcvWRQ])
-- [x] [0:23:03 The Cheapest Porsche 911, Seen Through Glass](https://www.youtube.com/watch?v=b8XrPLrt4IE)
-- [x] [0:39:28 the Roths-child family's]([https://www.youtube.com/watch?v=IbWl40xgw0B])
-- [ ] [0:52:26 Malware, Jack Rhysider]([https://www.youtube.com/watch?v=ADCvaIWkEZw])
-- [ ] [1:31:52 Alexandr Wang: 26-Year-Old Billionaire]([https://www.youtube.com/watch?v=gDMemWgEJak])
-- [ ] [1:43:54 The Pirate Bay, Jack Rhysider]([https://www.youtube.com/watch?v=eFQFW5JgUjE])
-- [ ] [2:22:04 Genius Inventions: Technical Marvels]([https://www.youtube.com/watch?v=iLj8ttLqfEI])
-- [ ] [Blue Collar Billionaire - Noah Kagan](https://www.youtube.com/watch?v=lBKfWcPT-Ug)
-- [ ] [Safest County, Gang Problem?](https://www.youtube.com/watch?v=Alhz-RgoCok)
-- [ ] [Who's robbing millions from The Bank of Canada? - The Fifth Estate](https://www.youtube.com/watch?v=L3AqxPvmt44)
-- [ ] [Modernization of Cosmetics Regulation Act of 2022 (MoCRA)](https://www.fda.gov/cosmetics/cosmetics-laws-regulations/modernization-cosmetics-regulation-act-2022-mocra)
-- [ ] [product-categorization-lead-capture-tool - Google Sheets](https://docs.google.com/spreadsheets/d/1J-ZHJK8HGzGWihYAqVGlTcbuKzR78kMscf0MXavWofw/edit#gid=1077951310)
-- [ ] [Tic-tac - your mom's breath](https://youtube.com/shorts/HiDGfFOzfnk)
-
-- [x] [MyCareCompass](https://login.on.mycarecompass.lifelabs.com/account/login)
-- [x] [lab-report-log-sks - Google Sheets](https://docs.google.com/spreadsheets/d/1WC1Hytn2ohoKRLIbeqSi4vay4QFb2kjcEUOixK411fU/edit#gid=79719834)
-
-## [A Diller, A Dollar](https://youtube.com/shorts/219f_wH2vDg)
-
-by Mother Goose
-
-A diller, a dollar,
-A ten o' clock scholar,
-What makes you come so soon?
-You used to come at ten o'clock,
-But now you come at noon.
-
-- [ ] [Someone You Loved | Lewis Capaldi | Erica Klein Choreography - YouTube](https://www.youtube.com/watch?v=znspK9gDKLw)
-- [ ] [Lyrical Dance - Someone You Loved by Lewis Capaldi - YouTube](https://www.youtube.com/watch?v=AN01SJ4_73E)
-- [ ] [Lewis Capaldi - Someone You Loved | Jan Ravnik Choreography | Artist Request - YouTube](https://www.youtube.com/watch?v=yXHQfbFfBbw)
-- [ ] [Someone You Loved - Lewis Capaldi Choreography.Mia - YouTube](https://www.youtube.com/watch?v=loLp6rOjWik)
-- [ ] [Lewis Capaldi - Someone You Loved - Sharmila Dance Center - YouTube](https://www.youtube.com/watch?v=NUeOAe5--hE)
-- [ ] [Lewis Capaldi: Tiny Desk Concert - YouTube](https://www.youtube.com/watch?v=e4WrRKSgGI0)
-- [ ] [Lewis Capaldi - Wish You The Best (Live from The Voice) - YouTube](https://www.youtube.com/watch?v=5Di5Tnx8Bp4)
-- [ ] [Someone You Loved, Lewis Capaldi](https://www.youtube.com/watch?v=zABLecsR5UE)
-- [ ] [Someone You Loved, Lewis Capaldi](https://genius.com/Lewis-capaldi-someone-you-loved-lyrics)
+- [ ] [Music for Work](https://www.youtube.com/watch?v=N211yi0cJJI)
+- [ ] [Sea Waves Old Cello music](https://www.youtube.com/watch?v=i0MiEfOVZvQ)
 - [ ] [Someone You Loved, Lewis Capaldi - chords](https://tabs.ultimate-guitar.com/tab/lewis-capaldi/someone-you-loved-chords-2512737)
 - [ ] [Someone You Loved, Lewis Capaldi - tutorial](https://www.youtube.com/watch?v=jLcrmEcDNOI)
+- [ ] [Someone You Loved, Lewis Capaldi Choreography.Mia](https://www.youtube.com/watch?v=loLp6rOjWik)
+- [ ] [Someone You Loved, Lewis Capaldi Choreography](https://www.youtube.com/watch?v=znspK9gDKLw)
+- [ ] [Someone You Loved, Lewis Capaldi Lewis Capaldi - Jan Ravnik](https://www.youtube.com/watch?v=yXHQfbFfBbw)
+- [ ] [Someone You Loved, Lewis Capaldi Lewis Capaldi - Sharmila Dance](https://www.youtube.com/watch?v=NUeOAe5--hE)
+- [ ] [Someone You Loved, Lewis Capaldi Lewis Capaldi - The Voice](https://www.youtube.com/watch?v=5Di5Tnx8Bp4)
+- [ ] [Someone You Loved, Lewis Capaldi Lewis Capaldi - Tiny Desk Concert](https://www.youtube.com/watch?v=e4WrRKSgGI0)
+- [ ] [Someone You Loved, Lewis Capaldi Lyrical Dance](https://www.youtube.com/watch?v=AN01SJ4_73E)
+- [ ] [Someone You Loved, Lewis Capaldi](https://genius.com/Lewis-capaldi-someone-you-loved-lyrics)
+- [ ] [Someone You Loved, Lewis Capaldi](https://www.youtube.com/watch?v=zABLecsR5UE)
+- [ ] [YouTube Disco](https://www.youtubedisco.de/)
 
+## 2023-11-26
+
+- [ ] [Modernization of Cosmetics Regulation Act of 2022 (MoCRA)](https://www.fda.gov/cosmetics/cosmetics-laws-regulations/modernization-cosmetics-regulation-act-2022-mocra)
+- [ ] [product-categorization-lead-capture-tool - Google Sheets](https://docs.google.com/spreadsheets/d/1J-ZHJK8HGzGWihYAqVGlTcbuKzR78kMscf0MXavWofw/edit#gid=1077951310)
+
+<!-- startup business -->
+- [ ] <https://youtube.com/shorts/3cVWkykglZ0>
+- [ ] <https://youtube.com/shorts/dVCtvstdW-M>
+- [ ] <https://youtube.com/shorts/W5R-DQ9n18Y>
+- [ ] [24 Surprising Billion-Dollar Industries](https://www.youtube.com/watch?v=apRg-105hB0)
+- [ ] [2:22:04 Genius Inventions: Technical Marvels](https://www.youtube.com/watch?v=iLj8ttLqfEI)
+- [ ] [3 Highly Confident High Status Body Language Cues](https://www.youtube.com/watch?v=O8gH63fAvBQ)
+- [ ] [50 Push Ups Everyday](https://www.youtube.com/watch?v=oiWfRKq8pr4)
+- [ ] [9 AI Skills](https://www.youtube.com/watch?v=57BKHfavqzY)
+- [ ] [A Case for Color Blindness](https://www.youtube.com/watch?v=QxB3b7fxMEA&t=48s)
+- [ ] [A-Fest Livecast](https://www.youtube.com/watch?v=dFLWPLS1VzI)
+- [ ] [America's F*cked Up Tax System](https://www.youtube.com/shorts/q0OjvN8tgK4)
+- [ ] [Andrew Ng: Opportunities in AI](https://www.youtube.com/watch?v=5p248yoa3oE)
+- [ ] [animated slide decks Figma](https://www.youtube.com/watch?v=CgHfcrm3oXw)
+- [ ] [Apple Event](https://www.youtube.com/watch?v=ZiP1l7jlIIA)
+- [ ] [Backgrounds for Twitter, etc](https://mashable.com/archive/custom-twitter-youtube-myspace-backgrounds)
+- [ ] [Blue Collar Billionaire - Noah Kagan](https://www.youtube.com/watch?v=lBKfWcPT-Ug)
+- [ ] [Buy a Business With No Money in 2023](https://www.youtube.com/watch?v=StVBPKLBAb4)
+- [ ] [Choice](https://www.youtube.com/watch?v=YpJ5wm-hCiQ)
+- [ ] [Conor McGregor cruising the open sea on his Lamborghini yacht](https://www.youtube.com/shorts/BB2Ypc1Ckzg)
+- [ ] [Dean Graziosi LIVE!](https://www.youtube.com/watch?v=eKOHhd-x-BY)
+- [ ] [How to Have the Best Year Ever](https://www.youtube.com/watch?v=SDVwEtZDW7M)
+- [ ] [I Doubled A Business in 60 Days](https://www.youtube.com/watch?v=c_6BrF7jOGk)
+- [ ] [Interactive Presentations - Figma](https://www.youtube.com/watch?v=SN3t8qiTa2Q&t=85s)
+- [ ] [Jesse Itzler's Playbook](https://www.youtube.com/watch?v=ff1z3GUcfO8)
+- [ ] [Liquid IV, a $100M Phenomenon 💧💰](https://www.youtube.com/watch?v=vEaLgY0IzF4)
+- [ ] [Mark Zuckerberg: Metaverse First](https://www.youtube.com/watch?v=MVYrJJNdrEg)
+- [ ] [mathematical thinking](https://www.youtube.com/watch?v=LN7cCW1rSsI)
+- [ ] [Perez RESPONDS to Mexico CRASH: Hamilton P2 👀](https://www.youtube.com/watch?v=ob1kdKYX2sE)
+- [ ] [Presenting with Figma](https://www.youtube.com/watch?v=dK34a80iQUM)
+- [ ] [Putin is RICHER Than Me](https://www.youtube.com/shorts/2xBaYax2Xqg)
+- [ ] [Sales & Social Media Tips](https://www.youtube.com/salestips)
+- [ ] [Scam City](https://www.youtube.com/watch?v=cD19-AWj_4g&list=PLTRNQOWwuox_fn9E2z5akKL9yjgr23bB-&index=3)
 - [ ] [Shut up and stop selling](https://youtube.com/shorts/SAG_Lqo-KBw)
+- [ ] [Speak With Incredible Precision](https://www.youtube.com/watch?v=TNxlOZc_pAc)
+- [ ] [Steve Ballmer](https://www.youtube.com/watch?v=38-lLJdDiys)
+- [ ] [Trump UNABLE TO READ Speech, Starts WITNESS TAMPERING](https://www.youtube.com/watch?v=9cBYv7xYM1c)
+- [ ] [What Are the Theoretical Limits of Human Strength?](https://www.youtube.com/watch?v=u6x7cC1TkWw)
+- [ ] [Who's robbing The Bank of Canada?](https://www.youtube.com/watch?v=L3AqxPvmt44)
+- [ ] [World's Fastest Porsche](https://www.youtube.com/watch?v=TdkmQCx4rx0)
+- [ ] [Youngest Billionaires](https://www.youtube.com/watch?v=efY2SxojNlU)
+- [ ] [YouTube](https://www.youtube.com/watch?v=3FNYvj2U0HM)
+- [x] [Codie Sanchez](https://www.youtube.com/@CodieSanchezCT)
 
-- [ ] [I Doubled A Business in 60 Days to Show It's Not Luck (Part 1) - YouTube](https://www.youtube.com/watch?v=c_6BrF7jOGk)
-- [ ] [roy wood jr - YouTube](https://www.youtube.com/results?search_query=roy+wood+jr)
-- [ ] [Create STUNNING Interactive Presentations!! | Figma Tutorial - YouTube](https://www.youtube.com/watch?v=SN3t8qiTa2Q&t=85s)
-- [ ] [Figma for Education: Presenting with Figma - YouTube](https://www.youtube.com/watch?v=dK34a80iQUM)
-- [ ] [Figma Tutorial: Create and present animated slide deck presentations from Figma - YouTube](https://www.youtube.com/watch?v=CgHfcrm3oXw)
 - [ ] [LinkedIn](https://www.linkedin.com/analytics/post-summary/urn:li:activity:7125162637008539649/)
 - [ ] [Post | Feed | LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7125162637008539649/)
 - [ ] [150+ Top Sourcing / #OSINT Tools | Boolean Strings](https://booleanstrings.com/tools/)
-- [ ] [24 Surprising Billion-Dollar Industries](https://www.youtube.com/watch?v=apRg-105hB0)
-- [ ] [Arnold Schwarzenegger documentary](https://www.youtube.com/watch?v=8fsF1LKjPpo)
 - [ ] [Articles | Sector035](https://sector035.nl/articles/category:article)
 - [ ] [Favorite pages](https://www.google.com/save/list/XHntOX47PY-p__eBS6NXkg)
 - [ ] [Favorite pages](https://www.google.com/save/list/XHntOX47PY-p__eBS6NXkg?q=Favorite+pages&sa=X&ved=2ahUKEwjwuOHf8Z2CAxVv58kDHapmDeIQ5oAKegQIARAH)
-- [ ] [Figma Course | The Ultimate Figma Masterclass Course](https://www.thedesignership.com/courses/the-ultimate-figma-masterclass)
 - [ ] [Free UX Case Study Presentation Template | Designership](https://www.thedesignership.com/products/ux-case-study-presentation-template)
 - [ ] [Generative AI in the Classroom with Adobe Express | Adobe Education Exchange](https://edex.adobe.com/professional-learning/self-paced-course/generative-ai-in-the-classroom-with-adobe-express)
 - [ ] [GitHub - Sjamilla/awesome-recruitment: List of my favourite recruitment things 💫](https://github.com/Sjamilla/awesome-recruitment#%EF%B8%8F-my-favourites)
 - [ ] [Instagram Downloader](https://snapinsta.app/)
 - [ ] [IntelTechniques Search Tool](https://inteltechniques.com/tools/Search.html)
-- [ ] [Jesse Itzler's Playbook](https://www.youtube.com/watch?v=ff1z3GUcfO8)
 - [ ] [Make Money While Sleep](https://www.newtraderu.com/2023/05/08/if-you-dont-find-a-way-to-make-money-while-sleep-you-will-work-until-you-die-warren-buffett/)
-- [ ] [mathematical thinking](https://www.youtube.com/watch?v=LN7cCW1rSsI)
 - [ ] [osint_stuff_tool_collection | A collection of several hundred online tools for OSINT](https://cipher387.github.io/osint_stuff_tool_collection/)
-- [ ] [Perez RESPONDS to Mexico CRASH: Hamilton P2 👀 - YouTube](https://www.youtube.com/watch?v=ob1kdKYX2sE)
-- [ ] [Scam City](https://www.youtube.com/watch?v=cD19-AWj_4g&list=PLTRNQOWwuox_fn9E2z5akKL9yjgr23bB-&index=3)
-- [ ] [Sea Waves and Old Cello music. 8 hours Alpha binaural beats | root chakra healing. 432 hz frequency - YouTube](https://www.youtube.com/watch?v=i0MiEfOVZvQ)
-- [ ] [Speak With Incredible Precision](https://www.youtube.com/watch?v=TNxlOZc_pAc)
-- [ ] [Steve Ballmer](https://www.youtube.com/watch?v=38-lLJdDiys)
 - [ ] [The platform to build next‒gen apps | Airtable](https://www.airtable.com/)
-- [ ] [Time.is 00:58](https://time.is/?c=d3l1_3j_3F1_3Y1_3WXtH2iXfmrXc1Xo-300Xz1Xa1Xb4e4185.28571f.2d99db.abbd8.1bb85e.5e3293.5e1d39Xw1Xv20221112Xh0Xi1XZ1XmXuXs0&l=en)
-- [ ] [Trump UNABLE TO READ Speech, Starts WITNESS TAMPERING - YouTube](https://www.youtube.com/watch?v=9cBYv7xYM1c)
-- [ ] [What Are the Theoretical Limits of Human Strength?](https://www.youtube.com/watch?v=u6x7cC1TkWw)
-- [ ] [Youngest Billionaires](https://www.youtube.com/watch?v=efY2SxojNlU)
-- [ ] [YouTube](https://www.youtube.com/watch?v=3FNYvj2U0HM)
 - [ ] [Fixing Healthcare](https://www.fixinghealthcarepodcast.com/)
+- [ ] [Time.is 00:58](https://time.is/?c=d3l1_3j_3F1_3Y1_3WXtH2iXfmrXc1Xo-300Xz1Xa1Xb4e4185.28571f.2d99db.abbd8.1bb85e.5e3293.5e1d39Xw1Xv20221112Xh0Xi1XZ1XmXuXs0&l=en)
 - [ ] [Mistreated: Why We Think We're Getting Good Health Care](https://www.amazon.com/dp/1610397657)
 - [ ] [Uncaring by Robert Pearl, MD](https://www.hachettebookgroup.com/titles/robert-pearl/uncaring/9781541758254/?lens=publicaffairs)
 
 ## 13-Sep-2023
 
-- [ ] [World's Fastest Porsche](https://www.youtube.com/watch?v=TdkmQCx4rx0)
-- [ ] [3 Highly Confident High Status Body Language Cues](https://www.youtube.com/watch?v=O8gH63fAvBQ)
-- [ ] [A Case for Color Blindness](https://www.youtube.com/watch?v=QxB3b7fxMEA&t=48s)
-- [ ] [Mark Zuckerberg: Metaverse First](https://www.youtube.com/watch?v=MVYrJJNdrEg)
-- [ ] [Andrew Ng: Opportunities in AI](https://www.youtube.com/watch?v=5p248yoa3oE)
-- [ ] [How to Have the Best Year Ever](https://www.youtube.com/watch?v=SDVwEtZDW7M)
 - [ ] [Career Center](https://www.native-instruments.com/en/career-center/career/6794164002)
 - [ ] [Canadian Mac Forums at ehMac](https://www.ehmac.ca/)
 - [ ] [How Much Can Freelancers Make in 2023?](https://www.upwork.com/en-gb/resources/how-much-do-freelancers-make)
@@ -134,16 +131,10 @@ But now you come at noon.
 - [ ] [coco scm fundamentals](https://www.google.com/search?q=conestoga+college+supply+chain+management+fundamentals)
 
 <!-- mostly job-related links -->
-- [ ] [America's F*cked Up Tax System](https://www.youtube.com/shorts/q0OjvN8tgK4)
-- [ ] [Conor McGregor cruising the open sea on his Lamborghini yacht](https://www.youtube.com/shorts/BB2Ypc1Ckzg)
-- [ ] [Putin is RICHER Than Me](https://www.youtube.com/shorts/2xBaYax2Xqg)
-- [ ] [Apple Event](https://www.youtube.com/watch?v=ZiP1l7jlIIA)
 - [ ] [Vice President Strategy, Trilogy (Remote) - $400,000/year USD](https://mail.google.com/mail/u/0/#all/FMfcgzGtwzjcQDxFPrsxSqFPsDJJwlCN)
 - [-] [SLI Beauty](file:///Users/syd/Sites/dev.salonlabel.com/index.html)
-- [ ] [50 Push Ups Everyday](https://www.youtube.com/watch?v=oiWfRKq8pr4)
 - [ ] ['Slum' Landlord](https://www-businessinsider-com.cdn.ampproject.org/v/s/www.businessinsider.com/landlord-stuffed-40-tenants-4-bed-house-making-450000-2023-8)
 - [ ] [Teamshares, TechCrunch](https://techcrunch.com/2023/08/24/this-venture-backed-startup-has-quietly-bought-more-than-80-mom-and-pop-shops/)
-- [ ] [Relume, supercharge Figma and Webflow](https://techcrunch.com/2023/08/22/meet-relume-the-bootstrapped-ai-web-builder-that-wants-to-supercharge-figma-and-webflow/)
 - [ ] [Business & Corporate Development](https://www.amazon.jobs/en/business_categories/business-corporate-development)
 - [ ] [5 Free AI Courses @ Microsoft](https://www.analyticsinsight.net/5-free-courses-to-boost-your-ai-skills-from-microsoft/)
 - [ ] [208 vacant jobs, Toronto University](https://scholaridea.com/2023/08/18/toronto-university-in-canada-invites-application-for-vacant-208-research-and-academic-jobs/)
@@ -189,11 +180,6 @@ But now you come at noon.
 - [ ] [Veterans Have Become Unlikely Lobbyists in Push to Legalize Psychedelic Drugs](https://www.nytimes.com/2021/11/11/health/veterans-psychedelics-ptsd-depression.html?action=click&module=RelatedLinks&pgtype=Article)
 - [ ] [The Rise of Psychedelic Retreats](https://www.nytimes.com/2021/11/25/travel/psychedelic-retreat-ayahuasca.html)
 - [ ] <https://cem.ca/app/uploads/2021/05/The-Newly-Institute-Investor-Presentation-June-2021.pdf>
-
-<!-- startup business -->
-- [ ] [Liquid IV, a $100M Phenomenon 💧💰](https://www.youtube.com/watch?v=vEaLgY0IzF4)
-- [ ] [Buy a Business With No Money in 2023](https://www.youtube.com/watch?v=StVBPKLBAb4)
-- [x] [Codie Sanchez](https://www.youtube.com/@CodieSanchezCT)
 
 <!-- product market fit -->
 - [ ] [6 Steps to Finding Product-Market](https://productcoalition.com/how-to-find-product-market-fit-4b0249f34429)
@@ -267,13 +253,9 @@ Jacek Nawrot · Control Systems Project Manager at Tigercat Industries Inc. · R
 - [ ] [PSQI-Article.pdf](https://www.sleep.pitt.edu/wp-content/uploads/Study_Instruments_Measures/PSQI-Article.pdf)
 - [ ] [old response](https://docs.google.com/forms/d/e/1FAIpQLSemYDPwITWjvVgBXhU6QyRcZw1P1VOTFQeT_zlE2HzRKmXhQw/viewanalytics?usp=form_confirm)
 - [ ] [spreadsheets](https://docs.google.com/spreadsheets/d/1O-hW-bz4c2C_VL0xObguCDPJfLn9iTijGFpG1y40ITs/edit#gid=1066863745)
-- [ ] [Music for Work](https://www.youtube.com/watch?v=N211yi0cJJI)
 - [ ] [Welcome to the Claim Your Power Book Accelerator Course | Mastin Kipp](https://mastinkippcoaching.com/courses/212331/lectures/3290428)
 - [ ] [Business Plans Handbook - Gale eBooks](https://go.gale.com/ps/eToc.do?tabID=&searchId=&docId=GALE%7C9781414472522&userGroupName=kitc54549&action=DO_BROWSE_ETOC&inPS=true&contentSegment=9781414472522&source=&prodId=GVRL&etocId=GALE%7CCX1999999001&isDownLoadOptionDisabled=true)
 - [ ] [Responsible Coding / Learn Vimscript the Hard Way](https://learnvimscriptthehardway.stevelosh.com/chapters/18.html)
-- [ ] <https://youtube.com/shorts/W5R-DQ9n18Y>
-- [ ] <https://youtube.com/shorts/3cVWkykglZ0>
-- [ ] <https://youtube.com/shorts/dVCtvstdW-M>
 
 ## 13-Aug-22
 
@@ -298,8 +280,6 @@ Jacek Nawrot · Control Systems Project Manager at Tigercat Industries Inc. · R
 8. Curiosity and Continuous Learning
 9. Intuitive Understanding of AI Limitations
 
-- [ ] [The 9 AI Skills](https://www.youtube.com/watch?v=57BKHfavqzY)
-
 ## Old Links and Bookmarks
 
 - [ ] [#00CC00 Hex Color](https://www.colorcombos.com/00CC00-hex-color)
@@ -311,7 +291,6 @@ Jacek Nawrot · Control Systems Project Manager at Tigercat Industries Inc. · R
 - [ ] [A Content Marketing and Video Production Agency](https://www.tippingpointlabs.com/)
 - [ ] [A simpler way to organize your work - Workflowy](https://workflowy.com/)
 - [ ] [A Special Evening about The Landmark Forum - sksalmon@gmail.com - Gmail](https://mail.google.com/mail/u/0/#all/FMfcgxmTmlKlJLxZdPvGjxKLchkpTHhW)
-- [ ] [A-Fest Livecast: Live your Quest from Mexico 2016 - YouTube](https://www.youtube.com/watch?v=dFLWPLS1VzI)
 - [ ] [About Courses - Poodwaddle](https://www.poodwaddle.com/)
 - [ ] [About Us | A People-first Marketing and Creative Agency](https://brainrider.com/about-us/)
 - [ ] [Arbonne](https://www.arbonne.com/shop_online/showCatalog.asp?category=290)
@@ -326,7 +305,6 @@ Jacek Nawrot · Control Systems Project Manager at Tigercat Industries Inc. · R
 - [ ] [Canada's Credit Unions](https://canadascreditunions.ca/)
 - [ ] [Checklist App & Templates | 100% Free | Checklist.com](https://checklist.com/)
 - [ ] [China Murder Suspect's Sisters Ran $126 Million Empire - Bloomberg](https://www.bloomberg.com/news/articles/2012-04-13/china-murder-suspect-s-sisters-ran-126-million-business-empire)
-- [ ] [Choice - The world is on your hands - YouTube](https://www.youtube.com/watch?v=YpJ5wm-hCiQ)
 - [ ] [Code School: Rails for Zombies | Pluralsight](https://www.pluralsight.com/courses/code-school-rails-for-zombies)
 - [ ] [Color Converter Tool | NO BS Marketplace](https://nobsmarketplace.com/resources/tools/rgb-to-hex/)
 - [ ] [Compliance and enforcement: Drug and health products - Canada.ca](https://www.canada.ca/en/health-canada/services/drugs-health-products/compliance-enforcement.html)
@@ -334,7 +312,6 @@ Jacek Nawrot · Control Systems Project Manager at Tigercat Industries Inc. · R
 - [ ] [CSS3 Solutions for Internet Explorer — Smashing Magazine](https://www.smashingmagazine.com/2010/04/css3-solutions-for-internet-explorer/)
 - [ ] [Custom Forms with No Server Code | Formspree](https://formspree.io/)
 - [ ] [Database Error](https://andydrish.com/)
-- [ ] [Dean Graziosi and Chad Bartlett LIVE! - YouTube](https://www.youtube.com/watch?v=eKOHhd-x-BY)
 - [ ] [diagnext.com](https://oneperiodic.com/)
 - [ ] [Digital Marketing Transformation | Ready North](https://www.readynorth.com/)
 - [ ] [DIYthemes — Build a FAST website YOU can manage with the Focus WordPress Theme](https://diythemes.com/)
@@ -371,7 +348,6 @@ Jacek Nawrot · Control Systems Project Manager at Tigercat Industries Inc. · R
 - [ ] [How it feels to live in a sexless marriage – readers respond | Family | The Guardian](https://www.theguardian.com/lifeandstyle/2016/oct/01/how-it-feels-to-live-in-a-sexless-marriage-readers-respond)
 - [ ] [How To Harness The Power Of Collaboration For Luxu - Grammarly](https://app.grammarly.com/ddocs/145897882)
 - [ ] [How To Start a Business in 11 Steps (2023)](https://www.shopify.com/blog/how-to-start-a-business)
-- [ ] [HOW TO: Create Custom Backgrounds for Twitter, YouTube, & MySpace | Mashable](https://mashable.com/archive/custom-twitter-youtube-myspace-backgrounds)
 - [ ] [HTML5 For Web Designers, A Book Apart](https://abookapart.com/products/html5-for-web-designers)
 - [ ] [Inside The Globe - The Globe and Mail](https://www.theglobeandmail.com/inside-the-globe/)
 - [ ] [Internet Marketing - Digital Marketing Online | Rankhigher.ca](https://www.rankhigher.ca/)
@@ -413,7 +389,6 @@ Jacek Nawrot · Control Systems Project Manager at Tigercat Industries Inc. · R
 - [ ] [RGB #908D87 | 17-0205 TPX Elephant Skin | RGB Chart & Multi Tool](https://www.perbang.dk/rgb/908D87/)
 - [ ] [Roofing Services | Roofing Contractors in Kitchener | The Roofman](https://www.roofman.com/)
 - [ ] [Ruby on Rails — A web-app framework that includes everything needed to create database-backed web applications according to the Model-View-Controller (MVC) pattern.](https://rubyonrails.org/)
-- [ ] [Sales & Social Media Tips - YouTube](https://www.youtube.com/salestips)
 - [ ] [Salon Marketing Sales: The 'Big 3' Tips to Boost Your Game!](https://worldwidesalonmarketing.com/)
 - [ ] [Search operators you can use with Gmail - Gmail Help](https://support.google.com/mail/answer/7190)
 - [ ] [Service Canada - Canada.ca](https://www.canada.ca/en/employment-social-development/corporate/portfolio/service-canada.html)
@@ -432,7 +407,6 @@ Jacek Nawrot · Control Systems Project Manager at Tigercat Industries Inc. · R
 - [ ] [The Beauty Brains — Real scientists answer your beauty questions](https://thebeautybrains.com/)
 - [ ] [The Brand Architect Group](https://www.brandarchitect.com/)
 - [ ] [The Brotherhood of Kings](https://m.facebook.com/groups/1689420591355242)
-- [ ] [The Colored AirPods Apple Should Have Made! - YouTube](https://www.youtube.com/watch?v=g-WWzf3wUik)
 - [ ] [The Crazy Way We Work](https://fullfocus.co/work-infographic/)
 - [ ] [The Most Dangerous Lie Salespeople Tell Themselves | The Sales Blog](https://www.thesalesblog.com/blog/the-most-dangerous-lie-salespeople-tell-themselves)
 - [ ] [The Official Website of Dr Joe Dispenza – Unlimited with Dr Joe Dispenza](https://drjoedispenza.com/index.php?page_id=videos)
@@ -447,7 +421,6 @@ Jacek Nawrot · Control Systems Project Manager at Tigercat Industries Inc. · R
 - [ ] [Top 10 Tools That Are Better in the Command Line](https://lifehacker.com/top-10-tools-that-are-better-in-the-command-line-5935869)
 - [ ] [Treehouse Blog | Learn programming, design, and more—all online and on your own time.](https://blog.teamtreehouse.com/)
 - [ ] [Trello](https://trello.com/home)
-- [ ] [Troubleshoot audio or video issues with uploads on YouTube - YouTube Help](https://support.google.com/youtube/answer/58134?visit_id=638290528185927064-694411792&hl=en&rd=1)
 - [ ] [turbo 21st century marketing / what we do / 21st](https://www.turbomarketing.ca/en/offre/21e_cause-effet.php)
 - [ ] [TWENTYth Logo'd Stuff](https://twentyth.com/)
 - [ ] [Typotheque type foundry - unique, high quality fonts for print and screens](https://www.typotheque.com/)
@@ -462,7 +435,6 @@ Jacek Nawrot · Control Systems Project Manager at Tigercat Industries Inc. · R
 - [ ] [www.spyderworksdesign.com](https://www.spyderworksdesign.com/)
 - [ ] [www.thinkingwithtype.com](https://www.thinkingwithtype.com/)
 - [ ] [www.thinkingwithtype.com](https://www.thinkingwithtype.com/contents/extras/#Tools_for_Teachers)
-- [ ] [www.youtubedisco.de](https://www.youtubedisco.de/)
 - [ ] [Year by year, the changing face of one British family | Daily Mail Online](https://www.dailymail.co.uk/news/article-1325006/Year-year-changing-face-British-family.html)
 - [ ] [YouCanBookMe](https://app.youcanbook.me/#/login)
 - [ ] [Your Web Department | The Toronto Website Firm since 2006](https://www.yourwebdepartment.com/)
@@ -506,7 +478,6 @@ Jacek Nawrot · Control Systems Project Manager at Tigercat Industries Inc. · R
 - [ ] [Start A Software Business - The Foundation](https://thefoundation.com/)
 - [ ] [Toggl Track](https://track.toggl.com/reports/detailed/44888/period/thisWeek)
 - [ ] [Disrupting the status quo | Ruth Anslow, Happy Startup Summercamp 2015 on Vimeo](https://vimeo.com/148211995)
-- [ ] [Charter Jet or Buy a Jet - Aviation - YouTube](https://www.youtube.com/watch?v=VzxHPF3LG4s)
 
 ### SolClean
 
@@ -536,10 +507,24 @@ Jacek Nawrot · Control Systems Project Manager at Tigercat Industries Inc. · R
 - [ ] [Phone Number Parser Demo for LibPhoneNumber](https://libphonenumber.appspot.com/)
 - [ ] [Product Ingredients](https://www.productingredients.com/)
 
+## Tutorials
+
+- [ ] [animated slide decks Figma](https://www.youtube.com/watch?v=CgHfcrm3oXw)
+- [ ] [Figma Masterclass Course](https://www.thedesignership.com/courses/the-ultimate-figma-masterclass)
+- [ ] [Interactive Presentations - Figma](https://www.youtube.com/watch?v=SN3t8qiTa2Q&t=85s)
+- [ ] [Presenting with Figma](https://www.youtube.com/watch?v=dK34a80iQUM)
+- [ ] [Relume, supercharge Figma and Webflow](https://techcrunch.com/2023/08/22/meet-relume-the-bootstrapped-ai-web-builder-that-wants-to-supercharge-figma-and-webflow/)
+
+## Funny Ideas
+
+- [ ] [Tic-tac - your mom's breath](https://youtube.com/shorts/HiDGfFOzfnk)
+- [ ] [Chicken Sandwich](https://youtube.com/shorts/219f_wH2vDg)
+- [ ] [roy wood jr](https://www.youtube.com/results?search_query=roy+wood+jr)
+
 - - -
 <!-- sources -->
 
 Tags: mdi, mental health, personal development exercise, productivity, relationships, teuxdeux, todo
 
 ^ 2020-11-12T18:26:31-0500\
-% 2023-11-26T17:42:00-0500
+% 2023-11-29T01:04:49-0500
