@@ -4236,7 +4236,7 @@ function \[subFunction\]
 			<key>title</key>
 			<string>fts :: update footer timestamp</string>
 			<key>value</key>
-			<string>:call search('% \d\{4}-\d\{2}-\d\{2}', 'b')|:exe "norm 2lD"|:put =strftime('%FT%T%z')|:exe "norm kJ"|:write</string>
+			<string>:call search('%\s\d\{4}-\d\{2}-\d\{2}','w')|:exe 'norm ^"qdt2'|:call setline('.',@q.strftime('%FT%T%z'))|:w</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
