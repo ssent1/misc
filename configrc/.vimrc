@@ -271,33 +271,36 @@ cabbrev !!     [^]+<Left><Left>
 cabbrev ''     exe "norm {jma}kmz"
 cabbrev alb    Tabularize /:
 cabbrev alf    Tabularize /^[^:]*:\zs/l0r1
-cabbrev cap    %s;\vchrome-extension:\/\/efaidnbmnnnibpcajpcglclefindmkaj\/(https?\|ftp)(:\/\/[^\s\/\$\.\?\#]+.\S+);\1\2;e
-cabbrev ccq    %s;^\s\+\<\\|\s\+$;;e\|:%s;\>\s\{2,}; ;e\|:%s;^\n\{2,};\r;e\|:%s;[''];';e\|:%s;[""];";e\|:%s;\n\+\%$;;e
-cabbrev cdf    $ka\|:'a\|-1s;\n\n;;e\|:?^\s*$?\|:+1,$d\|:let @q=@"\|:-3kz\|:-7ka\|:'a,'zs;\v_(\d{4}-\d{2}-\d{2}[tT_]\d{2}:\d{2}:\d{2}-\d{4})_;\1;e\|:'a,'zs;\v(\d{4})(\d{2})(\d{2})[tT_](\d{2})(\d{2})(\d{2});\1-\2-\3T\4:\5:\6-0_00;e\|:'a,'zs;\v(\d{4})(\d{2})(\d{2})[tT_](\d{2})(\d{2})(\d{2})(\d{4});\1-\2-\3T\4:\5:\6-\7;e\|:'a,'zd\|:let @r=@"\|:-1,$d\|:let@s="- - -\n<!-- sources -->\n"\|:pu s\|:pu q\|:pu r
-cabbrev cpl    let @q=''\|:%s;\v_;\=setreg('Q', submatch(1), 'l');n\|:let @*=@q\|:norm 2G"qp
-cabbrev cpL    let @q=''\|:%s;\v_;\=setreg('Q', submatch(1).'{str}'.submatch(2), 'l');n\|:let @*=@q\|:norm 2G"qp
-cabbrev crl    exe "norm {jma}kmz"\|:'a,'zs;\v^\[(\d+)\]: ([^ ]+) "([^\"]+)";- [ ] [\3](\2);e |:noh
-cabbrev Crl    exe "norm {jma}kmz"\|:'a,'zs;\v^\[0?([1-9]+)\]: ([^ ]+) "([^\"]+)";\1. [ ] [\3](\2);e |:noh
-cabbrev Csv    exe 'norm ^"qd2w'\|:call setline('.', @q.join(reverse(sort(uniq(split(tolower(getline('.')), ',\s*')))), ', '))
-cabbrev csv    exe 'norm ^"qd2w'\|:call setline('.', @q.join(sort(uniq(split(tolower(getline('.')), ',\s*'))), ', '))
+cabbrev c2l    s/\sand//e | let cnt=1 | silent exe 's/'.','.'/\=execute(''let cnt += 1'')/n' | let @q=cnt |call repeat(append('.', ""), @q)|:call setline('.', uniq(split(tolower(getline('.')), ',\s*'))) |:exe "norm {jma}kmz" |:'a,'zs/^/- [ ] /e |:noh |:'a,'zs/\v<(\w)([^.$]+)/\u\1\L\2/e
+cabbrev cap    %s/\vchrome-extension:\/\/efaidnbmnnnibpcajpcglclefindmkaj\/(https?\|ftp)(:\/\/[^\s\/\$\.\?\#]+.\S+)/\1\2/e
+cabbrev ccq    %s/^\s\+\<\\|\s\+$//e\|:%s/\>\s\{2,}/ /e\|:%s/^\n\{2,}/\r/e\|:%s/[‘’]/'/e\|:%s/[“”]/"/e\|:%s/\n\+\%$//e
+cabbrev cdf    $ka\|:'a\|-1s/\n\n//e\|:?^\s*$?\|:+1,$d\|:let @q=@"\|:-3kz\|:-7ka\|:'a,'zs/\v_(\d{4}-\d{2}-\d{2}[tT_]\d{2}:\d{2}:\d{2}-\d{4})_/\1/e\|:'a,'zs/\v(\d{4})(\d{2})(\d{2})[tT_](\d{2})(\d{2})(\d{2})/\1-\2-\3T\4:\5:\6-0_00/e\|:'a,'zs/\v(\d{4})(\d{2})(\d{2})[tT_](\d{2})(\d{2})(\d{2})(\d{4})/\1-\2-\3T\4:\5:\6-\7/e\|:'a,'zd\|:let @r=@"\|:-1,$d\|:let@s="- - -\n<!-- sources -->\n"\|:pu s\|:pu q\|:pu r
+cabbrev cls    s/\v,\s+%(and\s+)?\|^/\r- /\|:noh
+cabbrev Cls    s/\v,\s+%(and\s+)?\|^/\r1. /\|:noh
+cabbrev cpl    let @q=''\|:%s/\v_/\=setreg('Q', submatch(1), 'l')/n\|:let @*=@q\|:norm 2G"qp
+cabbrev Cpl    let @q=''\|:%s/\v_/\=setreg('Q', submatch(1).'{str}'.submatch(2), 'l')/n\|:let @*=@q\|:norm 2G"qp
+cabbrev crl    exe "norm {jma}kmz"\|:'a,'zs/\v^\[(\d+)\]: ([^ ]+) "([^\"]+)"/- [ ] [\3](\2)/e |:noh
+cabbrev Crl    exe "norm {jma}kmz"\|:'a,'zs/\v^\[0?([1-9]+)\]: ([^ ]+) "([^\"]+)"/\1. [ ] [\3](\2)/e |:noh
+cabbrev Csv    call search('^Tags:\s','w')\|:exe 'norm ^"qd2w'\|:call setline('.', @q.join(reverse(sort(uniq(split(tolower(getline('.')), ',\s*')))), ', '))
+cabbrev csv    call search('^Tags:\s','w')\|:exe 'norm ^"qd2w'\|:call setline('.', @q.join(sort(uniq(split(tolower(getline('.')), ',\s*'))), ', '))
 cabbrev ctf    s;\v^\s+\|\s+$;;e\|:s;\v^(.*)\n;\=setreg('q',submatch(1));n\|:s;\>[^ ];;e\|:s;\>\W\+;-;e\|:s;\v^(.*);\=setreg('r',tolower(submatch(1)).'.md');n\|:d\|:put! q\|:let @*=@r\|:noh
 cabbrev ctr    exe "norm {jma}kmz"\|:'a,'zs;\v^(\d+)\. \[([^\]]+)\]\(([^\)]+)\);[\1]: \3 "\2";
 cabbrev cts    call search('\v(\d{4})(\d{2})(\d{2})[tT_](\d{2})(\d{2})(\d{2})', 'w')\|:s;\v(\d{4})(\d{2})(\d{2})[tT_](\d{2})(\d{2})(\d{2});\1-\2-\3T\4:\5:\6-0_00;\|:call search('\d\+')\|:exe "norm 24yl"
-cabbrev cuL    %s;\v([fh]tt?ps?:\;\;[^\;\$\.\?\#]+\S+);\1;\|:noh
-cabbrev cul    exe "norm {jma}kmz"\|:'a,'zs;\v([fh]tt?ps?:\;\;[^\;\$\.\?\#]+\S+);\1;\|:noh
 cabbrev ddt    let@r=strftime('%Y-%m-%d')\|:norm!"rp"
 cabbrev gcc    %s;\v(\<!--)(\w)([^-]+)(\w)(--.*);\1 \2\3\4 \5;e
 cabbrev hyp    s;\v^\s+\|\s+$;;e\|:let title = getline('.')\|:s;\W\+;-;e\|:s;\v<-(.*);\=setreg('r',tolower(submatch(1)).'.md');n\|:call setline('.',title)\|:noh 
 cabbrev s'     exe "norm {jma}kmz"\|:'a,'zs;\v()<Left>
-cabbrev Ssv    bufdo 1\|:s;\v^\s+\|\s+$;;e\|:let title = getline('.')\|:s;\W\+;-;e\|:s;\v<-(.*);\=setreg('r',tolower(submatch(1)).'.md');n\|:call setline('.',title)\|:exe 'sav'@r\|:noh
-cabbrev ssv    1\|:s;\v^\s+\|\s+$;;e\|:let title = getline('.')\|:s;\W\+;-;e\|:s;\v<-(.*);\=setreg('r',tolower(submatch(1)).'.md');n\|:call setline('.',title)\|:exe 'sav'@r\|:noh
-cabbrev sbd    exe "norm {ma}mz"\|:'a,'zs;\v^\[\d+];[1];\|:'a+1,'z-1 sort ui\|:'a,'zs;\v^(\[\d+\]:\s[fh]tt?ps?:\;\;)(([^\.]+\.)([^\.\;]+\.[^\;]+)\|([^\.\;]+\.[^\;]+))(.*);\4\5\6#\1\3;\|:'a+1,'z-1 sort ui\|:'a,'zs;\v(.*)#(.*);\2\1;\|:let i=1 \|:g;^\[1\];s;;\='['.i.']'; \|:let i=i+1
+cabbrev sbd    exe "norm {ma}mz"\|:'a,'zs/\v^\[\d+]/[1]/\|:'a+1,'z-1 sort ui\|:'a,'zs/\v^(\[\d+\]:\s[fh]tt?ps?:\/\/)(([^\.]+\.)([^\.\/]+\.[^\/]+)\|([^\.\/]+\.[^\/]+))(.*)/\4\5\6#\1\3/\|:'a+1,'z-1 sort ui\|:'a,'zs/\v(.*)#(.*)/\2\1/\|:let i=1 \| g/^\[1\]/s//\='['.i.']'/ \| let i=i+1
 cabbrev sd     %s///<Left><Left>
 cabbrev sr     .,s/\v()<S-Left><Right><Right>
 cabbrev srt    exe "norm {jma}kmz"\|:'a,'z sort ui
-cabbrev Tsp    bufdo :call search('%\s\d\{4}-\d\{2}-\d\{2}','w')\|:exe 'norm ^"qdt2'\|:call setline('.',@q.strftime('%FT%T%z'))\|:w
-cabbrev tsp    call search('%\s\d\{4}-\d\{2}-\d\{2}','w')\|:exe 'norm ^"qdt2'\|:call setline('.',@q.strftime('%FT%T%z'))\|:w
+cabbrev ssv    1\|:s;\v^\s+\|\s+$;;e\|:let title = getline('.')\|:s;\W\+;-;e\|:s;\v<-(.*);\=setreg('r',tolower(submatch(1)).'.md');n\|:call setline('.',title)\|:exe 'sav'@r\|:noh
+cabbrev Ssv    bufdo 1\|:s;\v^\s+\|\s+$;;e\|:let title = getline('.')\|:s;\W\+;-;e\|:s;\v<-(.*);\=setreg('r',tolower(submatch(1)).'.md');n\|:call setline('.',title)\|:exe 'sav'@r\|:noh
+cabbrev Tsp    bufdo :call search('%\s20\d\{2}-\d\{2}-\d\{2}','w')\|:exe 'norm ^"qdt2'\|:call setline('.',@q.strftime('%FT%T%z'))\|:w
+cabbrev tsp    call search('%\s20\d\{2}-\d\{2}-\d\{2}','w')\|:exe 'norm ^"qdt2'\|:call setline('.',@q.strftime('%FT%T%z'))\|:w
 cabbrev ttc    exe "norm {jma}kmz"\|:'a,'zs;\v(\[\d\]:\s([fh]tt?ps?:\;\;[^\;$.?#]+\S+)\;?)\s"\2";\1;e\|:'a,'zs;\v%(\s[-\;:^\|·––—⋅]\s)([A-Za-z0-9 ]+)"$;";\|:'a,'zs;\v(\[\d\]:\s[fh]tt?ps?:\;\;[^\;$.?#]+\S+)\|:(\s"[^-·–—\|"]+\w)[^"]*(");\1\2\3;e\|:noh
+cabbrev UrL    %s;\v([fh]tt?ps?:\;\;[^\;\$\.\?\#]+\S+);\1;\|:noh
+cabbrev url    exe "norm {jma}kmz"\|:'a,'zs;\v([fh]tt?ps?:\;\;[^\;\$\.\?\#]+\S+);\1;\|:noh
 cabbrev yfn    let @+=expand("%:t")
 cabbrev yfp    let @+=expand("%:p")
 cabbrev yrp    let @+=expand("%")
@@ -311,29 +314,33 @@ iabbrev zym   Zymonetics
 " ''     mark paragraph as range; trims leading/training line
 " alb    align by <character>, default = :
 " alf    align from first instance of <character>, default = :
+" c2l    convert csv to list
 " cap    capture url Adobe PDF extension
 " ccq    trim ^/$ whitespace, condense >= 2 { spaces, blank lines } into one, rm newlines @ $, convert curly “‘quotes’”
 " cdf    convert document footer
+" cls    <ol>, convert line to ordered list
+" Cls    <ul>, convert line to unordered list
 " cpl    copy linewise
-" cpL    copy linewise, multiple atoms
-" Crl    conv to ordered checklist < ref link
+" Cpl    copy linewise, multiple atoms
+" Crl    convert to ordered checklist < ref link
 " crl    convert to unordered checklist < reference link
 " csv    sort line by comma separated values (csv), ascending order
 " Csv    sort line by comma separated values (csv), descending order
 " ctf    convert line to filename
 " ctr    convert to reference link
 " cts    convert compact timestamp to ISO 8601
-" cul    capture urls
 " ddt    insert date (yyyy-mm-dd)
 " gcc    fix comment spacing :%s/\v(\<!--)(\w)([^-]+)(\w)(--.*)/\1 \2\3\4 \5/e
 " hyp    hyphenate line
-" Ssv    copy filename to :reg r, use buffer's title line as filename
-" ssv    save (write) buffer to disk using title line as filename
 " sbd    sort reference links by domain
 " srt    sort range, unique
+" Ssv    copy filename to :reg r, use buffer's title line as filename
+" ssv    save (write) buffer to disk using title line as filename
 " Tsp    for all buffers, update timestamps
 " tsp    update timestamp
 " ttc    trim title cruft from URLs
+" Url    capture all urls
+" url    capture block of urls
 
 " s<..>  {range} very magic search pattern {cursor position}:
 "" s'    marked range: 'a,'z
@@ -355,4 +362,4 @@ iabbrev zym   Zymonetics
 
 " Last update: set g:mkdx#settings = 'links' { 'enable': 0 } ==> disable getting website; desired: open in browser
 " ^ 2022-01-12T21:16:44-0500
-" % 2023-11-29T00:27:17-0500
+" % 2023-12-06T16:58:18-0500
