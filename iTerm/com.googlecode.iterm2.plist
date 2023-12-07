@@ -4374,7 +4374,7 @@ function \[subFunction\]
 			<key>title</key>
 			<string>sbd :: sort by domain, reference links</string>
 			<key>value</key>
-			<string>:exe "norm {ma}mz"|:'a,'zs/\v^\[\d+]/[1]/|:'a+1,'z-1 sort u|:'a,'zs/\v^(\[\d+\]: [fh]tt?ps?:\/\/)(([^\.]+\.)([^\.\/]+\.[^\/]+)|([^\.\/]+\.[^\/]+))(.*)/\4\5\6#\1\3/|:'a+1,'z-1 sort u|:'a,'zs/\v(.*)#(.*)/\2\1/|:let i=1 | g/^\[1\]/s//\='['.i.']'/ | let i=i+1</string>
+			<string>exe "norm {ma}m z"|'a,'zs/\v^\[\d+]/[1]/|'a+1,'z-1 sort ui|'a,'zs/\v^(\[\d+\]:\s[fh]tt?ps?:\/\/)(([^\.]+\.)([^\.\/]+\.[^\/]+)|([^\.\/]+\.[^\/]+))(.*)/\4\5\6#\1\3/|'a+1,'z-1 sort ui|'a,'zs/\v(.*)#(.*)/\2\1/|let i=1 | g/^\[1\]/s//\='['.i.']'/ | let i=i+1</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
