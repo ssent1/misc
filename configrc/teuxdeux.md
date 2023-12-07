@@ -1,24 +1,5 @@
 # TeuxDeux List
 
-# Contents
-
-- [TeuxDeux List](#teuxdeux-list)
-- [Contents](#contents)
-    - [Daily Checklist](#daily-checklist)
-    - [Music](#music)
-    - [2023-11-26](#2023-11-26)
-    - [13-Sep-2023](#13-sep-2023)
-    - [25-Aug-23](#25-aug-23)
-    - [13-Aug-22](#13-aug-22)
-    - [Top 9 AI Skills](#top-9-ai-skills)
-    - [Old Links and Bookmarks](#old-links-and-bookmarks)
-        - [Coding](#coding)
-        - [WebDev](#webdev)
-        - [Parked](#parked)
-        - [SolClean](#solclean)
-    - [Tutorials](#tutorials)
-    - [Funny Ideas](#funny-ideas)
-
 ## Daily Checklist
 
 1. [ ] Write affirmations
@@ -33,22 +14,37 @@
 3. [ ] [Forefront](https://accounts.forefront.ai/sign-in)
 4. [ ] [Saved](https://www.google.com/save/list/XHntOX47PY-p__eBS6NXkg), [Collections](https://www.google.com/collections/)
 
-## Music
+<!-- zymonetics -->
+- [ ] [rose-hill-canadian-market-access-plan](https://docs.google.com/document/d/1QxmLapmzHlj-8G77yJDhSSyAK4QKe_OylHbDf3dxr74/edit?pli=1#heading=h.km9sfng8b7d9)
+- [ ] [Part 1: The Canadian Marketplace](https://docs.google.com/document/d/1iQCZO9TqsE19D-HBS49tE0E2bWcnWab7ScFVbKyRRu0/edit?pli=1#heading=h.4bu68wyhxc3s)
+- [ ] [Part 2: Make](https://docs.google.com/document/d/1m516ovoRWTEl39k6egvDWh04ICMxT8S8ouBj0_ocgtE/edit?pli=1#heading=h.p8tkdyhtc9hp)
+- [ ] [Part 3: Sell](https://docs.google.com/document/d/1Ar_PvD7oeqqbIIuUEoA5N9al0trn3Qms2P_Bi63O2ac/edit?pli=1#heading=h.pt6f5ul0y4xi)
+- [ ] [template](https://docs.google.com/document/d/1e4Bv8Dg105gssYB_YlA_pEVnwWATJijCGU56mB9mVZ4/edit?pli=1#heading=h.21d4m4gumi76)
 
-- [ ] [Music for Work](https://www.youtube.com/watch?v=N211yi0cJJI)
-- [ ] [Sea Waves Old Cello music](https://www.youtube.com/watch?v=i0MiEfOVZvQ)
-- [ ] [Someone You Loved, Lewis Capaldi - chords](https://tabs.ultimate-guitar.com/tab/lewis-capaldi/someone-you-loved-chords-2512737)
-- [ ] [Someone You Loved, Lewis Capaldi - tutorial](https://www.youtube.com/watch?v=jLcrmEcDNOI)
-- [ ] [Someone You Loved, Lewis Capaldi Choreography.Mia](https://www.youtube.com/watch?v=loLp6rOjWik)
-- [ ] [Someone You Loved, Lewis Capaldi Choreography](https://www.youtube.com/watch?v=znspK9gDKLw)
-- [ ] [Someone You Loved, Lewis Capaldi Lewis Capaldi - Jan Ravnik](https://www.youtube.com/watch?v=yXHQfbFfBbw)
-- [ ] [Someone You Loved, Lewis Capaldi Lewis Capaldi - Sharmila Dance](https://www.youtube.com/watch?v=NUeOAe5--hE)
-- [ ] [Someone You Loved, Lewis Capaldi Lewis Capaldi - The Voice](https://www.youtube.com/watch?v=5Di5Tnx8Bp4)
-- [ ] [Someone You Loved, Lewis Capaldi Lewis Capaldi - Tiny Desk Concert](https://www.youtube.com/watch?v=e4WrRKSgGI0)
-- [ ] [Someone You Loved, Lewis Capaldi Lyrical Dance](https://www.youtube.com/watch?v=AN01SJ4_73E)
-- [ ] [Someone You Loved, Lewis Capaldi](https://genius.com/Lewis-capaldi-someone-you-loved-lyrics)
-- [ ] [Someone You Loved, Lewis Capaldi](https://www.youtube.com/watch?v=zABLecsR5UE)
-- [ ] [YouTube Disco](https://www.youtubedisco.de/)
+<!-- resume -->
+- [ ] [Join - Castalia](https://castalia-advisors.com/join/)
+- [ ] [Resume - Syd Salmon](https://docs.google.com/document/d/13FDzUmc9GyKJW_yk7G2nuTqs73mMrLMrib9cPGQiawk/edit)
+- [ ] [Untitled document](https://docs.google.com/document/d/1OaBQj-cil7qn1YPbWxsbSFmfBayTcDoStLChQs_PodU/edit)
+- [ ] [The Muse Resume Template](https://docs.google.com/document/d/1Rvma9_-Fk1cJiKDMdGrRthdBb0hw6eORY9eGX_dDxYk/edit)
+- [ ] [Scott Williams Resume 2016.docx](https://docs.google.com/document/d/1vGJ_WAJcTG2YaJH_mH9nPtN0JuUGR6B5neid1U_dVGE/edit)
+- [ ] [Syd Salmon - resume](https://docs.google.com/document/d/1zSNIyZSRIOY8VdgCxSzyIwmc-nqjhOdyfR9BzsWehok/edit)
+- [ ] [Vice President Strategy, Trilogy - $400,000/year USD](https://mail.google.com/mail/u/0/#all/FMfcgzGtwzjcQDxFPrsxSqFPsDJJwlCN)
+- [ ] [Vivene - Sunlife Documents](https://mail.google.com/mail/u/0/#search/from%3Avivenesalmon%40gmail.com/FMfcgzGwHpQPxGtZQFMWqWjbWwdBdmQg)
+- [ ] [Similar Jobs](https://www.linkedin.com/jobs/collections/similar-jobs/?currentJobId=3763037290&originToLandingJobPostings=3763037290&referenceJobId=3704508820)
+- [ ] [VP, Global Data Strategy & Management | TELUS International](https://www.linkedin.com/jobs/view/3697073231/?eBP=CwEAAAGMHG5VHD8C5P4CfYl1p6SVgRWoJa7ijc2H80M6OIprjLBrqrWtyN1OAfYeZbj7ALc8HZfNcamoiREckkNjmD7fgE94dhew3JWmDZ0WfiaoxlIkm24X96Z5DzqMOj-q6wHfkqYYPkOm7z8J7AfAfqOK_eZtxNrD7YT031iyACdgPsoP_Oj1G1VkWsMy9IZfDAvHGSsCGdG0lz-HcThih0YBh3HPy62Cmr_8dogF8X7l0xR9CRtQNPPyG-Ngzdh9X4DxI8jDKQMJss7_ZU8EHzWeJK05dqV6w8Rr8LFaAau8xYN66U82SRAWYymaNVLNRxwVfDQ3A5XhljvB3wFPa2484uYqHny9xtY216bzZz1CctEEdoEbOkNDlZQdNCAzGBbKvvsTYwfS&refId=NROGai32eB4Ri%2B%2F8oaLdlw%3D%3D&trackingId=JnEEKUfsxdcvsASXY%2F51KQ%3D%3D&trk=flagship3_search_srp_jobs)
+- [ ] [Vice President Strategy, Trilogy (Remote) - $400,000/year USD](https://www.linkedin.com/jobs/view/3704508820/?trackingId=PHEo7mSfSguIIC44SEVrJA%3D%3D&refId=k85KhyxVRcGYU1cTcLzImA%3D%3D&midToken=AQH1Yr0ytGBrug&midSig=1mphww2IIsNqU1&trk=eml-jobs_jymbii_digest-job_card-0-jobcard_body&trkEmail=eml-jobs_jymbii_digest-job_card-0-jobcard_body-null-r0u4~lm5aeaul~za-null-null&eid=r0u4-lm5aeaul-za&otpToken=MTMwNzE4ZTAxNTI3Y2ZjZWI1MjgwY2U5NGUxYmUxYjA4YWNmZDg0NzlmYTQ4YjZlNzJjZTAyNjg0NzViNTZhY2IyOTQ5N2I4NWJlMmVjMjFmMjcyYjQ4NTQ4Y2QzN2IzZjNlYzk0ZTViOTcwMTUsMSwx)
+- [ ] [Managing Director - International Privacy Consultancy](https://www.linkedin.com/jobs/view/3763014730/?eBP=CwEAAAGMHG5VHB_KLw4rp-rUMHddFYCvhLUZBdEU8OwqSkqwRja_UE-hu4kL72oB25RPqEnm71oBUTVSqCQohinCbOfbchvAKL5rfuDlW6JLYlyiN9v4Qhk8PSRYRXzqbbWE6gPAbNeS2uKujXgcgVfpjvycH0Ytl2ZMEYDelnKs4Qb4_9X2I5eW7ny3NiHU9SL_5fL0w0WfpIygsxXk-G3Z6bnN6X5YT4AWRHPgvPdRliVSVdsoFWtUoln-r-rPrPDiCjeEl3Ibni5RBRXOEbF2Si9fCWDkiZ9YJNS4rgXsSoRMOCmpJlLVSrqNJrfdaBmh0JDXd_bsyXpOpVxmxqmBiFUIlsZYwHGgD-BClhKX6xb5wYSx2Hae4laN57dGijydDgJB9M8WDmIw&refId=NROGai32eB4Ri%2B%2F8oaLdlw%3D%3D&trackingId=7ZE%2FlV3TykO6bCXfohogHg%3D%3D&trk=flagship3_search_srp_jobs)
+- [ ] [Vice President, Equity Diversity Inclusion & Business Ethics](https://www.linkedin.com/jobs/view/3763565860/?eBP=CwEAAAGMHG5VHFHBIW_zYUm19z6tjslG6MCPKuZFS8LyxNP_dIYfXPcmrgLFl9KWX9sFllGtKeKFWPQ9Kw9S5la1NHuA-M1mxl9sGrxVKEeO4gtfOTGt2byk_BhXB1vX0FYh_892gm7DwakZsmy4WTP7fhdnM14k_jedEoSj7aefnNKtpUOOTNf1VKPZMVwBxOgOpPvyvvWeDNGgNwDsRPUJBvWN6UXAEuBxXesjm1T8mJqPCmVwaRcnkerySikRvsQHtlBxD1zxf9edQgezMgQ4mbVg2Q6RKtdQA5AYvImBCrXBnforLzpAHMvszsmczRUeuXyXkkjsMP724Ch7mT0DzG_2JdKZ9H6Sjh0U-85e_PKFwNvEIKFEmdT2fsIU3xMyYx7APnmSH-8c&refId=NROGai32eB4Ri%2B%2F8oaLdlw%3D%3D&trackingId=RjMjiT3zAL3ygz1VrVtzDA%3D%3D&trk=flagship3_search_srp_jobs)
+- [ ] [Vice President, Alliances](https://www.linkedin.com/jobs/view/3771163441/?eBP=CwEAAAGMHG5VHP7ZzH7wbwWItGmYEODfj_TpBsNUW004DiBAr_UGU_f6MSq5gWA7b1osdPfNmsNlK1sHONIC46nrtyRPd1MPddN4IHSVu6EBDWLZya3kh7LSdAbxLNn8oAyxcSnbl-X6kjtRbhk4X9_idzVCuuhMhGoApcsgRuUj27l26N-3j8sO2xa-6y77c-aTZQcahdN-54_xbzxHXyfN_k8WrPZpTOq2E0JTZfwUU4BmMimI-WgCbUSZUsiuPhUtLp-bmxCiJpsYSaBYOZTR60DiyjV6cIgYud1upMpf4hf4qqoL730WIpHvQPS0NpdE8C-RIw5cAJ19sAvge0QuaCPLq_Atf6xZX2HYgSOvst2Sm-30whvqOgyJ_v2L7og1ezebzr6Byc6u&refId=NROGai32eB4Ri%2B%2F8oaLdlw%3D%3D&trackingId=0ehUfB3NZYVxTfeYOXaGPg%3D%3D&trk=flagship3_search_srp_jobs)
+- [ ] [WhatsApp](https://web.whatsapp.com/)
+
+<!-- stuff -->
+- [ ] [product-categorization-lead-capture-tool](https://docs.google.com/spreadsheets/d/1J-ZHJK8HGzGWihYAqVGlTcbuKzR78kMscf0MXavWofw/edit#gid=0)
+- [ ] [14 Entrepreneurs Who Built Food Empires](https://www.youtube.com/watch?v=NSNQibwWGvU)
+- [ ] [13 funding sources](https://www.youtube.com/watch?v=fqovcxJXRQg)
+- [ ] [Andrew Ng: Opportunities in AI](https://www.youtube.com/watch?v=5p248yoa3oE)
+
+## Job Search
 
 ## 2023-11-26
 
@@ -56,18 +52,9 @@
 - [ ] [product-categorization-lead-capture-tool - Google Sheets](https://docs.google.com/spreadsheets/d/1J-ZHJK8HGzGWihYAqVGlTcbuKzR78kMscf0MXavWofw/edit#gid=1077951310)
 
 <!-- startup business -->
-- [ ] <https://youtube.com/shorts/3cVWkykglZ0>
-- [ ] <https://youtube.com/shorts/dVCtvstdW-M>
-- [ ] <https://youtube.com/shorts/W5R-DQ9n18Y>
-- [ ] [24 Surprising Billion-Dollar Industries](https://www.youtube.com/watch?v=apRg-105hB0)
 - [ ] [2:22:04 Genius Inventions: Technical Marvels](https://www.youtube.com/watch?v=iLj8ttLqfEI)
 - [ ] [3 Highly Confident High Status Body Language Cues](https://www.youtube.com/watch?v=O8gH63fAvBQ)
 - [ ] [50 Push Ups Everyday](https://www.youtube.com/watch?v=oiWfRKq8pr4)
-- [ ] [9 AI Skills](https://www.youtube.com/watch?v=57BKHfavqzY)
-- [ ] [A Case for Color Blindness](https://www.youtube.com/watch?v=QxB3b7fxMEA&t=48s)
-- [ ] [A-Fest Livecast](https://www.youtube.com/watch?v=dFLWPLS1VzI)
-- [ ] [America's F*cked Up Tax System](https://www.youtube.com/shorts/q0OjvN8tgK4)
-- [ ] [Andrew Ng: Opportunities in AI](https://www.youtube.com/watch?v=5p248yoa3oE)
 - [ ] [animated slide decks Figma](https://www.youtube.com/watch?v=CgHfcrm3oXw)
 - [ ] [Apple Event](https://www.youtube.com/watch?v=ZiP1l7jlIIA)
 - [ ] [Backgrounds for Twitter, etc](https://mashable.com/archive/custom-twitter-youtube-myspace-backgrounds)
@@ -100,7 +87,7 @@
 - [x] [Codie Sanchez](https://www.youtube.com/@CodieSanchezCT)
 
 - [ ] [LinkedIn](https://www.linkedin.com/analytics/post-summary/urn:li:activity:7125162637008539649/)
-- [ ] [Post | Feed | LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7125162637008539649/)
+- [ ] [Post | Feed](https://www.linkedin.com/feed/update/urn:li:activity:7125162637008539649/)
 - [ ] [150+ Top Sourcing / #OSINT Tools | Boolean Strings](https://booleanstrings.com/tools/)
 - [ ] [Articles | Sector035](https://sector035.nl/articles/category:article)
 - [ ] [Favorite pages](https://www.google.com/save/list/XHntOX47PY-p__eBS6NXkg)
@@ -323,7 +310,7 @@ Jacek Nawrot · Control Systems Project Manager at Tigercat Industries Inc. · R
 - [ ] [Extensions in Bookmarks – Add-ons for Firefox (en-US)](https://addons.mozilla.org/en-US/firefox/extensions/category/bookmarks/)
 - [ ] [F*ck You. Pay Me.](https://vimeo.com/22053820)
 - [ ] [February 2017 Internal Newsletter - sksalmon@gmail.com - Gmail](https://mail.google.com/mail/u/0/#section_query/label%3AThe+Luxury+Network+is%3Ainbox+/FMfcgxmTmlLvGrJTQdwJvZgHSplSZqCM)
-- [ ] [Feed | LinkedIn](https://www.linkedin.com/feed/)
+- [ ] [Feed](https://www.linkedin.com/feed/)
 - [ ] [Find A Rate | Canada Post](https://www.canadapost-postescanada.ca/cpc/en/tools/find-a-rate.page)
 - [ ] [Fitday: Free Diet & Weight Loss Journal](https://www.fitday.com/auth/login?_a_Date=1286755200.)
 - [ ] [FREE 5-day Nutrition Coaching Course](https://www.precisionnutrition.com/nutrition-coaching-intro)
@@ -520,6 +507,7 @@ Jacek Nawrot · Control Systems Project Manager at Tigercat Industries Inc. · R
 - [ ] [Tic-tac - your mom's breath](https://youtube.com/shorts/HiDGfFOzfnk)
 - [ ] [Chicken Sandwich](https://youtube.com/shorts/219f_wH2vDg)
 - [ ] [roy wood jr](https://www.youtube.com/results?search_query=roy+wood+jr)
+- [ ] [YouTube Disco](https://www.youtubedisco.de/)
 
 - - -
 <!-- sources -->
@@ -527,4 +515,4 @@ Jacek Nawrot · Control Systems Project Manager at Tigercat Industries Inc. · R
 Tags: mdi, mental health, personal development exercise, productivity, relationships, teuxdeux, todo
 
 ^ 2020-11-12T18:26:31-0500\
-% 2023-11-29T01:04:49-0500
+% 2023-11-29T23:31:23-0500
