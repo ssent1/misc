@@ -271,7 +271,7 @@ cabbrev !!     [^]+<Left><Left>
 cabbrev ''     exe "norm {jma}kmz"
 cabbrev alb    Tabularize /:
 cabbrev alf    Tabularize /^[^:]*:\zs/l0r1
-cabbrev c2l    s/\sand//e | let cnt=1 | silent exe 's/'.','.'/\=execute(''let cnt += 1'')/n' | let @q=cnt |call repeat(append('.', ""), @q)|:call setline('.', uniq(split(tolower(getline('.')), ',\s*'))) |:exe "norm {jma}kmz" |:'a,'zs/^/- [ ] /e |:noh |:'a,'zs/\v<(\w)([^.$]+)/\u\1\L\2/e
+cabbrev c2l    s/\sand//e \| let cnt=1 \| silent exe 's/'.','.'/\=execute(''let cnt += 1'')/n' \| let @q=cnt \|call repeat(append('.', ""), @q)\|:call setline('.', uniq(split(tolower(getline('.')), ',\s*'))) \|:exe "norm {jma}kmz" \|:'a,'zs/^/- [ ] /e \|:noh \|:'a,'zs/\v<(\w)([^.$]+)/\u\1\L\2/e
 cabbrev cap    %s/\vchrome-extension:\/\/efaidnbmnnnibpcajpcglclefindmkaj\/(https?\|ftp)(:\/\/[^\s\/\$\.\?\#]+.\S+)/\1\2/e
 cabbrev ccq    %s/^\s\+\<\\|\s\+$//e\|:%s/\>\s\{2,}/ /e\|:%s/^\n\{2,}/\r/e\|:%s/[‘’]/'/e\|:%s/[“”]/"/e\|:%s/\n\+\%$//e
 cabbrev cdf    $ka\|:'a\|-1s/\n\n//e\|:?^\s*$?\|:+1,$d\|:let @q=@"\|:-3kz\|:-7ka\|:'a,'zs/\v_(\d{4}-\d{2}-\d{2}[tT_]\d{2}:\d{2}:\d{2}-\d{4})_/\1/e\|:'a,'zs/\v(\d{4})(\d{2})(\d{2})[tT_](\d{2})(\d{2})(\d{2})/\1-\2-\3T\4:\5:\6-0_00/e\|:'a,'zs/\v(\d{4})(\d{2})(\d{2})[tT_](\d{2})(\d{2})(\d{2})(\d{4})/\1-\2-\3T\4:\5:\6-\7/e\|:'a,'zd\|:let @r=@"\|:-1,$d\|:let@s="- - -\n<!-- sources -->\n"\|:pu s\|:pu q\|:pu r
@@ -362,4 +362,4 @@ iabbrev zym   Zymonetics
 
 " Last update: set g:mkdx#settings = 'links' { 'enable': 0 } ==> disable getting website; desired: open in browser
 " ^ 2022-01-12T21:16:44-0500
-" % 2023-12-06T16:58:18-0500
+" % 2023-12-06T23:40:23-0500
