@@ -130,5 +130,18 @@ Product Assistant, Consumer Business Unit
 - [ ] Awarded 'President's Medal' for meeting and exceeding annual sales quota, Avocent 1999
 - [ ] Led bronze medal-winning team in Bell Marketing Case Competition December 2004
 
+- - -
+<!-- sources -->
+[1]: https://www.cascade.app/blog/best-strategy-frameworks "11 Best Strategic Frameworks For Your Organization"
+[2]: https://www.linkedin.com/jobs/view/3704504855/ "Vice President Strategy, Trilogy (Remote) - $400,000/year USD"
+[3]: https://www.jobscan.co/blog/20-ats-friendly-resume-templates "Write ATS-Friendly Resumes"
+[4]: https://youtu.be/XHWjfwb0TaE "10 Ways to beat applicant tracking systems"
+[5]: https://www.jobscan.co/resume-templates "Free Resume Templates for 2021: Downloadable Templates"
+[6]: https://www.managementstudyguide.com/strategy-formulation-vs-implementation.htm "Strategy: Formulation v Implementation"
+[7]: https://online.hbs.edu/blog/post/importance-of-business-analytics "Business Analytics"
+[8]: https://www.investopedia.com/articles/personal-finance/090815/basics-business-development.asp "Business Development"
+
+Tags: career development, curriculum vitae, cv, job search, productivity, resume
+
 ^ 2023-12-06T14:15:18-0500\
-% 2023-12-06T18:28:44-0500
+% 2023-12-07T00:39:55-0500
