@@ -89,7 +89,7 @@ alias src='. ~/.zshrc'                           # source zsh
 alias ssh1='ssh 192.168.1.'                      # ssh to local device
 alias teux='. ~/Dropbox/nvalt/donga-teuxdeux.sh' # open To Do list
 # alias teux='vim ~/Dropbox/nvalt/{teuxdeux,blog-post-ideas}.md' # open To Do list
-alias tmp='vim tmp-$(date +%Y%m%d@%H%M%S%z)'     # create temp file with timestamp
+alias tmp='vim tmp-$(date +%Y%m%d@%H%M%S%z).md'  # create temp file with timestamp
 alias {trh,tt}='trash'                           # trash item(s)
 alias {v,vi}='vim'
 alias wf='ns=$(networksetup -getnetworkserviceenabled Wi-Fi) \
@@ -143,4 +143,4 @@ gitd() { git diff $1 }                      # git diff: show changes
 ## https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html
 
 ## ^ 2022-01-12T21:16:44-0500
-## % 2023-11-27T13:18:35-0500
+## % 2023-12-19T13:15:30-0500
