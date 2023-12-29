@@ -4259,10 +4259,12 @@ function \[subFunction\]
 			<integer>0</integer>
 			<key>guid</key>
 			<string>CB3161B6-EE34-49A7-953E-51D144DEE41F</string>
+			<key>tags</key>
+			<array/>
 			<key>title</key>
 			<string>gfi $$ GetFileInfo - create date</string>
 			<key>value</key>
-			<string>GetFileInfo -d !v:$|sed -E 's/([0-9]{2})[\\/]([0-9]{2})[\\/]([0-9]{4}) ([0-9]{2}:[0-9]{2}:[0-9]{2})/\3-\1-\2T\4-0500\\/g'|tee /dev/tty|pbcopy</string>
+			<string>GetFileInfo -d !v:$|sed -E 's/([0-9]{2})[\\/]([0-9]{2})[\\/]([0-9]{4}) ([0-9]{2}:[0-9]{2}:[0-9]{2})/^ \3-\1-\2T\4-0500\\/g'|tee /dev/tty|pbcopy</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
