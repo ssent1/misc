@@ -283,24 +283,24 @@ cabbrev crl    exe "norm {jma}kmz"\|:'a,'zs/\v^\[(\d+)\]: ([^ ]+) "([^\"]+)"/- [
 cabbrev Crl    exe "norm {jma}kmz"\|:'a,'zs/\v^\[0?([1-9]+)\]: ([^ ]+) "([^\"]+)"/\1. [ ] [\3](\2)/e |:noh
 cabbrev Csv    call search('^Tags:\s','w')\|:exe 'norm ^"qd2w'\|:call setline('.', @q.join(reverse(sort(uniq(split(tolower(getline('.')), ',\s*')))), ', '))
 cabbrev csv    call search('^Tags:\s','w')\|:exe 'norm ^"qd2w'\|:call setline('.', @q.join(sort(uniq(split(tolower(getline('.')), ',\s*'))), ', '))
-cabbrev ctf    s;\v^\s+\|\s+$;;e\|:s;\v^(.*)\n;\=setreg('q',submatch(1));n\|:s;\>[^ ];;e\|:s;\>\W\+;-;e\|:s;\v^(.*);\=setreg('r',tolower(submatch(1)).'.md');n\|:d\|:put! q\|:let @*=@r\|:noh
-cabbrev ctr    exe "norm {jma}kmz"\|:'a,'zs;\v^(\d+)\. \[([^\]]+)\]\(([^\)]+)\);[\1]: \3 "\2";
-cabbrev cts    call search('\v(\d{4})(\d{2})(\d{2})[tT_](\d{2})(\d{2})(\d{2})', 'w')\|:s;\v(\d{4})(\d{2})(\d{2})[tT_](\d{2})(\d{2})(\d{2});\1-\2-\3T\4:\5:\6-0_00;\|:call search('\d\+')\|:exe "norm 24yl"
+cabbrev ctf    s/\v^\s+\|\s+$//e\|:s/\v^(.*)\n/\=setreg('q',submatch(1))/n\|:s/\>[^ ]//e\|:s/\>\W\+/-/e\|:s/\v^(.*)/\=setreg('r',tolower(submatch(1)).'.md')/n\|:d\|:put! q\|:let @*=@r\|:noh
+cabbrev ctr    exe "norm {jma}kmz"\|:'a,'zs/\v^(\d+)\. \[([^\]]+)\]\(([^\)]+)\)/[\1]: \3 "\2"/
+cabbrev cts    call search('\v(\d{4})(\d{2})(\d{2})[tT_](\d{2})(\d{2})(\d{2})', 'w')\|:s/\v(\d{4})(\d{2})(\d{2})[tT_](\d{2})(\d{2})(\d{2})/\1-\2-\3T\4:\5:\6-0_00/\|:call search('\d\+')\|:exe "norm 24yl"
 cabbrev ddt    let@r=strftime('%Y-%m-%d')\|:norm!"rp"
-cabbrev gcc    %s;\v(\<!--)(\w)([^-]+)(\w)(--.*);\1 \2\3\4 \5;e
-cabbrev hyp    s;\v^\s+\|\s+$;;e\|:let title = getline('.')\|:s;\W\+;-;e\|:s;\v<-(.*);\=setreg('r',tolower(submatch(1)).'.md');n\|:call setline('.',title)\|:noh 
-cabbrev s'     exe "norm {jma}kmz"\|:'a,'zs;\v()<Left>
+cabbrev gcc    %s/\v(\<!--)(\w)([^-]+)(\w)(--.*)/\1 \2\3\4 \5/e
+cabbrev hyp    s/\v^\s+\|\s+$//e\|:let title = getline('.')\|:s/\W\+/-/e\|:s/\v^-(.*)/\=setreg('r',tolower(submatch(1)).'.md')/n\|:call setline('.',title)\|:noh 
+cabbrev s'     exe "norm {jma}kmz"\|:'a,'zs/\v()<Left>
 cabbrev sbd    exe "norm {ma}mz"\|:'a,'zs/\v^\[\d+]/[1]/\|:'a+1,'z-1 sort ui\|:'a,'zs/\v^(\[\d+\]:\s[fh]tt?ps?:\/\/)(([^\.]+\.)([^\.\/]+\.[^\/]+)\|([^\.\/]+\.[^\/]+))(.*)/\4\5\6#\1\3/\|:'a+1,'z-1 sort ui\|:'a,'zs/\v(.*)#(.*)/\2\1/\|:let i=1 \| g/^\[1\]/s//\='['.i.']'/ \| let i=i+1
 cabbrev sd     %s///<Left><Left>
 cabbrev sr     .,s/\v()<S-Left><Right><Right>
 cabbrev srt    exe "norm {jma}kmz"\|:'a,'z sort ui
-cabbrev ssv    1\|:s;\v^\s+\|\s+$;;e\|:let title = getline('.')\|:s;\W\+;-;e\|:s;\v<-(.*);\=setreg('r',tolower(submatch(1)).'.md');n\|:call setline('.',title)\|:exe 'sav'@r\|:noh
-cabbrev Ssv    bufdo 1\|:s;\v^\s+\|\s+$;;e\|:let title = getline('.')\|:s;\W\+;-;e\|:s;\v<-(.*);\=setreg('r',tolower(submatch(1)).'.md');n\|:call setline('.',title)\|:exe 'sav'@r\|:noh
+cabbrev ssv    1\|:s/\v^\s+\|\s+$//e\|:let title = getline('.')\|:s/\W\+/-/e\|:s/\v^-(.*)/\=setreg('r',tolower(submatch(1)).'.md')/n\|:call setline('.',title)\|:exe 'sav'@r\|:noh
+cabbrev Ssv    bufdo 1\|:s/\v^\s+\|\s+$//e\|:let title = getline('.')\|:s/\W\+/-/e\|:s/\v^-(.*)/\=setreg('r',tolower(submatch(1)).'.md')/n\|:call setline('.',title)\|:exe 'sav'@r\|:noh
 cabbrev Tsp    bufdo :call search('%\s20\d\{2}-\d\{2}-\d\{2}','w')\|:exe 'norm ^"qdt2'\|:call setline('.',@q.strftime('%FT%T%z'))\|:w
 cabbrev tsp    call search('%\s20\d\{2}-\d\{2}-\d\{2}','w')\|:exe 'norm ^"qdt2'\|:call setline('.',@q.strftime('%FT%T%z'))\|:w
-cabbrev ttc    exe "norm {jma}kmz"\|:'a,'zs;\v(\[\d\]:\s([fh]tt?ps?:\;\;[^\;$.?#]+\S+)\;?)\s"\2";\1;e\|:'a,'zs;\v%(\s[-\;:^\|·––—⋅]\s)([A-Za-z0-9 ]+)"$;";\|:'a,'zs;\v(\[\d\]:\s[fh]tt?ps?:\;\;[^\;$.?#]+\S+)\|:(\s"[^-·–—\|"]+\w)[^"]*(");\1\2\3;e\|:noh
-cabbrev UrL    %s;\v([fh]tt?ps?:\;\;[^\;\$\.\?\#]+\S+);\1;\|:noh
-cabbrev url    exe "norm {jma}kmz"\|:'a,'zs;\v([fh]tt?ps?:\;\;[^\;\$\.\?\#]+\S+);\1;\|:noh
+cabbrev ttc    exe "norm {jma}kmz"\|:'a,'zs/\v(\[\d\]:\s([fh]tt?ps?:\/\/[^\/$.?#]+\S+)\/?)\s"\2"/\1/e\|:'a,'zs/\v%(\s[-\/:^\|·––—⋅]\s)([A-Za-z0-9 ]+)"$/"/\|:'a,'zs/\v(\[\d\]:\s[fh]tt?ps?:\/\/[^\/$.?#]+\S+)\|:(\s"[^-·–—\|"]+\w)[^"]*(")/\1\2\3/e\|:noh
+cabbrev UrL    %s/\v([fh]tt?ps?:\/\/[^\/\$\.\?\#]+\S+)/\1/\|:noh
+cabbrev url    exe "norm {jma}kmz"\|:'a,'zs/\v([fh]tt?ps?:\/\/[^\/\$\.\?\#]+\S+)/\1/\|:noh
 cabbrev yfn    let @+=expand("%:t")
 cabbrev yfp    let @+=expand("%:p")
 cabbrev yrp    let @+=expand("%")
@@ -362,4 +362,4 @@ iabbrev zym   Zymonetics
 
 " Last update: set g:mkdx#settings = 'links' { 'enable': 0 } ==> disable getting website; desired: open in browser
 " ^ 2022-01-12T21:16:44-0500
-" % 2023-12-06T23:40:23-0500
+" % 2023-12-21T01:08:06-0500
