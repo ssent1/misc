@@ -1,7 +1,8 @@
 #!/bin/zsh
 
 # Alfred App v2.9 Workflow
-# !> Choose Browser
+# Choose Browser: { "Keyword": "cbr", "space": "true", "arg": "optional" }
+# app = browser, arg = url
 
 # Input > Script Filter
 #
@@ -30,22 +31,22 @@ cat << EOB
     <icon type="fileicon">/Applications/Brave.app</icon>
   </item>
 
-  <item uid="firefox" arg="/Applications/Firefox.app,{query}" valid="YES" autocomplete="Firefox" type="file">
-    <title>Firefox</title>
-    <subtitle>/Applications/Firefox.app/@{query}</subtitle>
-    <icon type="fileicon">/Applications/Firefox.app</icon>
-  </item>
-
   <item uid="chrome" arg="/Applications/Google Chrome.app,{query}" valid="YES" autocomplete="Google Chrome" type="file">
-    <title>Google Chrome</title>
+    <title>Chrome, Google</title>
     <subtitle>/Applications/Google Chrome.app/@{query}</subtitle>
     <icon type="fileicon">/Applications/Google Chrome.app</icon>
   </item>
 
   <item uid="edge" arg="/Applications/Microsoft Edge.app,{query}" valid="YES" autocomplete="Microsoft Edge" type="file">
-    <title>Microsoft Edge</title>
+    <title>Edge, Microsoft</title>
     <subtitle>/Applications/Microsoft Edge.app/@{query}</subtitle>
     <icon type="fileicon">/Applications/Microsoft Edge.app</icon>
+  </item>
+
+  <item uid="firefox" arg="/Applications/Firefox.app,{query}" valid="YES" autocomplete="Firefox" type="file">
+    <title>Firefox</title>
+    <subtitle>/Applications/Firefox.app/@{query}</subtitle>
+    <icon type="fileicon">/Applications/Firefox.app</icon>
   </item>
 
   <item uid="opera" arg="/Applications/Opera.app,{query}" valid="YES" autocomplete="Opera" type="file">
@@ -142,4 +143,4 @@ osascript -e "tell application \"$app\"" -e 'activate' -e 'end tell' -e "open lo
 
 # - - -
 # ^ 2023-11-28T11:56:39-0500\
-# % 2023-11-29T11:27:42-0500
+# % 2024-01-03T17:29:41-0500
