@@ -126,7 +126,15 @@ fi
 
 ## parametrized aliases
 brs() { brew search $1 && brew info $1 }                 # search Homebrew for <word>, [ -e <term> ] && show details
-fnd() { find $HOME/Dropbox/nvalt -type f -iname "*$1*" } # find <word> in current working directory
+fnd() { find $HOME/Dropbox/nvalt -type f -iname "*$1*" } # find <word> in nvalt
+Fnd() { 
+    if [ -z "$2" ]; then
+        find . -type f -iname "*$1*" -maxdepth 1
+    else
+        find . -type f -iname "*$1*" -maxdepth $2
+    fi
+}
+# find <word> in "present working directory" (PWD), if no value is given for maxdepth, set it to 1
 rp() { realpath -m $1|tee /dev/tty|pbcopy }              # resolve qualified path: get resolved canonical path
 rfd() { awk 'NF>0' $HOME/Downloads/app_purge/$1|while read line ; do sudo rm -Rfd "${line}.md" ; done }
 # delete items listed in app_purge file
@@ -143,4 +151,4 @@ gitd() { git diff $1 }                      # git diff: show changes
 ## https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html
 
 ## ^ 2022-01-12T21:16:44-0500
-## % 2023-12-19T13:15:30-0500
+## % 2024-01-19T17:00:44-0500
