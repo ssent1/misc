@@ -46,6 +46,16 @@
 
 ## Job Search
 
+- [ ] [YouTube](https://www.youtube.com/watch?v=UbEpM-VwOU8)
+- [ ] [Coursera | Online Courses From Top Universities. Join for Free](https://www.coursera.org/learn/prompt-engineering/lecture/reRe6/writing-effective-few-shot-examples)
+- [ ] [Endless Grace](https://chat.openai.com/c/fa7092f2-34fd-482f-ac9d-a3af20ba95a1)
+- [ ] [(55) Vice President, Equity Diversity Inclusion & Business Ethics | Workplace Safety and Insurance Board (WSIB) | LinkedIn](https://www.linkedin.com/jobs/view/3763565860/?eBP=CwEAAAGMHG5VHFHBIW_zYUm19z6tjslG6MCPKuZFS8LyxNP_dIYfXPcmrgLFl9KWX9sFllGtKeKFWPQ9Kw9S5la)
+- [ ] [How to Write a Vim Plugin | Linode Docs](https://www.linode.com/docs/guides/writing-a-vim-plugin/)
+- [ ] [Online Guitar Tuner with Microphone, Free Guitar Tuning](https://tuner-online.com/)
+- [ ] [Conditionals / Learn Vimscript the Hard Way](https://learnvimscriptthehardway.stevelosh.com/chapters/21.html)
+- [ ] [Don't Use ChatGPT Until You Watch This Video - YouTube](https://www.youtube.com/watch?v=wBAnCMA98ls&themeRefresh=1)
+- [ ] [Sole Mate | The New Yorker](https://www.newyorker.com/magazine/2011/03/28/sole-mate)
+
 ## 2023-11-26
 
 - [ ] [Modernization of Cosmetics Regulation Act of 2022 (MoCRA)](https://www.fda.gov/cosmetics/cosmetics-laws-regulations/modernization-cosmetics-regulation-act-2022-mocra)
@@ -515,4 +525,4 @@ Jacek Nawrot · Control Systems Project Manager at Tigercat Industries Inc. · R
 Tags: mdi, mental health, personal development exercise, productivity, relationships, teuxdeux, todo
 
 ^ 2020-11-12T18:26:31-0500\
-% 2023-11-29T23:31:23-0500
+% 2024-01-03T18:33:37-0500
