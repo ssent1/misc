@@ -4236,7 +4236,7 @@ function \[subFunction\]
 			<key>title</key>
 			<string>fts :: update footer timestamp</string>
 			<key>value</key>
-			<string>let view=winsaveview()|:call search('%\s\d\{4}-\d\{2}-\d\{2}','w')|:exe 'norm ^"qdt2'|:call setline('.',@q.strftime('%FT%T%z'))|:w|:call winrestview(view)</string>
+			<string>let view=winsaveview()|:call search('%\s\d\{4}-\d\{2}-\d\{2}','w')|:exe 'norm ^"qdt2'|:call setline('.',@q.strftime('%FT%T%z'))|:call winrestview(view)|:w</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
