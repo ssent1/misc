@@ -290,15 +290,16 @@ cabbrev ddt    let@r=strftime('%Y-%m-%d')\|:norm!"rp"
 cabbrev fnr    exe "norm! Go"\|:let@r="- - -\n<!-- sources -->\n\nTags: \n\n^\n\\\n%\n"\|:put r\|:let@r=strftime(' %FT%T%z')\|:norm!"rp2k"rpgJ4k"
 cabbrev gcc    %s/\v(\<!--)(\w)([^-]+)(\w)(--.*)/\1 \2\3\4 \5/e
 cabbrev hyp    s/\v^\s+\|\s+$//e\|:let title = getline('.')\|:s/\W\+/-/e\|:s/\v^-?(.*)/\=setreg('r',tolower(submatch(1)).'.md')/n\|:call setline('.',title)\|:let @+=@r\|:noh
-cabbrev s'     exe "norm {jma}kmz"\|:'a,'zs/\v()<Left>
+cabbrev s'     'a,'zs/\v()<Left>
+cabbrev S'     exe "norm {jma}kmz"\|:'a,'zs/\v()<Left>
 cabbrev sbd    exe "norm {ma}mz"\|:'a,'zs/\v^\[\d+]/[1]/\|:'a+1,'z-1 sort ui\|:'a,'zs/\v^(\[\d+\]:\s[fh]tt?ps?:\/\/)(([^\.]+\.)([^\.\/]+\.[^\/]+)\|([^\.\/]+\.[^\/]+))(.*)/\4\5\6#\1\3/\|:'a+1,'z-1 sort ui\|:'a,'zs/\v(.*)#(.*)/\2\1/\|:let i=1 \| g/^\[1\]/s//\='['.i.']'/ \| let i=i+1
 cabbrev sd     %s///<Left><Left>
 cabbrev sr     .,s/\v()<S-Left><Right><Right>
 cabbrev srt    exe "norm {jma}kmz"\|:'a,'z sort ui
 cabbrev ssv    1\|:s/\v^\s+\|\s+$//e\|:let title = getline('.')\|:s/\W\+/-/e\|:s/\v^-(.*)/\=setreg('r',tolower(submatch(1)).'.md')/n\|:call setline('.',title)\|:exe 'sav'@r\|:noh
 cabbrev Ssv    bufdo 1\|:s/\v^\s+\|\s+$//e\|:let title = getline('.')\|:s/\W\+/-/e\|:s/\v^-(.*)/\=setreg('r',tolower(submatch(1)).'.md')/n\|:call setline('.',title)\|:exe 'sav'@r\|:noh
-cabbrev Tsp    bufdo :call search('%\s20\d\{2}-\d\{2}-\d\{2}','w')\|:exe 'norm ^"qdt2'\|:call setline('.',@q.strftime('%FT%T%z'))\|:w
-cabbrev tsp    let view=winsaveview()\|:call search('%\s\d\{4}-\d\{2}-\d\{2}','w')\|:exe 'norm ^"qdt2'\|:call setline('.',@q.strftime('%FT%T%z'))\|:call winrestview(view)\|:w
+cabbrev Tsp    bufdo :call search('%\s20\d\{2}-\d\{2}-\d\{2}','w')\|:exe 'norm ^"qdt2'\|:call setline('.',@q.strftime('%FT%T%z'))\|:up
+cabbrev tsp    let view=winsaveview()\|:call search('%\s\d\{4}-\d\{2}-\d\{2}','w')\|:exe 'norm ^"qdt2'\|:call setline('.',@q.strftime('%FT%T%z'))\|:call winrestview(view)\|:up
 cabbrev ttc    exe "norm {jma}kmz"\|:'a,'zs/\v(\[\d\]:\s([fh]tt?ps?:\/\/[^\/$.?#]+\S+)\/?)\s"\2"/\1/e\|:'a,'zs/\v%(\s[-\/:^\|·––—⋅]\s)([A-Za-z0-9 ]+)"$/"/\|:'a,'zs/\v(\[\d\]:\s[fh]tt?ps?:\/\/[^\/$.?#]+\S+)\|:(\s"[^-·–—\|"]+\w)[^"]*(")/\1\2\3/e\|:noh
 cabbrev Url    %s/\v([fh]tt?ps?:\/\/[^\/\$\.\?\#]+\S+)/\1/\|:noh
 cabbrev url    exe "norm {jma}kmz"\|:'a,'zs/\v([fh]tt?ps?:\/\/[^\/\$\.\?\#]+\S+)/\1/\|:noh
@@ -364,4 +365,4 @@ iabbrev zym   Zymonetics
 
 " Last update: set g:mkdx#settings = 'links' { 'enable': 0 } ==> disable getting website; desired: open in browser
 " ^ 2022-01-12T21:16:44-0500
-" % 2024-02-03T15:54:51-0500
+" % 2024-02-05T20:34:32-0500
