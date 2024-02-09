@@ -22,6 +22,7 @@
 - [ ] [template](https://docs.google.com/document/d/1e4Bv8Dg105gssYB_YlA_pEVnwWATJijCGU56mB9mVZ4/edit?pli=1#heading=h.21d4m4gumi76)
 
 <!-- resume -->
+- [ ] [Omni Calculator Careers](https://omnicalculator.freshteam.com/jobs)
 - [ ] [Join - Castalia](https://castalia-advisors.com/join/)
 - [ ] [Resume - Syd Salmon](https://docs.google.com/document/d/13FDzUmc9GyKJW_yk7G2nuTqs73mMrLMrib9cPGQiawk/edit)
 - [ ] [Untitled document](https://docs.google.com/document/d/1OaBQj-cil7qn1YPbWxsbSFmfBayTcDoStLChQs_PodU/edit)
@@ -525,4 +526,4 @@ Jacek Nawrot · Control Systems Project Manager at Tigercat Industries Inc. · R
 Tags: mdi, mental health, personal development exercise, productivity, relationships, teuxdeux, todo
 
 ^ 2020-11-12T18:26:31-0500\
-% 2024-01-03T18:33:37-0500
+% 2024-02-07T21:07:27-0500
