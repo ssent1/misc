@@ -14,6 +14,20 @@
 3. [ ] [Forefront](https://accounts.forefront.ai/sign-in)
 4. [ ] [Saved](https://www.google.com/save/list/XHntOX47PY-p__eBS6NXkg), [Collections](https://www.google.com/collections/)
 
+## 2024-02-17
+
+- [ ] [UFC 298 Embedded: Vlog Series - Episode 1](https://www.youtube.com/watch?v=towMIFkql-0&list=PL9m3-_Hv6qNg_cssDBMP9skxcgdAjzJ5T)
+- [ ] [Dua Lipa](https://www.youtube.com/watch?v=mx9pWIJxGwE)
+- [ ] [Andrew Huberman 'Rich People Think Differently'](https://www.youtube.com/watch?v=4bIATTQHooM)
+- [ ] [Michael Jordan Speech](https://www.youtube.com/watch?v=Fm0G-4DEIuM)
+- [ ] [Asking my 14yr old daughter hard questions - Grant Cardone](https://www.youtube.com/watch?v=lwaNwKRpH04)
+- [ ] [Sam Altman: Plan For AGI](https://www.youtube.com/watch?v=v-grfwbZGc8&list=TLPQMTQwMjIwMjQFqsUvTLspbQ&index=6)"
+- [ ] [YouTube](https://www.youtube.com/watch?v=FJVcGMcEw7Q)
+- [ ] [The Presidential Pump](https://www.youtube.com/watch?v=sl9OmHy6c6o)
+- [ ] [How to Use Skool as a Funnel](https://www.youtube.com/watch?v=9c0FBkowyrE)
+- [ ] [100% Open-Source AI Glasses Only](https://www.youtube.com/watch?v=f7S4gKcHdtM)
+- [ ] [Crypto Influencer Murdered for Scamming the WRONG People](https://www.youtube.com/watch?v=7oDgZqdgHz8)
+
 <!-- zymonetics -->
 - [ ] [rose-hill-canadian-market-access-plan](https://docs.google.com/document/d/1QxmLapmzHlj-8G77yJDhSSyAK4QKe_OylHbDf3dxr74/edit?pli=1#heading=h.km9sfng8b7d9)
 - [ ] [Part 1: The Canadian Marketplace](https://docs.google.com/document/d/1iQCZO9TqsE19D-HBS49tE0E2bWcnWab7ScFVbKyRRu0/edit?pli=1#heading=h.4bu68wyhxc3s)
@@ -54,7 +68,7 @@
 - [ ] [How to Write a Vim Plugin | Linode Docs](https://www.linode.com/docs/guides/writing-a-vim-plugin/)
 - [ ] [Online Guitar Tuner with Microphone, Free Guitar Tuning](https://tuner-online.com/)
 - [ ] [Conditionals / Learn Vimscript the Hard Way](https://learnvimscriptthehardway.stevelosh.com/chapters/21.html)
-- [ ] [Don't Use ChatGPT Until You Watch This Video - YouTube](https://www.youtube.com/watch?v=wBAnCMA98ls&themeRefresh=1)
+- [ ] [Don't Use ChatGPT Until You Watch This Video](https://www.youtube.com/watch?v=wBAnCMA98ls&themeRefresh=1)
 - [ ] [Sole Mate | The New Yorker](https://www.newyorker.com/magazine/2011/03/28/sole-mate)
 
 ## 2023-11-26
@@ -526,4 +540,4 @@ Jacek Nawrot · Control Systems Project Manager at Tigercat Industries Inc. · R
 Tags: mdi, mental health, personal development exercise, productivity, relationships, teuxdeux, todo
 
 ^ 2020-11-12T18:26:31-0500\
-% 2024-02-07T21:07:27-0500
+% 2024-02-17T21:01:23-0500
