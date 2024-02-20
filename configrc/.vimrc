@@ -72,9 +72,9 @@ set viminfo='1000,f1               " save bookmarks
 augroup init_save
     au!
     autocmd BufNewFile * :write
-    " autocmd BufNewFile * execute 'cd '.expand('%:p:h') |:execute 'e '.expand('%') |:execute 'write'
-    autocmd BufNewFile *.md :let@r='' |:let@r="# \n\n- - -\n<!-- sources -->\n\nTags: \n\n^\n\\\n%\n" |:put r
-                \|:let@r=strftime(' %FT%T%z') |:norm!"rp2k"rpgJ4kmaggdd$"
+    " autocmd BufNewFile * execute 'cd '.expand('%:p:h')|:execute 'e '.expand('%')|:execute 'write'
+    autocmd BufNewFile *.md :let@r=''|:let@r="# \n\n- - -\n<!-- sources -->\n\nTags: \n\n^\n\\\n%\n"|:put r
+                \|:let@r=strftime(' %FT%T%z')|:norm!"rp2k"rpgJ4kmaggdd$"
     autocmd BufRead,BufNewFile *.py setlocal textwidth=80
     autocmd BufRead,BufNewFile *.html setlocal textwidth=0
 augroup END
@@ -168,7 +168,7 @@ if empty(glob(data_dir . '/autoload/plug.vim'))
                 \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
     augroup install_plug
         au!
-        autocmd VimEnter * PlugInstall --sync |:source $MYVIMRC
+        autocmd VimEnter * PlugInstall --sync|:source $MYVIMRC
     augroup END
 endif
 
@@ -182,7 +182,7 @@ endif
 augroup install_plugins
     au!
     autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
-                \|:PlugInstall --sync |:source $MYVIMRC
+                \|:PlugInstall --sync|:source $MYVIMRC
                 \|:endif
 augroup END
 
@@ -299,7 +299,7 @@ cabbrev sr     .,s/\v()<S-Left><Right><Right>
 cabbrev srt    exe "norm {jma}kmz"\|:'a,'z sort ui
 cabbrev ssv    1\|:s/\v^\s+\|\s+$//e\|:let title = getline('.')\|:s/\W\+/-/e\|:s/\v^-(.*)/\=setreg('r',tolower(submatch(1)).'.md')/n\|:call setline('.',title)\|:exe 'sav'@r\|:noh
 cabbrev Ssv    bufdo if &modified\|:1\|:s/\v^\s+\|\s+$//e\|:let title = getline('.')\|:s/\W\+/-/e\|:s/\v^-(.*)/\=setreg('r',tolower(submatch(1)).'.md')/n\|:call setline('.',title)\|:exe 'sav'@r\|:noh\|:endif
-cabbrev Tsp    bufdo if &modified\|:call search('%\s20\d\{2}-\d\{2}-\d\{2}','w')|:exe 'norm ^"qdt2'|:call setline('.',@q.strftime('%FT%T%z'))|:update\|:endif
+cabbrev Tsp    bufdo if &modified\|:call search('%\s20\d\{2}-\d\{2}-\d\{2}','w')\|:exe 'norm ^"qdt2'\|:call setline('.',@q.strftime('%FT%T%z'))\|:update\|:endif
 cabbrev tsp    let view=winsaveview()\|:call search('%\s\d\{4}-\d\{2}-\d\{2}','w')\|:exe 'norm ^"qdt2'\|:call setline('.',@q.strftime('%FT%T%z'))\|:call winrestview(view)\|:up
 cabbrev ttc    exe "norm {jma}kmz"\|:'a,'zs/\v(\[\d\]:\s([fh]tt?ps?:\/\/[^\/$.?#]+\S+)\/?)\s"\2"/\1/e\|:'a,'zs/\v%(\s[-\/:^\|·––—⋅]\s)([A-Za-z0-9 ]+)"$/"/\|:'a,'zs/\v(\[\d\]:\s[fh]tt?ps?:\/\/[^\/$.?#]+\S+)\|:(\s"[^-·–—\|"]+\w)[^"]*(")/\1\2\3/e\|:noh
 cabbrev Url    %s/\v([fh]tt?ps?:\/\/[^\/\$\.\?\#]+\S+)/\1/\|:noh
@@ -367,4 +367,4 @@ iabbrev zym   Zymonetics
 
 " Last update: set g:mkdx#settings = 'links' { 'enable': 0 } ==> disable getting website; desired: open in browser
 " ^ 2022-01-12T21:16:44-0500
-" % 2024-02-20T13:32:47-0500
+" % 2024-02-20T13:48:12-0500
