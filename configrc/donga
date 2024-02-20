@@ -1,4 +1,5 @@
 #!/bin/zsh
+
 # donga populates a temporary home directory with command line goodies.
 #
 # 1. install Xcode Command Line Tools
@@ -52,6 +53,7 @@ osascript -e "set volume output volume 40"
 osascript -e 'tell application "Finder" to set desktop picture to POSIX file "/System/Library/Desktop Pictures/Catalina.heic"'
 osascript -e 'tell application "System Events"' -e 'tell dock preferences to set autohide menu bar to not autohide menu bar' -e 'end tell'
 osascript -e 'tell application "Google Chrome"' -e 'activate' -e 'open location "chrome-extension://djdmadneanknadilpjiknlnanaolmbfk/options.html"' -e 'end tell'
+osascript -e 'tell application "Google Chrome"' -e 'activate' -e 'open location "https://music.youtube.com/watch?v=BqxAZoiZnQw&list=RDCLAK5uy_li40oRtkZfR06nf8rRzgRMraDx764TEN0"' -e 'end tell'
 
 disks=$(diskutil list | tail -r -2 | tail -1) 
 disk=$(sed -E 's/.*Microsoft.*Data..([A-Za-z0-9]+).*/\1/' <<< "$disks") 
@@ -108,4 +110,4 @@ chmod 744 ~/iTerm.app
 # https://macos-defaults.com/
 
 # ^ 2022-12-06T14:21:12-0500 \
-# % 2023-09-05T23:17:50-0400
+# % 2024-02-20T13:36:26-0500
