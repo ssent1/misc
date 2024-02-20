@@ -293,12 +293,13 @@ cabbrev hyp    s/\v^\s+\|\s+$//e\|:let title = getline('.')\|:s/\W\+/-/e\|:s/\v^
 cabbrev s'     'a,'zs/\v()<Left>
 cabbrev S'     exe "norm {jma}kmz"\|:'a,'zs/\v()<Left>
 cabbrev sbd    exe "norm {ma}mz"\|:'a,'zs/\v^\[\d+]/[1]/\|:'a+1,'z-1 sort ui\|:'a,'zs/\v^(\[\d+\]:\s[fh]tt?ps?:\/\/)(([^\.]+\.)([^\.\/]+\.[^\/]+)\|([^\.\/]+\.[^\/]+))(.*)/\4\5\6#\1\3/\|:'a+1,'z-1 sort ui\|:'a,'zs/\v(.*)#(.*)/\2\1/\|:let i=1 \| g/^\[1\]/s//\='['.i.']'/ \| let i=i+1
-cabbrev sd     %s///<Left><Left>
+cabbrev sd     %s/\v//<Left><Left>
+cabbrev Sd     %s///<Left><Left>
 cabbrev sr     .,s/\v()<S-Left><Right><Right>
 cabbrev srt    exe "norm {jma}kmz"\|:'a,'z sort ui
 cabbrev ssv    1\|:s/\v^\s+\|\s+$//e\|:let title = getline('.')\|:s/\W\+/-/e\|:s/\v^-(.*)/\=setreg('r',tolower(submatch(1)).'.md')/n\|:call setline('.',title)\|:exe 'sav'@r\|:noh
-cabbrev Ssv    bufdo 1\|:s/\v^\s+\|\s+$//e\|:let title = getline('.')\|:s/\W\+/-/e\|:s/\v^-(.*)/\=setreg('r',tolower(submatch(1)).'.md')/n\|:call setline('.',title)\|:exe 'sav'@r\|:noh
-cabbrev Tsp    bufdo :call search('%\s20\d\{2}-\d\{2}-\d\{2}','w')\|:exe 'norm ^"qdt2'\|:call setline('.',@q.strftime('%FT%T%z'))\|:up
+cabbrev Ssv    bufdo if &modified\|:1\|:s/\v^\s+\|\s+$//e\|:let title = getline('.')\|:s/\W\+/-/e\|:s/\v^-(.*)/\=setreg('r',tolower(submatch(1)).'.md')/n\|:call setline('.',title)\|:exe 'sav'@r\|:noh|:endif
+cabbrev Tsp    bufdo if &modified\|:call search('%\s20\d\{2}-\d\{2}-\d\{2}','w')|:exe 'norm ^"qdt2'|:call setline('.',@q.strftime('%FT%T%z'))|:update\|:endif
 cabbrev tsp    let view=winsaveview()\|:call search('%\s\d\{4}-\d\{2}-\d\{2}','w')\|:exe 'norm ^"qdt2'\|:call setline('.',@q.strftime('%FT%T%z'))\|:call winrestview(view)\|:up
 cabbrev ttc    exe "norm {jma}kmz"\|:'a,'zs/\v(\[\d\]:\s([fh]tt?ps?:\/\/[^\/$.?#]+\S+)\/?)\s"\2"/\1/e\|:'a,'zs/\v%(\s[-\/:^\|·––—⋅]\s)([A-Za-z0-9 ]+)"$/"/\|:'a,'zs/\v(\[\d\]:\s[fh]tt?ps?:\/\/[^\/$.?#]+\S+)\|:(\s"[^-·–—\|"]+\w)[^"]*(")/\1\2\3/e\|:noh
 cabbrev Url    %s/\v([fh]tt?ps?:\/\/[^\/\$\.\?\#]+\S+)/\1/\|:noh
@@ -347,7 +348,8 @@ iabbrev zym   Zymonetics
 
 " s<..>  {range} very magic search pattern {cursor position}:
 "" s'    marked range: 'a,'z
-"" sd    entire document: %
+"" sd    entire document: %, very magic (\v)
+"" Sd    entire document: %
 "" sr    specified range: .,<n>; move cursor <n> (enter line number, $ (enf of file), etc.)
 
 " y<..>  yank <current buffer filename> to system clipboard
@@ -365,4 +367,4 @@ iabbrev zym   Zymonetics
 
 " Last update: set g:mkdx#settings = 'links' { 'enable': 0 } ==> disable getting website; desired: open in browser
 " ^ 2022-01-12T21:16:44-0500
-" % 2024-02-05T20:34:32-0500
+" % 2024-02-19T19:30:01-0500
