@@ -289,7 +289,8 @@ cabbrev cts    call search('\v(\d{4})(\d{2})(\d{2})[tT_](\d{2})(\d{2})(\d{2})', 
 cabbrev ddt    let@r=strftime('%Y-%m-%d')\|:norm!"rp"
 cabbrev fnr    exe "norm! Go"\|:let@r="- - -\n<!-- sources -->\n\nTags: \n\n^\n\\\n%\n"\|:put r\|:let@r=strftime(' %FT%T%z')\|:norm!"rp2k"rpgJ4k"
 cabbrev gcc    %s/\v(\<!--)(\w)([^-]+)(\w)(--.*)/\1 \2\3\4 \5/e
-cabbrev hyp    s/\v^\s+\|\s+$//e\|:let title = getline('.')\|:s/\W\+/-/e\|:s/\v^-?(.*)/\=setreg('r',tolower(submatch(1)).'.md')/n\|:call setline('.',title)\|:let @+=@r\|:noh
+cabbrev hyp    s/\v^\s+\|\s+$//e\|:let title = getline('.')\|:s/\W\+/-/e\|:s/\v^-?(.*)/\=setreg('r',tolower(submatch(1)).'.md')/n\|::call setline('.','')\|:let @+=@r\|:noh
+cabbrev Hyp    s/\v^\s+\|\s+$//e\|:let title = getline('.')\|:s/\W\+/-/e\|:s/\v^-?(.*)/\=setreg('r',tolower(submatch(1)).'.md')/n\|:call setline('.',title)\|:let @+=@r\|:noh
 cabbrev s'     'a,'zs/\v()<Left>
 cabbrev S'     exe "norm {jma}kmz"\|:'a,'zs/\v()<Left>
 cabbrev sbd    exe "norm {ma}mz"\|:'a,'zs/\v^\[\d+]/[1]/\|:'a+1,'z-1 sort ui\|:'a,'zs/\v^(\[\d+\]:\s[fh]tt?ps?:\/\/)(([^\.]+\.)([^\.\/]+\.[^\/]+)\|([^\.\/]+\.[^\/]+))(.*)/\4\5\6#\1\3/\|:'a+1,'z-1 sort ui\|:'a,'zs/\v(.*)#(.*)/\2\1/\|:let i=1 \| g/^\[1\]/s//\='['.i.']'/ \| let i=i+1
@@ -313,49 +314,41 @@ iabbrev @@    sksalmon@gmail.com
 iabbrev nb    N.B.
 iabbrev zym   Zymonetics
 
-" !!     insert 'logical NOT' regex, move cursor inside brackets
-" ''     mark paragraph as range; trims leading/training line
-" alb    align by <character>, default = :
-" alf    align from first instance of <character>, default = :
-" c2l    convert csv to list
-" cap    capture url Adobe PDF extension
-" ccq    trim ^/$ whitespace, condense >= 2 { spaces, blank lines } into one, rm newlines @ $, convert curly “‘quotes’”
-" cdf    convert document footer
-" cls    <ol>, convert line to ordered list
-" Cls    <ul>, convert line to unordered list
-" cpl    copy linewise
-" Cpl    copy linewise, multiple atoms
-" Crl    convert to ordered checklist < ref link
-" crl    convert to unordered checklist < reference link
-" csv    sort line by comma separated values (csv), ascending order
-" Csv    sort line by comma separated values (csv), descending order
-" ctf    convert line to filename
-" ctr    convert to reference link
-" cts    convert compact timestamp to ISO 8601
-" ddt    insert date (yyyy-mm-dd)
-" fnr    insert footer, notes, resources
-" gcc    fix comment spacing :%s/\v(\<!--)(\w)([^-]+)(\w)(--.*)/\1 \2\3\4 \5/e
-" hyp    hyphenate line
-" sbd    sort reference links by domain
-" srt    sort range, unique
-" Ssv    copy filename to :reg r, use buffer's title line as filename
-" ssv    save (write) buffer to disk using title line as filename
-" Tsp    for all buffers, update timestamps
-" tsp    update timestamp
-" ttc    trim title cruft from URLs
-" Url    capture all urls
-" url    capture block of urls
+" !!          insert 'logical NOT' regex, move cursor inside brackets
+" ''          mark paragraph as range; trims leading/training line
+" alb         align by <character>, default = :
+" alf         align from first instance of <character>, default = :
+" c2l         convert csv to list
+" cap         capture url Adobe PDF extension
+" ccq         trim ^/$ whitespace, condense >= 2 { spaces, blank lines } into one, rm newlines @ $, convert curly “‘quotes’”
+" cdf         convert document footer
+" c[C]ls      <ol>, convert line to { unordered|ordered } list
+" c[C]pl      copy linewise { multiple atoms }
+" c[C]rl      convert to { unordered|ordered } checklist < reference link
+" c[C]sv      sort line by comma separated values (csv), { ascending|descending } order
+" ctf         convert line to filename
+" ctr         convert to reference link
+" cts         convert compact timestamp to ISO 8601
+" ddt         insert date (yyyy-mm-dd)
+" fnr         insert footer, notes, resources
+" gcc         fix comment spacing :%s/\v(\<!--)(\w)([^-]+)(\w)(--.*)/\1 \2\3\4 \5/e
+" h[H]yp      hyphenate, { delete|keep} line
+" sbd         sort reference links by domain
+" srt         sort range, unique
+" s[S]sv      save (write) { buffer|all buffers } to disk using title line as filename
+" t[T]sp      update timestamp { for all buffers }
+" ttc         trim title cruft from URLs
+" u[U]rl      capture { block of|all } urls
 
-" s<..>  {range} very magic search pattern {cursor position}:
-"" s'    marked range: 'a,'z
-"" sd    entire document: %, very magic (\v)
-"" Sd    entire document: %
-"" sr    specified range: .,<n>; move cursor <n> (enter line number, $ (enf of file), etc.)
+" s<..> {range} very magic search pattern {cursor position}:
+"" s'         marked range: 'a,'z
+"" s[S]d      entire document: %, { very magic (\v)|no magic }
+"" sr         specified range: .,<n>; move cursor <n> (enter line number, $ (enf of file), etc.)
 
-" y<..>  yank <current buffer filename> to system clipboard
-"" yfn   %:t tail (filename, last path component only), .vimrc
-"" yp    %:p expand to full path,                       /Users/<dir>/.vimrc
-"" yrp   % current file name (relative path),           /Users/syd/.vimrc
+" y<..> yank <current buffer filename> to system clipboard
+"" yfn        %:t tail (filename, last path component only), .vimrc
+"" yp         %:p expand to full path,                       /Users/<dir>/.vimrc
+"" yrp        % current file name (relative path),           /Users/syd/.vimrc
 
 " REFERENCES
 " https://gist.github.com/joegoggins/8482408
@@ -367,4 +360,4 @@ iabbrev zym   Zymonetics
 
 " Last update: set g:mkdx#settings = 'links' { 'enable': 0 } ==> disable getting website; desired: open in browser
 " ^ 2022-01-12T21:16:44-0500
-" % 2024-02-20T13:48:12-0500
+" % 2024-02-22T23:43:10-0500
