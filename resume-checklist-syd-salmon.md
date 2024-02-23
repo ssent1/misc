@@ -65,16 +65,16 @@ Honours Bachelor of Arts, Economics & Business Administration, Co-op
 
 Chief Strategy Officer
 
-- [] Conducted market research and analysis to identify growth opportunities, resulting in a successful entry into international markets and a 30% increase in global sales.
-- [] Developed and executed strategic plans resulting in a 30% increase in annual revenue within two years.
-- [] Led cross-functional teams to identify and enter new markets, resulting in a 20% expansion of the company's customer base.
-- [] Implemented cost-saving initiatives, resulting in a 15% reduction in operational expenses while maintaining service quality.
-- [] Spearheaded the development and launch of innovative products, leading to a 40% increase in market share within one year.
-- [] Established key partnerships and alliances, resulting in a 25% increase in strategic collaborations and joint ventures.
-- [] Implemented data-driven decision-making processes, resulting in a 10% improvement in overall operational efficiency.
-- [] Led mergers and acquisitions activities, successfully integrating two companies and achieving synergies of $10 million.
-- [] Developed and implemented a comprehensive talent acquisition and retention strategy, resulting in a 20% reduction in employee turnover.
-- [] Oversaw the development and implementation of a digital transformation strategy, resulting in a 50% increase in online sales.
+- [ ] Conducted market research and analysis to identify growth opportunities, resulting in a successful entry into international markets and a 30% increase in global sales.
+- [ ] Developed and executed strategic plans resulting in a 30% increase in annual revenue within two years.
+- [ ] Led cross-functional teams to identify and enter new markets, resulting in a 20% expansion of the company's customer base.
+- [ ] Implemented cost-saving initiatives, resulting in a 15% reduction in operational expenses while maintaining service quality.
+- [ ] Spearheaded the development and launch of innovative products, leading to a 40% increase in market share within one year.
+- [ ] Established key partnerships and alliances, resulting in a 25% increase in strategic collaborations and joint ventures.
+- [ ] Implemented data-driven decision-making processes, resulting in a 10% improvement in overall operational efficiency.
+- [ ] Led mergers and acquisitions activities, successfully integrating two companies and achieving synergies of $10 million.
+- [ ] Developed and implemented a comprehensive talent acquisition and retention strategy, resulting in a 20% reduction in employee turnover.
+- [ ] Oversaw the development and implementation of a digital transformation strategy, resulting in a 50% increase in online sales.
 
 ### Proganica Brand Development / Runway Research (2007-2022)
 
@@ -144,4 +144,4 @@ Product Assistant, Consumer Business Unit
 Tags: career development, curriculum vitae, cv, job search, productivity, resume
 
 ^ 2023-12-06T14:15:18-0500\
-% 2023-12-07T00:39:55-0500
+% 2024-02-22T15:42:59-0500
