@@ -98,7 +98,7 @@ alias wf='ns=$(networksetup -getnetworkserviceenabled Wi-Fi) \
     networksetup -getairportnetwork en1 \
     print "\n" \
     ping -c3 1.1.1.1'
-    # get Wi-Fi status
+        # get Wi-Fi status
 alias wttr='curl https://wttr.in/YKF\?F --silent --max-time 3' # get weatherForecast
 alias zcalc='zcalc -f -r4'                                     # floating point, four stacks
 alias zcp='zmv -C'                                             # ~ cp -f (copy, force)
@@ -135,9 +135,11 @@ Fnd() {
     fi
 }
 # find <word> in "present working directory" (PWD), if no value is given for maxdepth, set it to 1
-rp() { realpath -m $1|tee /dev/tty|pbcopy }              # resolve qualified path: get resolved canonical path
+
+rp() { realpath -m $1 |tee /dev/tty |tr -d '\n' |pbcopy }
+    # resolve qualified path: get resolved canonical path and trim newline (\n)
 rfd() { awk 'NF>0' $HOME/Downloads/app_purge/$1|while read line ; do sudo rm -Rfd "${line}.md" ; done }
-# delete items listed in app_purge file
+    # delete items listed in app_purge file
 
 ### git functions
 gita() { git add $1 && git commit -m "$2" } # git add: add & commit to git repo
@@ -151,4 +153,4 @@ gitd() { git diff $1 }                      # git diff: show changes
 ## https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html
 
 ## ^ 2022-01-12T21:16:44-0500
-## % 2024-01-19T17:00:44-0500
+## % 2024-03-05T15:37:36-0500
