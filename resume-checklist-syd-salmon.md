@@ -1,8 +1,8 @@
-# Resume checklist - Syd Salmon
+# Resume checklist: Syd Salmon
 
 # Contents
 
-- [Resume checklist - Syd Salmon](#resume-checklist---syd-salmon)
+- [Resume checklist: Syd Salmon](#resume-checklist-syd-salmon)
 - [Contents](#contents)
     - [PROFILE](#profile)
     - [EDUCATION](#education)
@@ -141,7 +141,7 @@ Product Assistant, Consumer Business Unit
 [7]: https://online.hbs.edu/blog/post/importance-of-business-analytics "Business Analytics"
 [8]: https://www.investopedia.com/articles/personal-finance/090815/basics-business-development.asp "Business Development"
 
-Tags: career development, curriculum vitae, cv, job search, productivity, resume
+Tags: career development planning, curriculum vitae, cv, headhunters, job search strategy, occupation, recruiters, resume
 
 ^ 2023-12-06T14:15:18-0500\
-% 2024-02-22T15:42:59-0500
+% 2024-02-28T23:16:07-0500
