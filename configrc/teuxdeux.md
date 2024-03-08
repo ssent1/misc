@@ -14,6 +14,36 @@
 3. [ ] [Forefront](https://accounts.forefront.ai/sign-in)
 4. [ ] [Saved](https://www.google.com/save/list/XHntOX47PY-p__eBS6NXkg), [Collections](https://www.google.com/collections/)
 
+## 2024-03-07
+
+I'm looking for a new job. But, I'm lacking drive and motivation. I have no energy, but it's something that I need to do. I need ideas or suggestions, please.
+
+Job hunting can be tough, especially when you’re feeling unmotivated. Here are a few suggestions to help you get started:
+Set small, achievable goals for yourself every day. For example, aim to send out 5 job applications or update your resume. Celebrate each small victory to keep yourself motivated.
+Find an accountability partner, someone who can check in on your progress and offer encouragement when you need it.
+Try a new approach to job hunting, such as networking on LinkedIn, attending industry events, or reaching out to recruiters directly.
+Break up your day with some fun activities that can recharge your batteries. Maybe go for a walk, call a friend, or watch your favorite show.
+Remember, it's a process, and every step counts. You’ve got this! 😊
+--Pi.ai
+
+- [ ] [Introduction to OSINT](https://www.myosint.training/courses/introduction-to-osint)
+
+## 2024-03-06
+
+- [ ] [PRC State-Sponsored Actors Compromise and Maintain Persistent Access to U.S. Critical Infrastructure | CISA](https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-038a)
+- [ ] [Top 10 Cybersecurity Predictions and Statistics For 2024](https://cybersecurityventures.com/top-5-cybersecurity-facts-figures-predictions-and-statistics-for-2021-to-2025/)
+- [ ] [2024 Global Life Sciences Summit](https://kpmg.com/us/en/events/2024/2024-global-life-sciences-summit.html)
+- [ ] [A generative AI reset](https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/a-generative-ai-reset-rewiring-to-turn-potential-into-value-in-2024)
+- [ ] [Generative AI in healthcare: Emerging use for care](https://www.mckinsey.com/industries/healthcare/our-insights/tackling-healthcares-biggest-burdens-with-generative-ai)
+- [ ] [Chart: The Costliest Types of Cyber Crime](https://www.statista.com/chart/27097/most-expensive-types-of-cyber-crime-us/)
+- [ ] [Cybersecurity - Worldwide Market Forecast](https://www.statista.com/outlook/tmo/cybersecurity/worldwide)
+- [ ] [European Repository of Cyber Incidents (EuRepoC)](https://www.swp-berlin.org/en/swp/about-us/organization/swp-projects/european-repository-on-cyber-incidents-eurepoc)
+
+## 2024-03-05
+
+- [ ] [Few-shot Examples](https://www.coursera.org/learn/prompt-engineering/lecture/SRJTi/few-shot-examples)
+- [ ] [Learn Vimscript the Hard Way](https://learnvimscriptthehardway.stevelosh.com/chapters/18.html)
+
 ## 2024-02-17
 
 - [ ] [UFC 298 Embedded: Vlog Series - Episode 1](https://www.youtube.com/watch?v=towMIFkql-0&list=PL9m3-_Hv6qNg_cssDBMP9skxcgdAjzJ5T)
@@ -540,4 +570,4 @@ Jacek Nawrot · Control Systems Project Manager at Tigercat Industries Inc. · R
 Tags: mdi, mental health, personal development exercise, productivity, relationships, teuxdeux, todo
 
 ^ 2020-11-12T18:26:31-0500\
-% 2024-02-17T21:01:23-0500
+% 2024-03-07T20:41:51-0500
