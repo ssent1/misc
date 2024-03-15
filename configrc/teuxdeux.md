@@ -14,6 +14,17 @@
 3. [ ] [Forefront](https://accounts.forefront.ai/sign-in)
 4. [ ] [Saved](https://www.google.com/save/list/XHntOX47PY-p__eBS6NXkg), [Collections](https://www.google.com/collections/)
 
+## 2024-03-14
+
+- [ ] [26 Essential Types of Marketing Collateral (With Examples)](https://www.wordstream.com/blog/ws/2022/04/04/marketing-collateral)
+- [ ] [My Story: How to Accidentally Self-Publish a Book - Jovica Ilic](https://jovicailic.org/2019/01/accidentally-publish-a-book/)
+- [ ] [jovicailic.org/mastering-vim-quickly/](https://jovicailic.org/mastering-vim-quickly/)
+
+<!-- opera gx -->
+- [ ] <file:///Users/syd/Sites/dev.salonlabel.com/index.html>
+- [ ] <https://www.teamblind.com/whyBlind>
+- [ ] <https://www.talentbyblind.com/info>
+
 ## 2024-03-07
 
 I'm looking for a new job. But, I'm lacking drive and motivation. I have no energy, but it's something that I need to do. I need ideas or suggestions, please.
@@ -27,6 +38,29 @@ Remember, it's a process, and every step counts. You’ve got this! 😊
 --Pi.ai
 
 - [ ] [Introduction to OSINT](https://www.myosint.training/courses/introduction-to-osint)
+- [ ] [Insanely fast AI cold call agent](https://youtu.be/WCYf2Agml-s)
+- [ ] [The REAL Reason Sam Altman was Fired](https://youtu.be/rqmo6sFsRM4)
+- [ ] [OpenAI's NEW 'AGI Robot'](https://youtu.be/GiKvPJSOUmE)
+- [ ] [The most unloved Porsche 911](https://youtu.be/xUe2IDnVo8o)
+- [ ] [What is a tensor](https://youtu.be/K7f2pCQ3p3U)
+- [ ] [Tensors Explained](https://youtu.be/Csa5R12jYRg)
+- [ ] [Multi-Dimensional Data](https://youtu.be/DfK83xEtJ_k)
+- [ ] [Tensors Explained Intuitively](https://youtu.be/CliW7kSxxWU)
+- [ ] [Tensor Processing Units](https://youtu.be/MXxN4fv01c8)
+- [ ] [Introduction to PyTorch](https://youtu.be/FHdlXe1bSe4)
+- [ ] [What is a convolution?](https://youtu.be/KuXjwB4LzSA)
+- [ ] [Transformer Neural Networks](https://youtu.be/zxQyTK8quyY)
+- [ ] [Deep Neural Networks](https://youtu.be/dPWYUELwIdM)
+- [ ] [Open AI GPT 4.5](https://youtu.be/shJTJjjiqy8)
+- [ ] [Open-Source AI Agent](https://youtu.be/xQlnqTMC9xA)
+- [ ] [Biomedical Engineering](https://youtu.be/kYMRCj1g0v8)
+- [ ] [BioMechanical Engineering](https://youtu.be/GMdMK3seQJE)
+- [ ] [Developer Roadmap](https://youtu.be/pEfrdAtAmqk)
+- [ ] [bellingcat Jupyter notebooks](https://github.com/bellingcat/open-source-research-notebooks)
+- [ ] [AI just officially took our jobs](https://www.youtube.com/watch?v=AgyJv2Qelwk)
+- [ ] [100+ Computer Science Concepts Explained](https://www.youtube.com/watch?v=-uleG_Vecis)
+- [ ] [How I would learn to code](https://www.youtube.com/watch?v=9s29LKfEFjQ)
+- [ ] [How to get rich as a solo developer](https://www.youtube.com/watch?v=A4_TFHzqAAg)
 
 ## 2024-03-06
 
@@ -570,4 +604,4 @@ Jacek Nawrot · Control Systems Project Manager at Tigercat Industries Inc. · R
 Tags: mdi, mental health, personal development exercise, productivity, relationships, teuxdeux, todo
 
 ^ 2020-11-12T18:26:31-0500\
-% 2024-03-07T20:41:51-0500
+% 2024-03-14T23:21:57-0400
