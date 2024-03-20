@@ -58,6 +58,7 @@ alias ipW='ipconfig getifaddr en1'                                              
 alias ipw='curl -sw "\n" https://checkip.amazonaws.com|tee >(tr -d "\n"|pbcopy)' # get WAN IP via AWS
 alias j='jobs -l'
 alias less='less -m -N -g -i -J --underline-special --SILENT' # https://gist.github.com/textarcana/4611277
+alias lma='open -gj /Applications/{Breeze,Itsycal,Numi}.app'  # Launch Micro Apps
 alias ls='ls -alh'                                            # remap default ls
 alias manzmv='LESS="$LESS +/^ *zmv *\\[" man zshcontrib'      # zmv manpage
 alias misd='~/Code/misc ; iz'                                 # mnemonic: misc. directory
@@ -149,8 +150,8 @@ gitd() { git diff $1 }                      # git diff: show changes
 ## suffix aliases
 # alias -s {css,html,js,md,sh,zsh,,}='code' # open file.{ext} in VSCode
 
-# notes & references
+# sources
 ## https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html
 
 ## ^ 2022-01-12T21:16:44-0500
-## % 2024-03-05T15:37:36-0500
+## % 2024-03-19T19:57:43-0400
