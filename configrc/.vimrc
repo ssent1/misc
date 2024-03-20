@@ -83,8 +83,8 @@ augroup END
 let mapleader="'"
 nnoremap ' `
 nnoremap ` '
-nmap <F3> i<C-R>=strftime('%Y-%m-%dT%H:%M:%S%z')<CR><Esc>
-imap <F3> <C-R>=strftime('%Y-%m-%dT%H:%M:%S%z')<CR>
+nnoremap <silent> <F3> i<C-R>=strftime('%Y-%m-%d')<CR><Esc>
+inoremap <silent> <F3> <C-R>=strftime('%Y-%m-%d')<CR>
 nnoremap <silent> <Space>    :noh <Bar>:echo<CR>
 nnoremap <silent> <leader>e  :edit <C-R>=expand("%:p:h")."/" <CR>
 nnoremap <silent> <leader>ev :edit +314 $MYVIMRC<cr>
@@ -98,7 +98,7 @@ let g:user_emmet_leader_key=','
 
 " set leader to '
 " swap :mark leaders ' <==> `
-" F3 = inset date in ISO 8601 format
+" F3 = inset date in ISO 8601 (short) format [=strftime('%Y-%m-%dT%H:%M:%S%z'), =strftime('%Y-%m-%d')]
 " <Space> = reset search highlighting:
 " 'e = edit file in same directory as active buffer
 " 'ev = edit ~./vimrc in a new buffer
@@ -287,6 +287,7 @@ cabbrev ctf    s/\v^\s+\|\s+$//e\|:s/\v^(.*)\n/\=setreg('q',submatch(1))/n\|:s/\
 cabbrev ctr    exe "norm {jma}kmz"\|:'a,'zs/\v^(\d+)\. \[([^\]]+)\]\(([^\)]+)\)/[\1]: \3 "\2"/
 cabbrev cts    call search('\v(\d{4})(\d{2})(\d{2})[tT_](\d{2})(\d{2})(\d{2})', 'w')\|:s/\v(\d{4})(\d{2})(\d{2})[tT_](\d{2})(\d{2})(\d{2})/\1-\2-\3T\4:\5:\6-0_00/\|:call search('\d\+')\|:exe "norm 24yl"
 cabbrev ddt    let@r=strftime('%Y-%m-%d')\|:norm!"rp"
+cabbrev Ddt    let@r=strftime('%Y-%m-%dT%H:%M:%S%z')\|:norm!"rp"
 cabbrev fnr    exe "norm! Go"\|:let@r="- - -\n<!-- sources -->\n\nTags: \n\n^\n\\\n%\n"\|:put r\|:let@r=strftime(' %FT%T%z')\|:norm!"rp2k"rpgJ4k"
 cabbrev gcc    %s/\v(\<!--)(\w)([^-]+)(\w)(--.*)/\1 \2\3\4 \5/e
 cabbrev hyp    s/\v^\s+\|\s+$//e\|:let title = getline('.')\|:s/\W\+/-/e\|:s/\v^-?(.*)/\=setreg('r',tolower(submatch(1)).'.md')/n\|::call setline('.','')\|:let @+=@r\|:noh
@@ -328,8 +329,9 @@ iabbrev zym   Zymonetics
 " c[C]sv      sort line by comma separated values (csv), { ascending|descending } order
 " ctf         convert line to filename
 " ctr         convert to reference link
-" cts         convert compact timestamp to ISO 8601
-" ddt         insert date (yyyy-mm-dd)
+" cts         convert compact timestamp (yyyymmddTHHMMSSzzzz) to ISO 8601
+" ddt         insert short ISO 8601 date (yyyy-mm-dd)
+" Ddt         insert ISO 8601 date (yyyy-mm-ddTHH:MM:SS-zzzz)
 " fnr         insert footer, notes, resources
 " gcc         fix comment spacing :%s/\v(\<!--)(\w)([^-]+)(\w)(--.*)/\1 \2\3\4 \5/e
 " h[H]yp      hyphenate, { delete|keep} line
@@ -360,4 +362,4 @@ iabbrev zym   Zymonetics
 
 " Last update: set g:mkdx#settings = 'links' { 'enable': 0 } ==> disable getting website; desired: open in browser
 " ^ 2022-01-12T21:16:44-0500
-" % 2024-02-22T23:43:10-0500
+" % 2024-03-19T22:09:56-0400
