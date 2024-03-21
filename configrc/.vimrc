@@ -187,7 +187,7 @@ augroup install_plugins
                 \|:endif
 augroup END
 
-let g:polyglot_disabled = ['markdown'] " conflict: vim-polyglot & vim-markdown, interferes with mkdx list indentation
+" let g:polyglot_disabled = ['markdown'] " conflict: vim-polyglot & vim-markdown, interferes with mkdx list indentation
 
 "" Load plugins
 call plug#begin('~/.vim/plugged')
@@ -364,4 +364,4 @@ iabbrev zym   Zymonetics
 
 " Last update: set g:mkdx#settings = 'links' { 'enable': 0 } ==> disable getting website; desired: open in browser
 " ^ 2022-01-12T21:16:44-0500
-" % 2024-03-20T22:45:02-0400
+" % 2024-03-20T22:57:44-0400
