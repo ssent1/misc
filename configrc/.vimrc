@@ -83,6 +83,7 @@ augroup END
 let mapleader="'"
 nnoremap ' `
 nnoremap ` '
+nnoremap <silent> <F2> :let @+=expand("%:p")<CR>
 nnoremap <silent> <F3> i<C-R>=strftime('%Y-%m-%d')<CR><Esc>
 inoremap <silent> <F3> <C-R>=strftime('%Y-%m-%d')<CR>
 nnoremap <silent> <Space>    :noh <Bar>:echo<CR>
@@ -267,7 +268,7 @@ let g:mkdx#settings = {
 
 " ABBREVIATIONS
 "" Command-line mode
-cabbrev !!     [^]+<Left><Left>
+cabbrev !!     [^]+<Left>
 cabbrev ''     exe "norm {jma}kmz"
 cabbrev alb    Tabularize /:
 cabbrev alf    Tabularize /^[^:]*:\zs/l0r1
@@ -292,11 +293,12 @@ cabbrev fnr    exe "norm! Go"\|:let@r="- - -\n<!-- sources -->\n\nTags: \n\n^\n\
 cabbrev gcc    %s/\v(\<!--)(\w)([^-]+)(\w)(--.*)/\1 \2\3\4 \5/e
 cabbrev hyp    s/\v^\s+\|\s+$//e\|:let title = getline('.')\|:s/\W\+/-/e\|:s/\v^-?(.*)/\=setreg('r',tolower(submatch(1)).'.md')/n\|::call setline('.','')\|:let @+=@r\|:noh
 cabbrev Hyp    s/\v^\s+\|\s+$//e\|:let title = getline('.')\|:s/\W\+/-/e\|:s/\v^-?(.*)/\=setreg('r',tolower(submatch(1)).'.md')/n\|:call setline('.',title)\|:let @+=@r\|:noh
-cabbrev s'     'a,'zs/\v()<Left>
-cabbrev S'     exe "norm {jma}kmz"\|:'a,'zs/\v()<Left>
+cabbrev s'     'a,'zs/\v()
+cabbrev S'     exe "norm {jma}kmz"\|:'a,'zs/\v()
+cabbrev ""     'a,'zs/
 cabbrev sbd    exe "norm {ma}mz"\|:'a,'zs/\v^\[\d+]/[1]/\|:'a+1,'z-1 sort ui\|:'a,'zs/\v^(\[\d+\]:\s[fh]tt?ps?:\/\/)(([^\.]+\.)([^\.\/]+\.[^\/]+)\|([^\.\/]+\.[^\/]+))(.*)/\4\5\6#\1\3/\|:'a+1,'z-1 sort ui\|:'a,'zs/\v(.*)#(.*)/\2\1/\|:let i=1 \| g/^\[1\]/s//\='['.i.']'/ \| let i=i+1
-cabbrev sd     %s/\v//<Left><Left>
-cabbrev Sd     %s///<Left><Left>
+cabbrev sd     %s/\v//<Left>
+cabbrev Sd     %s///<Left>
 cabbrev sr     .,s/\v()<S-Left><Right><Right>
 cabbrev srt    exe "norm {jma}kmz"\|:'a,'z sort ui
 cabbrev ssv    1\|:s/\v^\s+\|\s+$//e\|:let title = getline('.')\|:s/\W\+/-/e\|:s/\v^-(.*)/\=setreg('r',tolower(submatch(1)).'.md')/n\|:call setline('.',title)\|:exe 'sav'@r\|:noh
@@ -362,4 +364,4 @@ iabbrev zym   Zymonetics
 
 " Last update: set g:mkdx#settings = 'links' { 'enable': 0 } ==> disable getting website; desired: open in browser
 " ^ 2022-01-12T21:16:44-0500
-" % 2024-03-19T22:09:56-0400
+" % 2024-03-20T22:45:02-0400
