@@ -40,10 +40,8 @@ alias cpv='rsync -CavzP'                      # copy: verbose, archive, compress
 alias diff='colordiff -u'                     # compare lines, unify context
 alias dirs='dirs -v'                          # list directory stack w/ index number
 alias dl='~/Downloads'                        # go to Downloads directory
-alias eip='ipconfig getifaddr en0'            # get IP address for Ethernet
 alias ej='. ~/Code/misc/configrc/ejector'     # eject external media
 alias flush='"sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder; say "Your DNS cache is clean."'
-alias gip='curl -sw \n https://ifconfig.me/ip|tee >(tr -d \n|pbcopy)' # get IP address
 alias gitA='git add . && git commit -m "" && gitp'                    # git add && git commit all
 alias gitc='gh repo clone'                                            # clone repo to a new directory
 alias gitk='git clone'                                                # clone repo to a new directory
@@ -52,19 +50,19 @@ alias gits='tput reset;git status'                                    # get git 
 alias grep='grep -i --color=never'                                    # set case insensitive
 alias grp='grep -i --color'                                           # set case insensitive
 alias h='history'
-alias ip='curl -sw "\n" https://ifconfig.me/ip|tee >(tr -d "\n"|pbcopy)'         # get WAN IP via ifconfig.me
-alias ipE='ipconfig getifaddr en0'                                               # get LAN IP: en0 = Ethernet
-alias ipW='ipconfig getifaddr en1'                                               # get LAN IP: en1 = Wi-Fi
-alias ipw='curl -sw "\n" https://checkip.amazonaws.com|tee >(tr -d "\n"|pbcopy)' # get WAN IP via AWS
+alias ipL='ipconfig getifaddr en0'                                               # get LAN IP address: en0 = Ethernet
+alias ipl='ipconfig getifaddr en1'                                               # get LAN IP address: en1 = Wi-Fi
+alias ipw='curl -sw "\n" https://ifconfig.me/ip|tee >(tr -d "\n"|pbcopy)'        # get *WAN* IP address via ifconfig.me
+alias ipW='curl -sw "\n" https://checkip.amazonaws.com|tee >(tr -d "\n"|pbcopy)' # get WAN IP address via AWS
 alias j='jobs -l'
 alias less='less -m -N -g -i -J --underline-special --SILENT' # https://gist.github.com/textarcana/4611277
-alias lma='open -gj /Applications/{Breeze,Itsycal,Numi}.app'  # Launch Micro Apps
 alias ls='ls -alh'                                            # remap default ls
 alias manzmv='LESS="$LESS +/^ *zmv *\\[" man zshcontrib'      # zmv manpage
 alias misd='~/Code/misc ; iz'                                 # mnemonic: misc. directory
 alias mkdir='mkdir -pv'                                       # create, list directories, if required
 alias more='less'
 alias nva='~/Dropbox/nvalt ; iz' # cd to nvalt, then show 10 most recent items
+alias oma='open -gj /Applications/{Breeze,Itsycal,Numi}.app'  # Open Micro Apps
 alias oop='open /Applications/Opera\ GX.app'
 alias osi='open /Applications/Signal.app'
 alias ogc='open /Applications/Google\ Chrome.app'
@@ -130,12 +128,15 @@ brs() { brew search $1 && brew info $1 }                 # search Homebrew for <
 fnd() { find $HOME/Dropbox/nvalt -type f -iname "*$1*" } # find <word> in nvalt
 Fnd() { 
     if [ -z "$2" ]; then
-        find . -type f -iname "*$1*" -maxdepth 1
+        find . -type f -iname "*$1*" -maxdepth 3
     else
         find . -type f -iname "*$1*" -maxdepth $2
     fi
 }
 # find <word> in "present working directory" (PWD), if no value is given for maxdepth, set it to 1
+
+Man() { man -P "less +/\"$2\"" $1 } # search cmd's manpage for pattern
+# N.B. quote the search string if it contains spaces. E.g.: Man ls "list directory"
 
 rp() { realpath -m $1 |tee /dev/tty |tr -d '\n' |pbcopy }
     # resolve qualified path: get resolved canonical path and trim newline (\n)
@@ -151,7 +152,7 @@ gitd() { git diff $1 }                      # git diff: show changes
 # alias -s {css,html,js,md,sh,zsh,,}='code' # open file.{ext} in VSCode
 
 # sources
-## https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html
+# https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html
 
-## ^ 2022-01-12T21:16:44-0500
-## % 2024-03-19T19:57:43-0400
+# ^ 2022-01-12T21:16:44-0500
+# % 2024-04-23T14:50:47-0400
