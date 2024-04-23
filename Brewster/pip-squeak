@@ -1,11 +1,11 @@
+python3 -m pip install -U certifi
 python3 -m pip install -U cffi
-python3 -m pip install -U docutils
+python3 -m pip install -U charset-normalizer
 python3 -m pip install -U editables
 python3 -m pip install -U flit_core
 python3 -m pip install -U gpg
-python3 -m pip install -U gpg
-python3 -m pip install -U gpg
 python3 -m pip install -U hatchling
+python3 -m pip install -U idna
 python3 -m pip install -U Jinja2
 python3 -m pip install -U lit
 python3 -m pip install -U MarkupSafe
@@ -23,6 +23,7 @@ python3 -m pip install -U pybind11
 python3 -m pip install -U pycparser
 python3 -m pip install -U Pygments
 python3 -m pip install -U pyproject-metadata
+python3 -m pip install -U requests
 python3 -m pip install -U setuptools
 python3 -m pip install -U setuptools-scm
 python3 -m pip install -U six
@@ -32,4 +33,5 @@ python3 -m pip install -U TBB
 python3 -m pip install -U tomli
 python3 -m pip install -U trove-classifiers
 python3 -m pip install -U typing_extensions
+python3 -m pip install -U urllib3
 python3 -m pip install -U wheel
