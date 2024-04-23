@@ -4,15 +4,24 @@
 
 - [exa/eza](#exaeza)
 - [Contents](#contents)
-  - [rm exa](#rm-exa)
-  - [config eza](#config-eza)
-    - [Step 0. Install eza.](#step-0-install-eza)
-  - [eza config file](#eza-config-file)
-    - [Step 1. Argument handler](#step-1-argument-handler)
-    - [Step 2. exa config file](#step-2-exa-config-file)
-    - [Step 3. exa aliases](#step-3-exa-aliases)
+  - [Important file locations](#important-file-locations)
+  - [Step 1. rm exa](#step-1-rm-exa)
+  - [Step 2. install eza](#step-2-install-eza)
+  - [Step 3. Create argument handler](#step-3-create-argument-handler)
+  - [Step 4. Create config file](#step-4-create-config-file)
+  - [Step 5. Update .zshrc and ~/.zsh_aliases](#step-5-update-zshrc-and-zsh_aliases)
+  - [eza arg handler explained](#eza-arg-handler-explained)
 
-## rm exa
+## Important file locations
+
+```vim
+~/.bin/eza      " arg handler
+~/.ezarc        " config file
+~/.zshrc        " zsh config file
+~/.zsh_aliases  " zsh alias file
+```
+
+## Step 1. rm exa
 
 ```zsh
 brewster
@@ -27,25 +36,17 @@ brew rm exa
 Uninstalling /usr/local/Cellar/exa/0.10.1_2... (12 files, 985.4KB)
 ```
 
-## config eza
-
-### Step 0. Install eza.
-
-If necessary, install eza.
+## Step 2. install eza
 
 ```zsh
 brew install eza
 ```
 
-I'd like to see a config file implemented as well. In the meantime, this is my hack.
-
-## eza config file
-
-### Step 1. Argument handler
+## Step 3. Create argument handler
 
 Add an argument handler script. Step 1 runs a script to pass `eza` the options stored in the `opts` array and any command-line arguments passed to the script. The `$@` syntax passes all command-line arguments passed to the script as separate arguments to eza.
 
-1. Create the script:
+1. Create script for argument handler:
 
 ```zsh
 touch ~/.bin/eza
@@ -54,7 +55,7 @@ touch ~/.bin/eza
 2. Add the following code:
 
 ```zsh
-##!/usr/bin/env zsh
+#!/usr/bin/env zsh
 set -euo pipefail
 
 readonly file="$HOME/.ezarc"
@@ -63,13 +64,13 @@ readonly opts=("${(f):-$(<"$file")}")
 /usr/local/bin/eza "${opts[@]}" "$@"
 ```
 
-3. Make it executable.
+3. Make `eza` arg handler executable:
 
 ```zsh
 chmod +x ~/.bin/eza
 ```
 
-### Step 2. exa config file
+## Step 4. Create config file
 
 Load default arguments into your config file.
 
@@ -92,11 +93,11 @@ touch ~/.ezarc
 --time-style=iso
 ```
 
-### Step 3. exa aliases
+## Step 5. Update .zshrc and ~/.zsh_aliases
 
-Update your `~/.zshrc` or `~/.zsh_aliases` configuration file(s)(optional). E.g.:
+Update `~/.zshrc` and `~/.zsh_aliases` configuration file(s)(optional). E.g.:
 
-1. Add or update aliases. If you were using `exa`, all you need to do is change `exa` to `eza`.
+1. Add or update exa aliases. If you were using `exa`, all you need to do is change `exa` to `eza`.
 
 ```zsh
 # aliases
@@ -114,7 +115,7 @@ alias -g lst='eza --tree --level=2' # sort, descending, NAME && show directory t
 
 2. Save your work and source your `~/.zshrc` and/or `~/.zsh_aliases` again and you're good-to-go.
 
-## explained
+## eza arg handler explained
 
 ```zsh
 #!/usr/bin/env
@@ -145,4 +146,4 @@ readonly opts=("${(f):-$(<"$file")}") # sets a read-only array named opts to the
 Tags: config, configuration files, zsh
 
 ^ 2023-09-12T11:50:35-0400\
-% 2023-09-13T00:15:01-0400
+% 2024-04-15T12:05:43-0400
