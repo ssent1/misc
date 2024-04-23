@@ -270,7 +270,7 @@ let g:mkdx#settings = {
 "" Command-line mode
 cabbrev !!     [^]+<Left>
 cabbrev ''     exe "norm {jma}kmz"
-cabbrev alb    Tabularize /:
+cabbrev alb    Tabularize / "
 cabbrev alf    Tabularize /^[^:]*:\zs/l0r1
 cabbrev c2l    s/\sand//e \| let cnt=1 \| silent exe 's/'.','.'/\=execute(''let cnt += 1'')/n' \| let @q=cnt \|call repeat(append('.', ""), @q)\|:call setline('.', uniq(split(tolower(getline('.')), ',\s*'))) \|:exe "norm {jma}kmz" \|:'a,'zs/^/- [ ] /e\|:'a,'zs/\v<(\w)([^.$]+)/\u\1\L\2/e\|:noh
 cabbrev cap    %s/\vchrome-extension:\/\/efaidnbmnnnibpcajpcglclefindmkaj\/(https?\|ftp)(:\/\/[^\s\/\$\.\?\#]+.\S+)/\1\2/e
@@ -364,4 +364,4 @@ iabbrev zym   Zymonetics
 
 " Last update: set g:mkdx#settings = 'links' { 'enable': 0 } ==> disable getting website; desired: open in browser
 " ^ 2022-01-12T21:16:44-0500
-" % 2024-03-20T22:57:44-0400
+" % 2024-04-22T19:12:00-0400
