@@ -87,6 +87,8 @@ nnoremap <silent> <F2> :let @+=expand("%:p")<CR>
 nnoremap <silent> <F3> i<C-R>=strftime('%Y-%m-%d')<CR><Esc>
 inoremap <silent> <F3> <C-R>=strftime('%Y-%m-%d')<CR>
 nnoremap <silent> <Space>    :noh <Bar>:echo<CR>
+nnoremap <silent> <leader>cc :call CleanUpCopilot()<CR>
+nnoremap <silent> <leader>cq :call CleanUpText()<CR>
 nnoremap <silent> <leader>e  :edit <C-R>=expand("%:p:h")."/" <CR>
 nnoremap <silent> <leader>ev :edit +314 $MYVIMRC<cr>
 nnoremap <silent> <leader>sv :source $MYVIMRC<cr>
@@ -203,7 +205,6 @@ Plug 'junegunn/goyo.vim'
 Plug 'junegunn/vim-peekaboo'
 Plug 'mattn/emmet-vim'
 Plug 'mechatroner/rainbow_csv', {'as': 'rainbow-csv' }
-"Plug 'mtth/scratch.vim'
 Plug 'preservim/vim-markdown'
 Plug 'scrooloose/nerdtree'
 Plug 'sheerun/vim-polyglot'
@@ -243,8 +244,8 @@ augroup END
 let g:html_indent_tags = 'li\|p' " treat <li>|<p> like block tags
 
 """ markdown
-"let g:vim_markdown_auto_insert_bullets = 1
-"let g:vim_markdown_new_list_item_indent = 0
+let g:vim_markdown_auto_insert_bullets = 1
+let g:vim_markdown_new_list_item_indent = 0
 let g:vim_markdown_toc_autofit = 1
 set nofoldenable!  " disable folding, vim-markdown
 hi DiffDelete ctermfg=17  ctermbg=45  guifg=#00005f guibg=#00dfff
@@ -256,7 +257,7 @@ hi SpellLocal ctermfg=232 ctermbg=117 guifg=#000000 guibg=#8BE9FD
 """ mkdx
 let g:mkdx#settings = {
             \ 'image_extension_pattern': 'a\?png\|jpe\?g\|gif\|svg',
-            \ 'enter':     { 'enable': 0, 'shift': 0, 'o': 1, 'shifto': 1, 'malformed': 1 },
+            \ 'enter':     { 'enable': 1, 'shift': 0, 'o': 1, 'shifto': 1, 'malformed': 1 },
             \ 'checkbox':  { 'toggles': [' ', 'x', '-'] },
             \ 'highlight': { 'enable': 1 },
             \ 'links':     { 'external': { 'enable': 1 } },
@@ -274,7 +275,7 @@ cabbrev alb    Tabularize / "
 cabbrev alf    Tabularize /^[^:]*:\zs/l0r1
 cabbrev c2l    s/\sand//e \| let cnt=1 \| silent exe 's/'.','.'/\=execute(''let cnt += 1'')/n' \| let @q=cnt \|call repeat(append('.', ""), @q)\|:call setline('.', uniq(split(tolower(getline('.')), ',\s*'))) \|:exe "norm {jma}kmz" \|:'a,'zs/^/- [ ] /e\|:'a,'zs/\v<(\w)([^.$]+)/\u\1\L\2/e\|:noh
 cabbrev cap    %s/\vchrome-extension:\/\/efaidnbmnnnibpcajpcglclefindmkaj\/(https?\|ftp)(:\/\/[^\s\/\$\.\?\#]+.\S+)/\1\2/e
-cabbrev ccq    %s/^\s\<\|\s\+$//e\|:%s/\>\s\{2,}/ /e\|:%s/\v([[:punct:]])\s{2,}/\1 /e\|:%s/^\n\{2,}/\r/e\|:%s/\n\+\%$//e\|:%s/[‘’]/'/e\|:%s/[“”]/"/e
+" cabbrev ccq    %s/^\s\+\n\+/\r/e\|:%s/^\s\<\|\s\+$//e\|:%s/\(\w\)\>\s\{2,}/\1 /e\|:%s/-\>\s\{3,}/-  /e\|:silent! g/^#/s/_\+//e\|:%s/\v^^\s{2,}/\1 /e\|:%s/^\n\{2,}/\r/e\|:%s/\n\+\%$//e\|:%s/[‘’]/\=nr2char(39)/e\|:%s/[“”]/\=nr2char(34)/e
 cabbrev cdf    $ka\|:'a\|-1s/\n\n//e\|:?^\s*$?\|:+1,$d\|:let @q=@"\|:-3kz\|:-7ka\|:'a,'zs/\v_(\d{4}-\d{2}-\d{2}[tT_]\d{2}:\d{2}:\d{2}-\d{4})_/\1/e\|:'a,'zs/\v(\d{4})(\d{2})(\d{2})[tT_](\d{2})(\d{2})(\d{2})/\1-\2-\3T\4:\5:\6-0_00/e\|:'a,'zs/\v(\d{4})(\d{2})(\d{2})[tT_](\d{2})(\d{2})(\d{2})(\d{4})/\1-\2-\3T\4:\5:\6-\7/e\|:'a,'zd\|:let @r=@"\|:-1,$d\|:let@s="- - -\n<!-- sources -->\n"\|:pu s\|:pu q\|:pu r
 cabbrev cls    s/\v,\s+%(and\s+)?\|^/\r- /\|:noh
 cabbrev Cls    s/\v,\s+%(and\s+)?\|^/\r1. /\|:noh
@@ -291,7 +292,7 @@ cabbrev ddt    let@r=strftime('%Y-%m-%d')\|:norm!"rp"
 cabbrev Ddt    let@r=strftime('%Y-%m-%dT%H:%M:%S%z')\|:norm!"rp"
 cabbrev fnr    exe "norm! Go"\|:let@r="- - -\n<!-- sources -->\n\nTags: \n\n^\n\\\n%\n"\|:put r\|:let@r=strftime(' %FT%T%z')\|:norm!"rp2k"rpgJ4k"
 cabbrev gcc    %s/\v(\<!--)(\w)([^-]+)(\w)(--.*)/\1 \2\3\4 \5/e
-cabbrev hyp    s/\v^\s+\|\s+$//e\|:let title = getline('.')\|:s/\W\+/-/e\|:s/\v^-?(.*)/\=setreg('r',tolower(submatch(1)).'.md')/n\|::call setline('.','')\|:let @+=@r\|:noh
+cabbrev hyp    s/\v^\s+\|\s+$//e\|:let title = getline('.')\|:s/\W\+/-/e\|:s/\v^-?(.*)/\=setreg('r',tolower(submatch(1)).'.md')/n\|:call setline('.','')\|:let @+=@r\|:noh
 cabbrev Hyp    s/\v^\s+\|\s+$//e\|:let title = getline('.')\|:s/\W\+/-/e\|:s/\v^-?(.*)/\=setreg('r',tolower(submatch(1)).'.md')/n\|:call setline('.',title)\|:let @+=@r\|:noh
 cabbrev s'     'a,'zs/\v()
 cabbrev S'     exe "norm {jma}kmz"\|:'a,'zs/\v()
@@ -354,6 +355,11 @@ iabbrev zym   Zymonetics
 "" yp         %:p expand to full path,                       /Users/<dir>/.vimrc
 "" yrp        % current file name (relative path),           /Users/syd/.vimrc
 
+" Source functions
+"" Source cleanup markdown files script
+source ~/.vim/cleanup.vim
+source ~/.vim/copilot.vim
+
 " REFERENCES
 " https://gist.github.com/joegoggins/8482408
 " https://items.sjbach.com/319/configuring-vim-right.html
@@ -364,4 +370,4 @@ iabbrev zym   Zymonetics
 
 " Last update: set g:mkdx#settings = 'links' { 'enable': 0 } ==> disable getting website; desired: open in browser
 " ^ 2022-01-12T21:16:44-0500
-" % 2024-04-22T19:12:00-0400
+" % 2024-05-29T21:10:32-0400
