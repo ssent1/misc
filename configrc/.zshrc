@@ -54,6 +54,7 @@ brewsterf # run package manager {homebrew, npm} updates
 # RUN ZSH COMPLETIONS
 zstyle :compinstall filename ~/.zshrc
 zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}' 'r:|[._-]=* r:|=*' 'l:|=* r:|=*'
+eval $(thefuck --alias) # corrects erroneous commands
 
 # LOAD ZSH UTILITIES
 autoload -Uz zcalc
@@ -81,4 +82,4 @@ cd ~/Dropbox/nvalt && lsd | tail -n 10 && printf "\n"
 # sources
 
 ## ^ 2022-01-12T21:16:44-0500\
-## % 2024-03-26T19:41:59-0400
+## % 2024-05-16T11:34:59-0400
