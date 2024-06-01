@@ -66,6 +66,7 @@ alias oma='open -gj /Applications/{Breeze,Itsycal,Numi}.app'  # Open Micro Apps
 alias oop='open /Applications/Opera\ GX.app'
 alias osi='open /Applications/Signal.app'
 alias ogc='open /Applications/Google\ Chrome.app'
+alias ome='open /Applications/Microsoft\ Edge.app'
 alias owa='open /Applications/WhatsApp.app'
 alias path='printf ${PATH//:/\\n}"\n"'           # show binary directories
 alias pbpaste='print "$(pbpaste)"'               # add \n, suppress % (no \n)
@@ -97,15 +98,15 @@ alias wf='ns=$(networksetup -getnetworkserviceenabled Wi-Fi) \
     networksetup -getairportnetwork en1 \
     print "\n" \
     ping -c3 1.1.1.1'
-        # get Wi-Fi status
-alias wttr='curl https://wttr.in/YKF\?F --silent --max-time 3' # get weatherForecast
-alias zcalc='zcalc -f -r4'                                     # floating point, four stacks
-alias zcp='zmv -C'                                             # ~ cp -f (copy, force)
-alias zln='zmv -L'                                             # ~ ln -f (hard link, force)
-alias zls='zmv -Ls'                                            # ~ ln -sf (symbolic link, force)
-alias zmN='zmv -n '\''(*) (*)'\'' '\''${(L)1}-${(L)2}'\'''     # change space to dash, dry run, no exec
-alias zmn='zmv -nwv '\''* *'\'' '\''${(L)f// /-}'\'''          # same as above, implicit parentheses
-alias zmr='!zmv:0 !!:2-$'                                      # rerun last zmv in execute mode
+# get Wi-Fi status
+alias wttr='curl https://wttr.in/YKF\?mF --silent --max-time 3'  # get weatherForecast
+alias zcalc='zcalc -f -r4'                                       # floating point, four stacks
+alias zcp='zmv -C'                                               # ~ cp -f (copy, force)
+alias zln='zmv -L'                                               # ~ ln -f (hard link, force)
+alias zls='zmv -Ls'                                              # ~ ln -sf (symbolic link, force)
+alias zmN='zmv -n '\''(*) (*)'\'' '\''${(L)1}-${(L)2}'\'''       # change space to dash, dry run, no exec
+alias zmn='zmv -nwv '\''* *'\'' '\''${(L)f// /-}'\'''            # same as above, implicit parentheses
+alias zmr='!zmv:0 !!:2-$'                                        # rerun last zmv in execute mode
 
 ### temp
 alias sli='cd /Users/syd/Sites/dev.salonlabel.com && vim index.html find-xargs-perl.md'
@@ -155,4 +156,4 @@ gitd() { git diff $1 }                      # git diff: show changes
 # https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html
 
 # ^ 2022-01-12T21:16:44-0500
-# % 2024-04-23T14:50:47-0400
+# % 2024-05-17T10:20:19-0400
