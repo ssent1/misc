@@ -1,7 +1,7 @@
 #!/bin/zsh
 
 # Alfred App v2.9 Workflow
-# Choose Browser: { "Keyword": "cbr", "space": "true", "arg": "optional" }
+# Open Browser: { "Keyword": "cbr", "space": "true", "arg": "optional" }
 # app = browser, arg = url
 
 # Input > Script Filter
@@ -19,6 +19,12 @@ cat << EOB
 
 <items>
 
+  <item uid="blisk" arg="/Applications/Arc.app,{query}" valid="YES" autocomplete="Arc" type="file">
+    <title>Arc</title>
+    <subtitle>/Applications/Arc.app/@{query}</subtitle>
+    <icon type="fileicon">/Applications/Arc.app</icon>
+  </item>
+
   <item uid="blisk" arg="/Applications/Blisk.app,{query}" valid="YES" autocomplete="Blisk" type="file">
     <title>Blisk</title>
     <subtitle>/Applications/Blisk.app/@{query}</subtitle>
@@ -32,13 +38,13 @@ cat << EOB
   </item>
 
   <item uid="chrome" arg="/Applications/Google Chrome.app,{query}" valid="YES" autocomplete="Google Chrome" type="file">
-    <title>Chrome, Google</title>
+    <title>Chrome (Google)</title>
     <subtitle>/Applications/Google Chrome.app/@{query}</subtitle>
     <icon type="fileicon">/Applications/Google Chrome.app</icon>
   </item>
 
   <item uid="edge" arg="/Applications/Microsoft Edge.app,{query}" valid="YES" autocomplete="Microsoft Edge" type="file">
-    <title>Edge, Microsoft</title>
+    <title>Edge (Microsoft)</title>
     <subtitle>/Applications/Microsoft Edge.app/@{query}</subtitle>
     <icon type="fileicon">/Applications/Microsoft Edge.app</icon>
   </item>
@@ -143,4 +149,4 @@ osascript -e "tell application \"$app\"" -e 'activate' -e 'end tell' -e "open lo
 
 # - - -
 # ^ 2023-11-28T11:56:39-0500\
-# % 2024-01-03T17:29:41-0500
+# % 2024-06-08T12:55:24-0400
