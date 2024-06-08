@@ -73,6 +73,7 @@ alias pbpaste='print "$(pbpaste)"'               # add \n, suppress % (no \n)
 alias pcd='printf "$PWD\n"|tee /dev/tty|pbcopy'  # print current directory
 alias pd='pushd'                                 # stack directories, toggle directories
 alias png='ping -c5 1.1.1.1'                     # send 5 packets
+alias pwg='pwgen -s 15 5 -1 -y'                  # gen 5 pwds w/ 15 chars & >= 1 special char. Time to crack: centuries
 alias quorg='ssh syd@quorg.local'                # connect to local device (Mac mini)
 alias morg='ssh syd@morg.local'                  # connect to local device (Macbook Pro)
 alias rand='q=$(( 0 + RANDOM % 10 ));print "$q"' # get random number >=0<=10
@@ -156,4 +157,4 @@ gitd() { git diff $1 }                      # git diff: show changes
 # https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html
 
 # ^ 2022-01-12T21:16:44-0500
-# % 2024-05-17T10:20:19-0400
+# % 2024-06-01T12:48:49-0400
