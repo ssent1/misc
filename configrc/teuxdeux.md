@@ -1,5 +1,42 @@
 # TeuxDeux List
 
+# Contents
+
+- [TeuxDeux List](#teuxdeux-list)
+- [Contents](#contents)
+  - [Daily Checklist](#daily-checklist)
+  - [2024-06-20](#2024-06-20)
+    - [SELL ME](#sell-me)
+  - [2024-mm-dd](#2024-mm-dd)
+  - [Business model strategies](#business-model-strategies)
+  - [Reading List](#reading-list)
+  - [Lettering Daily](#lettering-daily)
+  - [2024-03-14](#2024-03-14)
+  - [2024-05-30](#2024-05-30)
+  - [2024-05-26](#2024-05-26)
+  - [2024-05-23](#2024-05-23)
+  - [2024-05-21](#2024-05-21)
+  - [2024-06-05](#2024-06-05)
+  - [String Comparison](#string-comparison)
+  - [stuff](#stuff)
+  - [2024-03-07](#2024-03-07)
+  - [2024-03-06](#2024-03-06)
+  - [2024-03-05](#2024-03-05)
+  - [2024-02-17](#2024-02-17)
+  - [Job Search](#job-search)
+  - [2023-11-26](#2023-11-26)
+  - [13-Sep-2023](#13-sep-2023)
+  - [25-Aug-23](#25-aug-23)
+  - [13-Aug-22](#13-aug-22)
+  - [Top 9 AI Skills](#top-9-ai-skills)
+  - [Old Links and Bookmarks](#old-links-and-bookmarks)
+    - [Coding](#coding)
+    - [WebDev](#webdev)
+    - [Parked](#parked)
+    - [SolClean](#solclean)
+  - [Tutorials](#tutorials)
+  - [Funny Ideas](#funny-ideas)
+
 ## Daily Checklist
 
 1. [ ] Write affirmations
@@ -797,4 +834,4 @@ Jacek Nawrot · Control Systems Project Manager at Tigercat Industries Inc. · R
 Tags: mdi, mental health, personal development exercise, productivity, relationships, teuxdeux, todo
 
 ^ 2020-11-12T18:26:31-0500\
-% 2024-06-20T11:45:36-0400
+% 2024-06-20T12:03:16-0400
