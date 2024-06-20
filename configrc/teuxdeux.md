@@ -14,16 +14,209 @@
 3. [ ] [Forefront](https://accounts.forefront.ai/sign-in)
 4. [ ] [Saved](https://www.google.com/save/list/XHntOX47PY-p__eBS6NXkg), [Collections](https://www.google.com/collections/)
 
+<!-- opera gx -->
+- [ ] <file:///Users/syd/Sites/dev.salonlabel.com/index.html>
+- [ ] <https://www.teamblind.com/whyBlind>
+- [ ] <https://www.talentbyblind.com/info>
+
+## 2024-06-20
+
+### SELL ME
+
+Danby DPA120BCCWDB 12000 BTU Portable 3-in-1 Air Conditioner 550 ft2
+(code : DPA120BCCWDB Danby)
+Price: $539.00 – $579.99
+
+- [ ] [Danby 12,000 BTU 3-in-1 Portable Air Conditioner with ISTA-6 Packaging](https://www.elmirahomecomfort.com/products/danby-12000-btu-3-in-1-portable-air-conditioner-with-ista-6-packaging-dpa080b1wdb-6?_pos=15&_sid=42ec86719&_ss=r)
+- [ ] [Danby 12,000 BTU Portable Air Conditioner with Silencer Technology - DPA120BCCWDB](https://www.danby.com/products/portable-air-conditioners/dpa120bccwdb/)
+- [ ] [Danby 12,000 BTU Portable 3 -in- 1 Air Conditioner with Silencer Technology](https://www.amazon.ca/Danby-Portable-Conditioner-Silencer-Technology/dp/B07124HLGG)
+- [ ] [Danby 12,000 BTU 3-in-1 Portable Air Conditioner with Remote](https://www.homedepot.ca/product/danby-12-000-btu-3-in-1-portable-air-conditioner-with-remote/1001646591)
+- [ ] [Danby 12,000 BTU Portable Air Conditioner](https://www.homedepot.ca/product/danby-12-000-btu-portable-air-conditioner/1000787949)
+
+[1]: https://vimeo.com/192920817 "Value Builder System™ Explainer"
+[2]: http://valuebuildersystem.com/score "The Value Builder System™ Score"
+
+Tags: business, business plan, business planning, entrepreneurship, startups
+
+## 2024-mm-dd
+
+- [ ] [How to Start a Startup (Sam Altman, Dustin Moskovitz)](https://www.youtube.com/watch?v=CBYhVcO4WgI&list=PL5q_lef6zVkaTY_cT1k7qFNF2TidHCe-1&index=3)
+- [ ] [15 BIGGEST Data Centers on Earth](https://www.youtube.com/watch?v=1LmFmCVTppo&list=TLPQMTMwNjIwMjQ_IuKdh1uKpA&index=4)
+- [ ] [Why Automakers Are Invading Your Privacy](https://www.youtube.com/watch?v=7kUJhWUm3JA&list=TLPQMTMwNjIwMjQ_IuKdh1uKpA&index=2)
+- [ ] [Can This Strange Mushroom Really Double Your Brain Power?](https://www.youtube.com/watch?v=LQI-kIrmuAM&list=TLPQMTMwNjIwMjQ_IuKdh1uKpA&index=6)
+- [ ] [This Next Billion-Dollar Startup Was Built To Save America’s Farms With Tractorbots](https://www.youtube.com/watch?v=mIIM90YKJ6g&list=TLPQMTMwNjIwMjQ_IuKdh1uKpA&index=5)
+- [ ] [YouTube](https://www.youtube.com/watch?v=MMG6vtscSeI&list=TLPQMTMwNjIwMjQ_IuKdh1uKpA&index=8)
+- [ ] [Ex-OpenAI Employee Just Revealed it ALL!](https://www.youtube.com/watch?v=om5KAKSSpNg&list=TLPQMTMwNjIwMjQ_IuKdh1uKpA&index=7)
+- [ ] [Why every Cleo Abram video goes viral](https://www.youtube.com/watch?v=qYLzSN_Jz_E&list=TLPQMTMwNjIwMjQ_IuKdh1uKpA&index=8)
+- [ ] [WWDC 2024 — June 10](https://www.youtube.com/watch?v=RXeOiIDNNek&list=TLPQMTMwNjIwMjQ_IuKdh1uKpA&index=3)
+
+- [ ] [Alternative Meat Companies: Who Are They And How Are They Changing The Game?](https://thehumaneleague.org/article/alternative-meat-companies)
+- [ ] [What You Should AIM For When Shooting A Basketball! How To Shoot A Basketball Better 💯](https://www.youtube.com/watch?v=CV7GuIL-JHY&list=TLPQMTMwNjIwMjQ_IuKdh1uKpA&index=11)
+- [ ] [Midjourney vs Ideogram — which AI model makes the best phone wallpaper? | Tom's Guide](https://www.tomsguide.com/ai/ai-image-video/midjourney-vs-ideogram-which-ai-model-makes-the-best-phone-wallpaper)
+- [ ] [Huge Study Reveals How Often Cannabis Triggers Psychotic Episodes : ScienceAlert](https://www.sciencealert.com/huge-study-reveals-how-often-cannabis-triggers-psychotic-episodes)
+- [ ] [So, So Many Kids Are Taking So, So Much Ozempic](https://futurism.com/neoscope/kids-taking-ozempic-wegovy)
+- [ ] [Can you solve it? Do you think like an engineer?](https://www.theguardian.com/science/article/2024/jun/10/can-you-solve-it-do-you-think-like-an-engineer)
+
+## Business model strategies
+
+- [ ] <file:///Users/syd/Dropbox/nvalt/zymonetics/business-model-canvas-fillable.pdf>
+- [ ] <file:///Users/syd/Dropbox/nvalt/zymonetics/business-model-generation-book.pdf>
+- [ ] <file:///Users/syd/Dropbox/nvalt/zymonetics/business-models-wlu.pdf>
+- [ ] <file:///Users/syd/Dropbox/nvalt/zymonetics/business-model-generation-summary-00.pdf>
+- [ ] <file:///Users/syd/Dropbox/nvalt/zymonetics/business-model-generation-summary.pdf>
+
+## Reading List
+
+- [ ] [How to write email newsletters to keep your audience engaged](https://www.streak.com/post/how-to-write-engaging-email-newsletters)
+- [ ] [The anatomy of a great sales email and how to write your own](https://www.streak.com/post/anatomy-of-a-great-sales-email)
+- [ ] [How to write stronger sales calls-to-action in emails](https://www.streak.com/post/sales-email-call-to-action-cta)
+- [ ] [Top Israeli spy chief exposes his true identity in online security lapse](https://www.theguardian.com/world/2024/apr/05/top-israeli-spy-chief-exposes-his-true-identity-in-online-security-lapse)
+- [ ] [Fourteen LLMs fight it out in Street Fighter III](https://www.tomshardware.com/tech-industry/artificial-intelligence/fourteen-llms-fight-it-out-in-street-fighter-iii-ai-showdown-finds-out-which-models-make-the-best-street-fighters)
+- [ ] [Which MacBook Air do you really need to buy?](https://www.theverge.com/2024/4/5/24121824/macbook-air-m3-tiktok-ban-jon-stewart-ai-vergecast-podcast)
+
+## Lettering Daily
+
+- [ ] [The Lettering Crate: Lettering Daily](https://www.lettering-daily.com/member-area/)
+- [ ] [www.dropbox.com](https://www.dropbox.com/sh/hf8xt6c97y7kmww/AABwYBnrkUEJznf3lB6oYMKva?dl=0)
+- [ ] [www.dropbox.com](https://www.dropbox.com/sh/31b4kmfsh8r0mk4/AAAPlzQ0LS7pV-wpgKj7mGZNa?dl=0)
+- [ ] [www.dropbox.com](https://www.dropbox.com/sh/8jwixivnjtxmoon/AACtFl3b1aBisZ_Gsc8m-uZFa?dl=0)
+- [ ] [pwd: LetteringDaily23](https://email.lettering-daily.com/link/c/YT0yNDUyNTcyMTQzNzg3OTcyMTg2JmM9eDhnMyZlPTE5MjgmYj0zOTAwNzYwOTcmZD1kMGU5eTNt.SBPeKncB5yMq6A4aXVa_GvZ57SyEZQTcUO67_MXah60)
+
 ## 2024-03-14
 
 - [ ] [26 Essential Types of Marketing Collateral (With Examples)](https://www.wordstream.com/blog/ws/2022/04/04/marketing-collateral)
 - [ ] [My Story: How to Accidentally Self-Publish a Book - Jovica Ilic](https://jovicailic.org/2019/01/accidentally-publish-a-book/)
 - [ ] [jovicailic.org/mastering-vim-quickly/](https://jovicailic.org/mastering-vim-quickly/)
 
-<!-- opera gx -->
-- [ ] <file:///Users/syd/Sites/dev.salonlabel.com/index.html>
-- [ ] <https://www.teamblind.com/whyBlind>
-- [ ] <https://www.talentbyblind.com/info>
+## 2024-05-30
+
+- [ ] [Riipen](https://app.riipen.com/)
+
+## 2024-05-26
+
+- [ ] [Clockwise](https://www.youtube.com/watch?v=PjaKQgV9PRk)
+- [ ] [Webflow](https://www.youtube.com/watch?v=6Bso2GYLoME)
+
+## 2024-05-23
+
+- [ ] [Artificial Intelligence Insights ](https://www.mckinsey.com/capabilities/quantumblack/our-insights)
+- [ ] [Consumer wellness trends](https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/whats-new-in-consumer-wellness-trends)
+- [ ] [Wellness trends in 2024](https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/the-trends-defining-the-1-point-8-trillion-dollar-global-wellness-market-in-2024)
+- [ ] [Secrets Of The SUPER Rich](https://www.youtube.com/watch?v=SK5NzQVgvSY)
+- [ ] [Copilot](https://copilot.microsoft.com/?udsframed=1&form=SHORUN&clientscopes=chat,noheader,channelstable,&setlang=en-US&darkschemeovr=1)
+- [ ] [ChatPage](https://edgeservices.bing.com/edgesvc/chat?udsframed=1&form=SHORUN&clientscopes=chat,noheader,channelstable,&setlang=en-US&darkschemeovr=1)
+- [ ] [ChatPage](https://edgeservices.bing.com/edgesvc/chat?udsframed=1&form=SHORUN&clientscopes=chat,noheader,channelstable,&setlang=en-US&darkschemeovr=1)
+- [ ] [Zymonetics_I+Med_Canada_Market_Overview_rvsd](https://docs.google.com/document/d/1I4PAgIauu7U631_EN9cjgv53bznEAN46i2lsh74BI5Q/edit)
+- [ ] [Revised proposal](https://mail.google.com/mail/u/0/#inbox/FMfcgzGxTPBWzHzcnzLLbCTZjPhXZCpg)
+
+## 2024-05-21
+
+- [ ] [HOTSPEX](https://www.hotspex.com/index)
+- [ ] [Onboarding](https://academy.hackthebox.com/onboarding)
+
+- [ ] [How To Finish One Month of Work Today](https://www.youtube.com/watch?v=Q7Phkq0BUXM)
+- [ ] [I Hired A Pickup Artist To Help Me Find A Girlfriend](https://www.youtube.com/watch?v=3zPa7b1uq4A)
+- [ ] [Something Strange Happens When You Follow Einstein's Math](https://www.youtube.com/watch?v=6akmv1bsz1M)
+- [ ] [12 INSANE Predictions](https://www.youtube.com/watch?v=_cfyERvND0w)
+- [ ] [Common Greek Letters In Undergraduate Physics](https://www.youtube.com/watch?v=a-V7zVKYPlo)
+- [ ] [the Linux File System explained](https://www.youtube.com/watch?v=A3G-3hp88mo&t=28s)
+- [ ] [What's Really Happening At CERN](https://www.youtube.com/watch?v=bCmwCkNY85g)
+- [ ] [3 Levels of WiFi Hacking](https://www.youtube.com/watch?v=dZwbb42pdtg)
+- [ ] [The Possibilities of AI](https://www.youtube.com/watch?v=GLKoDkbS1Cg)
+- [ ] [Your VPN won't protect you](https://www.youtube.com/watch?v=IPLM5P-vYyU)
+- [ ] [A.I. Designs New Electric Motor](https://www.youtube.com/watch?v=JGdIZF5gE7I)
+- [ ] [What Is an AI Anyway?](https://www.youtube.com/watch?v=KKNCiRWd_j0)
+- [ ] [Google’s First Big Acquisition In 19 Years?](https://www.youtube.com/watch?v=MrxupU5oOIE)
+- [ ] [Wave Particle Duality](https://www.youtube.com/watch?v=qCmtegdqOOA)
+- [ ] ['There was an Eternal GOD who Began All of This'](https://www.youtube.com/watch?v=QJwr9ZPxJpY)
+- [ ] [What If Gravity is NOT A Fundamental Force?](https://www.youtube.com/watch?v=qYSKEbd956M)
+- [ ] [From Infancy to SINGULARITY: The 7 Stages of AI](https://www.youtube.com/watch?v=r61ylUkpDyg)
+- [ ] [It took 2 hours to make $220,000](https://www.youtube.com/watch?v=VOxTHGyQzbA)
+- [ ] [What's Happening With Antimatter at CERN?](https://www.youtube.com/watch?v=z6bybdozsjY)
+- [ ] [Onboarding](https://academy.hackthebox.com/onboarding)
+- [ ] [Gemini Pro 1.5](https://monica.im/home/chat/gemini-pro-1.5/gemini_1_5)
+- [ ] [Datasets For Deep Learning](https://www.analyticsvidhya.com/blog/2018/03/comprehensive-collection-deep-learning-datasets/)
+- [ ] [Figma Config 2024](https://config.figma.com/?lang=en)
+- [ ] [Pastor on politics in church](https://www.youtube.com/watch?v=mXo3JgKQY4I)
+- [ ] [Feed](https://www.linkedin.com/feed/)
+
+- [ ] [5 Tips to Master the Art of Sales and Get Your Business Ahead](https://www.entrepreneur.com/article/431524)
+- [ ] [entrepreneur.com/growing-a-business/5-tips-to-master-the-art-of-sales-and-get-your-business/431524](https://www.entrepreneur.com/growing-a-business/5-tips-to-master-the-art-of-sales-and-get-your-business/431524)
+- [ ] [All saved items](https://www.google.com/interests/saved/list/allsaves?q=All%20saved%20items)
+- [ ] [How to Buy/Sell Professional Services](https://hbr.org/1966/03/how-to-buysell-professional-services)
+- [ ] [how do you sell consulting services](https://www.google.com/search?q=how+do+you+sell+consulting+services)
+
+- [ ] [Writ of seizure and sale ontario](https://www.google.com/search?q=writ+of+seizure+and+sale+ontario)
+- [ ] [Guide to procedures in small claims court](https://www.ontario.ca/document/guide-procedures-small-claims-court/after-judgment)
+
+## 2024-06-05
+
+- [ ] [11 Ways How To Control The Controllables In 2024](https://www.coaching-online.org/how-to-control-the-controllables/)
+
+1. Identify the controllables and uncontrollables
+2. Accept the things you cannot control
+3. Define your action steps
+4. Do, delegate, diarize, or dump
+5. Declutter your space
+6. Learn to say no
+7. Prioritize
+8. Take breaks
+9. Control your mindset
+10. Surround yourself with the right people
+11. Control the information you consume
+[1]: https://www.openbible.info/topics/uncertainty "What Does the Bible Say About Uncertainty?"
+
+
+## String Comparison
+
+- [ ] [String Comparison: A Comprehensive Guide](https://www.namehero.com/blog/bash-string-comparison-the-comprehensive-guide/)
+
+## stuff
+
+- [ ] ['Platypus' electric hovercraft is like nothing you've seen before: 'The electric powertrain greatly reduces noise'](https://www.thecooldown.com/green-tech/electric-hovercraft-vehicle-urban-transport/)
+- [ ] [A.I. automation could impact 300 million jobs – here’s which ones](https://www.cnbc.com/2023/03/28/ai-automation-could-impact-300-million-jobs-heres-which-ones.html)
+- [ ] [AI could automate 300 million jobs. Here's which are most (and least) at risk | ZDNET](https://www.zdnet.com/article/ai-could-automate-25-of-all-jobs-heres-which-are-most-and-least-at-risk/)
+- [ ] [AI could replace equivalent of 300 million jobs - report](https://www.bbc.com/news/technology-65102150)
+- [ ] [AI Will Be a Gold Mine. The Only Question Is Who Benefits. - The Atlantic](https://www.theatlantic.com/ideas/archive/2023/05/ai-job-losses-policy-support-universal-basic-income/674071/)
+- [ ] [ai will replace 300 million jobs but here's how automate income - Google Search](https://www.google.com/search?q=ai+will+replace+300+million+jobs+but+here%27s+how+automate+income&oq=ai+will+replace+300+million+jobs+but+here%27s+how+automate+income&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRhA0gEHNDkyajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#ip=1)
+- [ ] [Amazon Abandons Grocery Stores Where You Just Walk Out With Stuff After It Turns Out Its ](https://futurism.com/the-byte/amazon-abandons-ai-stores)AI" Was Powered by 1,000 Human Contractors"
+- [ ] [businessinsider.com/ai-radically-reshape-job-market-global-economy-employee-labor-innovation-2023-8](https://www.businessinsider.com/ai-radically-reshape-job-market-global-economy-employee-labor-innovation-2023-8)
+- [ ] [businessinsider.com/chatgpt-jobs-at-risk-replacement-artificial-intelligence-ai-labor-trends-2023-02](https://www.businessinsider.com/chatgpt-jobs-at-risk-replacement-artificial-intelligence-ai-labor-trends-2023-02)
+- [ ] [chicagobooth.edu/review/ai-is-going-disrupt-labor-market-it-doesnt-have-destroy-it](https://www.chicagobooth.edu/review/ai-is-going-disrupt-labor-market-it-doesnt-have-destroy-it)
+- [ ] [cnn.com/2023/03/29/tech/chatgpt-ai-automation-jobs-impact-intl-hnk/index.html](https://www.cnn.com/2023/03/29/tech/chatgpt-ai-automation-jobs-impact-intl-hnk/index.html)
+- [ ] [DoNotPay Pays First-Ever Dividend to Employees, Investors](https://www.businessinsider.com/donotpay-pays-dividend-to-employees-investors-joshua-browder-2024-3)
+- [ ] [economictimes.indiatimes.com/tech/technology/generative-ai-could-replace-300-million-jobs-goldman-sachs-report/articleshow/99085074.cms?from=mdr](https://economictimes.indiatimes.com/tech/technology/generative-ai-could-replace-300-million-jobs-goldman-sachs-report/articleshow/99085074.cms?from=mdr)
+- [ ] [electronics.howstuffworks.com/future-tech/jobs-ai-will-replace.htm](https://electronics.howstuffworks.com/future-tech/jobs-ai-will-replace.htm)
+- [ ] [Fourteen LLMs fight it out in Street Fighter III — AI showdown finds out which models make the best street fighters. | Tom's Hardware](https://www.tomshardware.com/tech-industry/artificial-intelligence/fourteen-llms-fight-it-out-in-street-fighter-iii-ai-showdown-finds-out-which-models-make-the-best-street-fighters)
+- [ ] [Goldman Sachs Predicts 300 Million Jobs Will Be Lost Or Degraded By Artificial Intelligence](https://www.forbes.com/sites/jackkelly/2023/03/31/goldman-sachs-predicts-300-million-jobs-will-be-lost-or-degraded-by-artificial-intelligence/?sh=f1c5d15782b4)
+- [ ] [Google Assistant Broadcasts are now a two-stage command](https://9to5google.com/2024/04/05/google-assistant-broadcasts/)
+- [ ] [Google Keyword Planner: Use The Tool For SEO & Strategy](https://www.searchenginejournal.com/google-keyword-planner-how-to/462573/)
+- [ ] [How to Build a Local Open-Source LLM Chatbot With RAG | by Dr. Leon Eversberg | Mar, 2024 | Towards Data Science](https://towardsdatascience.com/how-to-build-a-local-open-source-llm-chatbot-with-rag-f01f73e2a131)
+- [ ] [How to write email newsletters to keep your audience engaged - Streak](https://www.streak.com/post/how-to-write-engaging-email-newsletters)
+- [ ] [In praise of Google Keep: an ode to the digital notebook for modern minds | TechRadar](https://www.techradar.com/computing/websites-apps/in-praise-of-google-keep-an-ode-to-the-digital-notebook-for-modern-minds)
+- [ ] [kdnuggets.com/2023/07/300-million-jobs-really-exposed-lost-ai-replacement.html](https://www.kdnuggets.com/2023/07/300-million-jobs-really-exposed-lost-ai-replacement.html)
+- [ ] [Mapped: Internet Download Speeds by Region](https://www.visualcapitalist.com/mapped-internet-download-speeds-by-region/)
+- [ ] [Mom Starts Side Hustle, Brand Now on Track for $100M Revenue | Entrepreneur](https://www.entrepreneur.com/starting-a-business/mom-starts-side-hustle-brand-now-on-track-for-100m-revenue/471907)
+- [ ] [nexford.edu/insights/how-will-ai-affect-jobs](https://www.nexford.edu/insights/how-will-ai-affect-jobs)
+- [ ] [nytimes.com/2023/05/23/business/jobs-protections-artificial-intelligence.html](https://www.nytimes.com/2023/05/23/business/jobs-protections-artificial-intelligence.html)
+- [ ] [Page not found | The Cool Down](https://www.thecooldown.com/green-tech/finland-nuclear-waste-storage-onkalo-undergroundhttps:/techcrunch.com/2024/04/01/canoo-spent-double-its-annual-revenue-on-the-ceos-private-jet-in-2023/)
+- [ ] [personneltoday.com/hr/generative-ai-predictions/](https://www.personneltoday.com/hr/generative-ai-predictions/)
+- [ ] [Pitch Deck Addiction Care Startup Pelago Used to Raise $58 Million](https://www.businessinsider.com/pitch-deck-addiction-care-startup-pelago-vc-funding-2024-3)
+- [ ] [policyoptions.irpp.org/magazines/june-2023/artificial-intelligence-basic-income/](https://policyoptions.irpp.org/magazines/june-2023/artificial-intelligence-basic-income/)
+- [ ] [pwc.com/gx/en/issues/data-and-analytics/publications/artificial-intelligence-study.html](https://www.pwc.com/gx/en/issues/data-and-analytics/publications/artificial-intelligence-study.html)
+- [ ] [Stability AI's music generator can now edit and transform your samples and produce full-length, structured tracks | MusicRadar](https://www.musicradar.com/news/stability-ai-2.0)
+- [ ] [Stability AI's music generator can now edit and transform your samples and produce full-length, structured tracks](https://www.musicradar.com/news/stability-ai-2.0)
+- [ ] [TCL founder Dongsheng Li says U.S. is driving deglobalization | Fortune](https://fortune.com/2024/04/01/tcl-founder-ceo-dongsheng-li-deglobalization-us-tech-restrictions/)
+- [ ] [The anatomy of a great sales email and how to write your own - Streak](https://www.streak.com/post/anatomy-of-a-great-sales-email)
+- [ ] [The Lettering Crate | Lettering Daily](https://www.lettering-daily.com/member-area/)
+- [ ] [These B2B software companies are hiring in Canada | BetaKit](https://betakit.com/these-b2b-software-companies-are-hiring-in-canada/)
+- [ ] [tomshardware.com/tech-industry/artificial-intelligence/fourteen-llms-fight-it-o](https://www.tomshardware.com/tech-industry/artificial-intelligence/fourteen-llms-fight-it-o)
+- [ ] [Top Israeli spy chief exposes his true identity in online security lapse | Israel | The Guardian](https://www.theguardian.com/world/2024/apr/05/top-israeli-spy-chief-exposes-his-true-identity-in-online-security-lapse)
+- [ ] [UFC owners at Endeavor sold to private equity firm, TKO remains publicly traded - MMA Fighting](https://www.mmafighting.com/2024/4/2/24119131/ufc-owners-endeavor-selling-to-silver-lake-as-company-goes-private-again-tko-remains-publicly-traded)
+- [ ] [Use 'Type' for Mac to Capture Ideas Before You Forget | Lifehacker](https://lifehacker.com/tech/type-for-mac-take-quick-notes)
+- [ ] [washingtonpost.com/technology/interactive/2023/ai-jobs-workplace/](https://www.washingtonpost.com/technology/interactive/2023/ai-jobs-workplace/)
+- [ ] [Which MacBook Air do you really need to buy? - The Verge](https://www.theverge.com/2024/4/5/24121824/macbook-air-m3-tiktok-ban-jon-stewart-ai-vergecast-podcast)
+- [ ] [youtube.com/watch?v=Uh8vjajIpVI](https://www.youtube.com/watch?v=Uh8vjajIpVI)
 
 ## 2024-03-07
 
@@ -604,4 +797,4 @@ Jacek Nawrot · Control Systems Project Manager at Tigercat Industries Inc. · R
 Tags: mdi, mental health, personal development exercise, productivity, relationships, teuxdeux, todo
 
 ^ 2020-11-12T18:26:31-0500\
-% 2024-03-14T23:21:57-0400
+% 2024-06-20T11:45:36-0400
