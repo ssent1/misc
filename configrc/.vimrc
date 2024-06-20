@@ -287,7 +287,7 @@ cabbrev Crl    exe "norm {jma}kmz"\|:'a,'zs/\v^\[0?([1-9]+)\]: ([^ ]+) "([^\"]+)
 cabbrev Cta    call search('^Tags:\s','w')\|:exe 'norm ^"qd2w'\|:call setline('.', @q.join(reverse(sort(uniq(split(tolower(getline('.')), ',\s*')))), ', '))
 cabbrev cta    call search('^Tags:\s','w')\|:exe 'norm ^"qd2w'\|:call setline('.', @q.join(sort(uniq(split(tolower(getline('.')), ',\s*'))), ', '))
 cabbrev ctf    s/\v^\s+\|\s+$//e\|:s/\v^(.*)\n/\=setreg('q',submatch(1))/n\|:s/\>[^ ]//e\|:s/\>\W\+/-/e\|:s/\v^(.*)/\=setreg('r',tolower(submatch(1)).'.md')/n\|:d\|:put! q\|:let @*=@r\|:noh
-cabbrev ctr    exe "norm {jma}kmz"\|:'a,'zs/\v^(\d+)\. \[([^\]]+)\]\(([^\)]+)\)/[\1]: \3 "\2"/
+cabbrev ctr    exe "norm {jma}kmz"\|:'a,'zs/\v^(\d+)\. \[([^\]]+)\]\(([^\)]+)\)/[\1]: \3 "\2"/e\|:'a,'zs/\v^- \[[ x-]\] \[([^\]]+)\]\(([^\)]+)\)/[1]: \2 "\1"/e
 cabbrev cts    call search('\v(\d{4})(\d{2})(\d{2})[tT_](\d{2})(\d{2})(\d{2})', 'w')\|:s/\v(\d{4})(\d{2})(\d{2})[tT_](\d{2})(\d{2})(\d{2})/\1-\2-\3T\4:\5:\6-0_00/\|:call search('\d\+')\|:exe "norm 24yl"
 cabbrev ddt    let@r=strftime('%Y-%m-%d')\|:norm!"rp"
 cabbrev Ddt    let@r=strftime('%Y-%m-%dT%H:%M:%S%z')\|:norm!"rp"
