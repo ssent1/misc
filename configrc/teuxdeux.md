@@ -58,6 +58,17 @@
 
 ## 2024-06-20
 
+3:16 – goodmeetings.ai: sales acceleration
+4:24 – stablediffusionapi.com: Stable Diffusion as a service
+5:53 – HireSure.ai: compensation benchmarking
+7:17 – EatX.ai: _defunct_
+8:03 – Vitra.ai: multiplatform translation
+8:50 – Nintee.com: _defunct_
+9:25 – MachineHack.com: AI course platform
+10:25 – Rephrase.ai: text-to-video generation
+11:46 – MinusZero.ai: AI for autonomous driving
+12:40 – Karya.in: AI dataset services
+
 ### SELL ME
 
 Danby DPA120BCCWDB 12000 BTU Portable 3-in-1 Air Conditioner 550 ft2
@@ -77,7 +88,7 @@ Tags: business, business plan, business planning, entrepreneurship, startups
 
 ## 2024-mm-dd
 
-- [ ] [How to Start a Startup (Sam Altman, Dustin Moskovitz)](https://www.youtube.com/watch?v=CBYhVcO4WgI&list=PL5q_lef6zVkaTY_cT1k7qFNF2TidHCe-1&index=3)
+- [x] [How to Start a Startup (Sam Altman, Dustin Moskovitz)](https://www.youtube.com/watch?v=CBYhVcO4WgI&list=PL5q_lef6zVkaTY_cT1k7qFNF2TidHCe-1&index=3)
 - [ ] [15 BIGGEST Data Centers on Earth](https://www.youtube.com/watch?v=1LmFmCVTppo&list=TLPQMTMwNjIwMjQ_IuKdh1uKpA&index=4)
 - [ ] [Why Automakers Are Invading Your Privacy](https://www.youtube.com/watch?v=7kUJhWUm3JA&list=TLPQMTMwNjIwMjQ_IuKdh1uKpA&index=2)
 - [ ] [Can This Strange Mushroom Really Double Your Brain Power?](https://www.youtube.com/watch?v=LQI-kIrmuAM&list=TLPQMTMwNjIwMjQ_IuKdh1uKpA&index=6)
@@ -834,4 +845,4 @@ Jacek Nawrot · Control Systems Project Manager at Tigercat Industries Inc. · R
 Tags: mdi, mental health, personal development exercise, productivity, relationships, teuxdeux, todo
 
 ^ 2020-11-12T18:26:31-0500\
-% 2024-06-20T12:03:16-0400
+% 2024-06-20T22:44:15-0400
