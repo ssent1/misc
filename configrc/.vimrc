@@ -284,8 +284,8 @@ cabbrev cpl    let @q=''\|:%s/\v_/\=setreg('Q', submatch(1), 'l')/n\|:let @*=@q\
 cabbrev Cpl    let @q=''\|:%s/\v_/\=setreg('Q', submatch(1).'{str}'.submatch(2), 'l')/n\|:let @*=@q\|:norm 2G"qp
 cabbrev crl    exe "norm {jma}kmz"\|:'a,'zs/\v^\[(\d+)\]: ([^ ]+) "([^\"]+)"/- [ ] [\3](\2)/e\|:noh
 cabbrev Crl    exe "norm {jma}kmz"\|:'a,'zs/\v^\[0?([1-9]+)\]: ([^ ]+) "([^\"]+)"/\1. [ ] [\3](\2)/e\|:noh
-cabbrev Cta    call search('^Tags:\s','w')\|:exe 'norm ^"qd2w'\|:call setline('.', @q.join(reverse(sort(uniq(split(tolower(getline('.')), ',\s*')))), ', '))
-cabbrev cta    call search('^Tags:\s','w')\|:exe 'norm ^"qd2w'\|:call setline('.', @q.join(sort(uniq(split(tolower(getline('.')), ',\s*'))), ', '))
+cabbrev Cta    call search('^[Tt]ags:\s','w')\|:exe 'norm ^"qd2w'\|:call setline('.', @q.join(reverse(sort(uniq(split(tolower(getline('.')), ',\s*')))), ', '))
+cabbrev cta    call search('^[Tt]ags:\s','w')\|:exe 'norm ^"qd2w'\|:call setline('.', @q.join(sort(uniq(split(tolower(getline('.')), ',\s*'))), ', '))
 cabbrev ctf    s/\v^\s+\|\s+$//e\|:s/\v^(.*)\n/\=setreg('q',submatch(1))/n\|:s/\>[^ ]//e\|:s/\>\W\+/-/e\|:s/\v^(.*)/\=setreg('r',tolower(submatch(1)).'.md')/n\|:d\|:put! q\|:let @*=@r\|:noh
 cabbrev ctr    exe "norm {jma}kmz"\|:'a,'zs/\v^(\d+)\. \[([^\]]+)\]\(([^\)]+)\)/[\1]: \3 "\2"/e\|:'a,'zs/\v^- \[[ x-]\] \[([^\]]+)\]\(([^\)]+)\)/[1]: \2 "\1"/e
 cabbrev cts    call search('\v(\d{4})(\d{2})(\d{2})[tT_](\d{2})(\d{2})(\d{2})', 'w')\|:s/\v(\d{4})(\d{2})(\d{2})[tT_](\d{2})(\d{2})(\d{2})/\1-\2-\3T\4:\5:\6-0_00/\|:call search('\d\+')\|:exe "norm 24yl"
@@ -371,4 +371,4 @@ source ~/.vim/llms.vim
 
 " Last update: set g:mkdx#settings = 'links' { 'enable': 0 } ==> disable getting website; desired: open in browser
 " ^ 2022-01-12T21:16:44-0500
-" % 2024-06-07T22:20:19-0400
+" % 2024-06-21T10:51:26-0400
