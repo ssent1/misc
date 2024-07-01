@@ -5,8 +5,6 @@
 - [TeuxDeux List](#teuxdeux-list)
 - [Contents](#contents)
   - [Daily Checklist](#daily-checklist)
-  - [2024-06-20](#2024-06-20)
-    - [SELL ME](#sell-me)
   - [2024-mm-dd](#2024-mm-dd)
   - [Business model strategies](#business-model-strategies)
   - [Reading List](#reading-list)
@@ -36,6 +34,8 @@
     - [SolClean](#solclean)
   - [Tutorials](#tutorials)
   - [Funny Ideas](#funny-ideas)
+    - [SELL ME](#sell-me)
+  - [2024-06-22](#2024-06-22)
 
 ## Daily Checklist
 
@@ -56,42 +56,11 @@
 - [ ] <https://www.teamblind.com/whyBlind>
 - [ ] <https://www.talentbyblind.com/info>
 
-## 2024-06-20
-
-3:16 – goodmeetings.ai: sales acceleration
-4:24 – stablediffusionapi.com: Stable Diffusion as a service
-5:53 – HireSure.ai: compensation benchmarking
-7:17 – EatX.ai: _defunct_
-8:03 – Vitra.ai: multiplatform translation
-8:50 – Nintee.com: _defunct_
-9:25 – MachineHack.com: AI course platform
-10:25 – Rephrase.ai: text-to-video generation
-11:46 – MinusZero.ai: AI for autonomous driving
-12:40 – Karya.in: AI dataset services
-
-### SELL ME
-
-Danby DPA120BCCWDB 12000 BTU Portable 3-in-1 Air Conditioner 550 ft2
-(code : DPA120BCCWDB Danby)
-Price: $539.00 – $579.99
-
-- [ ] [Danby 12,000 BTU 3-in-1 Portable Air Conditioner with ISTA-6 Packaging](https://www.elmirahomecomfort.com/products/danby-12000-btu-3-in-1-portable-air-conditioner-with-ista-6-packaging-dpa080b1wdb-6?_pos=15&_sid=42ec86719&_ss=r)
-- [ ] [Danby 12,000 BTU Portable Air Conditioner with Silencer Technology - DPA120BCCWDB](https://www.danby.com/products/portable-air-conditioners/dpa120bccwdb/)
-- [ ] [Danby 12,000 BTU Portable 3 -in- 1 Air Conditioner with Silencer Technology](https://www.amazon.ca/Danby-Portable-Conditioner-Silencer-Technology/dp/B07124HLGG)
-- [ ] [Danby 12,000 BTU 3-in-1 Portable Air Conditioner with Remote](https://www.homedepot.ca/product/danby-12-000-btu-3-in-1-portable-air-conditioner-with-remote/1001646591)
-- [ ] [Danby 12,000 BTU Portable Air Conditioner](https://www.homedepot.ca/product/danby-12-000-btu-portable-air-conditioner/1000787949)
-
 [1]: https://vimeo.com/192920817 "Value Builder System™ Explainer"
 [2]: http://valuebuildersystem.com/score "The Value Builder System™ Score"
 
-Tags: business, business plan, business planning, entrepreneurship, startups
-
 ## 2024-mm-dd
 
-- [x] [How to Start a Startup (Sam Altman, Dustin Moskovitz)](https://www.youtube.com/watch?v=CBYhVcO4WgI&list=PL5q_lef6zVkaTY_cT1k7qFNF2TidHCe-1&index=3)
-- [ ] [15 BIGGEST Data Centers on Earth](https://www.youtube.com/watch?v=1LmFmCVTppo&list=TLPQMTMwNjIwMjQ_IuKdh1uKpA&index=4)
-- [ ] [Why Automakers Are Invading Your Privacy](https://www.youtube.com/watch?v=7kUJhWUm3JA&list=TLPQMTMwNjIwMjQ_IuKdh1uKpA&index=2)
-- [ ] [Can This Strange Mushroom Really Double Your Brain Power?](https://www.youtube.com/watch?v=LQI-kIrmuAM&list=TLPQMTMwNjIwMjQ_IuKdh1uKpA&index=6)
 - [ ] [This Next Billion-Dollar Startup Was Built To Save America’s Farms With Tractorbots](https://www.youtube.com/watch?v=mIIM90YKJ6g&list=TLPQMTMwNjIwMjQ_IuKdh1uKpA&index=5)
 - [ ] [YouTube](https://www.youtube.com/watch?v=MMG6vtscSeI&list=TLPQMTMwNjIwMjQ_IuKdh1uKpA&index=8)
 - [ ] [Ex-OpenAI Employee Just Revealed it ALL!](https://www.youtube.com/watch?v=om5KAKSSpNg&list=TLPQMTMwNjIwMjQ_IuKdh1uKpA&index=7)
@@ -838,6 +807,25 @@ Jacek Nawrot · Control Systems Project Manager at Tigercat Industries Inc. · R
 - [ ] [Chicken Sandwich](https://youtube.com/shorts/219f_wH2vDg)
 - [ ] [roy wood jr](https://www.youtube.com/results?search_query=roy+wood+jr)
 - [ ] [YouTube Disco](https://www.youtubedisco.de/)
+
+### SELL ME
+
+Danby DPA120BCCWDB 12000 BTU Portable 3-in-1 Air Conditioner 550 ft2
+(code : DPA120BCCWDB Danby)
+Price: $539.00 – $579.99
+
+- [x] [Danby 12,000 BTU 3-in-1 Portable Air Conditioner with ISTA-6 Packaging](https://www.elmirahomecomfort.com/products/danby-12000-btu-3-in-1-portable-air-conditioner-with-ista-6-packaging-dpa080b1wdb-6?_pos=15&_sid=42ec86719&_ss=r)
+- [x] [Danby 12,000 BTU Portable Air Conditioner with Silencer Technology - DPA120BCCWDB](https://www.danby.com/products/portable-air-conditioners/dpa120bccwdb/)
+- [x] [Danby 12,000 BTU Portable 3 -in- 1 Air Conditioner with Silencer Technology](https://www.amazon.ca/Danby-Portable-Conditioner-Silencer-Technology/dp/B07124HLGG)
+- [x] [Danby 12,000 BTU 3-in-1 Portable Air Conditioner with Remote](https://www.homedepot.ca/product/danby-12-000-btu-3-in-1-portable-air-conditioner-with-remote/1001646591)
+- [x] [Danby 12,000 BTU Portable Air Conditioner](https://www.homedepot.ca/product/danby-12-000-btu-portable-air-conditioner/1000787949)
+
+## 2024-06-22
+
+- [x] [How to Start a Startup (Sam Altman, Dustin Moskovitz)](https://www.youtube.com/watch?v=CBYhVcO4WgI&list=PL5q_lef6zVkaTY_cT1k7qFNF2TidHCe-1&index=3)
+- [x] [15 BIGGEST Data Centers on Earth](https://www.youtube.com/watch?v=1LmFmCVTppo&list=TLPQMTMwNjIwMjQ_IuKdh1uKpA&index=4)
+- [x] [Why Automakers Are Invading Your Privacy](https://www.youtube.com/watch?v=7kUJhWUm3JA&list=TLPQMTMwNjIwMjQ_IuKdh1uKpA&index=2)
+- [x] [Can This Strange Mushroom Really Double Your Brain Power?](https://www.youtube.com/watch?v=LQI-kIrmuAM)
 
 - - -
 <!-- sources -->

@@ -77,9 +77,10 @@ if [[ ! -x ~/Code/meteo/meteo_f ]]; then
 else
     tput reset && source ~/Code/meteo/meteo_f && meteo
 fi
+./Users/syd/Code/misc/scripts/gas_price.zsh && printf "\n"
 cd ~/Dropbox/nvalt && lsd | tail -n 10 && printf "\n"
 
 # sources
 
 ## ^ 2022-01-12T21:16:44-0500\
-## % 2024-05-16T11:34:59-0400
+## % 2024-07-01T14:13:10-0400
