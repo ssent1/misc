@@ -99,6 +99,9 @@ To set this up, you would create a property list (plist) file in the ~/Library/L
 ```vim
 " Load the service with
 launchctl load ~/Library/LaunchAgents/local.gaspricelogger.plist
+
+" check Plist logs
+vim /private/tmp/gaspricelogger.log /private/tmp/gaspricelogger.err
 ```
 
 - - -
@@ -109,4 +112,4 @@ launchctl load ~/Library/LaunchAgents/local.gaspricelogger.plist
 Tags: 
 
 ^ 2024-07-04T14:24:50-0400\
-% 2024-07-04T16:07:20-0400
+% 2024-07-04T16:40:23-0400
