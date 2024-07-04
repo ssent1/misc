@@ -105,9 +105,8 @@ launchctl load ~/Library/LaunchAgents/local.gaspricelogger.plist
 <!-- sources -->
 [1]: https://claude.ai/chat/88b08358-7146-495d-b013-24e0c7967d59 "Zsh Script to Scrape Local Gas Prices"
 [2]: https://chatgpt.com/c/6f81cefa-b664-4cfe-a2e8-f3e9d17753a4 "Run script as a service"
-[3]: https://chatgpt.com/share/75c10e96-5120-469c-87e8-ac87348df0b1 "Run script as a service"
 
 Tags: 
 
 ^ 2024-07-04T14:24:50-0400\
-% 2024-07-04T15:31:42-0400
+% 2024-07-04T16:07:20-0400
