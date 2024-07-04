@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.syd.gaspricelogger</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/syd/Code/misc/scripts/gas/log-gas-price.zsh</string>
+    </array>
+    <key>ServiceDescription</key>
+    <string>Gas Price Logger</string>
+    <key>StartCalendarInterval</key>
+    <array>
+        <dict>
+            <key>Hour</key>
+            <integer>7</integer>
+        </dict>
+        <dict>
+            <key>Hour</key>
+            <integer>10</integer>
+        </dict>
+        <dict>
+            <key>Hour</key>
+            <integer>13</integer>
+        </dict>
+        <dict>
+            <key>Hour</key>
+            <integer>16</integer>
+        </dict>
+        <dict>
+            <key>Hour</key>
+            <integer>19</integer>
+        </dict>
+        <dict>
+            <key>Hour</key>
+            <integer>22</integer>
+        </dict>
+    </array>
+    <key>StandardOutPath</key>
+    <string>/tmp/gaspricelogger.log</string>
+    <key>StandardErrorPath</key>
+    <string>/tmp/gaspricelogger.err</string>
+</dict>
+</plist>
