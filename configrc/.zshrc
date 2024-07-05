@@ -81,7 +81,8 @@ else
     tput reset && source ~/Code/meteo/meteo_f && meteo
 fi
 print_gas_price && printf "\n"
+log_gas_price
 cd ~/Dropbox/nvalt && lsd | tail -n 10 && printf "\n"
 
 ## ^ 2022-01-12T21:16:44-0500\
-## % 2024-07-04T23:02:42-0400
+## % 2024-07-04T23:25:22-0400
