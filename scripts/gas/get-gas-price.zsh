@@ -27,15 +27,18 @@ price_float=$(echo $price | awk '{print $1/100}')
 
 print_gas_price() {
 # Print the result
-GREEN='\033[1;32m'
+GREEN='\033[0;32m'
 NC='\033[0m'
 
 get_gas_price
-echo "Regular gas: ${GREEN}\$$price_float${NC}\n$stn, ~$rtime"
+
+printf "Regular gas: ${GREEN}\$$price_float${NC}. 25 L (1/2 tank): ${GREEN}\$%.2f${NC}.\n" $(echo "$price_float * 25" | bc -l)
+echo "$stn, ~$rtime"
 }
 
 # sources
 # https://claude.ai/chat/88b08358-7146-495d-b013-24e0c7967d59 "Zsh Script to Scrape Local Gas Prices"
+# https://chatgpt.com/c/09955962-b0ef-4d61-b298-52f7bd7df87b "Round Zsh result"
 
 # ^ 2024-06-28T13:53:54-0400\
-# % 2024-07-04T16:40:23-0400
+# % 2024-07-05T16:39:09-0400
