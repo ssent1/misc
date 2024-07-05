@@ -32,16 +32,19 @@ sex() {
         echo "$file was NOT sourced."
     fi }
 
+sex "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+sex ~/.fzf.zsh
+sex ~/.iterm2_shell_integration.zsh
 sex ~/.oh-my-zsh/custom/themes/powerlevel10k
 sex ~/.oh-my-zsh/oh-my-zsh.sh
-sex "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 sex ~/.p10k.zsh
 sex ~/.zinit/bin/zinit.zsh
-sex ~/.zsh_plugins
-sex ~/.zsh_functions
 sex ~/.zsh_aliases
-sex ~/.iterm2_shell_integration.zsh
-sex ~/.fzf.zsh
+sex ~/.zsh_functions
+sex ~/.zsh_plugins
+sex ~/Code/misc/scripts/gas/get-gas-price.zsh
+sex ~/Code/misc/scripts/gas/log-gas-price.zsh
+
 # When using instant prompt, Powerlevel10k must be loaded before the first prompt.
 # If necessary, "p10k configure" or edit "~/.p10k.zsh"
 
@@ -80,7 +83,5 @@ fi
 print_gas_price && printf "\n"
 cd ~/Dropbox/nvalt && lsd | tail -n 10 && printf "\n"
 
-# sources
-
 ## ^ 2022-01-12T21:16:44-0500\
-## % 2024-07-04T17:20:41-0400
+## % 2024-07-04T23:02:42-0400
