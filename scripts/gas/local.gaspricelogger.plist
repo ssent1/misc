@@ -3,9 +3,10 @@
 <plist version="1.0">
 <dict>
     <key>Label</key>
-    <string>com.syd.gaspricelogger</string>
+    <string>local.gaspricelogger</string>
     <key>ProgramArguments</key>
     <array>
+        <string>/bin/zsh</string>
         <string>/Users/syd/Code/misc/scripts/gas/log-gas-price.zsh</string>
     </array>
     <key>ServiceDescription</key>
@@ -37,6 +38,10 @@
             <integer>22</integer>
         </dict>
     </array>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <false/>
     <key>StandardOutPath</key>
     <string>/tmp/gaspricelogger.log</string>
     <key>StandardErrorPath</key>
