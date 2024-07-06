@@ -1,0 +1,109 @@
+# Brewster: update package managers, Homebrew, npm (Node.js), & pip (Python)
+brewsterf() {
+    if read -q "CHOICE?Press [y]es to run Brewster:  "; then
+        sleep 1
+        spinner() {
+            local slt=0.25
+            local spinner_chars=("." ".." "...")
+            for i in {1..3}; do
+                printf "\033c\r\033[32m==> running Brewster${spinner_chars[$i]}\033[39m\n"
+                sleep $slt
+            done }
+            spinner
+            source /Users/syd/Code/misc/Brewster/brewster
+            return 0
+        else
+            return 1
+            fi }
+
+# Colourize Manpages (ANSI 8-Bit, 256)
+man() {
+    LESS_TERMCAP_mb=$'\e[39;5;183m' \
+        LESS_TERMCAP_md=$'\e[38;5;183m' \
+        LESS_TERMCAP_me=$'\e[0m' \
+        LESS_TERMCAP_se=$'\e[0m' \
+        LESS_TERMCAP_so=$'\e[37;1;231;48;5;060m' \
+        LESS_TERMCAP_ue=$'\e[0m' \
+        LESS_TERMCAP_mb=$'\e[38;5;120' \
+        command man "$@" }
+
+# change directory enhanced: cd to a new directory OR for working directory
+# clear screen, sort by time modified (most recent first), list 10 files
+cl() {
+    DIR=${1:-$PWD}
+    builtin cd "${DIR}"
+    tput reset
+    eza --sort=mod | tail -n 25 }
+
+# Define Word via dictionary query
+def() {
+    print -n "Press [d]efine, [m]atch, or [q]uit: "
+    read REPLY
+    case $REPLY in
+        [Dd]) curl "dict://dict.org/d:$1:gcide" | less ;;
+        [Mm]) curl "dict://dict.org/m:$1:gcide" | less ;;
+        [Qq]) print 'exiting...' ;;
+        *) confirm ;;
+    esac }
+# https://news.ycombinator.com/item?id=7775009
+
+# Globalias expands glob expressions, subcommands, & aliases (including global)
+globalias() { local word=${${(Az)LBUFFER}[-1]}
+if [[ $GLOBALIAS_FILTER_VALUES[(Ie)$word] -eq 0 ]]; then
+    zle _expand_alias; zle expand-word
+fi
+zle self-insert }
+zle -N globalias
+
+# yank to system clipboard in Zsh vi-mode
+yank-to-clipboard() { zle vi-yank
+echo "$CUTBUFFER"|pbcopy -i } 
+zle -N yank-to-clipboard
+
+# linediff compares two files line-by-line
+linediff() {
+    if [ -z "$1" ] || [ -z "$2" ]; then
+        return
+    fi
+    local f1=$(basename "$1")
+    local f2=$(basename "$2")
+    vimdiff <(nl -ba "$1") <(nl -ba "$2") }
+
+# cello - Play "Mellow Cello" playlist in Google Music
+
+cello() {
+    local browser=${1:-"Arc"}
+    local url="https://music.youtube.com/watch?v=BqxAZoiZnQw&list=RDCLAK5uy_li40oRtkZfR06nf8rRzgRaDx764TEN0"
+    open -a "$browser" "$url"
+}
+
+# cello (default, opens in Arc)
+# cello "Google Chrome" (opens in Chrome)
+# cello "Safari" (opens in Safari)
+
+# rmt - interactively move item to trash or delete permanently
+rmt() {
+    print -n '\033[31m[0] delete\033[39m\n\033[32m[1] trash\033[39m\n[q] quit\n'
+    read -r RESPONSE
+    case $RESPONSE in
+        0) \rm -Rfd "$@" ;;
+        1) trash "$@" ;;
+        [Qq]) print "No change to \"$@\", exiting..." ;;
+        *) qq ;;
+    esac }
+
+# realpath via pure zsh; nb: using GNU realpath
+# realpath() {
+#     [[ $1 = /* ]] && echo "$1" || echo "$PWD/${1#./}" }
+
+# globalias
+# https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/globalias
+# Get word to left of cursor
+# (z) => split line into an array
+# (A) => perform an array assignment
+# (I) => match index; start matching from end
+# (e) => force value to be rescanned for all forms of single-word substitution
+# https://zsh.sourceforge.io/Guide/zshguide05.html
+
+## ^ 2022-01-12T21:16:44-0500
+## % 2024-07-06T16:07:36-0400
