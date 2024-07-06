@@ -47,6 +47,46 @@ def() {
     esac }
 # https://news.ycombinator.com/item?id=7775009
 
+# git functions
+
+## gita - git add: add & commit to git repo
+gita() {
+    if [ $# -lt 2 ]; then
+        echo "Usage: gita <file(s)> \"<commit message>\""
+        return 1
+    fi
+    git add "$1" && git commit -m "${@:2}"
+}
+
+## gitr - git delete: delete & commit to git repo
+gitr() {
+    if [ $# -lt 2 ]; then
+        echo "Usage: gitr <file(s)> \"<commit message>\""
+        return 1
+    fi
+    git rm "$1" && git commit -m "${@:2}"
+}
+
+## gitd - git diff: show changes
+gitd() {
+    if [ $# -eq 0 ]; then
+        git diff
+    else
+        git diff "$@"
+    fi
+}
+
+## gitA - git add ALL && git commit ALL
+gitA() {
+    if [ $# -eq 0 ]; then
+        echo "Usage: gitA \"<commit message>\""
+        return 1
+    fi
+    git add -A && git commit -m "$*" && gitp
+}
+
+# https://claude.ai/chat/708b54c3-aee4-4429-b7b3-97ef2cf29904 "Update Git functions"
+
 # Globalias expands glob expressions, subcommands, & aliases (including global)
 globalias() { local word=${${(Az)LBUFFER}[-1]}
 if [[ $GLOBALIAS_FILTER_VALUES[(Ie)$word] -eq 0 ]]; then
@@ -106,4 +146,4 @@ rmt() {
 # https://zsh.sourceforge.io/Guide/zshguide05.html
 
 ## ^ 2022-01-12T21:16:44-0500
-## % 2024-07-06T16:07:36-0400
+## % 2024-07-06T17:02:05-0400
