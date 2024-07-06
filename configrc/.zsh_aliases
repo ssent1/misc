@@ -42,7 +42,6 @@ alias dirs='dirs -v'                          # list directory stack w/ index nu
 alias dl='~/Downloads'                        # go to Downloads directory
 alias ej='. ~/Code/misc/configrc/ejector'     # eject external media
 alias flush='"sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder; say "Your DNS cache is clean."'
-alias gitA='git add . && git commit -m "" && gitp'                    # git add && git commit all
 alias gitc='gh repo clone'                                            # clone repo to a new directory
 alias gitk='git clone'                                                # clone repo to a new directory
 alias gitp='git push;tput reset;git status'                           # git push
@@ -146,11 +145,6 @@ rp() { realpath -m $1 |tee /dev/tty |tr -d '\n' |pbcopy }
 rfd() { awk 'NF>0' $HOME/Downloads/app_purge/$1|while read line ; do sudo rm -Rfd "${line}.md" ; done }
     # delete items listed in app_purge file
 
-### git functions
-gita() { git add $1 && git commit -m "$2" } # git add: add & commit to git repo
-gitr() { git rm $1 && git commit -m "$2" }  # git delete: delete & commit to git repo
-gitd() { git diff $1 }                      # git diff: show changes
-
 ## suffix aliases
 # alias -s {css,html,js,md,sh,zsh,,}='code' # open file.{ext} in VSCode
 
@@ -158,4 +152,4 @@ gitd() { git diff $1 }                      # git diff: show changes
 # https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html
 
 # ^ 2022-01-12T21:16:44-0500
-# % 2024-07-06T16:08:53-0400
+# % 2024-07-06T17:02:05-0400
