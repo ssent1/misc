@@ -5,6 +5,9 @@
 - [TeuxDeux List](#teuxdeux-list)
 - [Contents](#contents)
   - [Daily Checklist](#daily-checklist)
+  - [0](#0)
+  - [1](#1)
+  - [2](#2)
   - [2024-mm-dd](#2024-mm-dd)
   - [Business model strategies](#business-model-strategies)
   - [Reading List](#reading-list)
@@ -56,8 +59,62 @@
 - [ ] <https://www.teamblind.com/whyBlind>
 - [ ] <https://www.talentbyblind.com/info>
 
-[1]: https://vimeo.com/192920817 "Value Builder System™ Explainer"
-[2]: http://valuebuildersystem.com/score "The Value Builder System™ Score"
+## 0
+
+- [ ] [How To Get Rich Starting From $0 Part 1](https://www.youtube.com/watch?v=HxkcCU9VfoQ)
+- [ ] [How To Get Rich Starting From $0 Part 2](https://www.youtube.com/watch?v=6XeLdGwCIck)
+- [ ] [26 years of ADHD: Here's what I learned](https://www.youtube.com/watch?v=BTyndgy1Ai8)
+- [ ] ['I'm Broke, What Business Do I Start?'](https://www.youtube.com/watch?v=nIk3DedjxJM)
+- [ ] [Ladders](https://www.theladders.com/)
+- [ ] [How A 28 Year Old MISFIT Built A $30.7M Business](https://www.youtube.com/watch?v=4k6ufRbXAmQ)
+- [ ] [How to Start a SaaS Business With $0](https://www.youtube.com/watch?v=lxpaSlImFHk)
+- [ ] [30% Body Fat](https://www.youtube.com/watch?v=U8M3P7ZNBRY)
+- [ ] [Praise You Anywhere, Brandon Lake](https://tabs.ultimate-guitar.com/tab/brandon-lake/praise-you-anywhere-chords-4814669)
+- [ ] [10 Millionaires Asked Me How to Get Richer](https://www.youtube.com/watch?v=6m6DCQMASEM)
+- [ ] [Value Builder System™ Explainer](https://vimeo.com/192920817)
+- [ ] [The Value Builder System™ Score](http://valuebuildersystem.com/score)
+
+## 1
+
+- [ ] [Gmail](https://mail.google.com/mail/u/0/#all)
+- [ ] [Zsh Script to Scrape Local Gas Prices - Claude](https://claude.ai/chat/88b08358-7146-495d-b013-24e0c7967d59)
+- [ ] [Resize Image to 1200px](https://chatgpt.com/c/6ff4f6f3-12cb-44c1-9da2-e3dcce8e7c29)
+- [ ] [GLP-1 Agonists: What They Are, How They Work & Side Effects](https://my.clevelandclinic.org/health/treatments/13901-glp-1-agonists)
+- [ ] [Tail Generation Pattern | Coursera](https://www.coursera.org/learn/prompt-engineering/lecture/ErOYH/tail-generation-pattern)
+- [ ] [pre-science medical treatments](https://chatgpt.com/c/443f2fef-06a6-42b3-846c-97cffa5eb953)
+- [ ] [GLP-1 Agonists: What They Are, How They Work & Side Effects](https://my.clevelandclinic.org/health/treatments/13901-glp-1-agonists)
+- [ ] [Favorite pages](https://www.google.com/interests/saved/list/XHntOX47PY-p__eBS6NXkg?q=Favorite%20pages&sa=X&ved=0CB4Q5oAKahgKEwjg-YurlYyHAxUAAAAAHQAAAAAQ0gE)
+- [ ] [Alignment 101: The Correct Way to Get Aligned for Better Golf Shots - The Left Rough](https://theleftrough.com/golf-alignment/)
+- [ ] [The First Lesson: How to Grip a Golf Club - The Left Rough](https://theleftrough.com/golf-grip/)
+- [ ] [It's the Simple Things: How to Aim in Golf - The Left Rough](https://theleftrough.com/how-to-aim-in-golf/)
+
+## 2
+
+- [ ] [Market Analysis Tool](https://analyzer.amazing.com/)
+- [ ] [The Spy Who Loved Me 1977 free stream - FMovies](https://fmovies24.to/movie/the-spy-who-loved-me-nzn/1-1)
+- [ ] [Metabolic Health and Weight Loss Business Plan - Claude](https://claude.ai/chat/25375fa9-0b6a-4ac2-bb7f-be7275fe519e)
+- [ ] [Evaluate vs. Assess](https://chatgpt.com/c/76f3a672-49ac-4c7d-92c7-08021042b692)
+
+```vim
+What are some the most famous pre-science medical treatments that today we see with shock and horror and can't believe that people thought the stuff might work?
+
+> ChatGPT
+
+Throughout history, many medical treatments were based on limited understanding of human biology and disease, often leading to practices that seem bizarre or horrifying by today's standards. Here are some of the most infamous pre-science medical treatments:
+
+-  [ ] Bloodletting: Practiced for thousands of years, bloodletting was believed to cure or prevent a variety of illnesses by balancing the body's humors. Leeches or lancets were used to drain blood from the patient, often causing more harm than good.
+-  [ ] Trepanning: This involved drilling holes into the skull to treat conditions like epilepsy, migraines, and mental disorders. The practice dates back to prehistoric times and continued into the Middle Ages.
+-  [ ] Mercury Treatments: Mercury was used to treat a range of ailments, including syphilis. Ingesting or applying mercury compounds caused severe poisoning, leading to a host of additional health problems.
+-  [ ] Miasma Theory: Before the germ theory of disease, it was believed that "bad air" or miasma caused illnesses. Treatments included burning aromatic herbs, wearing protective masks, and avoiding "bad air" areas, which did little to prevent disease.
+-  [ ] Use of Animal Dung: In ancient Egypt, animal dung was used in ointments and treatments for various ailments. This often led to infections and other complications.
+-  [ ] Cigarette Smoking for Asthma: In the early 20th century, some doctors recommended cigarette smoking to treat asthma and other respiratory issues, believing it could help clear the lungs.
+-  [ ] Radium Water and Radium Products: In the early 20th century, radium was touted as a health tonic and used in various products, including drinking water, until it was discovered to cause serious health issues, including cancer.
+-  [ ] Lobotomy: Popularized in the early to mid-20th century, lobotomies were performed to treat mental illness. The procedure involved severing connections in the brain's prefrontal cortex, often leading to severe cognitive and emotional impairment.
+-  [ ] Mummy Powder: In medieval Europe, ground-up mummies imported from Egypt were used in medicines believed to cure various ailments. This practice continued into the Renaissance.
+-  [ ] Heroin and Cocaine in Medicines: In the late 19th and early 20th centuries, heroin and cocaine were used in over-the-counter medicines and treatments for coughs, pain relief, and even as a remedy for children’s ailments.
+
+These treatments reflect the evolving understanding of medicine and the often desperate measures taken to cure illnesses with the knowledge available at the time.
+```
 
 ## 2024-mm-dd
 
@@ -833,4 +890,4 @@ Price: $539.00 – $579.99
 Tags: mdi, mental health, personal development exercise, productivity, relationships, teuxdeux, todo
 
 ^ 2020-11-12T18:26:31-0500\
-% 2024-06-20T22:44:15-0400
+% 2024-08-01T12:49:17-0400
