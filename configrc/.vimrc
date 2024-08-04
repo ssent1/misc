@@ -201,6 +201,7 @@ Plug 'clarke/vim-renumber'
 Plug 'dense-analysis/ale'
 Plug 'dhruvasagar/vim-table-mode'
 Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'Exafunction/codeium.vim', { 'branch': 'main' }
 Plug 'godlygeek/tabular'
 Plug 'junegunn/goyo.vim'
 Plug 'junegunn/vim-peekaboo'
@@ -371,4 +372,4 @@ source ~/.vim/llms.vim
 
 " Last update: set g:mkdx#settings = 'links' { 'enable': 0 } ==> disable getting website; desired: open in browser
 " ^ 2022-01-12T21:16:44-0500
-" % 2024-06-21T10:51:26-0400
+" % 2024-08-04T14:01:56-0400
