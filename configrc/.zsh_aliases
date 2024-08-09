@@ -90,8 +90,9 @@ alias src='. ~/.zshrc'                           # source zsh
 alias ssh1='ssh 192.168.1.'                      # ssh to local device
 alias teux='. ~/Dropbox/nvalt/donga-teuxdeux.sh' # open To Do list
 # alias teux='vim ~/Dropbox/nvalt/{teuxdeux,blog-post-ideas}.md' # open To Do list
+alias tt='trash !*'                              # trash last item(s)
 alias tmp='vim tmp-$(date +%Y%m%d@%H%M%S%z).md'  # create temp file with timestamp
-alias {trh,tt}='trash'                           # trash item(s)
+alias trh='trash'                                # trash item(s)
 alias {v,vi}='vim'
 alias wf='ns=$(networksetup -getnetworkserviceenabled Wi-Fi) \
     print "Netowrk Service (Wi-Fi): $ns" \
@@ -152,4 +153,4 @@ rfd() { awk 'NF>0' $HOME/Downloads/app_purge/$1|while read line ; do sudo rm -Rf
 # https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html
 
 # ^ 2022-01-12T21:16:44-0500
-# % 2024-07-06T17:02:05-0400
+# % 2024-08-08T15:37:21-0400
