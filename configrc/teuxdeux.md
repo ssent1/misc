@@ -5,6 +5,7 @@
 - [TeuxDeux List](#teuxdeux-list)
 - [Contents](#contents)
   - [Daily Checklist](#daily-checklist)
+  - [2024-08-07](#2024-08-07)
   - [0](#0)
   - [1](#1)
   - [2](#2)
@@ -52,19 +53,20 @@
 1. [ ] [ChatGPT](https://chat.openai.com/)
 2. [ ] [Poe](https://poe.com/ResumeReview)
 3. [ ] [Forefront](https://accounts.forefront.ai/sign-in)
-4. [ ] [Saved](https://www.google.com/save/list/XHntOX47PY-p__eBS6NXkg), [Collections](https://www.google.com/collections/)
+4. [ ] [Saved](https://www.google.com/save/list/XHntOX47PY-p__eBS6NXkg)
+5. [ ] [Collections](https://www.google.com/collections/)
 
 <!-- opera gx -->
 - [ ] <file:///Users/syd/Sites/dev.salonlabel.com/index.html>
 - [ ] <https://www.teamblind.com/whyBlind>
 - [ ] <https://www.talentbyblind.com/info>
 
-## 0
+## 2024-08-07
 
+- [-] [I'm Broke, What Business Do I Start?](https://www.youtube.com/watch?v=nIk3DedjxJM)
 - [ ] [How To Get Rich Starting From $0 Part 1](https://www.youtube.com/watch?v=HxkcCU9VfoQ)
 - [ ] [How To Get Rich Starting From $0 Part 2](https://www.youtube.com/watch?v=6XeLdGwCIck)
 - [ ] [26 years of ADHD: Here's what I learned](https://www.youtube.com/watch?v=BTyndgy1Ai8)
-- [ ] ['I'm Broke, What Business Do I Start?'](https://www.youtube.com/watch?v=nIk3DedjxJM)
 - [ ] [Ladders](https://www.theladders.com/)
 - [ ] [How A 28 Year Old MISFIT Built A $30.7M Business](https://www.youtube.com/watch?v=4k6ufRbXAmQ)
 - [ ] [How to Start a SaaS Business With $0](https://www.youtube.com/watch?v=lxpaSlImFHk)
@@ -73,6 +75,24 @@
 - [ ] [10 Millionaires Asked Me How to Get Richer](https://www.youtube.com/watch?v=6m6DCQMASEM)
 - [ ] [Value Builder System™ Explainer](https://vimeo.com/192920817)
 - [ ] [The Value Builder System™ Score](http://valuebuildersystem.com/score)
+
+- [ ] [UFC Fight Night: Sandhagen vs Nurmagomedov](https://watchwrestling.store/watch-ufc-fight-night-sandhagen-vs-nurmagomedov-8-3-24/)
+- [ ] [10 Millionaires Asked Me How to Get Richer](https://www.youtube.com/watch?v=6m6DCQMASEM)
+- [ ] [Gabor Mate On ADHD](https://www.youtube.com/watch?v=itcD7f0H64A)
+- [ ] [Busiest Week in AI](https://www.youtube.com/watch?v=loaFHyvCS5k)
+- [ ] [Top 10 FREE OSINT tools](https://www.youtube.com/watch?v=PRqOj5qM1ic)
+- [ ] [Statistics - A Full University Course on Data Science Basics](https://www.youtube.com/watch?v=xxpc-HPKN28)
+
+- [ ] [$100 Million Branding Advice](https://www.youtube.com/watch?v=tQYZgJQr1qU)
+- [ ] [33 Years of Business Experience (4 hrs)](https://www.youtube.com/watch?v=xQuKdFNK7tk)
+- [ ] [Explode Your Business](https://www.youtube.com/watch?v=a7uXS9GmPmI)
+- [ ] [How the top 1% make their money](https://www.youtube.com/watch?v=fD-sxKiB30M)
+- [ ] [Instantly Gain Authority](https://www.youtube.com/watch?v=BU5Jk_7mNRk)
+- [ ] [Never Tell People What You Do: Jim Rohn](https://www.youtube.com/watch?v=lV4XQZJx9R4)
+- [ ] [Sell Better than 99% Of People (4 hrs)](https://www.youtube.com/watch?v=JE2_7elAcxM)
+- [ ] [TWiST 500! Huntress, TollBit & Cyera](https://www.youtube.com/watch?v=ULEwo0VXlZQ)
+
+## 0
 
 ## 1
 
@@ -238,7 +258,7 @@ These treatments reflect the evolving understanding of medicine and the often de
 9. Control your mindset
 10. Surround yourself with the right people
 11. Control the information you consume
-[1]: https://www.openbible.info/topics/uncertainty "What Does the Bible Say About Uncertainty?"
+[8]: https://www.openbible.info/topics/uncertainty "What Does the Bible Say About Uncertainty?"
 
 
 ## String Comparison
@@ -883,6 +903,7 @@ Price: $539.00 – $579.99
 - [x] [15 BIGGEST Data Centers on Earth](https://www.youtube.com/watch?v=1LmFmCVTppo&list=TLPQMTMwNjIwMjQ_IuKdh1uKpA&index=4)
 - [x] [Why Automakers Are Invading Your Privacy](https://www.youtube.com/watch?v=7kUJhWUm3JA&list=TLPQMTMwNjIwMjQ_IuKdh1uKpA&index=2)
 - [x] [Can This Strange Mushroom Really Double Your Brain Power?](https://www.youtube.com/watch?v=LQI-kIrmuAM)
+- [x] [codeium.vim](https://github.com/Exafunction/codeium.vim)
 
 - - -
 <!-- sources -->
@@ -890,4 +911,4 @@ Price: $539.00 – $579.99
 Tags: mdi, mental health, personal development exercise, productivity, relationships, teuxdeux, todo
 
 ^ 2020-11-12T18:26:31-0500\
-% 2024-08-01T12:49:17-0400
+% 2024-08-08T21:49:20-0400
