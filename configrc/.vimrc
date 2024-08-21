@@ -243,7 +243,7 @@ augroup CssColorCustomFiletypes
 augroup END
 
 """ goyo
-let g:goyo_linenr = 1
+let g:goyo_linenr = 1 " show line numbers
 
 """ HTML
 let g:html_indent_tags = 'li\|p' " treat <li>|<p> like block tags
@@ -375,4 +375,4 @@ source ~/.vim/llms.vim
 
 " Last update: set g:mkdx#settings = 'links' { 'enable': 0 } ==> disable getting website; desired: open in browser
 " ^ 2022-01-12T21:16:44-0500
-" % 2024-08-21T12:02:34-0400
+" % 2024-08-21T12:06:12-0400
