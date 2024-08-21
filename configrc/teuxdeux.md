@@ -5,6 +5,8 @@
 - [TeuxDeux List](#teuxdeux-list)
 - [Contents](#contents)
   - [Daily Checklist](#daily-checklist)
+  - [2024-08-19](#2024-08-19)
+    - [prompt ideas](#prompt-ideas)
   - [2024-08-07](#2024-08-07)
   - [0](#0)
   - [1](#1)
@@ -60,6 +62,27 @@
 - [ ] <file:///Users/syd/Sites/dev.salonlabel.com/index.html>
 - [ ] <https://www.teamblind.com/whyBlind>
 - [ ] <https://www.talentbyblind.com/info>
+
+## 2024-08-19
+
+- [ ] [11 things people learn too late](https://youtube.com/shorts/pO9Tz1an3LM?si=05OnC1rjPP-2IV73
+- [ ] [6 Mobile Apps That Will Transform Your Life](https://www.youtube.com/watch?v=vGlB4plOE1I)
+  - [ ] 1. [character.ai](https://character.ai/)
+  - [ ] 2. [ChatGPT](https://openai.com/chatgpt/)
+  - [ ] 3. [ElevenLabs: Text to Speech](https://elevenlabs.io/)
+  - [ ] 4. [Google Gemini](https://play.google.com/store/apps/details?id=com.google.android.apps.bard&hl=en_US)
+  - [ ] 5. [Notion](https://www.notion.so/mobile)
+  - [ ] 6. [Otter.ai](https://otter.ai/)
+  - [ ] 7. [Poe](https://poe.com/)
+  - [ ] 8. [recast](https://www.letsrecast.ai/)
+  - [ ] 9. [Suno](https://suno.com/)
+- [ ] [UFC 305: Post-Fight Press Conference](https://www.youtube.com/watch?v=pkXojR6FE6U)
+- [ ] [Create Topical Maps With AI](https://www.youtube.com/watch?v=R1493UPdKsk)
+- [ ] [Generative AI and Business; Google Ventures](https://www.youtube.com/watch?v=MLgP5gthnM4)
+
+### prompt ideas
+
+- [ ] what are some non-obvious recommendations you could make…
 
 ## 2024-08-07
 
@@ -122,23 +145,23 @@ What are some the most famous pre-science medical treatments that today we see w
 
 Throughout history, many medical treatments were based on limited understanding of human biology and disease, often leading to practices that seem bizarre or horrifying by today's standards. Here are some of the most infamous pre-science medical treatments:
 
--  [ ] Bloodletting: Practiced for thousands of years, bloodletting was believed to cure or prevent a variety of illnesses by balancing the body's humors. Leeches or lancets were used to drain blood from the patient, often causing more harm than good.
--  [ ] Trepanning: This involved drilling holes into the skull to treat conditions like epilepsy, migraines, and mental disorders. The practice dates back to prehistoric times and continued into the Middle Ages.
--  [ ] Mercury Treatments: Mercury was used to treat a range of ailments, including syphilis. Ingesting or applying mercury compounds caused severe poisoning, leading to a host of additional health problems.
--  [ ] Miasma Theory: Before the germ theory of disease, it was believed that "bad air" or miasma caused illnesses. Treatments included burning aromatic herbs, wearing protective masks, and avoiding "bad air" areas, which did little to prevent disease.
--  [ ] Use of Animal Dung: In ancient Egypt, animal dung was used in ointments and treatments for various ailments. This often led to infections and other complications.
--  [ ] Cigarette Smoking for Asthma: In the early 20th century, some doctors recommended cigarette smoking to treat asthma and other respiratory issues, believing it could help clear the lungs.
--  [ ] Radium Water and Radium Products: In the early 20th century, radium was touted as a health tonic and used in various products, including drinking water, until it was discovered to cause serious health issues, including cancer.
--  [ ] Lobotomy: Popularized in the early to mid-20th century, lobotomies were performed to treat mental illness. The procedure involved severing connections in the brain's prefrontal cortex, often leading to severe cognitive and emotional impairment.
--  [ ] Mummy Powder: In medieval Europe, ground-up mummies imported from Egypt were used in medicines believed to cure various ailments. This practice continued into the Renaissance.
--  [ ] Heroin and Cocaine in Medicines: In the late 19th and early 20th centuries, heroin and cocaine were used in over-the-counter medicines and treatments for coughs, pain relief, and even as a remedy for children’s ailments.
+- [ ] Bloodletting: Practiced for thousands of years, bloodletting was believed to cure or prevent a variety of illnesses by balancing the body's humors. Leeches or lancets were used to drain blood from the patient, often causing more harm than good.
+- [ ] Trepanning: This involved drilling holes into the skull to treat conditions like epilepsy, migraines, and mental disorders. The practice dates back to prehistoric times and continued into the Middle Ages.
+- [ ] Mercury Treatments: Mercury was used to treat a range of ailments, including syphilis. Ingesting or applying mercury compounds caused severe poisoning, leading to a host of additional health problems.
+- [ ] Miasma Theory: Before the germ theory of disease, it was believed that "bad air" or miasma caused illnesses. Treatments included burning aromatic herbs, wearing protective masks, and avoiding "bad air" areas, which did little to prevent disease.
+- [ ] Use of Animal Dung: In ancient Egypt, animal dung was used in ointments and treatments for various ailments. This often led to infections and other complications.
+- [ ] Cigarette Smoking for Asthma: In the early 20th century, some doctors recommended cigarette smoking to treat asthma and other respiratory issues, believing it could help clear the lungs.
+- [ ] Radium Water and Radium Products: In the early 20th century, radium was touted as a health tonic and used in various products, including drinking water, until it was discovered to cause serious health issues, including cancer.
+- [ ] Lobotomy: Popularized in the early to mid-20th century, lobotomies were performed to treat mental illness. The procedure involved severing connections in the brain's prefrontal cortex, often leading to severe cognitive and emotional impairment.
+- [ ] Mummy Powder: In medieval Europe, ground-up mummies imported from Egypt were used in medicines believed to cure various ailments. This practice continued into the Renaissance.
+- [ ] Heroin and Cocaine in Medicines: In the late 19th and early 20th centuries, heroin and cocaine were used in over-the-counter medicines and treatments for coughs, pain relief, and even as a remedy for children's ailments.
 
 These treatments reflect the evolving understanding of medicine and the often desperate measures taken to cure illnesses with the knowledge available at the time.
 ```
 
 ## 2024-mm-dd
 
-- [ ] [This Next Billion-Dollar Startup Was Built To Save America’s Farms With Tractorbots](https://www.youtube.com/watch?v=mIIM90YKJ6g&list=TLPQMTMwNjIwMjQ_IuKdh1uKpA&index=5)
+- [ ] [This Next Billion-Dollar Startup Was Built To Save America's Farms With Tractorbots](https://www.youtube.com/watch?v=mIIM90YKJ6g&list=TLPQMTMwNjIwMjQ_IuKdh1uKpA&index=5)
 - [ ] [YouTube](https://www.youtube.com/watch?v=MMG6vtscSeI&list=TLPQMTMwNjIwMjQ_IuKdh1uKpA&index=8)
 - [ ] [Ex-OpenAI Employee Just Revealed it ALL!](https://www.youtube.com/watch?v=om5KAKSSpNg&list=TLPQMTMwNjIwMjQ_IuKdh1uKpA&index=7)
 - [ ] [Why every Cleo Abram video goes viral](https://www.youtube.com/watch?v=qYLzSN_Jz_E&list=TLPQMTMwNjIwMjQ_IuKdh1uKpA&index=8)
@@ -220,7 +243,7 @@ These treatments reflect the evolving understanding of medicine and the often de
 - [ ] [Your VPN won't protect you](https://www.youtube.com/watch?v=IPLM5P-vYyU)
 - [ ] [A.I. Designs New Electric Motor](https://www.youtube.com/watch?v=JGdIZF5gE7I)
 - [ ] [What Is an AI Anyway?](https://www.youtube.com/watch?v=KKNCiRWd_j0)
-- [ ] [Google’s First Big Acquisition In 19 Years?](https://www.youtube.com/watch?v=MrxupU5oOIE)
+- [ ] [Google's First Big Acquisition In 19 Years?](https://www.youtube.com/watch?v=MrxupU5oOIE)
 - [ ] [Wave Particle Duality](https://www.youtube.com/watch?v=qCmtegdqOOA)
 - [ ] ['There was an Eternal GOD who Began All of This'](https://www.youtube.com/watch?v=QJwr9ZPxJpY)
 - [ ] [What If Gravity is NOT A Fundamental Force?](https://www.youtube.com/watch?v=qYSKEbd956M)
@@ -260,7 +283,6 @@ These treatments reflect the evolving understanding of medicine and the often de
 11. Control the information you consume
 [8]: https://www.openbible.info/topics/uncertainty "What Does the Bible Say About Uncertainty?"
 
-
 ## String Comparison
 
 - [ ] [String Comparison: A Comprehensive Guide](https://www.namehero.com/blog/bash-string-comparison-the-comprehensive-guide/)
@@ -268,7 +290,7 @@ These treatments reflect the evolving understanding of medicine and the often de
 ## stuff
 
 - [ ] ['Platypus' electric hovercraft is like nothing you've seen before: 'The electric powertrain greatly reduces noise'](https://www.thecooldown.com/green-tech/electric-hovercraft-vehicle-urban-transport/)
-- [ ] [A.I. automation could impact 300 million jobs – here’s which ones](https://www.cnbc.com/2023/03/28/ai-automation-could-impact-300-million-jobs-heres-which-ones.html)
+- [ ] [A.I. automation could impact 300 million jobs – here's which ones](https://www.cnbc.com/2023/03/28/ai-automation-could-impact-300-million-jobs-heres-which-ones.html)
 - [ ] [AI could automate 300 million jobs. Here's which are most (and least) at risk | ZDNET](https://www.zdnet.com/article/ai-could-automate-25-of-all-jobs-heres-which-are-most-and-least-at-risk/)
 - [ ] [AI could replace equivalent of 300 million jobs - report](https://www.bbc.com/news/technology-65102150)
 - [ ] [AI Will Be a Gold Mine. The Only Question Is Who Benefits. - The Atlantic](https://www.theatlantic.com/ideas/archive/2023/05/ai-job-losses-policy-support-universal-basic-income/674071/)
@@ -316,12 +338,12 @@ These treatments reflect the evolving understanding of medicine and the often de
 
 I'm looking for a new job. But, I'm lacking drive and motivation. I have no energy, but it's something that I need to do. I need ideas or suggestions, please.
 
-Job hunting can be tough, especially when you’re feeling unmotivated. Here are a few suggestions to help you get started:
+Job hunting can be tough, especially when you're feeling unmotivated. Here are a few suggestions to help you get started:
 Set small, achievable goals for yourself every day. For example, aim to send out 5 job applications or update your resume. Celebrate each small victory to keep yourself motivated.
 Find an accountability partner, someone who can check in on your progress and offer encouragement when you need it.
 Try a new approach to job hunting, such as networking on LinkedIn, attending industry events, or reaching out to recruiters directly.
 Break up your day with some fun activities that can recharge your batteries. Maybe go for a walk, call a friend, or watch your favorite show.
-Remember, it's a process, and every step counts. You’ve got this! 😊
+Remember, it's a process, and every step counts. You've got this! 😊
 --Pi.ai
 
 - [ ] [Introduction to OSINT](https://www.myosint.training/courses/introduction-to-osint)
@@ -513,10 +535,10 @@ Remember, it's a process, and every step counts. You’ve got this! 😊
 - [ ] [Praised by Elon Musk, BYD](https://fortune.com/2023/08/13/elon-musk-tesla-chinese-ev-maker-byd-china-car-brands-go-global-demolish-old-legends/)
 
 <!-- research ideas -->
-- [ ] Blog: A Loud Silence 
+- [ ] Blog: A Loud Silence
 - [ ] [Effective Writing Tutorial](https://www.niu.edu/writingtutorial/index.shtml)
 - [ ] [8GB vs 16GB vs 24GB M2 MacBook Air](https://youtu.be/watch?v=jEbdbuzZCXE)
-- [ ] John Maxwell, on leadership 
+- [ ] John Maxwell, on leadership
 - [ ] 27000 churches set to fold in the next, 2019 CBC, Globe and Mail
 
 <!-- psychedelics -->
@@ -596,7 +618,7 @@ Remember, it's a process, and every step counts. You’ve got this! 😊
 - [ ] [Zsh](https://github.com/z-shell)
 
 <!-- tigercat industries -->
-Jacek and he's still looking for people to join his team. If you're interested then here's his number and email. 
+Jacek and he's still looking for people to join his team. If you're interested then here's his number and email.
 5198974883
 Navrotjp@gmail.com
 
@@ -911,4 +933,4 @@ Price: $539.00 – $579.99
 Tags: mdi, mental health, personal development exercise, productivity, relationships, teuxdeux, todo
 
 ^ 2020-11-12T18:26:31-0500\
-% 2024-08-08T21:49:20-0400
+% 2024-08-19T21:36:25-0400
