@@ -128,15 +128,32 @@ fi
 
 ## parametrized aliases
 brs() { brew search $1 && brew info $1 }                 # search Homebrew for <word>, [ -e <term> ] && show details
-fnd() { find $HOME/Dropbox/nvalt -type f -iname "*$1*" } # find <word> in nvalt
-Fnd() { 
+fnd() { 
     if [ -z "$2" ]; then
-        find . -type f -iname "*$1*" -maxdepth 3
+        find $HOME/Dropbox/nvalt -type f -iname "*$1*"
     else
-        find . -type f -iname "*$1*" -maxdepth $2
+        find $HOME/Dropbox/nvalt -type f \( -iname "*$1*" -and -iname "*$2" \)
     fi
 }
-# find <word> in "present working directory" (PWD), if no value is given for maxdepth, set it to 1
+# find <word> OR <words> in nvalt
+
+Fnd() { 
+    # Set default maxdepth to 3 if not provided
+    maxdepth=${3:-3}
+
+    if [ -z "$1" ]; then
+        echo "Error: Please provide a search string."
+        return 1
+    fi
+
+    if [ -z "$2" ]; then
+        # If $2 (extension) is not provided, just search by the $1 term
+        find . -type f -iname "*$1*" -maxdepth $maxdepth
+    else
+        # If $2 (extension) is provided, apply the -and condition
+        find . -type f \( -iname "*$1*" -and -iname "*$2" \) -maxdepth $maxdepth
+    fi
+}
 
 Man() { man -P "less +/\"$2\"" $1 } # search cmd's manpage for pattern
 # N.B. quote the search string if it contains spaces. E.g.: Man ls "list directory"
@@ -153,4 +170,4 @@ rfd() { awk 'NF>0' $HOME/Downloads/app_purge/$1|while read line ; do sudo rm -Rf
 # https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html
 
 # ^ 2022-01-12T21:16:44-0500
-# % 2024-08-08T15:37:21-0400
+# % 2024-09-27T23:05:25-0400
