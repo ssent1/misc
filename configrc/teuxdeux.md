@@ -5,6 +5,14 @@
 - [TeuxDeux List](#teuxdeux-list)
 - [Contents](#contents)
   - [Daily Checklist](#daily-checklist)
+  - [OLD - TeuxDeux List](#old---teuxdeux-list)
+    - [completed](#completed)
+    - [remarks & notes](#remarks--notes)
+      - [Canceled Adobe Creative Cloud](#canceled-adobe-creative-cloud)
+    - [Projects](#projects)
+    - [Practices &/or Habits](#practices-or-habits)
+    - [Teux Deux](#teux-deux)
+      - [update calendar](#update-calendar)
   - [2024-08-19](#2024-08-19)
     - [prompt ideas](#prompt-ideas)
   - [2024-08-07](#2024-08-07)
@@ -40,16 +48,21 @@
     - [SolClean](#solclean)
   - [Tutorials](#tutorials)
   - [Funny Ideas](#funny-ideas)
-    - [SELL ME](#sell-me)
+    - [Sell Me](#sell-me)
   - [2024-06-22](#2024-06-22)
 
 ## Daily Checklist
 
-1. [ ] Write affirmations
-2. [ ] Write goals
-3. [ ] Log [Vital Signs](https://docs.google.com/spreadsheets/d/1gun28pYU2_kzSoSYIwuhgbHEXCiRLw3QrlDNv9Y4dvk/)
-4. [ ] Log [Daily Checkin](https://docs.google.com/forms/d/e/1FAIpQLSemYDPwITWjvVgBXhU6QyRcZw1P1VOTFQeT_zlE2HzRKmXhQw/viewform)
-5. [ ] Post on [LinkedIn](https://www.linkedin.com/in/sydsalmon/overlay/create-post/)
+0. [ ] Do Super High-Intensity Training (SHIT)
+1. [ ] Take cold shower, 3m
+2. [ ] Read, pray, meditate (RPM)
+3. [ ] Write affirmations
+4. [ ] Write 3 items in Gratitude Journal
+5. [ ] Write goals
+6. [ ] Log [Vital Signs](https://docs.google.com/spreadsheets/d/1gun28pYU2_kzSoSYIwuhgbHEXCiRLw3QrlDNv9Y4dvk/)
+7. [ ] Log [Daily Checkin](https://docs.google.com/forms/d/e/1FAIpQLSemYDPwITWjvVgBXhU6QyRcZw1P1VOTFQeT_zlE2HzRKmXhQw/viewform)
+8. [ ] Schedule Big 3 priorities on calendar
+9. [ ] Post on [LinkedIn](https://www.linkedin.com/in/sydsalmon/overlay/create-post/)
 
 <!-- tabs: ai, large language models, etc. -->
 1. [ ] [ChatGPT](https://chat.openai.com/)
@@ -63,8 +76,73 @@
 - [ ] <https://www.teamblind.com/whyBlind>
 - [ ] <https://www.talentbyblind.com/info>
 
+## OLD - TeuxDeux List
+
+[1]: https://www.loginradius.com/blog/growth/professional-bio-examples-worth-copying/ "5 Fantastic Professional Bio Examples You Can’t Resist Copying"
+[1]: https://support.apple.com/en-ca/HT204837 "Use FileVault to encrypt the startup disk on your Mac - Apple Support (CA)"
+
+Syntax: [ ] task `+project` `@context` `!A` `+$` `due: 2022-01-01` `start: 2022-01-01` `end: tsp` 
+
+### completed
+
+- [x] update songd in GitHub
+    - [x] on <https://github.com/ssent1/music/?>, manually add
+        - [x] /Users/syd/Dropbox/nvalt/music/songs/favourite-songs.md
+        - [x] /Users/syd/Dropbox/nvalt/music/guitar-maintenance/kramer-xl-vi-vintage-blonde.md
+    - [x] mv /Users/syd/Dropbox/nvalt/music/ /Users/syd/Dropbox/nvalt/Ωmusic/
+    - [x] gh repo clone ssent1/music
+    - [x] verify file integrity
+    - [x] if OK, rm /Users/syd/Dropbox/nvalt/Ωmusic/
+- [x] BNS:  lower interest rate `+finance` `!A`
+
+### remarks & notes
+
+#### Canceled Adobe Creative Cloud
+
+### Projects
+
+- [ ] sketch workflow `+azzurro` `@programming` `!B`
+- [ ] <https://www.shell-tips.com/bash/if-statement/#what-are-the-double-parentheses--single--and-double--square-brackets&gsc.tab=0>
+- [ ] <https://www.shell-tips.com/bash/math-arithmetic-calculation/#gsc.tab=0>
+- [ ] <https://www.shell-tips.com/bash/wildcards-globbing/#the-match-range-wildcard&gsc.tab=0>
+
+### Practices &/or Habits
+
+- [x] update blood pressure log `+health` `@home` `!B` `completed: 2022-09-23T13:11:42-04:00`
+- [ ] 
+
+### Teux Deux
+
+- [ ] Setup "Remote Desktop" on NOLLIJ  `+it` `@internet` `!A` `+$`
+- [ ] [config no-ip](https://my.noip.com/dynamic-dns) `+it` `@internet` `!A` `+$`
+    - [ ] <https://www.noip.com/support/knowledgebase/configure-ip-hostname/>
+    - [ ] No-IP for remote access to [NOLLIJ](https://www.noip.com/confirm):
+        - [x] 1. Create a `hostname`: nollij
+        - [ ] 2. Download `Dynamic Update Client` to remote machine. The DUC updates hostname with current IP address.
+        - [ ] 3. Port Forward your router.
+- [ ] Lubricate LIVESTRONG treadmill `+pcs` `@626` `!C`
+- [ ] Shut off outside water `+pcs` `@626` `!C`
+- [ ] <https://www.freecodecamp.org/news/vimrc-configuration-guide-customize-your-vim-editor/>
+- [ ] <https://www.reddit.com/r/zsh/comments/fqpidr/removing_zcompdump_file_creation/>
+- [ ] convert .info.yaml to *.db `+security` `!A`
+- [ ] Reset [FileVault][1] recovery key. Turn off FileVault in Security & Privacy preferences. You can then turn it on again to generate a new key and disable all older keys. Make your you clearly diff O & 0.
+- [ ] Update blood pressure dB
+- [ ] Return dad's will POA, Will paperwork, etc. Update notes
+- [ ] update budget `+finance` `@c`ontext` `!A`
+- [ ] CM:  lower interest rate `+finance` `!A`
+- [ ] update LinkedIn `+career` `@career` `!A`
+
+#### update calendar
+
+- [ ] https://kplca.evanced.info/signup/eventdetails?eventid=52384&lib=5 "Musician Meetup in Heffner Studio"
+- [ ] https://kplca.evanced.info/signup/eventdetails?eventid=54244&lib=1 "Tech Showcase - Cricut Starter Projects"
+- [ ] https://kplca.evanced.info/signup/eventdetails?eventid=53736&lib=2 "Stranger Things Escape Room"
+- [ ] https://kplca.evanced.info/signup/eventdetails?eventid=53505&lib=4 "Pumpkin Carving"
+- [ ] https://kplca.evanced.info/signup/eventdetails?eventid=54328&lib=5 "YTR Employment Services Orientation"
+
 ## 2024-08-19
 
+- [ ] [Adderall etc: Huberman Lab Podcast](https://www.youtube.com/watch?v=sxgCC4H1dl8)
 - [ ] [11 things people learn too late](https://youtube.com/shorts/pO9Tz1an3LM?si=05OnC1rjPP-2IV73
 - [ ] [6 Mobile Apps That Will Transform Your Life](https://www.youtube.com/watch?v=vGlB4plOE1I)
   - [ ] 1. [character.ai](https://character.ai/)
@@ -907,7 +985,7 @@ Jacek Nawrot · Control Systems Project Manager at Tigercat Industries Inc. · R
 - [ ] [roy wood jr](https://www.youtube.com/results?search_query=roy+wood+jr)
 - [ ] [YouTube Disco](https://www.youtubedisco.de/)
 
-### SELL ME
+### Sell Me
 
 Danby DPA120BCCWDB 12000 BTU Portable 3-in-1 Air Conditioner 550 ft2
 (code : DPA120BCCWDB Danby)
@@ -933,4 +1011,4 @@ Price: $539.00 – $579.99
 Tags: mdi, mental health, personal development exercise, productivity, relationships, teuxdeux, todo
 
 ^ 2020-11-12T18:26:31-0500\
-% 2024-08-19T21:36:25-0400
+% 2024-08-30T22:09:00-0400
