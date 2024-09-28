@@ -41,6 +41,7 @@ sex ~/.p10k.zsh
 sex ~/.zinit/bin/zinit.zsh
 sex ~/.zsh_aliases
 sex ~/.zsh_functions
+sex ~/.zsh_functions_dir/dictionary.zsh
 sex ~/.zsh_plugins
 sex ~/Code/misc/scripts/gas/get-gas-price.zsh
 sex ~/Code/misc/scripts/gas/log-gas-price.zsh
@@ -85,4 +86,4 @@ log_gas_price
 cd ~/Dropbox/nvalt && lsd | tail -n 10 && printf "\n"
 
 ## ^ 2022-01-12T21:16:44-0500\
-## % 2024-07-04T23:25:22-0400
+## % 2024-09-11T22:07:15-0400
