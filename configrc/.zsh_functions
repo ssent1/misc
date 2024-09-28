@@ -36,15 +36,15 @@ cl() {
     eza --sort=mod | tail -n 25 }
 
 # Define Word via dictionary query
-def() {
-    print -n "Press [d]efine, [m]atch, or [q]uit: "
-    read REPLY
-    case $REPLY in
-        [Dd]) curl "dict://dict.org/d:$1:gcide" | less ;;
-        [Mm]) curl "dict://dict.org/m:$1:gcide" | less ;;
-        [Qq]) print 'exiting...' ;;
-        *) confirm ;;
-    esac }
+# def() {
+#     print -n "Press [d]efine, [m]atch, or [q]uit: "
+#     read REPLY
+#     case $REPLY in
+#         [Dd]) curl "dict://dict.org/d:$1:gcide" | less ;;
+#         [Mm]) curl "dict://dict.org/m:$1:gcide" | less ;;
+#         [Qq]) print 'exiting...' ;;
+#         *) confirm ;;
+#     esac }
 # https://news.ycombinator.com/item?id=7775009
 
 # git functions
@@ -146,4 +146,4 @@ rmt() {
 # https://zsh.sourceforge.io/Guide/zshguide05.html
 
 ## ^ 2022-01-12T21:16:44-0500
-## % 2024-07-06T17:02:05-0400
+## % 2024-09-11T21:31:45-0400
