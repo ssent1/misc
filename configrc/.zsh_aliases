@@ -50,9 +50,9 @@ alias grep='grep -i --color=never'                                    # set case
 alias grp='grep -i --color'                                           # set case insensitive
 alias h='history'
 alias ipL='ipconfig getifaddr en0'                                               # get LAN IP address: en0 = Ethernet
-alias ipl='ipconfig getifaddr en1'                                               # get LAN IP address: en1 = Wi-Fi
-alias ipw='curl -sw "\n" https://ifconfig.me/ip|tee >(tr -d "\n"|pbcopy)'        # get *WAN* IP address via ifconfig.me
+alias ipl='ipconfig getifaddr en1'                                               # get *LAN* IP address: en1 = Wi-Fi
 alias ipW='curl -sw "\n" https://checkip.amazonaws.com|tee >(tr -d "\n"|pbcopy)' # get WAN IP address via AWS
+alias ipw='curl -sw "\n" https://ifconfig.me/ip|tee >(tr -d "\n"|pbcopy)'        # get *WAN* IP address via ifconfig.me
 alias j='jobs -l'
 alias less='less -m -N -g -i -J --underline-special --SILENT' # https://gist.github.com/textarcana/4611277
 alias ls='ls -alh'                                            # remap default ls
@@ -170,4 +170,4 @@ rfd() { awk 'NF>0' $HOME/Downloads/app_purge/$1|while read line ; do sudo rm -Rf
 # https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html
 
 # ^ 2022-01-12T21:16:44-0500
-# % 2024-09-27T23:05:25-0400
+# % 2024-09-30T15:38:49-0400
