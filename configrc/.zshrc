@@ -1,17 +1,18 @@
 # Syd Salmon's zsh configuration @nollij (iMac)
 
-export PATH="/usr/local/sbin:$HOME/.bin:$PATH"   # enable zsh 5.9; default: zsh 5.8 @ /bin/zsh
 export PATH="/usr/local/opt/openssl@3/bin:$PATH" # enable openssl@3; default: LibreSSL 2.8.3 @ /usr/bin/openssl
+export PATH="/usr/local/sbin:$HOME/.bin:$PATH"   # enable zsh 5.9; default: zsh 5.8 @ /bin/zsh
 export CLICOLOR_FORCE=1                          # enable colourized output; NB: CLICOLOR=1 does not pipe colour
+export HOMEBREW_NO_ENV_HINTS=1
 export ITERM2_SQUELCH_MARK=1                     # enable iTerm to add marks at prompt
+export LESS=' -R -X -F '
+export LESSOPEN="| ${LESSPIPE} %s"
 export LSCOLORS=ExGxBxDxCxEgEdxbxgxcad           # enable coloured ls commands
 export RIPGREP_CONFIG_PATH=~/.ripgreprc          # path to ripgrep config
 export ZSH=~/.oh-my-zsh                          # path to oh-my-zsh
+LESSPIPE=$(which src-hilite-lesspipe.sh)
 let base16colorspace=256                         # enable 256 (8-bit RGB) colour space
 # Syntax highlighting with less https://ole.michelsen.dk/blog/syntax-highlight-files-macos-terminal-less/
-LESSPIPE=$(which src-hilite-lesspipe.sh)
-export LESSOPEN="| ${LESSPIPE} %s"
-export LESS=' -R -X -F '
 
 # BASIC ZSH SETTINGS
 HISTFILE=~/.zsh_history
@@ -86,4 +87,4 @@ log_gas_price
 cd ~/Dropbox/nvalt && lsd | tail -n 10 && printf "\n"
 
 ## ^ 2022-01-12T21:16:44-0500\
-## % 2024-09-11T22:07:15-0400
+## % 2024-10-03T15:11:50-0400
