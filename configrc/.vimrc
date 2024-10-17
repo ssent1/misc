@@ -276,7 +276,8 @@ let g:mkdx#settings = {
 "" Command-line mode
 cabbrev !!     [^]+<Left>
 cabbrev ""     exe "norm {jma}kmz"
-cabbrev ''     'a,'zs/
+cabbrev '"     exe "norm {jma}kmz"\|'a,'zs/\v
+cabbrev ''     'a,'zs/\v
 cabbrev alb    Tabularize / "
 cabbrev alf    Tabularize /^[^:]*:\zs/l0r1
 cabbrev c2l    s/\sand//e \| let cnt=1 \| silent exe 's/'.','.'/\=execute(''let cnt += 1'')/n' \| let @q=cnt \|call repeat(append('.', ""), @q)\|:call setline('.', uniq(split(tolower(getline('.')), ',\s*'))) \|:exe "norm {jma}kmz" \|:'a,'zs/^/- [ ] /e\|:'a,'zs/\v<(\w)([^.$]+)/\u\1\L\2/e\|:noh
@@ -375,4 +376,4 @@ source ~/.vim/llms.vim
 
 " Last update: set g:mkdx#settings = 'links' { 'enable': 0 } ==> disable getting website; desired: open in browser
 " ^ 2022-01-12T21:16:44-0500
-" % 2024-08-21T12:06:12-0400
+" % 2024-10-10T13:42:17-0400
