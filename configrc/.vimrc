@@ -300,8 +300,8 @@ cabbrev fnr    exe "norm! Go"\|:let@r="- - -\n<!-- sources -->\n\nTags: \n\n^\n\
 cabbrev gcc    %s/\v(\<!--)(\w)([^-]+)(\w)(--.*)/\1 \2\3\4 \5/e
 cabbrev hyp    s/\v^\s+\|\s+$//e\|:let title = getline('.')\|:s/\W\+/-/e\|:s/\v^-?(.*)/\=setreg('r',tolower(submatch(1)).'.md')/n\|:call setline('.','')\|:let @+=@r\|:noh
 cabbrev Hyp    s/\v^\s+\|\s+$//e\|:let title = getline('.')\|:s/\W\+/-/e\|:s/\v^-?(.*)/\=setreg('r',tolower(submatch(1)).'.md')/n\|:call setline('.',title)\|:let @+=@r\|:noh
-cabbrev s'     'a,'zs/\v()
-cabbrev S'     exe "norm {jma}kmz"\|:'a,'zs/\v()
+cabbrev s'     'a,'zs/
+cabbrev S'     exe "norm {jma}kmz"\|:'a,'zs/
 cabbrev sbd    exe "norm {ma}mz"\|:'a,'zs/\v^\[\d+]/[1]/\|:'a+1,'z-1 sort ui\|:'a,'zs/\v^(\[\d+\]:\s[fh]tt?ps?:\/\/)(([^\.]+\.)([^\.\/]+\.[^\/]+)\|([^\.\/]+\.[^\/]+))(.*)/\4\5\6#\1\3/\|:'a+1,'z-1 sort ui\|:'a,'zs/\v(.*)#(.*)/\2\1/\|:let i=1 \| g/^\[1\]/s//\='['.i.']'/ \| let i=i+1
 cabbrev Sd     %s///<Left>
 cabbrev sd     %s/\v//<Left>
@@ -376,4 +376,4 @@ source ~/.vim/llms.vim
 
 " Last update: set g:mkdx#settings = 'links' { 'enable': 0 } ==> disable getting website; desired: open in browser
 " ^ 2022-01-12T21:16:44-0500
-" % 2024-10-10T13:42:17-0400
+" % 2024-10-18T15:06:55-0400
