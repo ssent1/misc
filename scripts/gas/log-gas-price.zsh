@@ -6,7 +6,9 @@ script_path="/Users/syd/Code/misc/scripts/gas/get-gas-price.zsh"
 log_gas_price() {
     . "$script_path"
     get_gas_price
-    echo "$(date +%F$'\t'%H:%M:%S)\t $price_float" >> "$log_file"
+    if (( $(echo "$price_float > 0" | bc -l) )); then
+        echo "$(date +%F$'\t'%H:%M:%S)\t $price_float" >> "$log_file"
+    fi
 }
 
 log_gas_price
@@ -16,4 +18,4 @@ log_gas_price
 ## https://chatgpt.com/c/6f81cefa-b664-4cfe-a2e8-f3e9d17753a4 "Run script as a service"
 
 # ^ 2024-06-28T13:53:54-0400\
-# % 2024-07-04T23:39:17-0400
+# % 2024-11-09T20:33:56-0500
