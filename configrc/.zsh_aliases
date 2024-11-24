@@ -20,7 +20,8 @@ alias -g mp='~/Dropbox/nvalt/manpages/'                           # open cheatsh
 alias -g mpv='~/Dropbox/nvalt/manpages/lang/vim'                  # open vim directory
 alias -g mpz='~/Dropbox/nvalt/manpages/lang/zsh'                  # open zsh directory
 alias -g nv='~/Dropbox/nvalt/'                                    # open working directory
-alias -g pbc='|pbcopy'                                            # copy to system clipboard
+alias -g pbc='| pbcopy'                                           # copy to system clipboard
+alias -g Pbc='| sed "s/\x1B\[[0-9;]*m//g" | pbcopy'               # copy to system clipboard, trim colour codes
 alias -g songd='~/Dropbox/nvalt/music/songs/'                     # open song directory
 alias -g songo='~/Dropbox/nvalt/music/songs/original/'            # open original songs directory
 alias -g songr='~/Dropbox/nvalt/music/songs/rock/'                # open rock songs directory
@@ -170,4 +171,4 @@ rfd() { awk 'NF>0' $HOME/Downloads/app_purge/$1|while read line ; do sudo rm -Rf
 # https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html
 
 # ^ 2022-01-12T21:16:44-0500
-# % 2024-10-12T20:18:48-0400
+# % 2024-11-24T16:16:12-0500
