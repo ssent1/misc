@@ -40,9 +40,9 @@ set autoindent    " auto-indent new lines
 set expandtab     " use spaces instead of tabs
 set smartindent   " enable smart-indent
 set smarttab      " enable smart-tabs
-set shiftwidth=4  " >>:    set # of whitespace columns made by >> (shift)
-set softtabstop=4 " <Tab>: set # of whitespace columns for <Tab> keystroke
-set tabstop=4     " \t:    set # of columns produced by \t <Tab> character
+set shiftwidth=2  " >>:    set # of whitespace columns made by >> (shift)
+set softtabstop=2 " <Tab>: set # of whitespace columns for <Tab> keystroke
+set tabstop=2     " \t:    set # of columns produced by \t <Tab> character
 
 " COPY & PASTE
 set clipboard=unnamed " enable copy to clipboard
@@ -73,8 +73,8 @@ augroup init_save
     au!
     autocmd BufNewFile * :write
     " autocmd BufNewFile * execute 'cd '.expand('%:p:h')|:execute 'e '.expand('%')|:execute 'write'
-    autocmd BufNewFile *.md :let@r=''|:let@r="# \n\n- - -\n<!-- sources -->\n\nTags: \n\n^\n\\\n%\n"|:put r
-                \|:let@r=strftime(' %FT%T%z')|:norm!"rp2k"rpgJ4kmaggdd$"
+    autocmd BufNewFile *.md :let@r=''|:let@r="# \n\n\n\n- - -\n<!-- sources -->\n\nTags: \n\n^\n\\\n%\n"|:put r
+                \|:let@r=strftime(' %FT%T%z')|:norm!"rp2k"rpgJ4kmaggdd$3G"
     autocmd BufRead,BufNewFile *.py setlocal textwidth=80
     autocmd BufRead,BufNewFile *.html setlocal textwidth=0
 augroup END
@@ -376,4 +376,4 @@ source ~/.vim/llms.vim
 
 " Last update: set g:mkdx#settings = 'links' { 'enable': 0 } ==> disable getting website; desired: open in browser
 " ^ 2022-01-12T21:16:44-0500
-" % 2024-10-18T15:06:55-0400
+" % 2024-12-06T13:18:42-0500
