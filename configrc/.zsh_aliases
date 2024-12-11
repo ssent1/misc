@@ -25,6 +25,7 @@ alias -g Pbc='| sed "s/\x1B\[[0-9;]*m//g" | pbcopy'               # copy to syst
 alias -g songd='~/Dropbox/nvalt/music/songs/'                     # open song directory
 alias -g songo='~/Dropbox/nvalt/music/songs/original/'            # open original songs directory
 alias -g songr='~/Dropbox/nvalt/music/songs/rock/'                # open rock songs directory
+alias -g songw='~/Dropbox/nvalt/music/songs/worship'              # open worship songs directory
 alias -g zym='~/Dropbox/nvalt/zymonetics/'                        # open zymonetics working directory
 
 ## simple aliases
@@ -171,4 +172,4 @@ rfd() { awk 'NF>0' $HOME/Downloads/app_purge/$1|while read line ; do sudo rm -Rf
 # https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html
 
 # ^ 2022-01-12T21:16:44-0500
-# % 2024-11-24T16:16:12-0500
+# % 2024-12-09T09:55:28-0500
