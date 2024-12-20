@@ -284,7 +284,7 @@ cabbrev c2l    s/\sand//e \| let cnt=1 \| silent exe 's/'.','.'/\=execute(''let 
 cabbrev cap    %s/\vchrome-extension:\/\/efaidnbmnnnibpcajpcglclefindmkaj\/(https?\|ftp)(:\/\/[^\s\/\$\.\?\#]+.\S+)/\1\2/e
 cabbrev cdf    $ka\|:'a\|-1s/\n\n//e\|:?^\s*$?\|:+1,$d\|:let @q=@"\|:-3kz\|:-7ka\|:'a,'zs/\v_(\d{4}-\d{2}-\d{2}[tT_]\d{2}:\d{2}:\d{2}-\d{4})_/\1/e\|:'a,'zs/\v(\d{4})(\d{2})(\d{2})[tT_](\d{2})(\d{2})(\d{2})/\1-\2-\3T\4:\5:\6-0_00/e\|:'a,'zs/\v(\d{4})(\d{2})(\d{2})[tT_](\d{2})(\d{2})(\d{2})(\d{4})/\1-\2-\3T\4:\5:\6-\7/e\|:'a,'zd\|:let @r=@"\|:-1,$d\|:let@s="- - -\n<!-- sources -->\n"\|:pu s\|:pu q\|:pu r
 cabbrev cls    s/\v,\s+%(and\s+)?\|^/\r- /\|:noh
-cabbrev Cls    s/\v,\s+%(and\s+)?\|^/\r1. /\|:noh
+cabbrev Cls    s/\v,\s+%(and\s+)?/\r/ \| exe "norm {jma}kmz" \| 'a,'zs/\v(^\w)/\u\1/ \| let i = 0 \| 'a,'z g/^/let i += 1 \| s//\=i.'. '/ \| noh
 cabbrev cpl    let @q=''\|:%s/\v_/\=setreg('Q', submatch(1), 'l')/n\|:let @*=@q\|:norm 2G"qp
 cabbrev Cpl    let @q=''\|:%s/\v_/\=setreg('Q', submatch(1).'{str}'.submatch(2), 'l')/n\|:let @*=@q\|:norm 2G"qp
 cabbrev crl    exe "norm {jma}kmz"\|:'a,'zs/\v^\[(\d+)\]: ([^ ]+) "([^\"]+)"/- [ ] [\3](\2)/e\|:noh
@@ -376,4 +376,4 @@ source ~/.vim/llms.vim
 
 " Last update: set g:mkdx#settings = 'links' { 'enable': 0 } ==> disable getting website; desired: open in browser
 " ^ 2022-01-12T21:16:44-0500
-" % 2024-12-06T13:18:42-0500
+" % 2024-12-16T16:31:32-0500
