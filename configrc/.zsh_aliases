@@ -64,7 +64,7 @@ alias mkdir='mkdir -pv'                                       # create, list dir
 alias more='less'
 alias nva='~/Dropbox/nvalt ; iz'        # cd to nvalt, then show 10 most recent items
 alias oar='open /Applications/Arc.app ' # open Arc Browser
-alias oma='open -gj /Applications/{Breeze,Itsycal,Numi}.app'  # open micro apps
+alias oma='open -gj /Applications/{Breeze,Itsycal,Numi,Toggl\ Track}.app'  # open micro apps
 alias oop='open /Applications/Opera\ GX.app'       # open Opera GX
 alias osi='open /Applications/Signal.app'          # open Signal
 alias ogc='open /Applications/Google\ Chrome.app'  # open Google Chrome
@@ -172,4 +172,4 @@ rfd() { awk 'NF>0' $HOME/Downloads/app_purge/$1|while read line ; do sudo rm -Rf
 # https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html
 
 # ^ 2022-01-12T21:16:44-0500
-# % 2024-12-09T09:55:28-0500
+# % 2024-12-12T11:23:44-0500
