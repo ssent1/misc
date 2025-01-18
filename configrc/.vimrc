@@ -365,6 +365,7 @@ iabbrev zym   Zymonetics
 source ~/.vim/cleanup.vim
 source ~/.vim/copilot.vim
 source ~/.vim/llms.vim
+source ~/.vim/wrap-code-blocks.vim
 
 " REFERENCES
 " https://gist.github.com/joegoggins/8482408
@@ -376,4 +377,4 @@ source ~/.vim/llms.vim
 
 " Last update: set g:mkdx#settings = 'links' { 'enable': 0 } ==> disable getting website; desired: open in browser
 " ^ 2022-01-12T21:16:44-0500
-" % 2024-12-16T16:31:32-0500
+" % 2025-01-04T03:56:04-0500
