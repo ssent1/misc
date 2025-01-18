@@ -19,7 +19,7 @@ HISTFILE=~/.zsh_history
 HISTSIZE=10000
 SAVEHIST=10000
 ZSH_THEME="powerlevel10k/powerlevel10k"
-setopt autocd extendedglob nomatch notify
+setopt autocd extended_glob nomatch notify
 # NB: for ad hoc case-insensitive globbing (#i): ls (#i)*abc* OR ls|grep -i abc
 setopt no_list_ambiguous
 unsetopt beep
@@ -87,4 +87,4 @@ log_gas_price
 cd ~/Dropbox/nvalt && lsd | tail -n 10 && printf "\n"
 
 ## ^ 2022-01-12T21:16:44-0500\
-## % 2024-10-03T15:11:50-0400
+## % 2025-01-18T16:37:46-0500
