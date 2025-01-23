@@ -307,6 +307,7 @@ cabbrev Sd     %s///<Left>
 cabbrev sd     %s/\v//<Left>
 cabbrev sr     .,s/\v()<S-Left><Right><Right>
 cabbrev srt    exe "norm {jma}kmz"\|:'a,'z sort ui
+cabbrev Srt    'a,'z sort ui
 cabbrev ssv    1\|:s/\v^\s+\|\s+$//e\|:let title = getline('.')\|:s/\W\+/-/e\|:s/\v^-(.*)/\=setreg('r',tolower(submatch(1)).'.md')/n\|:call setline('.',title)\|:exe 'sav'@r\|:noh
 cabbrev Ssv    bufdo if &modified\|:1\|:s/\v^\s+\|\s+$//e\|:let title = getline('.')\|:s/\W\+/-/e\|:s/\v^-(.*)/\=setreg('r',tolower(submatch(1)).'.md')/n\|:call setline('.',title)\|:exe 'sav'@r\|:noh\|:endif
 cabbrev Tsp    bufdo if &modified\|:call search('%\s20\d\{2}-\d\{2}-\d\{2}','w')\|:exe 'norm ^"qdt2'\|:call setline('.',@q.strftime('%FT%T%z'))\|:update\|:endif
@@ -344,7 +345,8 @@ iabbrev zym   Zymonetics
 " gcc         fix comment spacing :%s/\v(\<!--)(\w)([^-]+)(\w)(--.*)/\1 \2\3\4 \5/e
 " h[H]yp      hyphenate, { delete|keep } line
 " sbd         sort reference links by domain
-" srt         sort range, unique
+" srt         set range; sort range, unique
+" Srt         sort range, unique
 " s[S]sv      save (write) { buffer|all buffers } to disk using title line as filename
 " t[T]sp      update timestamp { for all buffers }
 " ttc         trim title cruft from URLs
@@ -377,4 +379,4 @@ source ~/.vim/wrap-code-blocks.vim
 
 " Last update: set g:mkdx#settings = 'links' { 'enable': 0 } ==> disable getting website; desired: open in browser
 " ^ 2022-01-12T21:16:44-0500
-" % 2025-01-04T03:56:04-0500
+" % 2025-01-20T18:02:26-0500
