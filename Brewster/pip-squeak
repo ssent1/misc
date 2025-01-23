@@ -7,7 +7,6 @@ python3 -m pip install -U idna
 python3 -m pip install -U meson
 python3 -m pip install -U notmuch
 python3 -m pip install -U notmuch2
-python3 -m pip install -U numpy
 python3 -m pip install -U packaging
 python3 -m pip install -U pip
 python3 -m pip install -U pycparser
