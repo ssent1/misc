@@ -2,10 +2,12 @@
 
 get_gas_price() {
 # URL of the gas station
-url="https://www.gasbuddy.com/station/198389"
+# url="https://www.gasbuddy.com/station/198389"
+url="https://www.gasbuddy.com/station/159896"
 
 # Station name
-stn="Pioneer @ 1205 Fischer-Hallman Rd"
+# stn="Pioneer @ 1205 Fischer-Hallman Rd"
+stn="Shell @ 1450 Block Line Rd"
 
 # Use curl to fetch the webpage and extract the price and reported time
 content=$(curl -s "$url")
@@ -41,4 +43,4 @@ echo "$stn, ~$rtime"
 # https://chatgpt.com/c/09955962-b0ef-4d61-b298-52f7bd7df87b "Round Zsh result"
 
 # ^ 2024-06-28T13:53:54-0400\
-# % 2024-07-05T16:39:09-0400
+# % 2025-05-10T21:01:57-0400
