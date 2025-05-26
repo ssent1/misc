@@ -88,3 +88,6 @@ cd ~/Dropbox/nvalt && lsd | tail -n 10 && printf "\n"
 
 ## ^ 2022-01-12T21:16:44-0500\
 ## % 2025-01-18T16:37:46-0500
+
+# Added by Windsurf
+export PATH="/Users/syd/.codeium/windsurf/bin:$PATH"
