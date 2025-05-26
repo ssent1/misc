@@ -73,7 +73,7 @@ augroup init_save
     au!
     autocmd BufNewFile * :write
     " autocmd BufNewFile * execute 'cd '.expand('%:p:h')|:execute 'e '.expand('%')|:execute 'write'
-    autocmd BufNewFile *.md :let@r=''|:let@r="# \n\n\n\n- - -\n<!-- sources -->\n\nTags: \n\n^\n\\\n%\n"|:put r
+    autocmd BufNewFile *.md :let@r=''|:let@r="# \n\n\n\n---\n<!-- sources -->\n\nTags: \n\n^\n\\\n%\n"|:put r
                 \|:let@r=strftime(' %FT%T%z')|:norm!"rp2k"rpgJ4kmaggdd$3G"
     autocmd BufRead,BufNewFile *.py setlocal textwidth=80
     autocmd BufRead,BufNewFile *.html setlocal textwidth=0
@@ -379,4 +379,4 @@ source ~/.vim/wrap-code-blocks.vim
 
 " Last update: set g:mkdx#settings = 'links' { 'enable': 0 } ==> disable getting website; desired: open in browser
 " ^ 2022-01-12T21:16:44-0500
-" % 2025-01-20T18:02:26-0500
+" % 2025-02-18T15:39:43-0500
