@@ -160,7 +160,7 @@ Fnd() {
 Man() { man -P "less +/\"$2\"" $1 } # search cmd's manpage for pattern
 # N.B. quote the search string if it contains spaces. E.g.: Man ls "list directory"
 
-rp() { realpath -m $1 |tee /dev/tty |tr -d '\n' |pbcopy }
+rp() { grealpath -m $1 |tee /dev/tty |tr -d '\n' |pbcopy }
     # resolve qualified path: get resolved canonical path and trim newline (\n)
 rfd() { awk 'NF>0' $HOME/Downloads/app_purge/$1|while read line ; do sudo rm -Rfd "${line}.md" ; done }
     # delete items listed in app_purge file
@@ -172,4 +172,4 @@ rfd() { awk 'NF>0' $HOME/Downloads/app_purge/$1|while read line ; do sudo rm -Rf
 # https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html
 
 # ^ 2022-01-12T21:16:44-0500
-# % 2024-12-12T11:23:44-0500
+# % 2025-04-30T16:08:32-0400
