@@ -1,0 +1,142 @@
+/* Basic Reset & Font */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f4f8; /* Light, calming blue-gray */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Calculator Container */
+.calculator-container {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+}
+
+/* Heading */
+h1 {
+    color: #2c3e50; /* Dark blue-gray */
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+/* Description Text */
+.description {
+    color: #7f8c8d; /* Muted gray */
+    margin-bottom: 30px;
+    font-size: 0.95em;
+}
+
+/* Input Group Styling */
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 400;
+    color: #34495e; /* Slightly lighter dark blue-gray */
+    font-size: 0.9em;
+}
+
+.input-group input[type="number"] {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #dce4ec; /* Light gray border */
+    border-radius: 8px;
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.input-group input[type="number"]:focus {
+    outline: none;
+    border-color: #3498db; /* Highlight focus with a nice blue */
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
+}
+
+/* Remove number input spinner for cleaner look (optional) */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield; /* Firefox */
+}
+
+
+/* Button Styling */
+button {
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(90deg, #3498db, #2980b9); /* Blue gradient */
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.1s ease;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #2980b9, #3498db); /* Slightly darker gradient on hover */
+}
+
+button:active {
+    transform: scale(0.98); /* Slight press effect */
+}
+
+/* Result Display */
+.result-display {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #ecf0f1; /* Very light gray background */
+    border-radius: 8px;
+    font-size: 1.1em;
+    font-weight: 600;
+    min-height: 50px; /* Ensure space even when empty */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #7f8c8d; /* Default placeholder color */
+    border: 1px dashed #bdc3c7; /* Dashed border for placeholder feel */
+    transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
+}
+
+/* Result Styling Classes (applied via JavaScript) */
+.result-display.success {
+    background-color: #e8f5e9; /* Light green */
+    color: #2e7d32; /* Dark green */
+    border: 1px solid #a5d6a7; /* Soft green border */
+}
+
+.result-display.error {
+    background-color: #fff3e0; /* Light orange/yellow */
+    color: #ef6c00; /* Dark orange */
+    border: 1px solid #ffcc80; /* Soft orange border */
+}
+
+.result-display.decrease {
+    background-color: #ffebee; /* Light red */
+    color: #c62828; /* Dark red */
+    border: 1px solid #ef9a9a; /* Soft red border */
+}
