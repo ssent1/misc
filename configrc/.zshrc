@@ -1,17 +1,18 @@
 # Syd Salmon's zsh configuration @nollij (iMac)
 
-export PATH="/usr/local/opt/openssl@3/bin:$PATH" # enable openssl@3; default: LibreSSL 2.8.3 @ /usr/bin/openssl
-export PATH="/usr/local/sbin:$HOME/.bin:$PATH"   # enable zsh 5.9; default: zsh 5.8 @ /bin/zsh
-export CLICOLOR_FORCE=1                          # enable colourized output; NB: CLICOLOR=1 does not pipe colour
+export PATH="/usr/local/opt/openssl@3/bin:$PATH"     # enable openssl@3; default: LibreSSL 2.8.3 @ /usr/bin/openssl
+export PATH="/usr/local/sbin:$HOME/.bin:$PATH"       # enable zsh 5.9; default: zsh 5.8 @ /bin/zsh
+export PATH="/Users/syd/.codeium/windsurf/bin:$PATH" # Added by Windsurf
+export CLICOLOR_FORCE=1                              # enable colourized output; NB: CLICOLOR=1 does not pipe colour
 export HOMEBREW_NO_ENV_HINTS=1
-export ITERM2_SQUELCH_MARK=1                     # enable iTerm to add marks at prompt
+export ITERM2_SQUELCH_MARK=1                         # enable iTerm to add marks at prompt
 export LESS=' -R -X -F '
 export LESSOPEN="| ${LESSPIPE} %s"
-export LSCOLORS=ExGxBxDxCxEgEdxbxgxcad           # enable coloured ls commands
-export RIPGREP_CONFIG_PATH=~/.ripgreprc          # path to ripgrep config
-export ZSH=~/.oh-my-zsh                          # path to oh-my-zsh
+export LSCOLORS=ExGxBxDxCxEgEdxbxgxcad               # enable coloured ls commands
+export RIPGREP_CONFIG_PATH=~/.ripgreprc              # path to ripgrep config
+export ZSH=~/.oh-my-zsh                              # path to oh-my-zsh
 LESSPIPE=$(which src-hilite-lesspipe.sh)
-let base16colorspace=256                         # enable 256 (8-bit RGB) colour space
+let base16colorspace=256                             # enable 256 (8-bit RGB) colour space
 # Syntax highlighting with less https://ole.michelsen.dk/blog/syntax-highlight-files-macos-terminal-less/
 
 # BASIC ZSH SETTINGS
@@ -83,11 +84,8 @@ else
     tput reset && source ~/Code/meteo/meteo_f && meteo
 fi
 print_gas_price && printf "\n"
+cd ~/Dropbox/nvalt && eza --sort=mod | tail -n 10 && printf "\n"
 log_gas_price
-cd ~/Dropbox/nvalt && lsd | tail -n 10 && printf "\n"
 
 ## ^ 2022-01-12T21:16:44-0500\
-## % 2025-01-18T16:37:46-0500
-
-# Added by Windsurf
-export PATH="/Users/syd/.codeium/windsurf/bin:$PATH"
+## % 2025-09-12T16:43:19-0400
