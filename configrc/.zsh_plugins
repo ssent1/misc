@@ -22,7 +22,5 @@ zinit wait lucid atload"zicompinit; zicdreplay" blockf for \
     zsh-users/zsh-completions \
     zsh-users/zsh-autosuggestions
 
-# notes & references
-
 ## ^ 2022-01-12T21:16:44-0500
-## % 2023-05-16T20:28:25-0400
+## % 2025-09-12T16:43:39-0400
