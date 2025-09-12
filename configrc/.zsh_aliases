@@ -4,7 +4,7 @@
 ## global aliases
 alias -g coc='~/Code/misc/configrc/'                              # cd to configuration files
 alias -g com='~/Code/misc/'                                       # miscellaneous code directory
-alias -g dl='~/Downloads'                                         # go to Downloads directory
+alias -g dl='~/Downloads/'                                        # go to Downloads directory
 alias -g fz=';tput reset; lsd|rg --invert-match "^dr.*"|tail -10' # show 10 most recent files
 alias -g iz=';tput reset; lsd|tail -10'                           # show 10 most recent items
 alias -g ldd='eza -D --sort=mod'                                  # list directories, sort, descending, MODIFIED
@@ -17,15 +17,15 @@ alias -g lss='eza --sort=size'                                    # sort, descen
 alias -g lsS='eza -r --sort=size'                                 # sort, ascending, size
 alias -g lst='eza --tree --level=2'                               # sort, descending, NAME && show directory tree
 alias -g mp='~/Dropbox/nvalt/manpages/'                           # open cheatsheets, shortcuts, CLI manuals
-alias -g mpv='~/Dropbox/nvalt/manpages/lang/vim'                  # open vim directory
-alias -g mpz='~/Dropbox/nvalt/manpages/lang/zsh'                  # open zsh directory
+alias -g mpv='~/Dropbox/nvalt/manpages/lang/vim/'                 # open vim directory
+alias -g mpz='~/Dropbox/nvalt/manpages/lang/zsh/'                 # open zsh directory
 alias -g nv='~/Dropbox/nvalt/'                                    # open working directory
 alias -g pbc='| pbcopy'                                           # copy to system clipboard
 alias -g Pbc='| sed "s/\x1B\[[0-9;]*m//g" | pbcopy'               # copy to system clipboard, trim colour codes
 alias -g songd='~/Dropbox/nvalt/music/songs/'                     # open song directory
 alias -g songo='~/Dropbox/nvalt/music/songs/original/'            # open original songs directory
 alias -g songr='~/Dropbox/nvalt/music/songs/rock/'                # open rock songs directory
-alias -g songw='~/Dropbox/nvalt/music/songs/worship'              # open worship songs directory
+alias -g songw='~/Dropbox/nvalt/music/songs/worship/'             # open worship songs directory
 alias -g zym='~/Dropbox/nvalt/zymonetics/'                        # open zymonetics working directory
 
 ## simple aliases
@@ -70,6 +70,7 @@ alias osi='open /Applications/Signal.app'          # open Signal
 alias ogc='open /Applications/Google\ Chrome.app'  # open Google Chrome
 alias ome='open /Applications/Microsoft\ Edge.app' # open Microsoft Edge
 alias owa='open /Applications/WhatsApp.app'        # open WhatsApp
+alias ozb='open /Applications/Zen.app/'            # open Zen Browser
 alias path='printf ${PATH//:/\\n}"\n"'             # show binary directories
 alias pbpaste='print "$(pbpaste)"'                 # add \n, suppress % (no \n)
 alias pcd='printf "$PWD\n"|tee /dev/tty|pbcopy'    # print current directory
@@ -172,4 +173,4 @@ rfd() { awk 'NF>0' $HOME/Downloads/app_purge/$1|while read line ; do sudo rm -Rf
 # https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html
 
 # ^ 2022-01-12T21:16:44-0500
-# % 2025-04-30T16:08:32-0400
+# % 2025-08-24T15:16:05-0400
